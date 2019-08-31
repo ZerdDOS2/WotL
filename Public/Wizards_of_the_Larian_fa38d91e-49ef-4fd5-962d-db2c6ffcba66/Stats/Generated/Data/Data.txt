@@ -1,0 +1,128 @@
+key "VitalityStartingAmount","80"
+
+key "VitalityExponentialGrowth","1.1"
+
+key "VitalityLinearGrowth","20"
+
+key "FirstVitalityLeapLevel","50"
+
+key "FirstVitalityLeapGrowth","1"
+
+key "SecondVitalityLeapLevel","50"
+
+key "SecondVitalityLeapGrowth","1"
+
+key "ThirdVitalityLeapLevel","50"
+
+key "ThirdVitalityLeapGrowth","1"
+
+key "FourthVitalityLeapLevel","50"
+
+key "FourthVitalityLeapGrowth","1"
+
+key "DamageBoostFromAttribute","0"
+
+key "DodgingBoostFromAttribute","0.01"
+
+key "ArmorToVitalityRatio","0.3"
+
+key "ArmorRingPercentage","0"
+
+key "ArmorAmuletPercentage","0"
+
+key "ArmorBeltPercentage","0"
+
+key "ArmorFeetPercentage","0.15"
+
+key "ArmorHandsPercentage","0.15"
+
+key "ArmorShieldPercentage","0.5"
+
+key "ArmorLowerBodyPercentage","0.2"
+
+key "ArmorHeadPercentage","0.15"
+
+key "ArmorUpperBodyPercentage","0.3"
+
+key "CombatAbilityCap","6"
+
+key "CombatAbilityLevelGrowth","0"
+
+key "CombatAbilityDamageBonus","0"
+
+key "CombatAbilityCritMultiplierBonus","0"
+
+key "CombatAbilityReflectionBonus","0"
+
+key "CombatAbilityDodgingBonus","0"
+
+key "CombatAbilityAccuracyBonus","0"
+
+key "CombatAbilityCritBonus","0"
+
+key "LeadershipRange","0"
+
+key "LeadershipAllResBonus","0"
+
+key "LeadershipDodgingBonus","0"
+
+key "InitiativeBonusFromWits","0"
+
+key "WeaponAccuracyPenaltyPerLevel","-5"
+
+key "WeaponAccuracyPenaltyCap","-20"
+
+key "HighGroundBaseDamageBonus","0"
+
+key "HighGroundThreshold","4"
+
+key "HighGroundRangeMultiplier","1.5"
+
+key "LowGroundBaseDamagePenalty","0"
+
+key "SneakDefaultAPCost","1"
+
+key "SneakSpeedBoost","0"
+
+key "SkillAbilitySulfuricDamageBoostPerPoint","0"
+
+key "SkillAbilityPhysicalDamageBoostPerPoint","0"
+
+key "SkillAbilityWaterDamageBoostPerPoint","0"
+
+key "SkillAbilityFireDamageBoostPerPoint","0"
+
+key "SkillAbilityAirDamageBoostPerPoint","0"
+
+key "SkillAbilityPoisonAndEarthDamageBoostPerPoint","0"
+
+key "SkillAbilityVitalityRestoredPerPoint","5"
+
+key "SkillAbilityHighGroundBonusPerPoint","0"
+
+key "SkillAbilityArmorRestoredPerPoint","5"
+
+key "SkillAbilityLifeStealPerPoint","10"
+
+key "SkillAbilityCritMultiplierPerPoint","0"
+
+key "SkillAbilityMovementSpeedPerPoint","0"
+
+key "SummoningAbilityBonus","15"
+
+key "AbilityPerseveranceArmorPerPoint","0"
+
+key "IncarnateSummoningLevel","6"
+
+key "LoneWolfArmorBoostPercentage","60"
+
+key "LoneWolfMagicArmorBoostPercentage","60"
+
+key "LoneWolfAPBonus","2"
+
+key "LoneWolfVitalityBoostPercentage","30"
+
+key "LoneWolfMaxAPBonus","2"
+
+key "TalentQuickStepPartialApBonus","1"
+
