@@ -3,6 +3,7 @@ SubGoalCombiner SGC_AND
 INITSECTION
 
 KBSECTION
+//REGION Integer Is Divisible
 QRY
 	QRY_WotL_IntegerIsDivisible((INTEGER)_A, (INTEGER)_B)
 AND
@@ -11,6 +12,7 @@ AND
 	IntegerProduct(_B, _Q, _A)
 THEN
 	DB_NOOP(1);
+//END_REGION
 EXITSECTION
 
 ENDEXITSECTION
