@@ -1,0 +1,46 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+// Current WotL Version
+DB_WotL_Version("WotL_Version_1.0.0.0");
+KBSECTION
+//REGION Game Start and Versioning
+IF
+	GameStarted(_,_)
+AND
+	DB_WotL_Version(_Version)
+AND
+	GlobalGetFlag(_Version, 0)
+THEN
+	GlobalSetFlag(_Version);
+
+IF
+	GlobalFlagSet(_Version)
+AND
+	DB_WotL_Version(_Version)
+THEN
+	IterateParties(_Version);
+
+IF
+	StoryEvent((CHARACTERGUID)_Char, _Version)
+AND
+	DB_WotL_Version(_Version)
+THEN
+	ProcObjectTimer(_Char, "WotL_SetAllVariables", 1000);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	CharacterIsPlayer(_Char, 1)
+THEN
+	ProcObjectTimer(_Char, "WotL_SetAllVariables", 2000);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

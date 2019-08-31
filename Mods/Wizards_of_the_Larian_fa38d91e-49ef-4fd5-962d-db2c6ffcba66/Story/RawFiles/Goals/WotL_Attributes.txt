@@ -1,0 +1,27 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_WotL_AttributesNames((STRING)_Vanilla, (STRING)_New);
+DB_WotL_AttributesNames("Strength", "Power");
+DB_WotL_AttributesNames("Finesse", "Finesse");
+DB_WotL_AttributesNames("Intelligence", "Accuracy");
+DB_WotL_AttributesNames("Constitution", "Constitution");
+DB_WotL_AttributesNames("Memory", "Memory");
+DB_WotL_AttributesNames("Wits", "Wits");
+KBSECTION
+//REGION Sets all attribute variables
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	DB_WotL_AttributesNames(_Vanilla, _New)
+AND
+	CharacterGetAttribute(_Char, _Vanilla, _Value)
+AND
+	StringConcatenate("WotL_Attribute_", _New, _Variable)
+THEN
+	SetVarInteger(_Char, _Variable, _Value);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"
