@@ -1,0 +1,31 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+WotL_Start_Internal_CompleteIfStarted();
+KBSECTION
+IF
+	GameEventSet("GAMEEVENT_GameStarted")
+THEN
+	WotL_Internal_StartWotL();
+
+IF
+	SavegameLoaded(_,_,_,_)
+AND
+	DB_StoryStarted(_)
+THEN
+	WotL_Internal_StartWotL();
+
+PROC
+	WotL_Start_Internal_CompleteIfStarted()
+AND
+	DB_StoryStarted(_)
+THEN
+	WotL_Internal_StartWotL();
+
+PROC
+	WotL_Internal_StartWotL()
+THEN
+	GoalCompleted;
+EXITSECTION
+
+ENDEXITSECTION

@@ -1,0 +1,25 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Generic triggers for WotL_SetAllVariables Event
+IF
+	CharacterStatusAttempt(_Char, _, _)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+	CharacterStatusRemoved(_Char, _, _)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+	ObjectEnteredCombat((CHARACTERGUID)_Char, _)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"
