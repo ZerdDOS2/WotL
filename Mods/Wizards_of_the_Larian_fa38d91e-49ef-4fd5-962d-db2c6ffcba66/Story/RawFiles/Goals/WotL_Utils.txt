@@ -1,0 +1,19 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Integer Is Divisible
+QRY
+	QRY_WotL_IntegerIsDivisible((INTEGER)_A, (INTEGER)_B)
+AND
+	IntegerDivide(_A, _B, _Q)
+AND
+	IntegerProduct(_B, _Q, _A)
+THEN
+	DB_NOOP(1);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

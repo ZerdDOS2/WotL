@@ -1,0 +1,8 @@
+new entry "Stats_Summoning_Ability"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "VitalityBoost" "15"
+data "DamageBoost" "15"
+data "MagicArmorBoost" "15"
+

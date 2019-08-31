@@ -1,0 +1,19 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Adds ability point at odd levels
+IF
+	CharacterLeveledUp(_Char)
+AND
+	CharacterGetLevel(_Char, _Level)
+AND
+	NOT QRY_WotL_IntegerIsDivisible(_Level, 2)
+THEN
+	CharacterAddAbilityPoint(_Char, 1);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"
