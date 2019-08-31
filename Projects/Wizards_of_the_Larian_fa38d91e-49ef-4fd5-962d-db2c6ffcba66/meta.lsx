@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<save>
+    <header version="2" />
+    <version major="3" minor="6" revision="4" build="1" />
+    <region id="MetaData">
+        <node id="root">
+            <attribute id="Module" value="fa38d91e-49ef-4fd5-962d-db2c6ffcba66" type="23" />
+            <attribute id="Name" value="Wizards_of_the_Larian" type="23" />
+            <attribute id="Type" value="Add-on" type="23" />
+            <attribute id="UUID" value="8c27f4ea-d868-4cbd-ac67-c9877b21e075" type="23" />
+        </node>
+    </region>
+</save>
