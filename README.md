@@ -1,4 +1,4 @@
-Wizards_of_the_Larian for Divinity: Original Sin 2 - Definitive Edition
+Wizards of the Larian for Divinity: Original Sin 2 - Definitive Edition
 =======
 
 # Features:
