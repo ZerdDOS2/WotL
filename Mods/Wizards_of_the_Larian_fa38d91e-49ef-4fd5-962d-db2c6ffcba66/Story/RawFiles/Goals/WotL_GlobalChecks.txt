@@ -5,17 +5,37 @@ INITSECTION
 KBSECTION
 //REGION Generic triggers for WotL_SetAllVariables Event
 IF
-	CharacterStatusAttempt(_Char, _, _)
+	CharacterStatusAttempt(_Char, _Status, _)
+AND
+	NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 
 IF
-	CharacterStatusRemoved(_Char, _, _)
+	CharacterStatusApplied(_Char, _Status, _)
+AND
+	NOT DB_WotL_BlacklistVariableStatuses(_Status)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+	CharacterStatusRemoved(_Char, _Status, _)
+AND
+	NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 
 IF
 	ObjectEnteredCombat((CHARACTERGUID)_Char, _)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+	DB_Sees(_Player, _Char)
+AND
+	CharacterIsPlayer(_Player, 1)
+AND
+	CharacterIsPlayer(_Char, 0)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 //END_REGION
