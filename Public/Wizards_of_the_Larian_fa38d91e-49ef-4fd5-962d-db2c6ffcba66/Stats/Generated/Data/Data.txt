@@ -124,5 +124,5 @@ key "LoneWolfVitalityBoostPercentage","30"
 
 key "LoneWolfMaxAPBonus","2"
 
-key "TalentQuickStepPartialApBonus","1"
+key "TalentQuickStepPartialApBonus","2"
 

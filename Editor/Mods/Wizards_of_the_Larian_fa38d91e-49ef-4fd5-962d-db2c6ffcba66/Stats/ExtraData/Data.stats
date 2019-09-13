@@ -382,7 +382,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="TalentQuickStepPartialApBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="1" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="2" />
       </fields>
     </stat_object>
   </stat_objects>

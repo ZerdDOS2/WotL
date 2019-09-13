@@ -1,0 +1,22 @@
+INIT
+	CHARACTER: __Me
+	
+EVENTS
+
+EVENT WotL_Initialization
+ON
+	OnInit()
+ACTIONS
+	IF "!c1"
+		HasFlag(__Me, "WotL_CharInit")
+	THEN
+		SetFlag(__Me, "WotL_CharInit")
+		StartTimer("WotL_CharacterInitializationTimer", 2, 0)
+	ENDIF
+	
+EVENT WotL_InitializationTimerFinished
+ON
+	OnTimer("WotL_CharacterInitializationTimer")
+ACTIONS
+	CharacterEvent(__Me, "WotL_InitializeCharacter")
+	

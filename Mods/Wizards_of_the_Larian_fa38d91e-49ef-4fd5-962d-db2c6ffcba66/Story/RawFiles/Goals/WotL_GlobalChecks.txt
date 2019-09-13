@@ -7,6 +7,8 @@ KBSECTION
 IF
 	CharacterStatusAttempt(_Char, _Status, _)
 AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
 	NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
@@ -14,12 +16,16 @@ THEN
 IF
 	CharacterStatusApplied(_Char, _Status, _)
 AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
 	NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 
 IF
 	CharacterStatusRemoved(_Char, _Status, _)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 AND
 	NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
@@ -31,13 +37,27 @@ THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 
 IF
+	CharacterResurrected(_Char)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+/*
+IF
+	CharacterEnteredRegion(_Char, _)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+THEN
+	ProcObjectTimer(_Char, "WotL_SetAllVariables", 5000);
+
+IF
 	DB_Sees(_Player, _Char)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 AND
 	CharacterIsPlayer(_Player, 1)
 AND
 	CharacterIsPlayer(_Char, 0)
 THEN
-	SetStoryEvent(_Char, "WotL_SetAllVariables");
+	SetStoryEvent(_Char, "WotL_SetAllVariables");*/
 //END_REGION
 EXITSECTION
 

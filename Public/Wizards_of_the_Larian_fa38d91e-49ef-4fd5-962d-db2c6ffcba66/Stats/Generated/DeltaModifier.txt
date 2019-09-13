@@ -1,0 +1,20 @@
+new deltamod "Boost_WotL_Cheat_Overhead_Rune_Global"
+param "BoostType" "Rune"
+param "MinLevel" "1"
+param "MaxLevel" "20"
+param "Frequency" "1"
+param "ModifierType" "Armor"
+new boost "_Boost_Armor_All_EmptyRuneSlot",1
+
+new boost "WotL_Rune_Overhead_Global",1
+
+new deltamod "Boost_WotL_Cheat_Overhead_Rune_Player"
+param "BoostType" "Rune"
+param "MinLevel" "1"
+param "MaxLevel" "20"
+param "Frequency" "1"
+param "ModifierType" "Armor"
+new boost "_Boost_Armor_All_EmptyRuneSlot",1
+
+new boost "WotL_Rune_Overhead_Player",1
+

@@ -1,0 +1,92 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+// Add the innate talents from the overhead runes in this DB
+//DB_WotL_InnateTalents((STRING)_Talent)
+DB_WotL_InnateTalents("QuickStep");
+DB_WotL_InnateTalents("ViolentMagic");
+DB_WotL_InnateTalents("LoneWolf");
+DB_WotL_InnateTalents("AnimalEmpathy");
+KBSECTION
+//REGION Adds the innate talents through an overhead item
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
+	NOT DB_WotL_CharacterHasInnateTalents(_Char)
+AND
+	NOT DB_WotL_BlacklistOverhead(_Char)
+THEN
+	DB_WotL_BlacklistOverhead(_Char);
+	ProcObjectTimer(_Char, "WotL_AddOverheadItemsFailsafe", 1000);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_AddOverheadItemsFailsafe")
+THEN
+	//PROC_WotL_RefundInnateTalentPoints(_Char); //TODO because it's bugging and I don't care enough right now
+	ItemTemplateAddTo("EQ_WotL_Cheat_Overhead_3d42ed34-7b5b-40fc-b19b-04c335a2e113", _Char, 1, 0);
+	ProcObjectTimer(_Char, "WotL_Clear_BlacklistOverhead", 1000);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_Clear_BlacklistOverhead")
+AND
+	DB_WotL_BlacklistOverhead(_Char)
+THEN
+	NOT DB_WotL_BlacklistOverhead(_Char);
+
+PROC
+	PROC_WotL_RefundInnateTalentPoints((CHARACTERGUID)_Char)
+AND
+	CharacterIsPlayer(_Char, 1)
+AND
+	DB_WotL_InnateTalents(_Talent)
+AND
+	CharacterHasTalent(_Char, _Talent, 1)
+THEN
+	CharacterRemoveTalent(_Char, _Talent);
+	CharacterAddTalentPoint(_Char, 1);
+
+IF
+	ItemAddedToCharacter(_Item, _Char)
+AND
+	GetTemplate(_Item, _Template)
+AND
+	_Template == "EQ_WotL_Cheat_Overhead_3d42ed34-7b5b-40fc-b19b-04c335a2e113"
+THEN
+	CharacterEquipItem(_Char, _Item);
+	DB_WotL_OverheadCheatItem(_Char, _Item);
+	ProcObjectTimer(_Char, "WotL_PrepareToAddRunes", 100);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_PrepareToAddRunes")
+AND
+	DB_WotL_OverheadCheatItem(_Char, _Item)
+THEN
+	DB_WotL_CharacterHasInnateTalents(_Char);
+	ItemInsertRune(_Char, _Item, "WotL_Rune_Overhead_Global_a9d47ae6-d59d-4e4c-b00c-dacb0f884ac6", 0);
+	ProcObjectTimer(_Char, "WotL_PrepareToAddPlayerRunes", 100);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_PrepareToAddPlayerRunes")
+AND
+	DB_WotL_OverheadCheatItem(_Char, _Item)
+AND
+	CharacterIsPlayer(_Char, 1)
+THEN
+	ItemInsertRune(_Char, _Item, "WotL_Rune_Overhead_Player_a80b2372-ca77-4271-84b1-72fa872199b2", 1);
+	NOT DB_WotL_OverheadCheatItem(_Char, _Item);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_PrepareToAddPlayerRunes")
+AND
+	DB_WotL_OverheadCheatItem(_Char, _Item)
+AND
+	CharacterIsPlayer(_Char, 0)
+THEN
+	NOT DB_WotL_OverheadCheatItem(_Char, _Item);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

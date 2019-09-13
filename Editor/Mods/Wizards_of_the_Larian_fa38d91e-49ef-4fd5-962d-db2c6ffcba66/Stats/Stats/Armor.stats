@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Cheat_Overhead" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="WotL_Cheat" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="13" enumeration_type_name="Itemslot" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Boost_WotL_Cheat_Overhead_Global" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_BOOSTS_Armor" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="QuickStep;ViolentMagic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Boost_WotL_Cheat_Overhead_Player" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_BOOSTS_Armor" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="LoneWolf;AnimalEmpathy" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
