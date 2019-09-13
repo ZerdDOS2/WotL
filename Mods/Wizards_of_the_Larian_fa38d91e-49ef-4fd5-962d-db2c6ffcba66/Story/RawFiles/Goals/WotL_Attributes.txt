@@ -9,25 +9,11 @@ DB_WotL_AttributesNames("Constitution", "Constitution");
 DB_WotL_AttributesNames("Memory", "Memory");
 DB_WotL_AttributesNames("Wits", "Wits");
 KBSECTION
-//REGION Initial set of the attribute variables
-IF
-	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
-AND
-	DB_WotL_AttributesNames(_Vanilla, _Attribute)
-AND
-	StringConcatenate("WotL_Attribute_", _Attribute, _Variable)
-AND
-	NOT GetVarInteger(_Char, _Variable, _)
-AND
-	CharacterGetAttribute(_Char, _Vanilla, _Value)
-THEN
-	SetVarInteger(_Char, _Variable, _Value);
-	PROC_WotL_GiveAttributeStatus(_Char, _Attribute, _Value);
-//END_REGION
-
 //REGION Attribute changed
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 AND
 	DB_WotL_AttributesNames(_Vanilla, _Attribute)
 AND
@@ -58,7 +44,24 @@ THEN
 	NOT DB_WotL_BlacklistVariableStatuses(_Status);
 	DB_WotL_BlacklistVariableStatuses(_Status);
 	ApplyStatus(_Char, _Status, -1.0, 1);
-	DebugBreak(_Status);
+//END_REGION
+
+//REGION Initial set of the attribute variables
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
+	DB_WotL_AttributesNames(_Vanilla, _Attribute)
+AND
+	StringConcatenate("WotL_Attribute_", _Attribute, _Variable)
+AND
+	NOT GetVarInteger(_Char, _Variable, _)
+AND
+	CharacterGetAttribute(_Char, _Vanilla, _Value)
+THEN
+	SetVarInteger(_Char, _Variable, _Value);
+	PROC_WotL_GiveAttributeStatus(_Char, _Attribute, _Value);
 //END_REGION
 EXITSECTION
 

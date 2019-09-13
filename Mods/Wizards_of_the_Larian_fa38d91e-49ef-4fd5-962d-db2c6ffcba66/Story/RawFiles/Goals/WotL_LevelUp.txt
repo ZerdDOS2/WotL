@@ -7,6 +7,8 @@ KBSECTION
 IF
 	CharacterLeveledUp(_Char)
 AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
 	CharacterGetLevel(_Char, _Level)
 AND
 	NOT QRY_WotL_IntegerIsDivisible(_Level, 2)

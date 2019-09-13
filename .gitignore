@@ -45,12 +45,12 @@ story.debugInfo
 *.tga
 *.png
 *.ttf
-*.lsb
-*.lsf
-*.lsfx
-*.lsefx
+#*.lsb
+#*.lsf
+#*.lsfx
+#*.lsefx
 #*.lsx
-*.lsmg
+#*.lsmg
 
 # Logs               #
 ######################

@@ -1104,3 +1104,9 @@ data "Act" "1"
 data "Act part" "0"
 data "ChanceToHitBoost" "100"
 
+new entry "Stats_WotL_InitialCTHB"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "ChanceToHitBoost" "-30"
+
