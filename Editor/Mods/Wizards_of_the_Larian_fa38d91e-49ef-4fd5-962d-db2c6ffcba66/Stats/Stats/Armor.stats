@@ -24,6 +24,7 @@
         <field name="Flags" type="EnumerationListStatObjectFieldDefinition" value="30" enumeration_type_name="AttributeFlags" />
         <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="3" />
         <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="SELF:ONEQUIP:WotL_HasInnateTalents" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -37,7 +38,6 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="_Boost_WotL_Cheat_Overhead_Player" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_BOOSTS_Armor" />
-        <field name="Talents" type="StringStatObjectFieldDefinition" value="LoneWolf;AnimalEmpathy" />
       </fields>
     </stat_object>
   </stat_objects>

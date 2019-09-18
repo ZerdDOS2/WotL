@@ -1,4 +1,8 @@
-requirement "QuickStep",""
+requirement "QuickStep","Tag InnateTalent"
 
 requirement "Executioner",""
+
+requirement "LoneWolf","Tag UnavailableTalent"
+
+requirement "ViolentMagic","Tag InnateTalent"
 
