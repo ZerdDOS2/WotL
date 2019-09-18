@@ -1,0 +1,6 @@
+new entry "WotL_HasInnateTalents"
+type "StatusData"
+data "StatusType" "EFFECT"
+data "ForGameMaster" "No"
+data "InitiateCombat" "No"
+

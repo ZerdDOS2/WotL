@@ -22,7 +22,7 @@ key "FourthVitalityLeapGrowth","1"
 
 key "DamageBoostFromAttribute","0"
 
-key "DodgingBoostFromAttribute","0.01"
+key "DodgingBoostFromAttribute","0.02"
 
 key "ArmorToVitalityRatio","0.3"
 
@@ -96,11 +96,11 @@ key "SkillAbilityAirDamageBoostPerPoint","0"
 
 key "SkillAbilityPoisonAndEarthDamageBoostPerPoint","0"
 
-key "SkillAbilityVitalityRestoredPerPoint","5"
+key "SkillAbilityVitalityRestoredPerPoint","20"
 
 key "SkillAbilityHighGroundBonusPerPoint","0"
 
-key "SkillAbilityArmorRestoredPerPoint","5"
+key "SkillAbilityArmorRestoredPerPoint","20"
 
 key "SkillAbilityLifeStealPerPoint","10"
 
@@ -108,7 +108,7 @@ key "SkillAbilityCritMultiplierPerPoint","0"
 
 key "SkillAbilityMovementSpeedPerPoint","0"
 
-key "SummoningAbilityBonus","15"
+key "SummoningAbilityBonus","20"
 
 key "AbilityPerseveranceArmorPerPoint","0"
 
@@ -125,4 +125,6 @@ key "LoneWolfVitalityBoostPercentage","30"
 key "LoneWolfMaxAPBonus","2"
 
 key "TalentQuickStepPartialApBonus","2"
+
+key "CriticalBonusFromWits","2"
 

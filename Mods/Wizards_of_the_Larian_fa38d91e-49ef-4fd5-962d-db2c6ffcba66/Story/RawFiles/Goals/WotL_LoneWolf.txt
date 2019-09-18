@@ -1,0 +1,167 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Update the bonus attributes upon value changed
+//PROC called from WotL_Attributes
+/*
+PROC
+	PROC_WotL_GiveAttributeStatus((CHARACTERGUID)_Char, (STRING)_Attribute, (INTEGER)_Value)
+AND
+	IsTagged(_Char, "WotL_LoneWolfActive", 1)
+AND
+	IntegertoString(_Value, _ValueSTR)
+AND
+	StringConcatenate("WotL_LW", _Attribute, _StatusPartOne)
+AND
+	StringConcatenate(_StatusPartOne, "_", _StatusPartTwo)
+AND
+	StringConcatenate(_StatusPartTwo, _ValueSTR, _Status)
+THEN
+	NOT DB_WotL_BlacklistVariableStatuses(_Status);
+	DB_WotL_BlacklistVariableStatuses(_Status);
+	ApplyStatus(_Char, _Status, -1.0, 1);
+	DB_WotL_PlayerLoneWolfCurrentStatus(_Char, _Status);
+*/	
+//END_REGION
+
+//REGION Manages the tag application/removal
+//PROC called from WotL_NewGame
+/*
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_InitialLoneWolfCheck")
+AND
+	CharacterIsPlayer(_Char, 1)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
+	NOT DB_WotL_MultipleLoneWolfRuns(1)
+THEN
+	DB_WotL_MultipleLoneWolfRuns(1);
+	PROC_WotL_UpdateLoneWolfActiveness(_Char);
+	ProcObjectTimer(_Char, "WotL_ClearMultipleLoneWolfRuns", 1000);
+
+IF
+	CharacterJoinedParty(_Char)
+AND
+	CharacterIsPlayer(_Char, 1)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+THEN
+	PROC_WotL_UpdateLoneWolfActiveness(_Char);
+
+IF
+	CharacterLeftParty(_Char)
+THEN
+	IterateParties("WotL_CharacterLeftParty");
+
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_CharacterLeftParty")
+AND
+	NOT DB_WotL_MultipleLoneWolfRuns(1)
+THEN
+	DB_WotL_MultipleLoneWolfRuns(1);
+	PROC_WotL_UpdateLoneWolfActiveness(_Char);
+	ProcObjectTimer(_Char, "WotL_ClearMultipleLoneWolfRuns", 1000);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_ClearMultipleLoneWolfRuns")
+THEN
+	NOT DB_WotL_MultipleLoneWolfRuns(1);
+
+PROC
+	PROC_WotL_UpdateLoneWolfActiveness((CHARACTERGUID)_Char)
+THEN
+	DB_WotL_NumberOfPartyMembers(_Char, 0);
+	IterateParty(_Char, "WotL_CheckingAmountOfPartyMembers");
+	ProcObjectTimer(_Char, "WotL_FinishedCountingPartyMembers", 200);
+
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_CheckingAmountOfPartyMembers")
+AND
+	CharacterIsPlayer(_Char, 1)
+AND
+	DB_WotL_NumberOfPartyMembers(_Char, _Amount)
+AND
+	IntegerSum(_Amount, 1, _NewAmount)
+THEN
+	NOT DB_WotL_NumberOfPartyMembers(_Char, _Amount);
+	DB_WotL_NumberOfPartyMembers(_Char, _NewAmount);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_FinishedCountingPartyMembers")
+AND
+	DB_WotL_NumberOfPartyMembers(_Char, _Amount)
+AND
+	_Amount <= 2
+THEN
+	IterateParty(_Char, "WotL_GiveLoneWolfTag");
+	NOT DB_WotL_NumberOfPartyMembers(_Char, _Amount);
+
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_GiveLoneWolfTag")
+AND
+	IsTagged(_Char, "WotL_LoneWolfActive", 0)
+THEN
+	SetTag(_Char, "WotL_LoneWolfActive");
+	SetStoryEvent(_Char, "WotL_GiveLWBonuses");
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_FinishedCountingPartyMembers")
+AND
+	DB_WotL_NumberOfPartyMembers(_Char, _Amount)
+AND
+	_Amount > 2
+THEN
+	IterateParty(_Char, "WotL_RemoveLoneWolfTag");
+
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_RemoveLoneWolfTag")
+AND
+	IsTagged(_Char, "WotL_LoneWolfActive", 1)
+THEN
+	ClearTag(_Char, "WotL_LoneWolfActive");
+	SetStoryEvent(_Char, "WotL_ClearLWBonuses");
+*/
+//END_REGION
+
+//REGION Manages the statuses
+/*
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_GiveLWBonuses")
+AND
+	DB_WotL_AttributesNames(_Vanilla, _Attribute)
+AND
+	CharacterGetAttribute(_Char, _Vanilla, _Value)
+AND
+	_Value > 10
+AND
+	IntegertoString(_Value, _ValueSTR)
+AND
+	StringConcatenate("WotL_LW_", _Attribute, _StatusPartOne)
+AND
+	StringConcatenate(_StatusPartOne, "_", _StatusPartTwo)
+AND
+	StringConcatenate(_StatusPartTwo, _ValueSTR, _Status)
+THEN
+	NOT DB_WotL_BlacklistVariableStatuses(_Status);
+	DB_WotL_BlacklistVariableStatuses(_Status);
+	ApplyStatus(_Char, _Status, -1.0, 1);
+	DB_WotL_PlayerLoneWolfCurrentStatus(_Char, _Status);
+	
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_ClearLWBonuses")
+AND
+	DB_WotL_PlayerLoneWolfCurrentStatus(_Char, _Status)
+AND
+	HasActiveStatus(_Char, _Status, 1)
+THEN
+	RemoveStatus(_Char, _Status);
+	NOT DB_WotL_PlayerLoneWolfCurrentStatus(_Char, _Status);
+*/
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"
