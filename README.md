@@ -2,7 +2,7 @@ Wizards of the Larian for Divinity: Original Sin 2 - Definitive Edition
 =======
 
 # Features:
-Current design available at [this doc](https://docs.google.com/document/d/1KRcuxQQsM2MhVBo9Ttm66x0KzcIyAaOEXQ_m8NHcIlk/edit?usp=sharing)
+Current design available at [this doc](https://docs.google.com/document/d/1BKWu-QNRJgoYR8VREhyXT0kEifAX_ZGIH7kftjFtSOE/edit?usp=sharing)
 
 
 # Releases
