@@ -1,6 +1,8 @@
 #INCLUDE WotL_CharInit
+#INCLUDE WotL_ArmorAbsorption
 INIT
 	USING WotL_CharInit
+	USING WotL_ArmorAbsorption
 	CHARACTER:__Me
 	CHARACTER:%LookAtChar
 	CHARACTER:%AttackOfOpportunity
