@@ -1,0 +1,82 @@
+INIT
+	CHARACTER: __Me
+
+EVENTS
+
+EVENT WotL_PreDamageArmorValue
+VARS
+	FLOAT: _Armor
+ON
+	OnCharacterStatusAttempt(__Me, HIT)
+ACTIONS
+	IF "c1"
+		CharacterGetStat(_Armor, __Me, MagicArmorPoints)
+	THEN
+		SetVar(__Me, "WotL_PreDamageArmor", _Armor)
+	ENDIF
+
+EVENT WotL_ArmorAbsorption
+VARS
+	DAMAGE: _Type
+	FLOAT: _PreArmor
+	FLOAT: _NewArmor
+	FLOAT: _CurrentHP
+	FLOAT: _MaxHP
+	FLOAT: _NewHP
+	FLOAT: _DamageToHP
+	FLOAT: _DamageAbsorbed
+	FLOAT: _Absorption
+	INT: _AbsorbedINT
+	
+	STRING: _AbsorbedText
+	FIXEDSTRING: _DisplayText
+ON
+	OnDamage(_Type, _, _, _)
+ACTIONS
+	IF "c1|c2|c3|c4|c5|c6"
+		IsEqual(_Type, Chaos)
+		IsEqual(_Type, Fire)
+		IsEqual(_Type, Air)
+		IsEqual(_Type, Water)
+		IsEqual(_Type, Earth)
+		IsEqual(_Type, Poison)
+	THEN
+		IF "c1&c2&c3&c4"
+			GetVar(_PreArmor, __Me, "WotL_PreDamageArmor")
+			CharacterGetStat(_NewArmor, __Me, MagicArmorPoints)
+			CharacterGetStat(_CurrentHP, __Me, VitalityPoints)
+			CharacterGetStat(_MaxHP, __Me, VitalityMax)
+			//GetVar(_ArmorSpeciality, __Me, "WotL_ArmorSpeciality")
+		THEN
+			Set(_DamageToHP, _PreArmor)
+			Subtract(_DamageToHP, _NewArmor)
+			
+			IF "c1"
+				IsGreaterThen(_DamageToHP, FLOAT:0)
+			THEN
+				Set(_DamageAbsorbed, _DamageToHP)
+				
+				Set(_Absorption, FLOAT:0.5)
+				//Multiply(_ArmorSpeciality, 0.1
+				//Add(_Absorption, _ArmorSpeciality)
+				Multiply(_DamageToHP, _Absorption)
+				
+				Subtract(_DamageAbsorbed, _DamageToHP)
+				Cast(_AbsorbedINT, _DamageAbsorbed)
+				Cast(_AbsorbedText, _AbsorbedINT)
+				IF "c1&c2"
+					StringConcatenate("<font color=#b5533a>Damage Absorbed: ", _AbsorbedText, _AbsorbedText)
+					StringConcatenate(_AbsorbedText, "<\font color>", _AbsorbedText)
+				THEN
+					Cast(_DisplayText, _AbsorbedText)
+					StatusText(__Me, _DisplayText)
+				ENDIF
+				
+				Subtract(_CurrentHP, _DamageToHP)
+				Set(_NewHP, _CurrentHP)
+				Divide(_NewHP, _MaxHP)
+				
+				SetHealth(__Me, _NewHP)
+			ENDIF
+		ENDIF
+	ENDIF
