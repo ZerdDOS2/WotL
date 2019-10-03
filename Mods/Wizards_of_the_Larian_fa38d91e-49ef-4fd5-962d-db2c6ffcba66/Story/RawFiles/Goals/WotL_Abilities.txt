@@ -19,6 +19,14 @@ DB_WotL_AbilitiesNames("Necromancy", "Lifesteal");
 //DB_WotL_AbilitiesNames("RogueLore", "");
 DB_WotL_AbilitiesNames("Summoning", "Summoning");
 //DB_WotL_AbilitiesNames("WarriorLore", "");
+
+//DB_WotL_UnusedAbilities((STRING)_Ability)
+DB_WotL_UnusedAbilities("Leadership");
+DB_WotL_UnusedAbilities("EarthSpecialist");
+DB_WotL_UnusedAbilities("Polymorph");
+DB_WotL_UnusedAbilities("FireSpecialist");
+DB_WotL_UnusedAbilities("RogueLore");
+DB_WotL_UnusedAbilities("WarriorLore");
 KBSECTION
 //REGION Ability changed
 IF
@@ -73,6 +81,28 @@ AND
 THEN
 	SetVarInteger(_Char, _Variable, _Value);
 	PROC_WotL_GiveAbilityStatus(_Char, _Ability, _Value);
+//END_REGION
+
+
+//REGION Unused Abilities
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterHasLockedAbilities", 0)
+AND
+	DB_WotL_UnusedAbilities(_Ability)
+THEN
+	CharacterLockAbility(_Char, _Ability);
+	ProcObjectTimer(_Char, "WotL_LockedAbilitiesFlag", 1000);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_LockedAbilitiesFlag")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterHasLockedAbilities", 0)
+THEN
+	ObjectSetFlag(_Char, "WotL_CharacterHasLockedAbilities");
 //END_REGION
 EXITSECTION
 
