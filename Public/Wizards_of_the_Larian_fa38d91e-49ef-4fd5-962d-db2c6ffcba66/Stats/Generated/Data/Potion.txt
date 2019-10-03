@@ -2665,3 +2665,33 @@ type "Potion"
 data "Act" "1"
 data "Act part" "0"
 
+new entry "Stats_WotL_LongRange_1"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "RangeBoost" "100"
+
+new entry "Stats_WotL_LongRange_2"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "RangeBoost" "200"
+
+new entry "Stats_WotL_LongRange_3"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "RangeBoost" "300"
+
+new entry "Stats_WotL_LongRange_4"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "RangeBoost" "400"
+
+new entry "Stats_WotL_LongRange_5"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "RangeBoost" "500"
+

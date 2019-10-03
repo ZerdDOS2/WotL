@@ -44,7 +44,7 @@ key "ArmorHeadPercentage","0.15"
 
 key "ArmorUpperBodyPercentage","0.3"
 
-key "CombatAbilityCap","6"
+key "CombatAbilityCap","5"
 
 key "CombatAbilityLevelGrowth","0"
 

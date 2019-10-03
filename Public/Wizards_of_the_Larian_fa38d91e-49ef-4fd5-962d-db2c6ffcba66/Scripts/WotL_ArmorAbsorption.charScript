@@ -18,6 +18,7 @@ ACTIONS
 EVENT WotL_ArmorAbsorption
 VARS
 	DAMAGE: _Type
+	FLOAT: _ArmorSpeciality
 	FLOAT: _PreArmor
 	FLOAT: _NewArmor
 	FLOAT: _CurrentHP
@@ -41,12 +42,12 @@ ACTIONS
 		IsEqual(_Type, Earth)
 		IsEqual(_Type, Poison)
 	THEN
-		IF "c1&c2&c3&c4"
+		IF "c1&c2&c3&c4&c5"
 			GetVar(_PreArmor, __Me, "WotL_PreDamageArmor")
 			CharacterGetStat(_NewArmor, __Me, MagicArmorPoints)
 			CharacterGetStat(_CurrentHP, __Me, VitalityPoints)
 			CharacterGetStat(_MaxHP, __Me, VitalityMax)
-			//GetVar(_ArmorSpeciality, __Me, "WotL_ArmorSpeciality")
+			GetVar(_ArmorSpeciality, __Me, "WotL_Ability_ArmorSpeciality")
 		THEN
 			Set(_DamageToHP, _PreArmor)
 			Subtract(_DamageToHP, _NewArmor)
@@ -57,8 +58,8 @@ ACTIONS
 				Set(_DamageAbsorbed, _DamageToHP)
 				
 				Set(_Absorption, FLOAT:0.5)
-				//Multiply(_ArmorSpeciality, 0.1
-				//Add(_Absorption, _ArmorSpeciality)
+				Multiply(_ArmorSpeciality, 0.1)
+				Add(_Absorption, _ArmorSpeciality)
 				Multiply(_DamageToHP, _Absorption)
 				
 				Subtract(_DamageAbsorbed, _DamageToHP)

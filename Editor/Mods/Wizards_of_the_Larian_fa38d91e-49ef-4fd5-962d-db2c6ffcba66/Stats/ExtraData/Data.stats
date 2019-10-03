@@ -142,7 +142,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="CombatAbilityCap" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="6" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

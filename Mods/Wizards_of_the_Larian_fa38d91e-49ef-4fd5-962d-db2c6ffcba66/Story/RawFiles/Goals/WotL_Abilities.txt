@@ -1,0 +1,110 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_WotL_AbilitiesNames((STRING)_Vanilla, (STRING)_Ability);
+DB_WotL_AbilitiesNames("TwoHanded", "Destruction");
+DB_WotL_AbilitiesNames("SingleHanded", "Support");
+DB_WotL_AbilitiesNames("Ranged", "Transformation");
+DB_WotL_AbilitiesNames("DualWielding", "Weaponry");
+DB_WotL_AbilitiesNames("PainReflection", "ArmorProficiency");
+DB_WotL_AbilitiesNames("Perseverance", "ArmorSpeciality");
+//DB_WotL_AbilitiesNames("Leadership", "");
+DB_WotL_AbilitiesNames("AirSpecialist", "Focus");
+//DB_WotL_AbilitiesNames("EarthSpecialist", "");
+DB_WotL_AbilitiesNames("RangerLore", "LongRange");
+DB_WotL_AbilitiesNames("WaterSpecialist", "Healing");
+DB_WotL_AbilitiesNames("Necromancy", "Lifesteal");
+//DB_WotL_AbilitiesNames("Polymorph", "");
+//DB_WotL_AbilitiesNames("FireSpecialist", "");
+//DB_WotL_AbilitiesNames("RogueLore", "");
+DB_WotL_AbilitiesNames("Summoning", "Summoning");
+//DB_WotL_AbilitiesNames("WarriorLore", "");
+
+//DB_WotL_UnusedAbilities((STRING)_Ability)
+DB_WotL_UnusedAbilities("Leadership");
+DB_WotL_UnusedAbilities("EarthSpecialist");
+DB_WotL_UnusedAbilities("Polymorph");
+DB_WotL_UnusedAbilities("FireSpecialist");
+DB_WotL_UnusedAbilities("RogueLore");
+DB_WotL_UnusedAbilities("WarriorLore");
+KBSECTION
+//REGION Ability changed
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
+	DB_WotL_AbilitiesNames(_Vanilla, _Ability)
+AND
+	StringConcatenate("WotL_Ability_", _Ability, _Variable)
+AND
+	GetVarInteger(_Char, _Variable, _OldValue)
+AND
+	CharacterGetAbility(_Char, _Vanilla, _Value)
+AND
+	_OldValue != _Value
+THEN
+	SetVarInteger(_Char, _Variable, _Value);
+	PROC_WotL_GiveAbilityStatus(_Char, _Ability, _Value);
+//END_REGION
+
+//REGION PROC to change the ability status
+PROC
+	PROC_WotL_GiveAbilityStatus((CHARACTERGUID)_Char, (STRING)_Ability, (INTEGER)_Value)
+AND
+	IntegertoString(_Value, _ValueSTR)
+AND
+	StringConcatenate("WotL_", _Ability, _StatusPartOne)
+AND
+	StringConcatenate(_StatusPartOne, "_", _StatusPartTwo)
+AND
+	StringConcatenate(_StatusPartTwo, _ValueSTR, _Status)
+THEN
+	NOT DB_WotL_BlacklistVariableStatuses(_Status);
+	DB_WotL_BlacklistVariableStatuses(_Status);
+	ApplyStatus(_Char, _Status, -1.0, 1);
+//END_REGION
+
+//REGION Initial set of the attribute variables
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
+	DB_WotL_AbilitiesNames(_Vanilla, _Ability)
+AND
+	StringConcatenate("WotL_Ability_", _Ability, _Variable)
+AND
+	NOT GetVarInteger(_Char, _Variable, _)
+AND
+	CharacterGetAbility(_Char, _Vanilla, _Value)
+THEN
+	SetVarInteger(_Char, _Variable, _Value);
+	PROC_WotL_GiveAbilityStatus(_Char, _Ability, _Value);
+//END_REGION
+
+
+//REGION Unused Abilities
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterHasLockedAbilities", 0)
+AND
+	DB_WotL_UnusedAbilities(_Ability)
+THEN
+	CharacterLockAbility(_Char, _Ability);
+	ProcObjectTimer(_Char, "WotL_LockedAbilitiesFlag", 1000);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_LockedAbilitiesFlag")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterHasLockedAbilities", 0)
+THEN
+	ObjectSetFlag(_Char, "WotL_CharacterHasLockedAbilities");
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"
