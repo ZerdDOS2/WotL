@@ -81,3 +81,33 @@ ACTIONS
 			ENDIF
 		ENDIF
 	ENDIF
+
+EVENT WotL_GrittyRealismStatus
+VARS
+	DAMAGE: _Type
+	FLOAT: _Damage
+	FLOAT: _Armor
+	FLOAT: _PreArmor
+	FLOAT: _MaxHP
+	STRING: _StatusEvent
+ON
+	OnDamage(_Type, _Damage, _, _)
+ACTIONS
+	IF "c1&c2&c3&c4"
+		CharacterGetStat(_Armor, __Me, MagicArmorPoints)
+		IsEqual(_Armor, FLOAT: 0.0)
+		GetVar(_PreArmor, __Me, "WotL_PreDamageArmor")
+		CharacterGetStat(_MaxHP, __Me, VitalityMax)
+	THEN
+		Cast(_StatusEvent, _Type)
+		Multiply(_Damage, _MaxHP)
+		Subtract(_Damage, _PreArmor)
+		Divide(_Damage, _MaxHP)
+
+		IF "!c1&c2"
+			IsLessThen(_Damage, FLOAT: 0.1)
+			StringConcatenate("WotL_ApplyGrittyStatus_", _StatusEvent, _StatusEvent)
+		THEN
+			CharacterEvent(__Me, _StatusEvent)
+		ENDIF
+	ENDIF

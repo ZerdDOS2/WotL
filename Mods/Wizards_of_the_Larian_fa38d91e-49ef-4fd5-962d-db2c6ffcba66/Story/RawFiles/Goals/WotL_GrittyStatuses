@@ -1,0 +1,26 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_WotL_GrittyStatuses((STRING)_Event, (STRING)_Status);
+DB_WotL_GrittyStatuses("WotL_ApplyGrittyStatus_Fire", "WotL_BURNT_SKIN");
+DB_WotL_GrittyStatuses("WotL_ApplyGrittyStatus_Water", "WotL_FROSTBITE");
+DB_WotL_GrittyStatuses("WotL_ApplyGrittyStatus_Earth", "WotL_BROKEN_BONES");
+DB_WotL_GrittyStatuses("WotL_ApplyGrittyStatus_Air", "WotL_ELECTRIFIED");
+DB_WotL_GrittyStatuses("WotL_ApplyGrittyStatus_Poison", "WotL_POISONED");
+DB_WotL_GrittyStatuses("WotL_ApplyGrittyStatus_Magic", "WotL_CONCUSSION");
+DB_WotL_GrittyStatuses("WotL_ApplyGrittyStatus_Piercing", "WotL_PERFURATED");
+DB_WotL_GrittyStatuses("WotL_ApplyGrittyStatus_Shadow", "WotL_ROT");
+KBSECTION
+//REGION Gritty Status Event
+// Comes from WotL_ArmorAbsorption.charScript - Can create a new package for this script
+IF
+    StoryEvent((CHARACTERGUID)_Char, _Event)
+AND
+    DB_WotL_GrittyStatuses(_Event, _Status)
+THEN
+    ApplyStatus(_Char, _Status, 12.0, 1);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"
