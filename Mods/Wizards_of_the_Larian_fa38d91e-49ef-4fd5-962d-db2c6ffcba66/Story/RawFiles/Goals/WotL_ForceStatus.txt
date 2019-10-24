@@ -1,0 +1,17 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Force status through armor
+// This snippet helps compatibility with other mods
+// The extremely complex code was provided by Kalavinka and slightly edited
+IF
+	NRD_OnStatusAttempt((CHARACTERGUID)_Target, _, _Handle, _)
+THEN
+	NRD_StatusSetInt(_Target, _Handle, "ForceStatus", 1);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

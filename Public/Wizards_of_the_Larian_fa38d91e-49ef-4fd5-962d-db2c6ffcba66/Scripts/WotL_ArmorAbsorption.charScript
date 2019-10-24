@@ -18,66 +18,139 @@ ACTIONS
 EVENT WotL_ArmorAbsorption
 VARS
 	DAMAGE: _Type
-	FLOAT: _ArmorSpeciality
 	FLOAT: _PreArmor
 	FLOAT: _NewArmor
 	FLOAT: _CurrentHP
 	FLOAT: _MaxHP
-	FLOAT: _NewHP
 	FLOAT: _DamageToHP
-	FLOAT: _DamageAbsorbed
-	FLOAT: _Absorption
-	INT: _AbsorbedINT
-	
-	STRING: _AbsorbedText
-	FIXEDSTRING: _DisplayText
 ON
 	OnDamage(_Type, _, _, _)
 ACTIONS
-	IF "c1|c2|c3|c4|c5|c6"
+	IF "(c1|c2|c3|c4|c5|c6|c7)" //&!c8
 		IsEqual(_Type, Chaos)
 		IsEqual(_Type, Fire)
 		IsEqual(_Type, Air)
 		IsEqual(_Type, Water)
 		IsEqual(_Type, Earth)
 		IsEqual(_Type, Poison)
+		IsEqual(_Type, Magic)
+		//CharacterHasTalent(__Me, "ArmorSpecialityTalentCodeName")
 	THEN
-		IF "c1&c2&c3&c4&c5"
+		IF "c1&c2&c3&c4"
 			GetVar(_PreArmor, __Me, "WotL_PreDamageArmor")
 			CharacterGetStat(_NewArmor, __Me, MagicArmorPoints)
 			CharacterGetStat(_CurrentHP, __Me, VitalityPoints)
 			CharacterGetStat(_MaxHP, __Me, VitalityMax)
-			GetVar(_ArmorSpeciality, __Me, "WotL_Ability_ArmorSpeciality")
 		THEN
 			Set(_DamageToHP, _PreArmor)
 			Subtract(_DamageToHP, _NewArmor)
 			
 			IF "c1"
-				IsGreaterThen(_DamageToHP, FLOAT:0)
+				IsGreaterThen(_DamageToHP, FLOAT:0.0)
 			THEN
-				Set(_DamageAbsorbed, _DamageToHP)
-				
-				Set(_Absorption, FLOAT:0.5)
-				Multiply(_ArmorSpeciality, 0.1)
-				Add(_Absorption, _ArmorSpeciality)
-				Multiply(_DamageToHP, _Absorption)
-				
-				Subtract(_DamageAbsorbed, _DamageToHP)
-				Cast(_AbsorbedINT, _DamageAbsorbed)
-				Cast(_AbsorbedText, _AbsorbedINT)
-				IF "c1&c2"
-					StringConcatenate("<font color=#b5533a>Damage Absorbed: ", _AbsorbedText, _AbsorbedText)
-					StringConcatenate(_AbsorbedText, "<\font color>", _AbsorbedText)
-				THEN
-					Cast(_DisplayText, _AbsorbedText)
-					StatusText(__Me, _DisplayText)
-				ENDIF
-				
+				Multiply(_DamageToHP, FLOAT: 0.5)
 				Subtract(_CurrentHP, _DamageToHP)
-				Set(_NewHP, _CurrentHP)
-				Divide(_NewHP, _MaxHP)
+				Divide(_CurrentHP, _MaxHP)
 				
-				SetHealth(__Me, _NewHP)
+				SetHealth(__Me, _CurrentHP)
+			ENDIF
+			/*
+			IF "c1&c2"
+				IsEqual(_Type, Magic)
+				IsEqual(_NewArmor, FLOAT: 0.0)
+			THEN
+				SetVar(__Me, "WotL_ArmorHitHP", _CurrentHP)
+			ENDIF
+			*/
+		ENDIF
+	ENDIF
+
+EVENT WotL_PiercingDamage
+VARS
+	FLOAT: _Damage
+	FLOAT: _Armor
+	FLOAT: _MaxArmor
+	FLOAT: _MaxHP
+ON
+	OnDamage(Piercing, _Damage, _, _)
+ACTIONS
+	IF "c1&c2&c3&c4&c5"
+		IsGreaterThen(_Damage, FLOAT: 0.0)
+		CharacterGetStat(_Armor, __Me, MagicArmorPoints)
+		IsGreaterThen(_Armor, FLOAT: 0.0)
+		CharacterGetStat(_MaxArmor, __Me, MagicArmorMax)
+		CharacterGetStat(_MaxHP, __Me, VitalityMax)
+	THEN
+		Multiply(_Damage, _MaxHP)
+		Subtract(_Armor, _Damage)
+		Divide(_Armor, _MaxArmor)
+		Multiply(_Armor, FLOAT: 100.0)
+		
+		IF "c1"
+			IsLessThen(_Armor, FLOAT: 0.0)
+		THEN
+			Set(_Armor, FLOAT: 0.0)
+		ENDIF
+		
+		SetVar(__Me, "WotL_SetArmorPercentage", _Armor)
+		CharacterEvent(__Me, "WotL_SetArmorPercentage")
+	ENDIF
+
+EVENT WotL_ArmorDamage
+VARS
+	FLOAT: _Damage
+	FLOAT: _PreArmor
+	FLOAT: _Armor
+	FLOAT: _CurrentHP
+	FLOAT: _MaxHP
+	
+	INT: _DisplayDamage
+	STRING: _Text
+	FIXEDSTRING: _FinalText
+ON
+	OnDamage(Magic, _Damage, _, _)
+ACTIONS
+	IF "c1&c2&c3&c4&c5"
+		GetVar(_PreArmor, __Me, "WotL_PreDamageArmor")
+		CharacterGetStat(_Armor, __Me, MagicArmorPoints)
+		IsEqual(_Armor, FLOAT: 0.0)
+		CharacterGetStat(_CurrentHP, __Me, VitalityPoints)
+		CharacterGetStat(_MaxHP, __Me, VitalityMax)
+	THEN
+		Multiply(_Damage, _MaxHP)
+		Subtract(_Damage, _PreArmor)
+
+		IF "c1"
+			IsGreaterThen(_Damage, FLOAT: 0.0)
+		THEN
+			// TODO: Make this work for the transition
+			// If the armor was half-way consumed, the armor absorption script didn't set the new HP yet, so
+			// I use the var stored above
+			/*
+			IF "!c1&c2"
+				IsEqual(_PreArmor, FLOAT: 0.0)
+				GetVar(_CurrentHP, __Me, "WotL_ArmorHitHP")
+			THEN
+				Multiply(_CurrentHP, _MaxHP)
+				Print(_Text, "Current HP: [1]", _CurrentHP)
+				Cast(_FinalText, _Text)
+				StatusText(__Me, _FinalText)
+			ENDIF
+			*/
+			
+			Multiply(_Damage, FLOAT: 0.5)
+			Cast(_DisplayDamage, _Damage)
+			Subtract(_CurrentHP, _Damage)
+			Divide(_CurrentHP, _MaxHP)
+			SetHealth(__Me, _CurrentHP)
+			
+			// Displayes the Actual damage dealt when the damage tooltip doesn't show by default
+			IF "c1"
+				IsEqual(_PreArmor, FLOAT: 0.0)
+			THEN
+				Print(_Text, "<font color='#7F00FF'>[1]</font>", _DisplayDamage)
+				Cast(_FinalText, _Text)
+				StatusText(__Me, _FinalText)
 			ENDIF
 		ENDIF
 	ENDIF

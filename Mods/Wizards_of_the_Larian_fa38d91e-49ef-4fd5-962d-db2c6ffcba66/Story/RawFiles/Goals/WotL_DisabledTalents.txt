@@ -1,0 +1,27 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_WotL_DisabledTalents((STRING)_Talent);
+DB_WotL_DisabledTalents("LoneWolf");
+KBSECTION
+//REGION Disable Talents
+// Disable unwanted talents
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
+	CharacterIsPlayer(_Char, 1)
+AND
+	CharacterIsDead(_Char, 0)
+AND
+	DB_WotL_DisabledTalents(_Talent)
+AND
+	NRD_CharacterIsTalentDisabled(_Char, _Talent, 0)
+THEN
+	NRD_CharacterDisableTalent(_Char, _Talent, 1);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

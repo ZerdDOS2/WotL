@@ -28,29 +28,17 @@ DB_WotL_UnusedAbilities("FireSpecialist");
 DB_WotL_UnusedAbilities("RogueLore");
 DB_WotL_UnusedAbilities("WarriorLore");
 KBSECTION
-//REGION Ability changed
+//REGION Adds Ability Status and Variable
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 AND
 	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 AND
+	CharacterIsDead(_Char, 0)
+AND
 	DB_WotL_AbilitiesNames(_Vanilla, _Ability)
 AND
-	StringConcatenate("WotL_Ability_", _Ability, _Variable)
-AND
-	GetVarInteger(_Char, _Variable, _OldValue)
-AND
 	CharacterGetAbility(_Char, _Vanilla, _Value)
-AND
-	_OldValue != _Value
-THEN
-	SetVarInteger(_Char, _Variable, _Value);
-	PROC_WotL_GiveAbilityStatus(_Char, _Ability, _Value);
-//END_REGION
-
-//REGION PROC to change the ability status
-PROC
-	PROC_WotL_GiveAbilityStatus((CHARACTERGUID)_Char, (STRING)_Ability, (INTEGER)_Value)
 AND
 	IntegertoString(_Value, _ValueSTR)
 AND
@@ -59,30 +47,16 @@ AND
 	StringConcatenate(_StatusPartOne, "_", _StatusPartTwo)
 AND
 	StringConcatenate(_StatusPartTwo, _ValueSTR, _Status)
+AND
+	HasActiveStatus(_Char, _Status, 0)
+AND
+	StringConcatenate("WotL_Ability_", _Ability, _Variable)
 THEN
+	SetVarInteger(_Char, _Variable, _Value);
 	NOT DB_WotL_BlacklistVariableStatuses(_Status);
 	DB_WotL_BlacklistVariableStatuses(_Status);
 	ApplyStatus(_Char, _Status, -1.0, 1);
 //END_REGION
-
-//REGION Initial set of the attribute variables
-IF
-	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-AND
-	DB_WotL_AbilitiesNames(_Vanilla, _Ability)
-AND
-	StringConcatenate("WotL_Ability_", _Ability, _Variable)
-AND
-	NOT GetVarInteger(_Char, _Variable, _)
-AND
-	CharacterGetAbility(_Char, _Vanilla, _Value)
-THEN
-	SetVarInteger(_Char, _Variable, _Value);
-	PROC_WotL_GiveAbilityStatus(_Char, _Ability, _Value);
-//END_REGION
-
 
 //REGION Unused Abilities
 IF

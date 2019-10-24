@@ -11,6 +11,8 @@ AND
 AND
 	IsTagged(_Char, "WotL_HasInnateTalents", 0)
 AND
+	CharacterIsDead(_Char, 0)
+AND
 	NOT DB_WotL_BlacklistOverhead(_Char)
 THEN
 	DB_WotL_BlacklistOverhead(_Char);

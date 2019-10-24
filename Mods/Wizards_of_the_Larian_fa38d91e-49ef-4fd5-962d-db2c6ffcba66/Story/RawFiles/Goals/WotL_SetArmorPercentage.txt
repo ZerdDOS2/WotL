@@ -1,0 +1,18 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Set Armor Percentage from WotL_ArmorAbsorption.charScript
+// The value already comes multiplied by 100
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetArmorPercentage")
+AND
+	GetVarFloat(_Char, "WotL_SetArmorPercentage", _Armor)
+THEN
+	CharacterSetMagicArmorPercentage(_Char, _Armor);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

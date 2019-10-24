@@ -214,13 +214,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="WeaponAccuracyPenaltyPerLevel" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="-5" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="WeaponAccuracyPenaltyCap" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="-20" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -389,6 +389,12 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="CriticalBonusFromWits" />
         <field name="Value" type="FloatStatObjectFieldDefinition" value="2" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="DualWieldingAPPenalty" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="4" />
       </fields>
     </stat_object>
   </stat_objects>
