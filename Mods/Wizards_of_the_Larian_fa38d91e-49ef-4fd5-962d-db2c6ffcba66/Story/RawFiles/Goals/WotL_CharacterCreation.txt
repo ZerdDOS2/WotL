@@ -20,6 +20,20 @@ PROC
 THEN
 	SetStoryEvent(_Char, "WotL_InitializeCharacter");
 //END_REGION
+
+//REGION Lock Abilities on CC Dummies
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_InitializeCharacter")
+AND
+	DB_CharacterCreationDummy(_Char)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterHasLockedAbilities", 0)
+AND
+	DB_WotL_UnusedAbilities(_Ability)
+THEN
+	CharacterLockAbility(_Char, _Ability);
+	ProcObjectTimer(_Char, "WotL_LockedAbilitiesFlag", 1000);
+//END_REGION
 EXITSECTION
 
 ENDEXITSECTION

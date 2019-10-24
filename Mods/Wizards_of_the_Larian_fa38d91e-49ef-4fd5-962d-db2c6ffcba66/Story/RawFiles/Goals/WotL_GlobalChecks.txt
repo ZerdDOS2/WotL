@@ -9,6 +9,8 @@ IF
 AND
 	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 AND
+	CharacterIsDead(_Char, 0)
+AND
 	NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
@@ -18,6 +20,8 @@ IF
 AND
 	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 AND
+	CharacterIsDead(_Char, 0)
+AND
 	NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
@@ -26,6 +30,8 @@ IF
 	CharacterStatusRemoved(_Char, _Status, _)
 AND
 	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+AND
+	CharacterIsDead(_Char, 0)
 AND
 	NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN

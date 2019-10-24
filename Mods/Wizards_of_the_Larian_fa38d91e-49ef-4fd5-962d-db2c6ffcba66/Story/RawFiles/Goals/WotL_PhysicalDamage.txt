@@ -1,0 +1,21 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Physical to Earth Damage
+// This transforms all physical damage to earth damage for two reasons.
+// One is for compatibility sake, and second is to avoid earth particle
+// effects on weapons.
+IF
+	NRD_OnPrepareHit(_, _, _, _Handle)
+AND
+	NRD_HitGetDamage(_Handle, "Physical", _Damage)
+THEN
+	NRD_HitClearDamage(_Handle, "Physical");
+	NRD_HitAddDamage(_Handle, "Earth", _Damage);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

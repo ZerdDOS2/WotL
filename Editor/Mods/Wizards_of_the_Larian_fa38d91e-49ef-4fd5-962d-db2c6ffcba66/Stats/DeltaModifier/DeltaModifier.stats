@@ -41,5 +41,29 @@
         <field name="Multiplier" type="IntegerStatObjectFieldDefinition" value="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Boost_Maces_Armor_Damage" />
+        <field name="BoostType" type="StringStatObjectFieldDefinition" value="WotL_Base" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="ModifierType" type="StringStatObjectFieldDefinition" value="Weapon" />
+        <field name="Boost" type="StringStatObjectFieldDefinition" value="_Boost_Maces_Armor_Damage" />
+        <field name="Multiplier" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="WeaponType" type="StringStatObjectFieldDefinition" value="Club" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Boost_Swords_Armor_Damage" />
+        <field name="BoostType" type="StringStatObjectFieldDefinition" value="WotL_Base" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Frequency" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="ModifierType" type="StringStatObjectFieldDefinition" value="Weapon" />
+        <field name="WeaponType" type="StringStatObjectFieldDefinition" value="Sword" />
+        <field name="Boost" type="StringStatObjectFieldDefinition" value="_Boost_Swords_Armor_Damage" />
+        <field name="Multiplier" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

@@ -68,9 +68,9 @@ key "LeadershipDodgingBonus","0"
 
 key "InitiativeBonusFromWits","0"
 
-key "WeaponAccuracyPenaltyPerLevel","-5"
+key "WeaponAccuracyPenaltyPerLevel","0"
 
-key "WeaponAccuracyPenaltyCap","-20"
+key "WeaponAccuracyPenaltyCap","0"
 
 key "HighGroundBaseDamageBonus","0"
 
@@ -127,4 +127,6 @@ key "LoneWolfMaxAPBonus","2"
 key "TalentQuickStepPartialApBonus","2"
 
 key "CriticalBonusFromWits","2"
+
+key "DualWieldingAPPenalty","4"
 

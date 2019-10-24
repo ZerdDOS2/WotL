@@ -2,7 +2,5 @@ requirement "QuickStep","Tag WotL_HasInnateTalents"
 
 requirement "Executioner",""
 
-requirement "LoneWolf","Tag WotL_UnavailableTalent"
-
 requirement "ViolentMagic","Tag WotL_HasInnateTalents"
 

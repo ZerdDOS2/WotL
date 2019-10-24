@@ -10,6 +10,8 @@ IF
 AND
 	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 AND
+	CharacterIsDead(_Char, 0)
+AND
 	NOT DB_WotL_BlacklistGlobalStatus(_Char)
 AND
 	DB_WotL_GlobalStatuses(_Status)
