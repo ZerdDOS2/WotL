@@ -290,7 +290,6 @@
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="90" />
         <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="800" />
