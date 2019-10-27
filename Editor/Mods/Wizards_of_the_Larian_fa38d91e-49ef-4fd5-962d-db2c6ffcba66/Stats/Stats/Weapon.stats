@@ -12,8 +12,8 @@
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="50" />
-        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="200" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="56" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="150" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="20" />
@@ -131,7 +131,7 @@
         <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
         <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="47" />
         <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -162,7 +162,7 @@
         <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
         <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="95" />
         <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -193,7 +193,7 @@
         <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
         <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="71" />
         <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -224,7 +224,7 @@
         <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="100" />
         <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -248,36 +248,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_Wands" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Wands_1H" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
-        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="15" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="55" />
-        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
-        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="800" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="70" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="WeaponType" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="_Crossbows" />
         <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Crossbows" />
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
@@ -286,7 +256,7 @@
         <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="5" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="100" />
         <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -320,8 +290,7 @@
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="90" />
-        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="800" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -343,6 +312,36 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Wands" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Wands_1H" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="IsTwoHanded" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
+        <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="63" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="800" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WeaponType" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="WeaponType" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Itemslot" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="Charges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="MaxCharges" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="_Staffs" />
         <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Staves_2H" />
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
@@ -352,8 +351,8 @@
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="95" />
-        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="86" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="150" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="20" />
