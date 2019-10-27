@@ -9,10 +9,17 @@ KBSECTION
 IF
 	NRD_OnPrepareHit(_, _, _, _Handle)
 AND
-	NRD_HitGetInt(_Handle, "Missed", _Value)
+	NRD_HitGetDamage(_Handle, "Physical", _Damage)
 THEN
-	NRD_DebugLog((STRING)_Value);
+	NRD_DebugLog((STRING)_Damage);
 //END_REGION
+
+IF
+	NRD_OnHit(_Char, _, _, _Handle)
+AND
+	NRD_HitStatusGetDamage(_Char, _Handle, "Earth", _Damage)
+THEN
+	NRD_DebugLog((STRING)_Damage);
 EXITSECTION
 
 ENDEXITSECTION
