@@ -5,12 +5,36 @@ INITSECTION
 KBSECTION
 //REGION Force status through armor
 // This snippet helps compatibility with other mods
-// The extremely complex code was provided by Kalavinka and slightly edited
+// Shared code by Kalavinka, a little more complex than the previous one
+// This allows status to be forced, considering their chance of applial
 IF
-	NRD_OnStatusAttempt((CHARACTERGUID)_Target, _, _Handle, _)
+	NRD_OnStatusAttempt((CHARACTERGUID)_Char, _, _Handle, _)
+AND
+	NRD_StatusGetInt(_Char, _Handle, "CanEnterChance", _Value)
+AND
+	IntegerProduct(_Value, 100, _Chance)
+AND
+	Random(10000, _Random)
+AND
+	IntegerSum(_Random, _Chance, _Gen)
 THEN
-	NRD_StatusSetInt(_Target, _Handle, "ForceStatus", 1);
+	PROC_WotL_RollStatusAttempt(_Char, _Handle, _Gen);
+
+PROC
+	PROC_WotL_RollStatusAttempt((CHARACTERGUID)_Char, (INTEGER64)_Handle, (INTEGER)_Gen)
+AND
+	_Gen > 10000
+THEN
+	NRD_StatusSetInt(_Char, _Handle, "ForceStatus", 1);
+
+PROC
+	PROC_WotL_RollStatusAttempt((CHARACTERGUID)_Char, (INTEGER64)_Handle, (INTEGER)_Gen)
+AND
+	_Gen <= 10000
+THEN
+	NRD_StatusPreventApply(_Char, _Handle, 1);
 //END_REGION
+
 EXITSECTION
 
 ENDEXITSECTION

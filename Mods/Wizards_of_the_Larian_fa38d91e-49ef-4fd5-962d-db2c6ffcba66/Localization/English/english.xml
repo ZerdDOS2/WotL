@@ -1,5 +1,5 @@
 <contentList>
-	<content titleid="Attributes"></content> 
+	<content titleid="Attributes"></content>
 	<content contentuid="hb924258ag2cf7g4c11gaf4eg8b7de303c197"></content><comment>Damage description that covered Strength, Finesse and Intelligence in Vanilla</comment>
 	<content contentuid="hc8c67074g3c19g44d1g8b7bg9e5a8d06d87f">Power</content><comment>Strength Name</comment>
 	<content contentuid="h18f97d5bg9a79g4917g809dgb0ac7a5ec302">Increases your damage by 3% per point and allows you to lift and carry heavier items.</content><comment>Strength -> Power Description</comment>
@@ -16,77 +16,79 @@
 
 
 	<content titleid="Abilities"></content>
-	<content titleid="Schools"></content>
-	<content contentuid="h5fb2ef9cg4258g446eg9522gd6be58f3ab23">School Abilities</content><comment>Character Sheet "Weapon Abilities" section</comment>
-	<content contentuid="h3fb5cd5ag9ec8g4746g8f9cg03100b26bd3a">Destruction</content><comment>Two-Handed Name</comment>
-	<content contentuid="h206ce4abg4f84g4b2dg934aga0d96a602f2c">Skills for mages destructive power.</content><comment>Two-Handed Description</comment>
-	<content contentuid="hfb3f09bdg790cg47bfg9ab8gbdd57bee4f3d"></content><comment>Two-Handed Tooltip for Next Level</comment>
-	<content contentuid="h8286b417g71e0g4acfg9616gea03ade99268"></content><comment>Two-Handed Tooltip for Current Level</comment>
-	<content contentuid="ha74334b1gd56bg49c2g8738g44da4decd00a">Support</content><comment>Single Handed Name</comment>
-	<content contentuid="h751cb9fcgcc15g485fg80dag96d013bb5fff">Skills for healing, buffing and protecting allies.</content><comment>Single Handed Description</comment>
-	<content contentuid="h09954a1cgd9e9g47b7g8dd1g0157c1473eba"></content><comment>Single Handed Tooltip for Next Level</comment>
-	<content contentuid="h659d2e02gfca4g4e30g832fg7b2f039adfb7"></content><comment>Single Handed Tooltip for Current Level</comment>
-	<content contentuid="hdda30cb9g17adg433ag9071g867e97c09c3a">Transformation</content><comment>Ranged Name</comment>
-	<content contentuid="h54f2ea13g97dbg4b86g9d13geeb81186faca">Skills for polymorphing, bending and summoning.</content><comment>Ranged Description</comment>
-	<content contentuid="h7c3e5ae5g9892g4475gb2b4g9c6545c0c3cf"></content><comment>Ranged Tooltip for Next Level</comment>
-	<content contentuid="h2ea37099g75b8g4156gb3beg5b52ced2aa40"></content><comment>Ranged Tooltip for Current Level</comment>
-	<content contentuid="h03d68693g35e7g4721ga1b3g9f9882f08b12">Weaponry</content><comment>Dual Wielding Name</comment>
-	<content contentuid="h768669d0g02adg48f7g901eg83068a96bf19">Skills for mundane weapon users.</content><comment>Dual Wielding Description</comment>
-	<content contentuid="hb034efe9g235bg44c9g9307g65a6d96c90e6"></content><comment>Dual Wielding Tooltip for Next Level</comment>
-	<content contentuid="ha23ceefdg2365g476cg98d0g3df72fdafc92"></content><comment>Dual Wielding Tooltip for Current Level</comment>
+	<content titleid="Offence Abilities"></content>
+	<content contentuid="h5fb2ef9cg4258g446eg9522gd6be58f3ab23">Offence</content><comment>Character Sheet "Weapon Abilities" section</comment>
+	<content contentuid="h3fb5cd5ag9ec8g4746g8f9cg03100b26bd3a">Lifesteal</content><comment>Two-Handed Name</comment>
+	<content contentuid="h206ce4abg4f84g4b2dg934aga0d96a602f2c">Gives 10% Lifesteal per point</content><comment>Two-Handed Description</comment>
+	<content contentuid="hfb3f09bdg790cg47bfg9ab8gbdd57bee4f3d">Next Level [1]: [1]0% Lifesteal.</content><comment>Two-Handed Tooltip for Next Level</comment>
+	<content contentuid="h8286b417g71e0g4acfg9616gea03ade99268">Level [1]: [1]0% Lifesteal.</content><comment>Two-Handed Tooltip for Current Level</comment>
+	<content contentuid="ha74334b1gd56bg49c2g8738g44da4decd00a">Single-Handed</content><comment>Single Handed Name</comment>
+	<content contentuid="h751cb9fcgcc15g485fg80dag96d013bb5fff">Single-Handed Description.</content><comment>Single Handed Description</comment>
+	<content contentuid="h09954a1cgd9e9g47b7g8dd1g0157c1473eba">Single-Handed Next Level</content><comment>Single Handed Tooltip for Next Level</comment>
+	<content contentuid="h659d2e02gfca4g4e30g832fg7b2f039adfb7">Single-Handed Current Level</content><comment>Single Handed Tooltip for Current Level</comment>
+	<content contentuid="hdda30cb9g17adg433ag9071g867e97c09c3a">Long Range</content><comment>Ranged Name</comment>
+	<content contentuid="h54f2ea13g97dbg4b86g9d13geeb81186faca">Increases the range from your ranged attacks and skills.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;This range increase affects ranged weapon attacks, dome, jump, multistrike, projectile, projectile strike, rain, rush, storm, summon, ranged target, teleportation, tornado and wall skills. Doesn’t increase the range on melee weapon attacks, cone, quake, shout, melee target and zone skills.&lt;/font&gt;&lt;br&gt;</content><comment>Ranged Description</comment>
+	<content contentuid="h7c3e5ae5g9892g4475gb2b4g9c6545c0c3cf">Next Level [1]: +[1]m Range.</content><comment>Ranged Tooltip for Next Level</comment>
+	<content contentuid="h2ea37099g75b8g4156gb3beg5b52ced2aa40">Level [1]: + [1]m Range.</content><comment>Ranged Tooltip for Current Level</comment>
+	<content contentuid="h03d68693g35e7g4721ga1b3g9f9882f08b12">Dual Wielding</content><comment>Dual Wielding Name</comment>
+	<content contentuid="h768669d0g02adg48f7g901eg83068a96bf19">Dual Wielding Description</content><comment>Dual Wielding Description</comment>
+	<content contentuid="hb034efe9g235bg44c9g9307g65a6d96c90e6">Dual Wielding Next Level</content><comment>Dual Wielding Tooltip for Next Level</comment>
+	<content contentuid="ha23ceefdg2365g476cg98d0g3df72fdafc92">Dual Wielding Current Level</content><comment>Dual Wielding Tooltip for Current Level</comment>
 
-	<content titleid="Defence"></content>
+	<content titleid="Defence Abilities"></content>
 	<content contentuid="h591d7502gb8c3g443cg86ebga0b3a903155a">Armor Proficiency</content><comment>Retribution Name</comment>
 	<content contentuid="hded47ed1gcc2eg4ce8g9277g5ee6b7204293">Allows the usage of Heavy Armor</content><comment>Retribution Description</comment>
 	<content contentuid="h7a786d38g8a67g4ec6gab80g0e17f17c5210"></content><comment>Retribution Tooltip for Next Level</comment>
 	<content contentuid="h8dff50e3g5cfcg4ef7g98fbg54171b2f841f"></content><comment>Retribution Tooltip for Current Level</comment>
-	<content contentuid="h5b61fccfg5d2ag4a81g9cacg068403d61b5c">Armor Speciality</content><comment>Perseverance Name</comment>
-	<content contentuid="h1bae56a9ga45fg431fg80bfg2afbef03c1d2">Increases the damage reduction obtained from Armor.</content><comment>Perseverance Description</comment>
-	<content contentuid="hce4fa62bgf76dg448bg965bg573fe490ace6">Next Level [1]: Bonus [1]0% Damage Reduction.</content><comment>Perseverance Tooltip for Next Level</comment>
-	<content contentuid="hf9b07ea6gde9fg4848ga603g3548d25c0918">Level [1]: Bonus [1]0% Damage Reduction.</content><comment>Perseverance Tooltip for Next Level</comment>
-	<content contentuid="h7c65fe39g1526g427bg8a2dgab7e74c66202">LEADERSHIP NAME</content>
-	<content contentuid="h8256bf13gb4cag4662gaafegb5724b210c92">LEADERSHIP DESCRIPTION</content>
-	<content contentuid="h9437181dg238eg47a5g8572g9b0331fa3c52">LEADERSHIP TOOLTIP FOR NEXT LEVEL.</content>
-	<content contentuid="h1a9b3902gfdc5g4936gaa8ega6b2c22ebf43">LEADERSHIP TOOLTIP FOR CURRENT LEVEL</content>
-
-	<content titleid="Training"></content>
-	<content contentuid="h03cd984dg2334g4bb7g86bfg0b9419b803cf">Training</content><comment>Character Sheet "Skill" section</comment>
-	<content contentuid="hf8056089g5b06g4a54g8dd5gf1fb9a796b53">Focus</content><comment>Aerotheurge Name</comment>
-	<content contentuid="h5241e098gbfa7g4091gb6eaga7a3a61683ce">Gives you the ability to concentrate on multiple status at once.</content><comment>Aerotheurge Description</comment>
-	<content contentuid="hc39ddc5dgd298g4fbcg97cfg1c721e8fa72f">Next Level [1]: +[1] Concentration Cap.</content><comment>Aerotheurge Tooltip for Next Level</comment>
-	<content contentuid="h9b56cad2g1e5fg40c0gaa03g1b6588b101b6">Level [1]: +[1] Concentration Cap.</content><comment>Aerotheurge Tooltip for Current Level</comment>
-	<content contentuid="h21354580g6870g411dgbef4g52f34942686a">Healing</content><comment>Hydrosophist Name</comment>
-	<content contentuid="hbac7843eg0419g4685ga4d6g5aab9302a18a">Increases the healing and armor restorations caused by you.</content><comment>Hydrosophist Description</comment>
-	<content contentuid="h0a8b0b59g5da9g483fg86a3g59afce30dbb7">Next Level [1]: +[2]% Vitality healed, +[3]% Armour from skills and potions.</content><comment>Hydrosophist Tooltip for Next Level</comment>
-	<content contentuid="hc4400964gcf4bg429cg882cg9e90ba8cf0ce">Level [1]: +[2]% Vitality healed, +[3]% Armour from skills and potions.</content><comment>Hydrosophist Tooltip for Current Level</comment>
-	<content contentuid="hb7ea4cc5g2a18g416bg9b95g51d928a60398">Lifesteal</content><comment>Necromancy Name</comment>
-	<content contentuid="he52dcf72g081eg4f4fgb24fg692f73242b73">Heal yourself for a portion of the damage you deal to the target's Vitality.</content><comment>Necromancy Description</comment>
-	<content contentuid="h3d3dc89dgd286g418eg8134g2eb65d063514">Long Ranged</content><comment>Ranged Name</comment>
-	<content contentuid="h3a0e0946g2b6bg49d4g93c2g9e61ee4910cd">Increases the range from your ranged attacks and skills.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;This range increase affects ranged weapon attacks, dome, jump, multistrike, projectile, projectile strike, rain, rush, storm, summon, ranged target, teleportation, tornado and wall skills. Doesn’t increase the range on melee weapon attacks, cone, quake, shout, melee target and zone skills.&lt;/font&gt;&lt;br&gt;</content><comment>Huntsman Description</comment>
-	<content contentuid="hb5a9207dgd762g415cga078g375a99eef0bf">Next Level [1]: +[1]m Range.</content><comment>Huntsman Tooltip for Next Level</comment>
-	<content contentuid="h609604e5g6a27g4154gaa8cg2255868e4dbc">Level [1]: +[1]m Range.</content><comment>Huntsman Tooltip for Current Level</comment>
-	<content contentuid="h1d6340c5g7f22g4db4ga12agae3143d9a292">Increases your summons base stats and attributes. Upon reaching 5 Summoning, your summons gain increased size and more attributes.</content><comment>Summoning Description</comment>
-	<content contentuid="h8f2b04a3g7fe4g4eb9g9b29gdf28318d1c6e">Next Level [1]: Summons start with [2]% more Vitality, Damage, and Armour.</content><comment>Summoning Tooltip for Next Level</comment>
-	<content contentuid="h075cdd30g57e6g4738g9068ge71dff923b82">Level [1]: Summons start with [2]% more Vitality, Damage, and Armour.</content><comment>Summoning Tooltip for Current Level</comment>
-
-	<content contentuid="h814e6bb5g3f51g4549gb3e4ge99e1d0017e1">GEOMANCER NAME</content>
-	<content contentuid="hc5c3b4a8g0f31g45deg873ag413f99d89910">GEOMANCER DESCRIPTION</content>
-	<content contentuid="h414d6fb1g056fg4735ga293gac9f5ba97246">GEOMANCER TOOLTIP FOR NEXT LEVEL</content>
-	<content contentuid="hcaa6c292g90ccg41a3g9186g6913a8af0656">GEOMANCER TOOLTIP FOR CURRENT LEVEL</content>
-	<content contentuid="h70714d89g196eg4affga165gaa9d72a61368">POLYMORPH NAME</content>
-	<content contentuid="hde85b3faga9aag4420g9089gc7e6eee20084">POLYMORPH DESCRIPTION</content>
-	<content contentuid="hf0a5a77dg132ag4517g8701g9d2ca3057a28">PYROKINETIC NAME</content>
-	<content contentuid="he4bae728g9ec0g482cgaa22g21796d72983f">PYROKINETIC DESCRIPTION</content>
-	<content contentuid="h4e0465f1gc30ag4900ga58fg0bf8a48c4a37">PYROKINETIC TOOLTIP FOR NEXT LEVEL</content>
-	<content contentuid="hf91f9ad6gd2e3g4fe1g8230g16aa8a97ee59">PYROKINETIC TOOLTIP FOR CURRENT LEVEL</content>
-	<content contentuid="hed591025g5c39g48ccga899gc9b1569716c1">SCOUNDREL NAME</content>
-	<content contentuid="h60a27d9cg35fag451cga251gbd01c84d033b">SCOUNDREL DESCRIPTION</content>
-	<content contentuid="h2cf88fbdg14d6g4d46g80afge5f6a1afe4ef">SCOUNDREL TOOLTIP FOR NEXT LEVEL</content>
-	<content contentuid="h39c71414ged12g45bdg9880ge0b13ec7206a">SCOUNDREL TOOLTIP FOR CURRENT LEVEL</content>
-	<content contentuid="h8e4bebcbg21c7g43dag8b05gd3b13c1be651">WARFARE NAME</content>
-	<content contentuid="hae8649cfg3688g43b4gb137gdae29b32492e">WARFARE DESCRIPTION</content>
-	<content contentuid="h2443a42egd7abg4116g95b4g8036050c3bd3">WARFARE TOOLTIP FOR NEXT LEVEL</content>
-	<content contentuid="ha4b72525g51d5g434cgbdf9g3a4ec57319aa">WARFARE TOOLTIP FOR CURRENT LEVEL</content>
+	<content contentuid="h5b61fccfg5d2ag4a81g9cacg068403d61b5c">Focus</content><comment>Perseverance Name</comment>
+	<content contentuid="h1bae56a9ga45fg431fg80bfg2afbef03c1d2">Increases the duration of statuses applied by you.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;Doesn't increase the duration of statuses applied through statuses interation (Eg.: wet + chilled, shocked + shocked, oiled + warm, etc.)&lt;/font&gt;&lt;br&gt;</content><comment>Perseverance Description</comment>
+	<content contentuid="hce4fa62bgf76dg448bg965bg573fe490ace6">Next Level [1]: +[1] turn</content><comment>Perseverance Tooltip for Next Level</comment>
+	<content contentuid="hf9b07ea6gde9fg4848ga603g3548d25c0918">Level [1]: [1] turn.</content><comment>Perseverance Tooltip for Next Level</comment>
+	<content contentuid="h7c65fe39g1526g427bg8a2dgab7e74c66202">Healing</content><comment>Leadership Name</comment>
+	<content contentuid="h8256bf13gb4cag4662gaafegb5724b210c92">Increases the healing and armor restorations caused by you.</content><comment>Leadership Description</comment>
+	<content contentuid="h9437181dg238eg47a5g8572g9b0331fa3c52"></content><comment>Leadership Tooltip for Next Level</comment>
+	<content contentuid="h1a9b3902gfdc5g4936gaa8ega6b2c22ebf43"></content><comment>Leadership Tooltip for Current Level</comment>
+	
+    <content titleid="Skills Abilities"></content>
+	<comment><content contentuid="h03cd984dg2334g4bb7g86bfg0b9419b803cf">Skills</content><comment>Character Sheet "Skill" section</comment></comment>
+	<comment><content contentuid="hf8056089g5b06g4a54g8dd5gf1fb9a796b53">Aerotheurge</content><comment>Aerotheurge Name</comment></comment>
+	<content contentuid="h5241e098gbfa7g4091gb6eaga7a3a61683ce">Lightning and air skills. Focused on Area of Effect, Crowd Control and Teleportations.</content><comment>Aerotheurge Description</comment>
+	<content contentuid="hc39ddc5dgd298g4fbcg97cfg1c721e8fa72f"></content><comment>Aerotheurge Tooltip for Next Level</comment>
+	<content contentuid="h9b56cad2g1e5fg40c0gaa03g1b6588b101b6"></content><comment>Aerotheurge Tooltip for Current Level</comment>
+	<comment><content contentuid="h21354580g6870g411dgbef4g52f34942686a">Hydrosophist</content><comment>Hydrosophist Name</comment></comment>
+	<content contentuid="hbac7843eg0419g4685ga4d6g5aab9302a18a">Water and Ice skills. Focused on Crowd Control, Buffs, Healing and Armor Restoration.</content><comment>Hydrosophist Description</comment>
+	<content contentuid="h0a8b0b59g5da9g483fg86a3g59afce30dbb7"></content><comment>Hydrosophist Tooltip for Next Level</comment>
+	<content contentuid="hc4400964gcf4bg429cg882cg9e90ba8cf0ce"></content><comment>Hydrosophist Tooltip for Current Level</comment>
+	<comment><content contentuid="h814e6bb5g3f51g4549gb3e4ge99e1d0017e1">Geomancer</content><comment>Geomancer Name</comment></comment>
+	<content contentuid="hc5c3b4a8g0f31g45deg873ag413f99d89910">Earth and Poison skills. Focused on Area of Effect Damage, Soft Crowd Control, Armor Restoration and Damage Per Turn.</content><comment>Geomancer Description</comment>
+	<content contentuid="h414d6fb1g056fg4735ga293gac9f5ba97246"></content><comment>Geomancer Tooltip for Next Level</comment>
+	<content contentuid="hcaa6c292g90ccg41a3g9186g6913a8af0656"></content><comment>Geomancer Tooltip for Current Level</comment>
+	<comment><content contentuid="hf0a5a77dg132ag4517g8701g9d2ca3057a28">Pyrokinetic</content><comment>Pyrokinetic Name</comment></comment>
+	<content contentuid="he4bae728g9ec0g482cgaa22g21796d72983f">Fire skills. Focused on Area of Effect Damage and Buffs.</content><comment>Pyrokinetic Description</comment>
+	<content contentuid="h4e0465f1gc30ag4900ga58fg0bf8a48c4a37"></content><comment>Pyrokinetic Tooltip for Next Level</comment>
+	<content contentuid="hf91f9ad6gd2e3g4fe1g8230g16aa8a97ee59"></content><comment>Pyrokinetic Tooltip for Current Level</comment>
+	<comment><content contentuid="hb7ea4cc5g2a18g416bg9b95g51d928a60398">Necromancer</content><comment>Necromancer Name</comment></comment>
+	<content contentuid="he52dcf72g081eg4f4fgb24fg692f73242b73">Blood and Undead skills. Focused on Buffs, Debuffs and Damage.</content><comment>Necromancer Description</comment>
+	<content contentuid="h5241adddga9f5g42e3gb032g49bb4ca899b3"></content><comment>Necromancer Tooltip for Next Level</comment>
+	<content contentuid="h557cbae3g3a24g4da6gae81g9bc11c7d7b20"></content><comment>Necromancer Tooltip for Current Level</comment>
+	<comment><content contentuid="h3d3dc89dgd286g418eg8134g2eb65d063514">Huntsman</content><comment>Huntsman Name</comment></comment>
+	<content contentuid="h3a0e0946g2b6bg49d4g93c2g9e61ee4910cd">Skills for Bow users.</content><comment>Huntsman Description</comment>
+	<content contentuid="hb5a9207dgd762g415cga078g375a99eef0bf"></content><comment>Huntsman Tooltip for Next Level</comment>
+	<content contentuid="h609604e5g6a27g4154gaa8cg2255868e4dbc"></content><comment>Huntsman Tooltip for Current Level</comment>
+	<comment><content contentuid="hac10f374gf9dbg4ee5gb5d0g7b1d3cb6d1fe">Summoning</content><comment>Summoning Name</comment></comment>
+	<content contentuid="h1d6340c5g7f22g4db4ga12agae3143d9a292">Increases your summons base stats and attributes. Upon reaching 5 Summoning, your Incarnate gain increased size and more attributes.</content><comment>Summoning Description</comment>
+	<content contentuid="h8f2b04a3g7fe4g4eb9g9b29gdf28318d1c6e">Next Level [1]: Summons start with [2]% more Vitality, Damage, and Armor.</content><comment>Summoning Tooltip for Next Level</comment>
+	<content contentuid="h075cdd30g57e6g4738g9068ge71dff923b82">Level [1]: Summons start with [2]% more Vitality, Damage, and Armor.</content><comment>Summoning Tooltip for Current Level</comment>
+	<comment><content contentuid="h70714d89g196eg4affga165gaa9d72a61368">Polymorph</content><comment>Polymorph Name</comment></comment>
+	<content contentuid="hde85b3faga9aag4420g9089gc7e6eee20084">Provides 1 free Attribute Point per point invested.</content><comment>Polymorph Description</comment>
+	<comment><content contentuid="hed591025g5c39g48ccga899gc9b1569716c1">Scoundrel</content><comment>Scoundrel Name</comment></comment>
+	<content contentuid="h60a27d9cg35fag451cga251gbd01c84d033b">Skills for Dagger users.</content><comment>Scoundrel Description</comment>
+	<content contentuid="h2cf88fbdg14d6g4d46g80afge5f6a1afe4ef"></content><comment>Scoundrel Tooltip for Next Level</comment>
+	<content contentuid="h39c71414ged12g45bdg9880ge0b13ec7206a"></content><comment>Scoundrel Tooltip for Current Level</comment>
+	<comment><content contentuid="h8e4bebcbg21c7g43dag8b05gd3b13c1be651">Warfare</content><comment>Warfare Name</comment></comment>
+	<content contentuid="hae8649cfg3688g43b4gb137gdae29b32492e">Skills for Melee Weapon users.</content><comment>Warfare Description</comment>
+	<content contentuid="h2443a42egd7abg4116g95b4g8036050c3bd3"></content><comment>Warfare Tooltip for Next Level</comment>
+	<content contentuid="ha4b72525g51d5g434cgbdf9g3a4ec57319aa"></content><comment>Warfare Tooltip for Current Level</comment>
 
 
 	<content titleid="Talents"></content>
@@ -98,7 +100,7 @@
 
 	<content titleid="Removed Talents"></content>
 	<content contentuid="hbaf5c48eg86eeg4947gb884g6508d4dbd1fe">Vanilla's Lone Wolf is no longer available</content><comment>Vanilla Lone Wolf Description</comment>
-
+	
 
 	<comment>
 	<content contentuid="h04248accg2cc5g4798g9d22g1de1e1846b54">Restore [1] equal to damage dealt.</content>

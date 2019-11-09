@@ -9,17 +9,17 @@ KBSECTION
 IF
 	NRD_OnPrepareHit(_, _, _, _Handle)
 AND
-	NRD_HitGetDamage(_Handle, "Physical", _Damage)
+	NRD_HitGetInt(_Handle, "AlwaysBackstab", _Value)
 THEN
-	NRD_DebugLog((STRING)_Damage);
+	NRD_DebugLog((STRING)_Value);
 //END_REGION
 
 IF
 	NRD_OnHit(_Char, _, _, _Handle)
 AND
-	NRD_HitStatusGetDamage(_Char, _Handle, "Earth", _Damage)
+	NRD_StatusGetInt(_Char, _Handle, "AlwaysBackstab", 1)
 THEN
-	NRD_DebugLog((STRING)_Damage);
+	NRD_HitClearAllDamage(_Handle);
 EXITSECTION
 
 ENDEXITSECTION
