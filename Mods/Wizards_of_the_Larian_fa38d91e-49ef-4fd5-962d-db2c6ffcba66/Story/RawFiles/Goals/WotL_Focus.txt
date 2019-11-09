@@ -1,0 +1,35 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_WotL_NotExtendedStatuses((STRING)_Status);
+DB_WotL_NotExtendedStatuses("");
+KBSECTION
+//REGION Status extender
+// Increase the duration of statuses by 1 turn per point in "Focus"
+// Code kindly shared by Kalavinka
+IF
+	NRD_OnStatusAttempt(_Char, _Status, _Handle, (CHARACTERGUID)_Causee)
+AND
+	NRD_StatusGetReal(_Char, _Handle, "LifeTime", _Duration)
+AND
+	_Duration > 0.0
+AND
+	NOT DB_WotL_NotExtendedStatuses(_Status)
+AND
+	DB_WotL_AbilitiesNames(_Ability, "Focus")
+AND
+	CharacterGetAbility(_Causee, _Ability, _Value)
+AND
+	Real(_Value, _RealValue)
+AND
+	RealProduct(_RealValue, 6.0, _NewValue)
+AND
+	RealSum(_Duration, _NewValue, _NewDuration)
+THEN
+	NRD_StatusSetReal(_Char, _Handle, "LifeTime", _NewDuration);
+	NRD_StatusSetReal(_Char, _Handle, "CurrentLifeTime", _NewDuration);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

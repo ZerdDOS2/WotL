@@ -224,9 +224,9 @@
         <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="100" />
-        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="85" />
+        <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="300" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="20" />
@@ -256,8 +256,8 @@
         <field name="AttackAPCost" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="95" />
         <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="800" />
@@ -308,6 +308,7 @@
         <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
         <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="85" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -321,7 +322,7 @@
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="10" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="63" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="60" />
         <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="150" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="800" />
@@ -351,7 +352,7 @@
         <field name="Damage Type" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Damage Type" />
         <field name="Damage" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Damage Range" type="IntegerStatObjectFieldDefinition" value="20" />
-        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="86" />
+        <field name="DamageFromBase" type="IntegerStatObjectFieldDefinition" value="80" />
         <field name="CriticalDamage" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="CriticalChance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WeaponRange" type="IntegerStatObjectFieldDefinition" value="150" />

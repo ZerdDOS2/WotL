@@ -2,31 +2,33 @@ Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
 //DB_WotL_AbilitiesNames((STRING)_Vanilla, (STRING)_Ability);
-DB_WotL_AbilitiesNames("TwoHanded", "Destruction");
-DB_WotL_AbilitiesNames("SingleHanded", "Support");
-DB_WotL_AbilitiesNames("Ranged", "Transformation");
-DB_WotL_AbilitiesNames("DualWielding", "Weaponry");
+DB_WotL_AbilitiesNames("TwoHanded", "Lifesteal");
+//DB_WotL_AbilitiesNames("SingleHanded", "");
+DB_WotL_AbilitiesNames("Ranged", "LongRange");
+//DB_WotL_AbilitiesNames("DualWielding", "");
 DB_WotL_AbilitiesNames("PainReflection", "ArmorProficiency");
-DB_WotL_AbilitiesNames("Perseverance", "ArmorSpeciality");
-//DB_WotL_AbilitiesNames("Leadership", "");
-DB_WotL_AbilitiesNames("AirSpecialist", "Focus");
-//DB_WotL_AbilitiesNames("EarthSpecialist", "");
-DB_WotL_AbilitiesNames("RangerLore", "LongRange");
-DB_WotL_AbilitiesNames("WaterSpecialist", "Healing");
-DB_WotL_AbilitiesNames("Necromancy", "Lifesteal");
-//DB_WotL_AbilitiesNames("Polymorph", "");
-//DB_WotL_AbilitiesNames("FireSpecialist", "");
-//DB_WotL_AbilitiesNames("RogueLore", "");
+DB_WotL_AbilitiesNames("Perseverance", "Focus");
+DB_WotL_AbilitiesNames("Leadership", "Healing");
+DB_WotL_AbilitiesNames("AirSpecialist", "Aerotheurge");
+DB_WotL_AbilitiesNames("EarthSpecialist", "Geomancer");
+DB_WotL_AbilitiesNames("RangerLore", "Huntsman");
+DB_WotL_AbilitiesNames("WaterSpecialist", "Hydrosophist");
+DB_WotL_AbilitiesNames("Necromancy", "Necromancer");
+DB_WotL_AbilitiesNames("Polymorph", "Polymorph");
+DB_WotL_AbilitiesNames("FireSpecialist", "Pyrokinetic");
+DB_WotL_AbilitiesNames("RogueLore", "Scoundrel");
 DB_WotL_AbilitiesNames("Summoning", "Summoning");
-//DB_WotL_AbilitiesNames("WarriorLore", "");
+DB_WotL_AbilitiesNames("WarriorLore", "Warfare");
 
 //DB_WotL_UnusedAbilities((STRING)_Ability)
+/*
 DB_WotL_UnusedAbilities("Leadership");
 DB_WotL_UnusedAbilities("EarthSpecialist");
 DB_WotL_UnusedAbilities("Polymorph");
 DB_WotL_UnusedAbilities("FireSpecialist");
 DB_WotL_UnusedAbilities("RogueLore");
 DB_WotL_UnusedAbilities("WarriorLore");
+*/
 KBSECTION
 //REGION Adds Ability Status and Variable
 IF
@@ -59,6 +61,7 @@ THEN
 //END_REGION
 
 //REGION Unused Abilities
+/*
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 AND
@@ -77,6 +80,7 @@ AND
 	ObjectGetFlag(_Char, "WotL_CharacterHasLockedAbilities", 0)
 THEN
 	ObjectSetFlag(_Char, "WotL_CharacterHasLockedAbilities");
+*/
 //END_REGION
 EXITSECTION
 

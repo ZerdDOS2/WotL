@@ -2695,3 +2695,33 @@ data "Act" "1"
 data "Act part" "0"
 data "RangeBoost" "500"
 
+new entry "Stats_WotL_Lifesteal_1"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "LifeSteal" "10"
+
+new entry "Stats_WotL_Lifesteal_2"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "LifeSteal" "20"
+
+new entry "Stats_WotL_Lifesteal_3"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "LifeSteal" "30"
+
+new entry "Stats_WotL_Lifesteal_4"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "LifeSteal" "40"
+
+new entry "Stats_WotL_Lifesteal_5"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "LifeSteal" "50"
+

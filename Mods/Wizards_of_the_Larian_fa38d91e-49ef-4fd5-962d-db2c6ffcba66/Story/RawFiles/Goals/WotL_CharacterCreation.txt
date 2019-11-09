@@ -22,6 +22,7 @@ THEN
 //END_REGION
 
 //REGION Lock Abilities on CC Dummies
+/*
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_InitializeCharacter")
 AND
@@ -33,6 +34,7 @@ AND
 THEN
 	CharacterLockAbility(_Char, _Ability);
 	ProcObjectTimer(_Char, "WotL_LockedAbilitiesFlag", 1000);
+*/
 //END_REGION
 EXITSECTION
 

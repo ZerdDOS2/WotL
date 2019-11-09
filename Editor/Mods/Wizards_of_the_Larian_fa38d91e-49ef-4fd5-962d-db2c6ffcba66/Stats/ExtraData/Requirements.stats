@@ -4,7 +4,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="QuickStep" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_HasInnateTalents" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="TALENT_QuickStep" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -15,7 +15,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ViolentMagic" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_HasInnateTalents" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="TALENT_ViolentMagic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LoneWolf" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="TALENT_LoneWolf" />
       </fields>
     </stat_object>
   </stat_objects>

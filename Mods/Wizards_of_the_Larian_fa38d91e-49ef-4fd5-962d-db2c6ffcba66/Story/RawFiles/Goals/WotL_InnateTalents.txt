@@ -1,7 +1,9 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-
+//DB_WotL_InnateTalents((STRING)_Talent);
+DB_WotL_InnateTalents("QuickStep");
+DB_WotL_InnateTalents("ViolentMagic");
 KBSECTION
 //REGION Adds the innate talents through an overhead item
 IF
@@ -41,6 +43,17 @@ THEN
 	CharacterEquipItem(_Char, _Item);
 	DB_WotL_OverheadCheatItem(_Char, _Item);
 	ProcObjectTimer(_Char, "WotL_PrepareToAddRunes", 10);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_PrepareToAddRunes")
+AND
+	DB_WotL_InnateTalents(_Talent)
+AND
+	CharacterIsPlayer(_Char, 1)
+AND
+	CharacterHasTalent(_Char, _Talent, 0)
+THEN
+	CharacterAddTalent(_Char, _Talent);
 
 PROC
 	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_PrepareToAddRunes")

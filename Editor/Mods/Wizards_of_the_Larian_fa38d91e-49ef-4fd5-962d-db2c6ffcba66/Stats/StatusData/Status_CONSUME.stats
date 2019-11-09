@@ -8799,506 +8799,74 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Destruction_0" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_0" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 0" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 0" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 0" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Destruction_0" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Destruction" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Destruction_1" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_1" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 1" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 1" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 1" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Destruction_1" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Destruction" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Destruction_2" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_2" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 2" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 2" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 2" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Destruction_2" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Destruction" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Destruction_3" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_3" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 3" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 3" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 3" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Destruction_3" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Destruction" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Destruction_4" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_4" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 4" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 4" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 4" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Destruction_4" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Destruction" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Destruction_5" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_5" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 5" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Destruction 5" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 5" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Destruction_5" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Destruction" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Support_0" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Support 0" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Support 0" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Support_0" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Support" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Support_1" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Support 1" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Support 1" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Support_1" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Support" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Support_2" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Support 2" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Support 2" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Support_2" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Support" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Support_3" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Support 3" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Support 3" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Support_3" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Support" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Support_4" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Support 4" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Support 4" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Support_4" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Support" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Support_5" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Support 5" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Support 5" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Support_5" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Support" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Transformation_0" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 0" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 0" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Transformation_0" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Transformation" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Transformation_1" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 1" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 1" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Transformation_1" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Transformation" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Transformation_2" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 2" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 2" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Transformation_2" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Transformation" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Transformation_3" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 3" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 3" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Transformation_3" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Transformation" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Transformation_4" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 4" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 4" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Transformation_4" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Transformation" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Transformation_5" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 5" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Transformation 5" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Transformation_5" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Transformation" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Weaponry_0" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 0" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 0" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Weaponry_0" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Weaponry" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Weaponry_1" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 1" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 1" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Weaponry_1" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Weaponry" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Weaponry_2" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 2" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 2" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Weaponry_2" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Weaponry" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Weaponry_3" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 3" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 3" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Weaponry_3" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Weaponry" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Weaponry_4" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 4" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 4" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Weaponry_4" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Weaponry" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Weaponry_5" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 5" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Weaponry 5" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Weaponry_5" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Weaponry" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_0" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 0" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 0" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_0" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_1" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 1" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 1" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_1" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_2" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 2" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 2" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_2" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_3" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 3" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 3" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_3" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_4" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 4" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 4" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_4" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_5" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 5" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 5" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_5" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorSpeciality_0" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 0" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 0" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorSpeciality_0" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorSpeciality" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorSpeciality_1" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 1" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 1" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorSpeciality_1" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorSpeciality" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorSpeciality_2" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 2" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 2" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorSpeciality_2" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorSpeciality" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorSpeciality_3" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 3" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 3" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorSpeciality_3" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorSpeciality" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorSpeciality_4" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 4" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 4" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorSpeciality_4" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorSpeciality" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorSpeciality_5" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 5" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 5" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorSpeciality_5" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorSpeciality" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_0" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 0" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 0" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_0" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_1" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 1" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 1" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_1" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_2" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 2" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 2" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_2" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_3" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 3" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 3" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_3" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_4" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 4" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 4" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_4" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_5" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 5" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 5" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_5" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9375,6 +8943,150 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_ArmorProficiency_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Proficiency 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_ArmorProficiency_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_ArmorProficiency" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Focus_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Focus 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Focus 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Focus_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Focus" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Healing_0" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
@@ -9447,74 +9159,578 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_0" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Aerotheurge_0" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 0" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 0" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 0" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_0" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Aerotheurge_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Aerotheurge" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_1" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Aerotheurge_1" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 1" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 1" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 1" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_1" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Aerotheurge_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Aerotheurge" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_2" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Aerotheurge_2" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 2" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 2" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 2" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_2" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Aerotheurge_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Aerotheurge" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_3" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Aerotheurge_3" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 3" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 3" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 3" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_3" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Aerotheurge_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Aerotheurge" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_4" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Aerotheurge_4" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 4" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 4" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 4" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_4" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Aerotheurge_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Aerotheurge" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Lifesteal_5" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Aerotheurge_5" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 5" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Lifesteal 5" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Armor Speciality 5" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_5" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Lifesteal" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Aerotheurge_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Aerotheurge" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Geomancer_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Geomancer_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Geomancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Geomancer_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Geomancer_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Geomancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Geomancer_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Geomancer_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Geomancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Geomancer_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Geomancer_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Geomancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Geomancer_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Geomancer_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Geomancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Geomancer_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Geomancer 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Geomancer_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Geomancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Huntsman_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Huntsman_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Huntsman" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Huntsman_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Huntsman_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Huntsman" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Huntsman_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Huntsman_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Huntsman" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Huntsman_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Huntsman_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Huntsman" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Huntsman_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Huntsman_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Huntsman" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Huntsman_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Huntsman 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Huntsman_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Huntsman" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Hydrosophist_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Hydrosophist_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Hydrosophist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Hydrosophist_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Hydrosophist_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Hydrosophist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Hydrosophist_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Hydrosophist_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Hydrosophist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Hydrosophist_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Hydrosophist_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Hydrosophist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Hydrosophist_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Hydrosophist_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Hydrosophist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Hydrosophist_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Hydrosophist 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Hydrosophist_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Hydrosophist" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Necromancer_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Necromancer_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Necromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Necromancer_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Necromancer_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Necromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Necromancer_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Necromancer_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Necromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Necromancer_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Necromancer_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Necromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Necromancer_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Necromancer_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Necromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Necromancer_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Necromancer 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Necromancer_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Necromancer" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Polymorph_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Polymorph_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Polymorph" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Polymorph_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Polymorph_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Polymorph" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Polymorph_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Polymorph_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Polymorph" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Polymorph_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Polymorph_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Polymorph" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Polymorph_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Polymorph_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Polymorph" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Polymorph_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Polymorph 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Polymorph_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Polymorph" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Pyrokinetic_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Pyrokinetic_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Pyrokinetic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Pyrokinetic_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Pyrokinetic_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Pyrokinetic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Pyrokinetic_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Pyrokinetic_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Pyrokinetic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Pyrokinetic_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Pyrokinetic_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Pyrokinetic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Pyrokinetic_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Pyrokinetic_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Pyrokinetic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Pyrokinetic_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Pyrokinetic 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Pyrokinetic_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Pyrokinetic" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Scoundrel_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Scoundrel_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Scoundrel" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Scoundrel_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Scoundrel_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Scoundrel" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Scoundrel_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Scoundrel_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Scoundrel" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Scoundrel_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Scoundrel_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Scoundrel" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Scoundrel_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Scoundrel_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Scoundrel" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Scoundrel_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Scoundrel 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Scoundrel_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Scoundrel" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -9587,6 +9803,78 @@
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
         <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Summoning_5" />
         <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Summoning" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Warfare_0" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 0" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Warfare_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Warfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Warfare_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 1" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Warfare_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Warfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Warfare_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 2" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Warfare_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Warfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Warfare_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 3" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Warfare_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Warfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Warfare_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 4" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Warfare_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Warfare" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Warfare_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Warfare 5" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Warfare_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Warfare" />
       </fields>
     </stat_object>
   </stat_objects>
