@@ -46,7 +46,7 @@ key "ArmorUpperBodyPercentage","0.3"
 
 key "CombatAbilityCap","5"
 
-key "CombatAbilityLevelGrowth","0"
+key "CombatAbilityLevelGrowth","1"
 
 key "CombatAbilityDamageBonus","0"
 
@@ -64,7 +64,7 @@ key "LeadershipRange","0"
 
 key "LeadershipAllResBonus","0"
 
-key "LeadershipDodgingBonus","0"
+key "LeadershipDodgingBonus","20"
 
 key "InitiativeBonusFromWits","0"
 

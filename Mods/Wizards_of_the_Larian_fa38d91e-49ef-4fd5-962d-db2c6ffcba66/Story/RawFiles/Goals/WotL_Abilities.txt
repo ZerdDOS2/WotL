@@ -19,16 +19,6 @@ DB_WotL_AbilitiesNames("FireSpecialist", "Pyrokinetic");
 DB_WotL_AbilitiesNames("RogueLore", "Scoundrel");
 DB_WotL_AbilitiesNames("Summoning", "Summoning");
 DB_WotL_AbilitiesNames("WarriorLore", "Warfare");
-
-//DB_WotL_UnusedAbilities((STRING)_Ability)
-/*
-DB_WotL_UnusedAbilities("Leadership");
-DB_WotL_UnusedAbilities("EarthSpecialist");
-DB_WotL_UnusedAbilities("Polymorph");
-DB_WotL_UnusedAbilities("FireSpecialist");
-DB_WotL_UnusedAbilities("RogueLore");
-DB_WotL_UnusedAbilities("WarriorLore");
-*/
 KBSECTION
 //REGION Adds Ability Status and Variable
 IF
@@ -58,29 +48,6 @@ THEN
 	NOT DB_WotL_BlacklistVariableStatuses(_Status);
 	DB_WotL_BlacklistVariableStatuses(_Status);
 	ApplyStatus(_Char, _Status, -1.0, 1);
-//END_REGION
-
-//REGION Unused Abilities
-/*
-IF
-	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterHasLockedAbilities", 0)
-AND
-	DB_WotL_UnusedAbilities(_Ability)
-THEN
-	CharacterLockAbility(_Char, _Ability);
-	ProcObjectTimer(_Char, "WotL_LockedAbilitiesFlag", 1000);
-
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_LockedAbilitiesFlag")
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterHasLockedAbilities", 0)
-THEN
-	ObjectSetFlag(_Char, "WotL_CharacterHasLockedAbilities");
-*/
 //END_REGION
 EXITSECTION
 

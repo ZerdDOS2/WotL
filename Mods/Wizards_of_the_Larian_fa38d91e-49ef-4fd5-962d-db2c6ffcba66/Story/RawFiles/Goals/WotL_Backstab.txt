@@ -3,6 +3,7 @@ SubGoalCombiner SGC_AND
 INITSECTION
 
 KBSECTION
+/*
 //REGION Backstab handler
 // Transforms the insta-crit into a normal crit random roll, while providing
 // a damage boost instead.
@@ -20,6 +21,7 @@ AND
 	NRD_StatusGetInt(_Char, _Handle, "AlwaysBackstab", 1)
 THEN
 	NRD_HitClearAllDamage(_Handle);
+*/
 EXITSECTION
 
 ENDEXITSECTION

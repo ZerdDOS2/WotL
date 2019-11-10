@@ -46,24 +46,16 @@ IF
 	CharacterResurrected(_Char)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
-/*
-IF
-	CharacterEnteredRegion(_Char, _)
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-THEN
-	ProcObjectTimer(_Char, "WotL_SetAllVariables", 5000);
 
 IF
-	DB_Sees(_Player, _Char)
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-AND
-	CharacterIsPlayer(_Player, 1)
-AND
-	CharacterIsPlayer(_Char, 0)
+	ItemEquipped(_, _Char)
 THEN
-	SetStoryEvent(_Char, "WotL_SetAllVariables");*/
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+	ItemUnEquipped(_, _Char)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
 //END_REGION
 EXITSECTION
 
