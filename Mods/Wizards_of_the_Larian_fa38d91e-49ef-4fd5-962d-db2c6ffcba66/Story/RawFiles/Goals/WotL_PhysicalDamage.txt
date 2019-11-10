@@ -17,12 +17,14 @@ THEN
 //END_REGION
 
 //REGION Physical Armor to Magic Armor healing
+/*
 IF
 	NRD_OnStatusAttempt((CHARACTERGUID)_Char, _Status, _Handle, (CHARACTERGUID)_Causee)
 AND
 	NRD_StatusGetInt(_Char, _Handle, "HealAmount", _Value)
 THEN
 	NRD_DebugLog((STRING)_Value);
+*/
 //END_REGION
 EXITSECTION
 

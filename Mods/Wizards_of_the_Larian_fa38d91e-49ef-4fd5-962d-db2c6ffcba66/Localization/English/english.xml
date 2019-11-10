@@ -45,9 +45,9 @@
 	<content contentuid="hce4fa62bgf76dg448bg965bg573fe490ace6">Next Level [1]: +[1] turn</content><comment>Perseverance Tooltip for Next Level</comment>
 	<content contentuid="hf9b07ea6gde9fg4848ga603g3548d25c0918">Level [1]: [1] turn.</content><comment>Perseverance Tooltip for Next Level</comment>
 	<content contentuid="h7c65fe39g1526g427bg8a2dgab7e74c66202">Healing</content><comment>Leadership Name</comment>
-	<content contentuid="h8256bf13gb4cag4662gaafegb5724b210c92">Increases the healing and armor restorations caused by you.</content><comment>Leadership Description</comment>
-	<content contentuid="h9437181dg238eg47a5g8572g9b0331fa3c52"></content><comment>Leadership Tooltip for Next Level</comment>
-	<content contentuid="h1a9b3902gfdc5g4936gaa8ega6b2c22ebf43"></content><comment>Leadership Tooltip for Current Level</comment>
+	<content contentuid="h8256bf13gb4cag4662gaafegb5724b210c92">Increases the Healing and Armor Restorations caused by you.</content><comment>Leadership Description</comment>
+	<content contentuid="h9437181dg238eg47a5g8572g9b0331fa3c52">Next Level [1]: +[2]% Healing and Armor Restoration.</content><comment>Leadership Tooltip for Next Level</comment>
+	<content contentuid="h1a9b3902gfdc5g4936gaa8ega6b2c22ebf43">Level [1]: +[2]% Healing and Armor Restoration.</content><comment>Leadership Tooltip for Current Level</comment>
 	
     <content titleid="Skills Abilities"></content>
 	<comment><content contentuid="h03cd984dg2334g4bb7g86bfg0b9419b803cf">Skills</content><comment>Character Sheet "Skill" section</comment></comment>

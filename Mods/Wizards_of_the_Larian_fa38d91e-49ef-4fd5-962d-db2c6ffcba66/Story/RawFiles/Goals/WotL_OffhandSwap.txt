@@ -29,9 +29,9 @@ QRY
 AND
 	CharacterGetEquippedItem(_Char, "Shield", _Item)
 AND
-	GetTemplate(_Item, _ItemSTR)
+	NRD_ItemGetStatsId(_Item, _StatsId)
 AND
-	StringContains(_ItemSTR, "Shield", 0)
+	NRD_StatGetType(_StatsId, "Weapon")
 THEN
 	DB_WotL_WeaponSlotFound(_Char, _Item, "Shield");
 
@@ -39,17 +39,17 @@ THEN
 PROC
 	PROC_WotL_SwapWeapons((CHARACTERGUID)_Char, (ITEMGUID)_Wand, "Weapon")
 AND
-	GetTemplate(_Wand, _WandSTR)
+	NRD_ItemGetStatsId(_Wand, _WandId)
 AND
-	StringContains(_WandSTR, "Wand", 1)
+	NRD_StatGetAttributeString(_WandId, "WeaponType", "Wand")
 AND
 	CharacterGetEquippedItem(_Char, "Shield", (ITEMGUID)_NotWand)
 AND
-	GetTemplate(_NotWand, _NotWandSTR)
+	NRD_ItemGetStatsId(_NotWand, _NotWandId)
 AND
-	StringContains(_NotWandSTR, "Wand", 0)
+	NRD_StatGetType(_NotWandId, "Weapon")
 AND
-	StringContains(_NotWandSTR, "Shield", 0)
+	NOT NRD_StatGetAttributeString(_NotWandId, "WeaponType", "Wand")
 THEN
 	DB_WotL_SwapWeapons(_Char, _NotWand, _Wand);
 	CharacterUnequipItem(_Char, _Wand);
@@ -60,15 +60,17 @@ THEN
 PROC
 	PROC_WotL_SwapWeapons((CHARACTERGUID)_Char, (ITEMGUID)_NotWand, "Shield")
 AND
-	GetTemplate(_NotWand, _NotWandSTR)
+	NRD_ItemGetStatsId(_NotWand, _NotWandId)
 AND
-	StringContains(_NotWandSTR, "Wand", 0)
+	NRD_StatGetType(_NotWandId, "Weapon")
+AND
+	NOT NRD_StatGetAttributeString(_NotWandId, "WeaponType", "Wand")
 AND
 	CharacterGetEquippedItem(_Char, "Weapon", (ITEMGUID)_Wand)
 AND
-	GetTemplate(_Wand, _WandSTR)
+	NRD_ItemGetStatsId(_Wand, _WandId)
 AND
-	StringContains(_WandSTR, "Wand", 1)
+	NRD_StatGetAttributeString(_WandId, "WeaponType", "Wand")
 THEN
 	DB_WotL_SwapWeapons(_Char, _NotWand, _Wand);
 	CharacterUnequipItem(_Char, _Wand);

@@ -14,22 +14,6 @@ AND
 THEN
 	GlobalSetFlag(_Version);
 
-/*
-IF
-	GlobalFlagSet(_Version)
-AND
-	DB_WotL_Version(_Version)
-THEN
-	IterateParties(_Version);
-
-IF
-	StoryEvent((CHARACTERGUID)_Char, _Version)
-AND
-	DB_WotL_Version(_Version)
-THEN
-	ProcObjectTimer(_Char, "WotL_SetAllVariables", 1000);
-*/
-
 // Comes from WotL_CharInit.charScript
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_InitializeCharacter")

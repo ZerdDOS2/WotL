@@ -148,7 +148,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="CombatAbilityLevelGrowth" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -202,7 +202,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="LeadershipDodgingBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="20" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

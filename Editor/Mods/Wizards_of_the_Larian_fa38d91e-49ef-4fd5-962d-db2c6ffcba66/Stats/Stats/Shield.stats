@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="ec8e5086-0ef6-4151-b3d4-a3bdbd25bbd6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Shields" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Shields" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="90" />
+        <field name="Blocking" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="5000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="Itemslot" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Skills" type="StringStatObjectFieldDefinition" value="Shout_RecoverArmour" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="DefaultGray" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Shield" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
