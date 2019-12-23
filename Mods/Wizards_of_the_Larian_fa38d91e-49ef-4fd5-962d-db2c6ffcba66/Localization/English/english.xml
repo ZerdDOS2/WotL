@@ -2,16 +2,17 @@
 	<content titleid="Attributes"></content>
 	<content contentuid="hb924258ag2cf7g4c11gaf4eg8b7de303c197"></content><comment>Damage description that covered Strength, Finesse and Intelligence in Vanilla</comment>
 	<content contentuid="hc8c67074g3c19g44d1g8b7bg9e5a8d06d87f">Power</content><comment>Strength Name</comment>
-	<content contentuid="h18f97d5bg9a79g4917g809dgb0ac7a5ec302">Increases your damage by 3% per point and allows you to lift and carry heavier items.</content><comment>Strength -> Power Description</comment>
-	<content contentuid="h75391bafg8744g4441g9b1egf52f182f96fc">Gives you 2% dodge and increases your movement speed by 0.1 m per point.</content><comment>Finesse Description</comment>
-	<content contentuid="h89894c92gd301g4292g8cf0gd8cd159d70d8">Finesse Lowered</content>
-	<content contentuid="h33d41553g12cag401eg8c71g640d3d654054">Accuracy</content>
-	<content contentuid="h5f3f6bdagdcd6g4d7agbd92g2a56eac26fd1">Accuracy: [1][2]&lt;br&gt;</content>
-	<content contentuid="h8e8351e9gc40ag4e4cgaebfgc810a27ffff8">Accuracy</content>
-	<content contentuid="hbe8b28b6g4cfcg4bfag9214gadaae68895c7">Accuracy Lowered</content>
-	<content contentuid="hfbc938ceg297fg4232ga11dg3fe44985b9f8">Accuracy</content>
-	<content contentuid="h6b67efcagf943g43a1g959eg36f9ecc42e7e">Increases your Chance to Hit by 2% per point.</content><comment>Intelligence -> Accuracy Description</comment>
-	<content contentuid="h6d2cd8aeg4e09g4003ga57cg3fea3a0f5502">Increases your Critical Chance and your ability to detect traps and find hidden treasures.</content><comment>Wits Description</comment>
+	<content contentuid="h18f97d5bg9a79g4917g809dgb0ac7a5ec302">Increases your damage by 3% per point and allows you to lift and carry heavier items.</content><comment>Strength Description</comment>
+	<content contentuid="h27e3bc03g87a9g4e13ga38dg641b7db4b441">Evasion</content>
+	<content contentuid="h75391bafg8744g4441g9b1egf52f182f96fc">Gives you 2% dodge per point.</content><comment>Finesse Description</comment>
+	<content contentuid="h89894c92gd301g4292g8cf0gd8cd159d70d8">Evasion Lowered</content>
+	<content contentuid="h33d41553g12cag401eg8c71g640d3d654054">Precision</content>
+	<content contentuid="h5f3f6bdagdcd6g4d7agbd92g2a56eac26fd1">Precision: [1][2]&lt;br&gt;</content>
+	<content contentuid="h8e8351e9gc40ag4e4cgaebfgc810a27ffff8">Precision</content>
+	<content contentuid="hbe8b28b6g4cfcg4bfag9214gadaae68895c7">Precision Lowered</content>
+	<content contentuid="hfbc938ceg297fg4232ga11dg3fe44985b9f8">Precision</content>
+	<content contentuid="h6b67efcagf943g43a1g959eg36f9ecc42e7e">Increases your Accuracy by 2% per point.</content><comment>Intelligence Description</comment>
+	<content contentuid="h6d2cd8aeg4e09g4003ga57cg3fea3a0f5502">Increases your Critical Chance by 2% per point. Also increases your ability to detect traps and find hidden treasures.</content><comment>Wits Description</comment>
 	<content contentuid="hd5dd26e5gadc6g40d9ga0c6g2ae909cbc842">+1 point = +[1]% Critical Chance.</content><comment>Wits Tooltip</comment>
 
 
@@ -27,23 +28,23 @@
 	<content contentuid="h09954a1cgd9e9g47b7g8dd1g0157c1473eba">Single-Handed Next Level</content><comment>Single Handed Tooltip for Next Level</comment>
 	<content contentuid="h659d2e02gfca4g4e30g832fg7b2f039adfb7">Single-Handed Current Level</content><comment>Single Handed Tooltip for Current Level</comment>
 	<content contentuid="hdda30cb9g17adg433ag9071g867e97c09c3a">Long Range</content><comment>Ranged Name</comment>
-	<content contentuid="h54f2ea13g97dbg4b86g9d13geeb81186faca">Increases the range from your ranged attacks and skills.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;This range increase affects ranged weapon attacks, dome, jump, multistrike, projectile, projectile strike, rain, rush, storm, summon, ranged target, teleportation, tornado and wall skills. Doesn’t increase the range on melee weapon attacks, cone, quake, shout, melee target and zone skills.&lt;/font&gt;&lt;br&gt;</content><comment>Ranged Description</comment>
+	<content contentuid="h54f2ea13g97dbg4b86g9d13geeb81186faca">Increases the range from your ranged attacks and skills by 1m per point.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;This range increase affects ranged weapon attacks, dome, jump, multistrike, projectile, projectile strike, rain, rush, storm, summon, ranged target, teleportation, tornado and wall skills. Doesn’t increase the range on melee weapon attacks, cone, quake, shout, melee target and zone skills.&lt;/font&gt;&lt;br&gt;</content><comment>Ranged Description</comment>
 	<content contentuid="h7c3e5ae5g9892g4475gb2b4g9c6545c0c3cf">Next Level [1]: +[1]m Range.</content><comment>Ranged Tooltip for Next Level</comment>
 	<content contentuid="h2ea37099g75b8g4156gb3beg5b52ced2aa40">Level [1]: + [1]m Range.</content><comment>Ranged Tooltip for Current Level</comment>
-	<content contentuid="h03d68693g35e7g4721ga1b3g9f9882f08b12">Dual Wielding</content><comment>Dual Wielding Name</comment>
-	<content contentuid="h768669d0g02adg48f7g901eg83068a96bf19">Dual Wielding Description</content><comment>Dual Wielding Description</comment>
-	<content contentuid="hb034efe9g235bg44c9g9307g65a6d96c90e6">Dual Wielding Next Level</content><comment>Dual Wielding Tooltip for Next Level</comment>
-	<content contentuid="ha23ceefdg2365g476cg98d0g3df72fdafc92">Dual Wielding Current Level</content><comment>Dual Wielding Tooltip for Current Level</comment>
+	<content contentuid="h03d68693g35e7g4721ga1b3g9f9882f08b12">Speed</content><comment>Dual Wielding Name</comment>
+	<content contentuid="h768669d0g02adg48f7g901eg83068a96bf19">Increases your movement speed by 0.3m per point</content><comment>Dual Wielding Description</comment>
+	<content contentuid="hb034efe9g235bg44c9g9307g65a6d96c90e6">Next Level [1] + [1] * 0.3m</content><comment>Dual Wielding Tooltip for Next Level</comment>
+	<content contentuid="ha23ceefdg2365g476cg98d0g3df72fdafc92">Level [1]: +[1] * 0.3m</content><comment>Dual Wielding Tooltip for Current Level</comment>
 
 	<content titleid="Defence Abilities"></content>
 	<content contentuid="h591d7502gb8c3g443cg86ebga0b3a903155a">Armor Proficiency</content><comment>Retribution Name</comment>
 	<content contentuid="hded47ed1gcc2eg4ce8g9277g5ee6b7204293">Allows the usage of Heavy Armor</content><comment>Retribution Description</comment>
 	<content contentuid="h7a786d38g8a67g4ec6gab80g0e17f17c5210"></content><comment>Retribution Tooltip for Next Level</comment>
 	<content contentuid="h8dff50e3g5cfcg4ef7g98fbg54171b2f841f"></content><comment>Retribution Tooltip for Current Level</comment>
-	<content contentuid="h5b61fccfg5d2ag4a81g9cacg068403d61b5c">Focus</content><comment>Perseverance Name</comment>
-	<content contentuid="h1bae56a9ga45fg431fg80bfg2afbef03c1d2">Increases the duration of statuses applied by you.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;Doesn't increase the duration of statuses applied through statuses interation (Eg.: wet + chilled, shocked + shocked, oiled + warm, etc.)&lt;/font&gt;&lt;br&gt;</content><comment>Perseverance Description</comment>
-	<content contentuid="hce4fa62bgf76dg448bg965bg573fe490ace6">Next Level [1]: +[1] turn</content><comment>Perseverance Tooltip for Next Level</comment>
-	<content contentuid="hf9b07ea6gde9fg4848ga603g3548d25c0918">Level [1]: [1] turn.</content><comment>Perseverance Tooltip for Next Level</comment>
+	<content contentuid="h5b61fccfg5d2ag4a81g9cacg068403d61b5c">Armor Speciality</content><comment>Perseverance Name</comment>
+	<content contentuid="h1bae56a9ga45fg431fg80bfg2afbef03c1d2">Decrease all damage dealt to you while your armor is up by 10% per point.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;Doesn't reduce piercing, shadow and armor damages.&lt;br&gt;Reduction is applied before resistances and vulnerabilities.&lt;/font&gt;&lt;br&gt;</content><comment>Perseverance Description</comment>
+	<content contentuid="hce4fa62bgf76dg448bg965bg573fe490ace6">Next Level [1]: +[1]0% reduction.</content><comment>Perseverance Tooltip for Next Level</comment>
+	<content contentuid="hf9b07ea6gde9fg4848ga603g3548d25c0918">Level [1]: [1]0% reduction.</content><comment>Perseverance Tooltip for Next Level</comment>
 	<content contentuid="h7c65fe39g1526g427bg8a2dgab7e74c66202">Healing</content><comment>Leadership Name</comment>
 	<content contentuid="h8256bf13gb4cag4662gaafegb5724b210c92">Increases the Healing and Armor Restorations caused by you.</content><comment>Leadership Description</comment>
 	<content contentuid="h9437181dg238eg47a5g8572g9b0331fa3c52">Next Level [1]: +[2]% Healing and Armor Restoration.</content><comment>Leadership Tooltip for Next Level</comment>

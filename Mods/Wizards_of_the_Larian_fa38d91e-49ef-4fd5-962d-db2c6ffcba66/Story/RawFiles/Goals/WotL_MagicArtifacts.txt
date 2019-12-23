@@ -1,70 +1,32 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-//DB_WotL_MagicArtifacts((STRING)_WeaponType);
-DB_WotL_MagicArtifacts("Wand");
-DB_WotL_MagicArtifacts("Staff");
+
 KBSECTION
+//REGION Call Lua script
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 THEN
-	PROC_WotL_ValidateMagicArtifact(_Char);
-	ProcObjectTimer(_Char, "WotL_ManageMagicArtifactStatus", 50);	
+	NRD_LuaCall("WotL_CheckMagicArtifact", (STRING)_Char);
+//END_REGION
 
-PROC
-	PROC_WotL_ValidateMagicArtifact((CHARACTERGUID)_Char)
+//REGION Tag Handler
+IF
+	CharacterStatusApplied(_Char, "WotL_MagicArtifactUser", _)
 AND
-	CharacterGetEquippedItem(_Char, "Weapon", (ITEMGUID)_Item)
-AND
-	NRD_ItemGetStatsId(_Item, _StatsId)
-AND
-	DB_WotL_MagicArtifacts(_WeaponType)
-AND
-	NRD_StatGetAttributeString(_StatsId, "WeaponType", _WeaponType)
-AND
-	NOT DB_WotL_MagicArtifactHolder(_Char)
+	IsTagged(_Char, "WotL_MagicArtifactUser", 0)
 THEN
-	DB_WotL_MagicArtifactHolder(_Char);
+	SetTag(_Char, "WotL_MagicArtifactUser");
+	ApplyStatus(_Char, "WotL_REFRESHER", 0.0, 1);
 
-PROC
-	PROC_WotL_ValidateMagicArtifact((CHARACTERGUID)_Char)
+IF
+	CharacterStatusRemoved(_Char, "WotL_MagicArtifactUser", _)
 AND
-	CharacterGetEquippedItem(_Char, "Shield", (ITEMGUID)_Item)
-AND
-	NRD_ItemGetStatsId(_Item, _StatsId)
-AND
-	DB_WotL_MagicArtifacts(_WeaponType)
-AND
-	NRD_StatGetAttributeString(_StatsId, "WeaponType", _WeaponType)
-AND
-	NOT DB_WotL_MagicArtifactHolder(_Char)
+	IsTagged(_Char, "WotL_MagicArtifactUser", 1)
 THEN
-	DB_WotL_MagicArtifactHolder(_Char);
-
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_ManageMagicArtifactStatus")
-AND
-	NOT DB_WotL_MagicArtifactHolder(_Char)
-AND
-	HasActiveStatus(_Char, "WotL_MagicArtifactUser", 1)
-THEN
-	RemoveStatus(_Char, "WotL_MagicArtifactUser");
-
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_ManageMagicArtifactStatus")
-AND
-	DB_WotL_MagicArtifactHolder(_Char)
-AND
-	HasActiveStatus(_Char, "WotL_MagicArtifactUser", 0)
-THEN
-	ApplyStatus(_Char, "WotL_MagicArtifactUser", -1.0, 1);
-
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_ManageMagicArtifactStatus")
-AND
-	DB_WotL_MagicArtifactHolder(_Char)
-THEN
-	NOT DB_WotL_MagicArtifactHolder(_Char);
+	ClearTag(_Char, "WotL_MagicArtifactUser");
+	ApplyStatus(_Char, "WotL_REFRESHER", 0.0, 1);
+//END_REGION
 EXITSECTION
 
 ENDEXITSECTION

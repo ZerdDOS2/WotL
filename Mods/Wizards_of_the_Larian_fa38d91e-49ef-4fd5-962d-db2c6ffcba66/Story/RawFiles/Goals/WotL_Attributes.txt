@@ -1,42 +1,13 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-//DB_WotL_AttributesNames((STRING)_Vanilla, (STRING)_Attribute);
-DB_WotL_AttributesNames("Strength", "Power");
-DB_WotL_AttributesNames("Finesse", "Finesse");
-DB_WotL_AttributesNames("Intelligence", "Accuracy");
-DB_WotL_AttributesNames("Constitution", "Constitution");
-DB_WotL_AttributesNames("Memory", "Memory");
-DB_WotL_AttributesNames("Wits", "Wits");
+
 KBSECTION
 //REGION Adds Attribute Status and Variable
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-AND
-	CharacterIsDead(_Char, 0)
-AND
-	DB_WotL_AttributesNames(_Vanilla, _Attribute)
-AND
-	CharacterGetAttribute(_Char, _Vanilla, _Value)
-AND
-	IntegertoString(_Value, _ValueSTR)
-AND
-	StringConcatenate("WotL_", _Attribute, _StatusPartOne)
-AND
-	StringConcatenate(_StatusPartOne, "_", _StatusPartTwo)
-AND
-	StringConcatenate(_StatusPartTwo, _ValueSTR, _Status)
-AND
-	HasActiveStatus(_Char, _Status, 0)
-AND
-	StringConcatenate("WotL_Attribute_", _Attribute, _Variable)
 THEN
-	SetVarInteger(_Char, _Variable, _Value);
-	NOT DB_WotL_BlacklistVariableStatuses(_Status);
-	DB_WotL_BlacklistVariableStatuses(_Status);
-	ApplyStatus(_Char, _Status, -1.0, 1);
+	NRD_LuaCall("WotL_SetAttributeStatus", (STRING)_Char);
 //END_REGION
 EXITSECTION
 

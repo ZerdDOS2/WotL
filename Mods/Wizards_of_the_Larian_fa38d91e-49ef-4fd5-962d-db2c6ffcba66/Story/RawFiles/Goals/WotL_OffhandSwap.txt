@@ -41,7 +41,7 @@ PROC
 AND
 	NRD_ItemGetStatsId(_Wand, _WandId)
 AND
-	NRD_StatGetAttributeString(_WandId, "WeaponType", "Wand")
+	NRD_StatGetString(_WandId, "WeaponType", "Wand")
 AND
 	CharacterGetEquippedItem(_Char, "Shield", (ITEMGUID)_NotWand)
 AND
@@ -49,7 +49,7 @@ AND
 AND
 	NRD_StatGetType(_NotWandId, "Weapon")
 AND
-	NOT NRD_StatGetAttributeString(_NotWandId, "WeaponType", "Wand")
+	NOT NRD_StatGetString(_NotWandId, "WeaponType", "Wand")
 THEN
 	DB_WotL_SwapWeapons(_Char, _NotWand, _Wand);
 	CharacterUnequipItem(_Char, _Wand);
@@ -64,13 +64,13 @@ AND
 AND
 	NRD_StatGetType(_NotWandId, "Weapon")
 AND
-	NOT NRD_StatGetAttributeString(_NotWandId, "WeaponType", "Wand")
+	NOT NRD_StatGetString(_NotWandId, "WeaponType", "Wand")
 AND
 	CharacterGetEquippedItem(_Char, "Weapon", (ITEMGUID)_Wand)
 AND
 	NRD_ItemGetStatsId(_Wand, _WandId)
 AND
-	NRD_StatGetAttributeString(_WandId, "WeaponType", "Wand")
+	NRD_StatGetString(_WandId, "WeaponType", "Wand")
 THEN
 	DB_WotL_SwapWeapons(_Char, _NotWand, _Wand);
 	CharacterUnequipItem(_Char, _Wand);

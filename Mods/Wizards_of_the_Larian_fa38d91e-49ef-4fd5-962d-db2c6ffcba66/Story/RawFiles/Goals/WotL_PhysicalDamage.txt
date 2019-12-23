@@ -9,11 +9,8 @@ KBSECTION
 // effects on weapons.
 IF
 	NRD_OnPrepareHit(_, _, _, _Handle)
-AND
-	NRD_HitGetDamage(_Handle, "Physical", _Damage)
 THEN
-	NRD_HitClearDamage(_Handle, "Physical");
-	NRD_HitAddDamage(_Handle, "Earth", _Damage);
+	NRD_LuaCall("WotL_PhysicalDamage", (STRING)_Handle);
 //END_REGION
 
 //REGION Physical Armor to Magic Armor healing
