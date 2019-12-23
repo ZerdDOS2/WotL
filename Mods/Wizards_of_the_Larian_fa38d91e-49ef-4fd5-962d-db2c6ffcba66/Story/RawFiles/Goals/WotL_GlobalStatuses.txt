@@ -2,32 +2,32 @@ Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
 //DB_WotL_GlobalStatuses((STRING)_Status);
-DB_WotL_GlobalStatuses("WotL_InitialCTHB");
+// DB_WotL_GlobalStatuses("WotL_InitialCTHB");
 KBSECTION
 //REGION Apply the global statuses to everyone
-IF
-	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-AND
-	CharacterIsDead(_Char, 0)
-AND
-	NOT DB_WotL_BlacklistGlobalStatus(_Char)
-AND
-	DB_WotL_GlobalStatuses(_Status)
-AND
-	HasActiveStatus(_Char, _Status, 0)
-THEN
-	DB_WotL_BlacklistGlobalStatus(_Char);
-	ApplyStatus(_Char, _Status, -1.0, 1);
-	ProcObjectTimer(_Char, "WotL_Clear_BlacklistGlobalStatus", 100);
+// IF
+// 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+// AND
+// 	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+// AND
+// 	CharacterIsDead(_Char, 0)
+// AND
+// 	NOT DB_WotL_BlacklistGlobalStatus(_Char)
+// AND
+// 	DB_WotL_GlobalStatuses(_Status)
+// AND
+// 	HasActiveStatus(_Char, _Status, 0)
+// THEN
+// 	DB_WotL_BlacklistGlobalStatus(_Char);
+// 	ApplyStatus(_Char, _Status, -1.0, 1);
+// 	ProcObjectTimer(_Char, "WotL_Clear_BlacklistGlobalStatus", 100);
 
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_Clear_BlacklistGlobalStatus")
-AND
-	DB_WotL_BlacklistGlobalStatus(_Char)
-THEN
-	NOT DB_WotL_BlacklistGlobalStatus(_Char);
+// PROC
+// 	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_Clear_BlacklistGlobalStatus")
+// AND
+// 	DB_WotL_BlacklistGlobalStatus(_Char)
+// THEN
+// 	NOT DB_WotL_BlacklistGlobalStatus(_Char);
 //END_REGION
 EXITSECTION
 

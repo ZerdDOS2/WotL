@@ -6,28 +6,28 @@ KBSECTION
 //REGION Healing increase
 // Increase Healing by 20% per point in "Healing"
 // Code kindly shared by Kalavinka
-IF
-	NRD_OnStatusAttempt((CHARACTERGUID)_Char, _, _Handle, (CHARACTERGUID)_Causee)
-AND
-	NRD_StatusGetInt(_Char, _Handle, "HealAmount", _InitialHeal)
-AND
-	_InitialHeal > 0
-AND
-	DB_WotL_AbilitiesNames(_Ability, "Healing")
-AND
-	CharacterGetAbility(_Causee, _Ability, _Healing)
-AND
-	_Healing > 0
-AND
-	IntegerProduct(_Healing, 20, _HealingGain)
-AND
-	IntegerProduct(_HealingGain, _InitialHeal, _BigHeal)
-AND
-	IntegerDivide(_BigHeal, 100, _BonusHeal)
-AND
-	IntegerSum(_InitialHeal, _BonusHeal, _FinalHeal)
-THEN
-	NRD_StatusSetInt(_Char, _Handle, "HealAmount", _FinalHeal);
+// IF
+// 	NRD_OnStatusAttempt((CHARACTERGUID)_Char, _, _Handle, (CHARACTERGUID)_Causee)
+// AND
+// 	NRD_StatusGetInt(_Char, _Handle, "HealAmount", _InitialHeal)
+// AND
+// 	_InitialHeal > 0
+// AND
+// 	DB_WotL_AbilitiesNames(_Ability, "Healing")
+// AND
+// 	CharacterGetAbility(_Causee, _Ability, _Healing)
+// AND
+// 	_Healing > 0
+// AND
+// 	IntegerProduct(_Healing, 20, _HealingGain)
+// AND
+// 	IntegerProduct(_HealingGain, _InitialHeal, _BigHeal)
+// AND
+// 	IntegerDivide(_BigHeal, 100, _BonusHeal)
+// AND
+// 	IntegerSum(_InitialHeal, _BonusHeal, _FinalHeal)
+// THEN
+// 	NRD_StatusSetInt(_Char, _Handle, "HealAmount", _FinalHeal);
 //END_REGION
 EXITSECTION
 

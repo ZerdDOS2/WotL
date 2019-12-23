@@ -1,54 +1,19 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-//DB_WotL_AbilitiesNames((STRING)_Vanilla, (STRING)_Ability);
-DB_WotL_AbilitiesNames("TwoHanded", "Lifesteal");
-//DB_WotL_AbilitiesNames("SingleHanded", "");
-DB_WotL_AbilitiesNames("Ranged", "LongRange");
-//DB_WotL_AbilitiesNames("DualWielding", "");
-DB_WotL_AbilitiesNames("PainReflection", "ArmorProficiency");
-DB_WotL_AbilitiesNames("Perseverance", "Focus");
-DB_WotL_AbilitiesNames("Leadership", "Healing");
-DB_WotL_AbilitiesNames("AirSpecialist", "Aerotheurge");
-DB_WotL_AbilitiesNames("EarthSpecialist", "Geomancer");
-DB_WotL_AbilitiesNames("RangerLore", "Huntsman");
-DB_WotL_AbilitiesNames("WaterSpecialist", "Hydrosophist");
-DB_WotL_AbilitiesNames("Necromancy", "Necromancer");
-DB_WotL_AbilitiesNames("Polymorph", "Polymorph");
-DB_WotL_AbilitiesNames("FireSpecialist", "Pyrokinetic");
-DB_WotL_AbilitiesNames("RogueLore", "Scoundrel");
-DB_WotL_AbilitiesNames("Summoning", "Summoning");
-DB_WotL_AbilitiesNames("WarriorLore", "Warfare");
+
 KBSECTION
 //REGION Adds Ability Status and Variable
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-AND
-	CharacterIsDead(_Char, 0)
-AND
-	DB_WotL_AbilitiesNames(_Vanilla, _Ability)
-AND
-	CharacterGetAbility(_Char, _Vanilla, _Value)
-AND
-	IntegertoString(_Value, _ValueSTR)
-AND
-	StringConcatenate("WotL_", _Ability, _StatusPartOne)
-AND
-	StringConcatenate(_StatusPartOne, "_", _StatusPartTwo)
-AND
-	StringConcatenate(_StatusPartTwo, _ValueSTR, _Status)
-AND
-	HasActiveStatus(_Char, _Status, 0)
-AND
-	StringConcatenate("WotL_Ability_", _Ability, _Variable)
 THEN
-	SetVarInteger(_Char, _Variable, _Value);
-	NOT DB_WotL_BlacklistVariableStatuses(_Status);
-	DB_WotL_BlacklistVariableStatuses(_Status);
-	ApplyStatus(_Char, _Status, -1.0, 1);
+	NRD_LuaCall("WotL_SetAbilityStatus", (STRING)_Char);
 //END_REGION
+
+IF
+	TextEventSet("WotL_LuaReset")
+THEN
+	NRD_LuaReset(1);
 EXITSECTION
 
 ENDEXITSECTION

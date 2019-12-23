@@ -15,87 +15,6 @@ ACTIONS
 		SetVar(__Me, "WotL_PreDamageArmor", _Armor)
 	ENDIF
 
-EVENT WotL_ArmorAbsorption
-VARS
-	DAMAGE: _Type
-	FLOAT: _PreArmor
-	FLOAT: _NewArmor
-	FLOAT: _CurrentHP
-	FLOAT: _MaxHP
-	FLOAT: _DamageToHP
-ON
-	OnDamage(_Type, _, _, _)
-ACTIONS
-	IF "(c1|c2|c3|c4|c5|c6|c7)" //&!c8
-		IsEqual(_Type, Chaos)
-		IsEqual(_Type, Fire)
-		IsEqual(_Type, Air)
-		IsEqual(_Type, Water)
-		IsEqual(_Type, Earth)
-		IsEqual(_Type, Poison)
-		IsEqual(_Type, Magic)
-		//CharacterHasTalent(__Me, "ArmorSpecialityTalentCodeName")
-	THEN
-		IF "c1&c2&c3&c4"
-			GetVar(_PreArmor, __Me, "WotL_PreDamageArmor")
-			CharacterGetStat(_NewArmor, __Me, MagicArmorPoints)
-			CharacterGetStat(_CurrentHP, __Me, VitalityPoints)
-			CharacterGetStat(_MaxHP, __Me, VitalityMax)
-		THEN
-			Set(_DamageToHP, _PreArmor)
-			Subtract(_DamageToHP, _NewArmor)
-			
-			IF "c1"
-				IsGreaterThen(_DamageToHP, FLOAT:0.0)
-			THEN
-				Multiply(_DamageToHP, FLOAT: 0.5)
-				Subtract(_CurrentHP, _DamageToHP)
-				Divide(_CurrentHP, _MaxHP)
-				
-				SetHealth(__Me, _CurrentHP)
-			ENDIF
-			/*
-			IF "c1&c2"
-				IsEqual(_Type, Magic)
-				IsEqual(_NewArmor, FLOAT: 0.0)
-			THEN
-				SetVar(__Me, "WotL_ArmorHitHP", _CurrentHP)
-			ENDIF
-			*/
-		ENDIF
-	ENDIF
-
-EVENT WotL_PiercingDamage
-VARS
-	FLOAT: _Damage
-	FLOAT: _Armor
-	FLOAT: _MaxArmor
-	FLOAT: _MaxHP
-ON
-	OnDamage(Piercing, _Damage, _, _)
-ACTIONS
-	IF "c1&c2&c3&c4&c5"
-		IsGreaterThen(_Damage, FLOAT: 0.0)
-		CharacterGetStat(_Armor, __Me, MagicArmorPoints)
-		IsGreaterThen(_Armor, FLOAT: 0.0)
-		CharacterGetStat(_MaxArmor, __Me, MagicArmorMax)
-		CharacterGetStat(_MaxHP, __Me, VitalityMax)
-	THEN
-		Multiply(_Damage, _MaxHP)
-		Subtract(_Armor, _Damage)
-		Divide(_Armor, _MaxArmor)
-		Multiply(_Armor, FLOAT: 100.0)
-		
-		IF "c1"
-			IsLessThen(_Armor, FLOAT: 0.0)
-		THEN
-			Set(_Armor, FLOAT: 0.0)
-		ENDIF
-		
-		SetVar(__Me, "WotL_SetArmorPercentage", _Armor)
-		CharacterEvent(__Me, "WotL_SetArmorPercentage")
-	ENDIF
-
 EVENT WotL_ArmorDamage
 VARS
 	FLOAT: _Damage
@@ -108,7 +27,7 @@ VARS
 	STRING: _Text
 	FIXEDSTRING: _FinalText
 ON
-	OnDamage(Magic, _Damage, _, _)
+	//OnDamage(Magic, _Damage, _, _)
 ACTIONS
 	IF "c1&c2&c3&c4&c5"
 		GetVar(_PreArmor, __Me, "WotL_PreDamageArmor")

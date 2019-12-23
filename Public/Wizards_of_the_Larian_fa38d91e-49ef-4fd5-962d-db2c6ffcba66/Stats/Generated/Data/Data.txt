@@ -24,7 +24,7 @@ key "DamageBoostFromAttribute","0"
 
 key "DodgingBoostFromAttribute","0.02"
 
-key "ArmorToVitalityRatio","0.3"
+key "ArmorToVitalityRatio","0.55"
 
 key "ArmorRingPercentage","0"
 

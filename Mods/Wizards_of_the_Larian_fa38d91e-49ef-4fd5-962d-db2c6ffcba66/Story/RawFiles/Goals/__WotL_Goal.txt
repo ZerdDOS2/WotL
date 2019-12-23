@@ -2,6 +2,7 @@ Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
 WotL_Start_Internal_CompleteIfStarted();
+
 KBSECTION
 IF
 	GameEventSet("GAMEEVENT_GameStarted")

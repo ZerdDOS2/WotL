@@ -1,0 +1,7 @@
+new entry "WotL_REFRESHER"
+type "StatusData"
+data "StatusType" "MUTED"
+data "ForGameMaster" "No"
+data "InitiateCombat" "No"
+data "FormatColor" "Red"
+
