@@ -1,0 +1,102 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+//DB_WotL_BlacklistedSummons((STRING)_Skill);
+DB_WotL_BlacklistedSummons("Target_BloatedCorpse");
+
+KBSECTION
+//REGION Summon extended lifetime and CD blocking
+// The idea is to listen to skills being cast while also listening for summons spawning.
+// If a summon spawns close to a skill being cast, it's assumed the summon was spawned by
+// that skill. Thus, while in combat, the skill is kept on full cooldown, being allowed to
+// refresh only when outside combat or when the summon dies.
+// Thanks Kalavinka for having this idea and helping/listening to the issues related to
+// other solutions I proposed.
+
+// Saves any used skill on the DB_WotL_PotentialSummonSkill. If a summon is identified as
+// being spawned in the next 2000 ms, it's assumed it's derived from that skill
+// Placing the skill on DB_WotL_BlacklistedSummons blocks this functionality
+IF
+    CharacterUsedSkill(_Summoner, _Skill, _, _)
+AND
+    NOT DB_WotL_BlacklistedSummons(_Skill)
+THEN
+    DB_WotL_PotentialSummonSkill(_Summoner, _Skill);
+    ProcObjectTimer(_Summoner, "WotL_PotentialSummonSkill", 2000);
+
+// Clears the DB_WotL_PotentialSummonSkill after the time has passed
+PROC
+    ProcObjectTimerFinished((CHARACTERGUID)_Summoner, "WotL_PotentialSummonSkill")
+AND
+    DB_WotL_PotentialSummonSkill(_Summoner, _Skill)
+THEN
+    NOT DB_WotL_PotentialSummonSkill(_Summoner, _Skill);
+
+// Catches any non-totem summon spawned and link it to the skill that summoned it,
+// saving it on the DB_WotL_SummonKeepCooldown
+IF
+    CharacterStatusApplied(_Summon, "SUMMONING_ABILITY", _)
+AND
+    CharacterIsSummon(_Summon, 1)
+AND
+    NOT NRD_CharacterGetInt(_Summon, "Totem", 1)
+AND
+    CharacterGetOwner(_Summon, _Summoner)
+AND
+    DB_WotL_PotentialSummonSkill(_Summoner, _Skill)
+AND
+    NRD_SkillGetCooldown(_Summoner, _Skill, _Cooldown)
+THEN
+    CharacterSetSummonLifetime(_Summon, -1);
+    PROC_WotL_GiveUnsummonSkill(_Summoner);
+    NOT DB_WotL_PotentialSummonSkill(_Summoner, _Skill);
+    DB_WotL_SummonKeepCooldown(_Summoner, _Summon, _Skill, _Cooldown);
+
+// Resets the cooldown on a summon skill every turn start
+IF
+    ObjectTurnStarted((CHARACTERGUID)_Summoner)
+AND
+    DB_WotL_SummonKeepCooldown(_Summoner, _Summon, _Skill, _Cooldown)
+AND
+    NOT CharacterIsDead(_Summon, 1)
+THEN
+    PROC_WotL_SetCooldown(_Summoner, _Skill, _Cooldown);
+
+// Clears the DB_WotL_SummonKeepCooldown when the summon dies, so the cooldown
+// runs normally
+IF
+    CharacterDied(_Summon)
+AND
+    CharacterGetOwner(_Summon, _Summoner)
+AND
+    DB_WotL_SummonKeepCooldown(_Summoner, _Summon, _Skill, _Cooldown)
+THEN
+    NOT DB_WotL_SummonKeepCooldown(_Summoner, _Summon, _Skill, _Cooldown);
+    PROC_WotL_RemoveUnsummonSkill(_Summoner);
+//END_REGION
+
+//REGION Unsummon Skill
+// Gives the Unsummon skill upon gaining a summon
+PROC
+    PROC_WotL_GiveUnsummonSkill((CHARACTERGUID)_Summoner)
+AND
+    NOT CharacterHasSkill(_Summoner, "Target_WotL_Unsummon", 1)
+THEN
+    CharacterAddSkill(_Summoner, "Target_WotL_Unsummon");
+    ApplyStatus(_Summoner, "WotL_REFRESHER", 0.0, 1);
+
+// Removes the Unsummon skill when no summons are active
+PROC
+    PROC_WotL_RemoveUnsummonSkill((CHARACTERGUID)_Summoner)
+AND
+    NOT DB_WotL_SummonKeepCooldown(_Summoner, _, _, _)
+AND
+    CharacterHasSkill(_Summoner, "Target_WotL_Unsummon", 1)
+THEN
+    CharacterRemoveSkill(_Summoner, "Target_WotL_Unsummon");
+    ApplyStatus(_Summoner, "WotL_REFRESHER", 0.0, 1);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

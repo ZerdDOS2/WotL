@@ -25,7 +25,7 @@ data "RuneSlots_V1" "3"
 new entry "_Boost_WotL_Cheat_Overhead_Global"
 type "Armor"
 using "_BOOSTS_Armor"
-data "Talents" "QuickStep;ViolentMagic"
+data "Talents" "QuickStep;ViolentMagic;AttackOfOpportunity"
 
 new entry "_Boost_WotL_Cheat_Overhead_Player"
 type "Armor"

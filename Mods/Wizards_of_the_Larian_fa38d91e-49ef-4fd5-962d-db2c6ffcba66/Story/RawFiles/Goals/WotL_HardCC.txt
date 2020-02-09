@@ -1,0 +1,28 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Remove Incapacitaded Statuses
+// IF
+//     ObjectTurnStarted(_Char)
+// THEN
+//     NRD_IterateStatuses(_Char, "WotL_IteratingIncapacitadedStatuses");
+
+// IF
+//     NRD_StatusIteratorEvent("WotL_IteratingIncapacitadedStatuses", _Char, _StatusID, _StatusHandle)
+// AND
+//     NRD_StatGetString(_StatusID, "StatusType", "INCAPACITATED")
+// THEN
+//     NRD_DebugLog(_StatusID);
+//     RemoveStatus(_Char, _StatusID);
+
+// IF
+//     NRD_OnActionStateEnter(_Char, _Action)
+// THEN
+//     CharacterStatusText(_Char, _Action);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

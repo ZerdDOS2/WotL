@@ -31,7 +31,7 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="_Boost_WotL_Cheat_Overhead_Global" />
         <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_BOOSTS_Armor" />
-        <field name="Talents" type="StringStatObjectFieldDefinition" value="QuickStep;ViolentMagic" />
+        <field name="Talents" type="StringStatObjectFieldDefinition" value="QuickStep;ViolentMagic;AttackOfOpportunity" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

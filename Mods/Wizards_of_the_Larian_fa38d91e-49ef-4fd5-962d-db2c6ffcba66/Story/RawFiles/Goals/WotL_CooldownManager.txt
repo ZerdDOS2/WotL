@@ -1,0 +1,26 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION Cooldown Manager
+// Resets the cooldown of a skill before applying the desired cooldown so it displays correctly
+PROC
+    PROC_WotL_SetCooldown((CHARACTERGUID)_Char, (STRING)_Skill, (REAL)_Cooldown)
+THEN
+    NRD_SkillSetCooldown(_Char, _Skill, 0.0);
+    DB_WotL_SkillToResetCD(_Char, _Skill, _Cooldown);
+    ProcObjectTimer(_Char, "WotL_SkillResetCooldown", 100);
+
+PROC
+    ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_SkillResetCooldown")
+AND
+    DB_WotL_SkillToResetCD(_Char, _Skill, _Cooldown)
+THEN
+    NRD_SkillSetCooldown(_Char, _Skill, _Cooldown);
+    NOT DB_WotL_SkillToResetCD(_Char, _Skill, _Cooldown);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

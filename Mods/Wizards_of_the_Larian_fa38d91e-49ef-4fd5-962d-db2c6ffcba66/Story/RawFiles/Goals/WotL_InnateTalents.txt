@@ -4,6 +4,7 @@ INITSECTION
 //DB_WotL_InnateTalents((STRING)_Talent);
 DB_WotL_InnateTalents("QuickStep");
 DB_WotL_InnateTalents("ViolentMagic");
+DB_WotL_InnateTalents("AttackOfOpportunity");
 KBSECTION
 //REGION Adds the innate talents through an overhead item
 IF
