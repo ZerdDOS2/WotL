@@ -1,6 +1,7 @@
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_Abilities.lua")
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_ArmorSpeciality.lua")
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_Attributes.lua")
+Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_Backstab.lua")
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_CustomHitChance.lua")
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_MagicArtifacts.lua")
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_PhysicalDamage.lua")
