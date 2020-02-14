@@ -5,6 +5,7 @@ Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_B
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_CustomHitChance.lua")
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_MagicArtifacts.lua")
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_PhysicalDamage.lua")
+Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_Resistances.lua")
 Ext.Require("Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66","WotL_StatusEnterChance.lua")
 
 local gameSessionLoad = function ()
