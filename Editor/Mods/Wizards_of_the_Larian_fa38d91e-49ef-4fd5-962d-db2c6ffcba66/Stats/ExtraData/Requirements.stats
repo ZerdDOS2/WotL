@@ -24,5 +24,11 @@
         <field name="Requirements" type="StringStatObjectFieldDefinition" value="TALENT_LoneWolf" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="AttackOfOpportunity" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="TALENT_AttackOfOpportunity" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

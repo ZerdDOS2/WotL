@@ -6,3 +6,5 @@ requirement "ViolentMagic","TALENT_ViolentMagic"
 
 requirement "LoneWolf","TALENT_LoneWolf"
 
+requirement "AttackOfOpportunity","TALENT_AttackOfOpportunity"
+
