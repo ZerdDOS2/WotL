@@ -5,14 +5,14 @@ INITSECTION
 KBSECTION
 //REGION
 IF
-    NRD_OnStatusAttempt(_Target, _Status, _Handle, _Source)
+    CharacterStatusApplied(_Target, _Status, _)
 THEN
-    NRD_LuaCall("WotL_ResistancesInteraction", (STRING)_Target, _Status, (STRING)_Handle, (STRING)_Source);
+    NRD_LuaCall("WotL_ResistancesInteraction", (STRING)_Target, _Status);
 
 IF
     CharacterStatusRemoved(_Target, _Status, _)
 THEN
-    NRD_LuaCall("WotL_ResistancesRemoval", (STRING)_Target, _Status);
+    NRD_LuaCall("WotL_ResistancesInteraction", (STRING)_Target, _Status);
 //END_REGION
 
 

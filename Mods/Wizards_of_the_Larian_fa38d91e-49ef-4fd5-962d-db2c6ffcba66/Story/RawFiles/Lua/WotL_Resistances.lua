@@ -1,106 +1,104 @@
 ENUM_WotL_ResistanceStatuses = {
+    AirResistance = {"WotL_AirVulnerability", "WotL_AirResistance", "WotL_AirImmunity", "WotL_AirAbsorption"},
     EarthResistance = {"WotL_EarthVulnerability", "WotL_EarthResistance", "WotL_EarthImmunity", "WotL_EarthAbsorption"},
     FireResistance = {"WotL_FireVulnerability", "WotL_FireResistance", "WotL_FireImmunity", "WotL_FireAbsorption"},
+    PoisonResistance = {"WotL_PoisonVulnerability", "WotL_PoisonResistance", "WotL_PoisonImmunity", "WotL_PoisonAbsorption"},
+    WaterResistance = {"WotL_WaterVulnerability", "WotL_WaterResistance", "WotL_WaterImmunity", "WotL_WaterAbsorption"},
 }
 
--- If the status is one of the resistance changing statuses, it'll return the
--- associated resistance and the type of status based on the following relation
--- 1: Vulnerability
--- 2: Resistance
--- 3: Immunity
--- 4: Absorption
+-- If the status is one of the resistance changing statuses, it'll return the associated resistance
 function WotL_IsResistanceStatus(status)
     for stat, statuses in pairs(ENUM_WotL_ResistanceStatuses) do
         for key, type in pairs (statuses) do
             if type == status then
-                return stat, key
+                return stat
             end
-        end
-    end
-end 
-
-function WotL_ResistancesInteraction(target, status, handle, source)
-    local stat, type = WotL_IsResistanceStatus(status)
-    if stat ~= nil then
-        local resistance = NRD_CharacterGetComputedStat(target, stat, 1)
-        local delta = 0
-        NRD_DebugLog("Type: " .. tostring(type))
-        NRD_DebugLog("Resistance to " .. stat .. ": " .. tostring(resistance))
-        
-        -- Type 1 means applying vulnerability
-        if type == 1 then
-            -- Applying vulnerability to a regular character applies vulnerability (-50)
-            if resistance > -50 and resistance <= 0 then
-                delta = - 50 - resistance
-            -- Applying vulnerability to a resistant target cancels the resistance (0)
-            elseif resistance > 0 and resistance <= 50 then
-                delta = - resistance
-                
-            -- The following rules can be implementend with the talent Bender
-            -- Bender: Applying vulnerability to a immune character makes it resistant (50)
-            -- else if resistance <= 100  then
-            --     delta = 50 - resistance
-            -- Bender: Applying vulnerability to a absorbing character makes it immune (100)
-            -- else
-            --     delta = 100 - resistance
-            end
-        -- Type 2 means applying resistance
-        elseif type == 2 then
-            -- Applying resistance to a vulnerable target cancels the vulnerability (0)
-            if resistance < 0 then
-                delta = - resistance
-            -- Applying resistance to a regular character applies resistance (50)
-            elseif resistance < 50 then
-                delta = 50 - resistance
-            end
-
-        -- Type 3 means applying invulnerability
-        elseif type == 3 then
-            -- Applying invulnerability to character with up to resistance applies invulnerability (100)
-            if resistance < 100 then
-                delta = 100 - resistance
-            end
-            
-        -- Type 4 means applying absorption
-        elseif type == 4 then
-            -- Applying absorption to a character with up to invulnerability applies absorption (200)
-            if resistance < 200 then
-                delta = 200 - resistance
-            end
-        end
-
-        NRD_DebugLog("Delta: " .. tostring(delta))
-
-        if delta ~= 0 then
-            local boost = NRD_CharacterGetPermanentBoostInt(target, stat)
-            boost = boost + delta
-            NRD_CharacterSetPermanentBoostInt(target, stat, boost)
-            CharacterAddAttribute(target, "Dummy", 0)
-        -- If delta wasn't set, the status was blocked by an interaction of resistances
-        -- Extra check to not block status renovation
-        elseif not bool(HasActiveStatus(target, status)) then
-            NRD_StatusPreventApply(target, handle, 1)
         end
     end
 end
 
-function WotL_ResistancesRemoval(target, status)
-    local stat, type = WotL_IsResistanceStatus(status)
-    if stat ~= nil then
-        -- Check if the target has any other resistance related status
-        local hasStatus = false
-        for key, statuses in pairs(ENUM_WotL_ResistanceStatuses[stat]) do
-            if bool(HasActiveStatus(target, statuses)) then
-                NRD_DebugLog("there")
-                hasStatus = true
-                break
+-- Calculates the final resistance a character must have considering the innate resistances and the statuses currently applied
+function WotL_CalculateFinalResistance(target, stat, original)
+    local statuses = ENUM_WotL_ResistanceStatuses[stat]
+    local hasAbsorption = bool(HasActiveStatus(target, statuses[4]))
+    local hasImmunity = bool(HasActiveStatus(target, statuses[3]))
+    local hasResistance = bool(HasActiveStatus(target, statuses[2]))
+    local hasVulnerability = bool(HasActiveStatus(target, statuses[1]))
+
+    local final = 0
+    local bender = false
+    -- If Vulnerability is applied by a character with the Bender talent, Absorption and Immunity behaves differently
+    if hasVulnerability then
+        local handle = NRD_StatusGetHandle(target, statuses[1])
+        local source = NRD_StatusGetGuidString(target, handle, "StatusSourceHandle")
+        if source ~= nil then
+            if bool(CharacterHasTalent(source, "WotL_Bender_Placeholder")) then -- TODO: Add the Talent Code Name for Bender
+                bender = true
             end
         end
+    end
 
-        -- In case there's no resistance related status, remove the boost
-        if not hasStatus then
-            NRD_DebugLog("here")
-            NRD_CharacterSetPermanentBoostInt(target, stat, 0)
+    -- If the target has Absorption or naturally absorbs, it rounds to 200
+    if hasAbsorption or original >= 150 then
+        final = 200
+        if bender then
+            final = 100
+        end
+    
+    -- If the target has Immunity or is naturally immune, it rounds to 100
+    elseif hasImmunity or original >= 75 then
+        final = 100
+        if bender then
+            final = 50
+        end
+    
+    -- Target with only Resistance and no other status
+    elseif hasResistance and not hasVulnerability then
+        -- A resistance lower or equal to -25 is considered an innate Vulnerability, which cancels the Resistance
+        if original <= -25 then
+            final = 0
+        else
+            final = 50
+        end
+    
+    -- Target with only Vulnerability and no other status
+    elseif hasVulnerability and not hasResistance then
+        -- A resistance higher or equal to 25 is considered an innate Resistance, which cancels the Vulnerability
+        if original >= 25 then
+            final = 0
+        else
+            final = -50
+        end
+    
+    -- Target either has both Resistance and Vulnerability or none
+    else
+        -- A resistance higher or equal 25 is considered an innate Resistance
+        if original >= 25 then
+            final = 50
+        elseif original > -25 then
+            final = 0
+        -- A resistance lower or equal -25 is considered an innate Vulnerability
+        else
+            final = -50
+        end
+    end
+
+    return final
+end
+
+-- Sets the proper resistance boost to achieve the final resistance calculated
+function WotL_ResistancesInteraction(target, status)
+    local stat = WotL_IsResistanceStatus(status)
+    if stat ~= nil then
+        local resistance = NRD_CharacterGetComputedStat(target, stat, 1)
+        local boost = NRD_CharacterGetPermanentBoostInt(target, stat)
+        local original = resistance - boost
+
+        local final = WotL_CalculateFinalResistance(target, stat, original)
+        local newBoost = final - original
+
+        if newBoost ~= boost then
+            NRD_CharacterSetPermanentBoostInt(target, stat, newBoost)
             CharacterAddAttribute(target, "Dummy", 0)
         end
     end
