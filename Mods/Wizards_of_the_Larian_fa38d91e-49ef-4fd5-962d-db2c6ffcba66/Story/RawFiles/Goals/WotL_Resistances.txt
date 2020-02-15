@@ -1,0 +1,22 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION
+IF
+    CharacterStatusApplied(_Target, _Status, _)
+THEN
+    NRD_LuaCall("WotL_ResistancesInteraction", (STRING)_Target, _Status);
+
+IF
+    CharacterStatusRemoved(_Target, _Status, _)
+THEN
+    NRD_LuaCall("WotL_ResistancesInteraction", (STRING)_Target, _Status);
+//END_REGION
+
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

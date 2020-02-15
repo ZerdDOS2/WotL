@@ -31,7 +31,7 @@
         <field name="PiercingResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="PhysicalResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="CriticalChance" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Penalty Qualifier" />
-        <field name="MaxResistance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="MaxResistance" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -97,7 +97,7 @@
         <field name="PiercingResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="PhysicalResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="CriticalChance" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Penalty Qualifier" />
-        <field name="MaxResistance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="MaxResistance" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -219,7 +219,7 @@
         <field name="PiercingResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="PhysicalResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="CriticalChance" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Penalty Qualifier" />
-        <field name="MaxResistance" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="MaxResistance" type="IntegerStatObjectFieldDefinition" value="200" />
         <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="0" />
