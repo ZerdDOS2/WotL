@@ -93,14 +93,17 @@
 
 
 	<content titleid="Talents"></content>
-	<content contentuid="ha323378egb5f6g451cg858dged752a3540ca">[1] gives you the ability to perform attacks of opportunity.</content><comment>Opportunist Description</comment>
 
 	<content titleid="Innate Talents"></content>
-	<content contentuid="h91a3adcbg43d8g4d85ga819gffe52d51a629">[1] permits your character [2] AP worth of free movement per turn. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent.&lt;/font&gt;</content><comment>The Pawn Description</comment>
-	<content contentuid="h90812fdfg4f53g49afg8a97g42aefdeb508c">[1] gives all magical skills a critical chance equal to your critical chance score. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent.&lt;/font&gt;</content><comment>Savage Sortilege Description</comment>
+	<content contentuid="h01248cafga159g43aaga826g214fd84dde62">&lt;font color='#666666'&gt;(Innate) The Pawn&lt;/font&gt;</content><comment>The Pawn Name</comment>
+	<content contentuid="h91a3adcbg43d8g4d85ga819gffe52d51a629">The Pawn permits your character [2] AP worth of free movement per turn. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent. It is automatically assigned for all Characters.&lt;/font&gt;</content><comment>The Pawn Description</comment>
+	<content contentuid="hfb87cc03g1dc0g4095g93efg0becba59f352">&lt;font color='#666666'&gt;(Innate) Savage Sortilege&lt;/font&gt;</content><comment>Savage Sortilege Name</comment>
+	<content contentuid="h90812fdfg4f53g49afg8a97g42aefdeb508c">Savage Sortilege gives all magical skills a critical chance equal to your critical chance score. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent. It is automatically assigned for all Characters.&lt;/font&gt;</content><comment>Savage Sortilege Description</comment>
+	<content contentuid="ha6916b7cg086eg4d2dgb30ag80c997699e8a">&lt;font color='#666666'&gt;(Innate) Opportunist&lt;/font&gt;</content><comment>Opportunist Name</comment>
+	<content contentuid="ha323378egb5f6g451cg858dged752a3540ca">Opportunist gives you the ability to perform attacks of opportunity. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent. It is automatically assigned for all Characters.&lt;/font&gt;</content><comment>Opportunist Description</comment>
 
 	<content titleid="Removed Talents"></content>
-	<content contentuid="hbaf5c48eg86eeg4947gb884g6508d4dbd1fe">Vanilla's Lone Wolf is no longer available</content><comment>Vanilla Lone Wolf Description</comment>
+	<content contentuid="hbaf5c48eg86eeg4947gb884g6508d4dbd1fe">Vanilla's Lone Wolf is no longer available!</content><comment>Vanilla Lone Wolf Description</comment>
 	
 
 	<comment>

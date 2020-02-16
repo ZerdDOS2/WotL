@@ -1,4 +1,4 @@
-function CustomGetHitChance_WotL(attacker, target)
+function WotL_CustomGetHitChance(attacker, target)
     local dodge = target.Dodge
     local accuracy = attacker.Accuracy
 

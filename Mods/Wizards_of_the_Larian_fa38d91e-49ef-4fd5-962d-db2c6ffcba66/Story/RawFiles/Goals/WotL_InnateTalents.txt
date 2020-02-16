@@ -15,10 +15,11 @@ AND
 AND
 	NOT IsTagged(_Char, "WotL_HasInnateTalents", 1)
 THEN
-	ProcObjectTimer(_Char, "WotL_AddInnateTalents", 1000);
+	PROC_WotL_AddInnateTalents(_Char);
+	ProcObjectTimer(_Char, "WotL_FinalizeInnateTalents", 1000);
 
 PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_AddInnateTalents")
+	PROC_WotL_AddInnateTalents((CHARACTERGUID)_Char)
 AND
 	DB_WotL_InnateTalents(_Talent)
 AND
