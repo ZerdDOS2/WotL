@@ -15,8 +15,6 @@ AND
 THEN
 	NRD_LuaCall("WotL_Backstab", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
 //END_REGION
-
-
 EXITSECTION
 
 ENDEXITSECTION

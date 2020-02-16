@@ -49,11 +49,15 @@ THEN
 
 IF
 	ItemEquipped(_, _Char)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 
 IF
 	ItemUnEquipped(_, _Char)
+AND
+	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 //END_REGION

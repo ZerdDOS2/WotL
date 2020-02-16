@@ -5,99 +5,35 @@ INITSECTION
 DB_WotL_InnateTalents("QuickStep");
 DB_WotL_InnateTalents("ViolentMagic");
 DB_WotL_InnateTalents("AttackOfOpportunity");
+
 KBSECTION
-//REGION Adds the innate talents through an overhead item
+//REGION Adds the innate talents
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 AND
 	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 AND
-	IsTagged(_Char, "WotL_HasInnateTalents", 0)
-AND
-	CharacterIsDead(_Char, 0)
-AND
-	NOT DB_WotL_BlacklistOverhead(_Char)
+	NOT IsTagged(_Char, "WotL_HasInnateTalents", 1)
 THEN
-	DB_WotL_BlacklistOverhead(_Char);
-	ProcObjectTimer(_Char, "WotL_AddOverheadItemsFailsafe", 1000);
+	PROC_WotL_AddInnateTalents(_Char);
+	ProcObjectTimer(_Char, "WotL_FinalizeInnateTalents", 1000);
 
 PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_AddOverheadItemsFailsafe")
-THEN
-	ItemTemplateAddTo("EQ_WotL_Cheat_Overhead_3d42ed34-7b5b-40fc-b19b-04c335a2e113", _Char, 1, 0);
-	ProcObjectTimer(_Char, "WotL_Clear_BlacklistOverhead", 1000);
-
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_Clear_BlacklistOverhead")
-AND
-	DB_WotL_BlacklistOverhead(_Char)
-THEN
-	NOT DB_WotL_BlacklistOverhead(_Char);
-
-IF
-	ItemAddedToCharacter(_Item, _Char)
-AND
-	GetTemplate(_Item, _Template)
-AND
-	_Template == "EQ_WotL_Cheat_Overhead_3d42ed34-7b5b-40fc-b19b-04c335a2e113"
-THEN
-	CharacterEquipItem(_Char, _Item);
-	DB_WotL_OverheadCheatItem(_Char, _Item);
-	ProcObjectTimer(_Char, "WotL_PrepareToAddRunes", 10);
-
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_PrepareToAddRunes")
+	PROC_WotL_AddInnateTalents((CHARACTERGUID)_Char)
 AND
 	DB_WotL_InnateTalents(_Talent)
 AND
-	CharacterIsPlayer(_Char, 1)
-AND
-	CharacterHasTalent(_Char, _Talent, 0)
+	NOT CharacterHasTalent(_Char, _Talent, 1)
 THEN
-	CharacterAddTalent(_Char, _Talent);
+	NRD_CharacterSetPermanentBoostTalent(_Char, _Talent, 1);
+	CharacterAddAttribute(_Char, "Dummy", 0); // Force PlayerUpgrade sync
 
 PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_PrepareToAddRunes")
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_FinalizeInnateTalent")
 AND
-	DB_WotL_OverheadCheatItem(_Char, _Item)
-THEN
-	ItemInsertRune(_Char, _Item, "WotL_Rune_Overhead_Global_a9d47ae6-d59d-4e4c-b00c-dacb0f884ac6", 0);
-	ProcObjectTimer(_Char, "WotL_PrepareToAddPlayerRunes", 10);
-
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_PrepareToAddPlayerRunes")
-AND
-	DB_WotL_OverheadCheatItem(_Char, _Item)
-AND
-	CharacterIsPlayer(_Char, 1)
-THEN
-	ItemInsertRune(_Char, _Item, "WotL_Rune_Overhead_Player_a80b2372-ca77-4271-84b1-72fa872199b2", 1);
-	NOT DB_WotL_OverheadCheatItem(_Char, _Item);
-
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_PrepareToAddPlayerRunes")
-AND
-	DB_WotL_OverheadCheatItem(_Char, _Item)
-AND
-	CharacterIsPlayer(_Char, 0)
-THEN
-	NOT DB_WotL_OverheadCheatItem(_Char, _Item);
-//END_REGION
-
-//REGION Tags characters with the Overhead Item
-IF
-	CharacterStatusApplied(_Char, "WotL_HasInnateTalents", _)
-AND
-	IsTagged(_Char, "WotL_HasInnateTalents", 0)
+	NOT IsTagged(_Char, "WotL_HasInnateTalents", 1)
 THEN
 	SetTag(_Char, "WotL_HasInnateTalents");
-
-IF
-	CharacterStatusRemoved(_Char, "WotL_HasInnateTalents", _)
-AND
-	IsTagged(_Char, "WotL_HasInnateTalents", 1)
-THEN
-	ClearTag(_Char, "WotL_HasInnateTalents");
 //END_REGION
 EXITSECTION
 

@@ -14,8 +14,6 @@ IF
 THEN
     NRD_LuaCall("WotL_ResistancesInteraction", (STRING)_Target, _Status);
 //END_REGION
-
-
 EXITSECTION
 
 ENDEXITSECTION

@@ -10,7 +10,9 @@ function WotL_CheckMagicArtifact(char)
     local shieldStatsID, shieldSlotType
     if shieldSlot ~= nil then
         shieldStatsID = NRD_ItemGetStatsId(shieldSlot)
-        shieldSlotType = NRD_StatGetString(shieldStatsID, "WeaponType")
+        if NRD_StatGetType(shieldStatsID) == "Weapon" then
+            shieldSlotType = NRD_StatGetString(shieldStatsID, "WeaponType")
+        end
     end
 
     local hasMagicArtifact = false

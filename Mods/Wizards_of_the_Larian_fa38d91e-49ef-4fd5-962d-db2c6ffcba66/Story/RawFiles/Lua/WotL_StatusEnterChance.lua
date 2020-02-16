@@ -1,4 +1,4 @@
-function CustomStatusGetEnterChance_WotL(status, useCharacterStats)
+function WotL_CustomStatusGetEnterChance(status, useCharacterStats)
     if status.ForceStatus then
         return 100
     end

@@ -1,8 +1,10 @@
-requirement "QuickStep","TALENT_QuickStep"
+requirement "QuickStep","Tag WotL_INNATE"
 
 requirement "Executioner",""
 
-requirement "ViolentMagic","TALENT_ViolentMagic"
+requirement "ViolentMagic","Tag WotL_INNATE"
 
-requirement "LoneWolf","TALENT_LoneWolf"
+requirement "LoneWolf","Tag WotL_DEACTIVATED"
+
+requirement "AttackOfOpportunity","Tag WotL_INNATE"
 
