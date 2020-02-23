@@ -9,7 +9,7 @@ ENUM_WotL_ResistanceStatuses = {
 -- If the status is one of the resistance changing statuses, it'll return the associated resistance
 function WotL_IsResistanceStatus(status)
     for stat, statuses in pairs(ENUM_WotL_ResistanceStatuses) do
-        for key, type in pairs (statuses) do
+        for _, type in pairs (statuses) do
             if type == status then
                 return stat
             end
@@ -103,3 +103,21 @@ function WotL_ResistancesInteraction(target, status)
         end
     end
 end
+
+-- function WotL_ResistanceStatusHandler(target, status)
+--     NRD_DebugLog("Status: " .. tostring(status))
+--     local type = NRD_StatGetString(status, "StatusType")
+--     if type == "CONSUME" and not WotL_IsResistanceStatus(status) then
+--         local potion = NRD_StatGetString(status, "StatsId")
+--         NRD_DebugLog("Potion: " .. tostring(potion))
+--         if WotL_PotionResistanceTable[potion] ~= nil then
+--             local handle = NRD_StatusGetHandle(target, status)
+--             local source = NRD_StatusGetGuidString(target, handle, "StatusSourceHandle")
+--             local duration = NRD_StatusGetReal(target, handle, "CurrentLifeTime")
+--             for _, resistStatus in pairs(WotL_PotionResistanceTable[potion]) do
+--                 NRD_DebugLog("Status: " .. tostring(resistStatus))
+--                 ApplyStatus(target, resistStatus, duration, 1, source)
+--             end
+--         end
+--     end
+-- end

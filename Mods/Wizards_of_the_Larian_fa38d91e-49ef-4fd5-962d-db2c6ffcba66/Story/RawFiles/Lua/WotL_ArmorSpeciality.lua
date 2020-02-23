@@ -18,7 +18,7 @@ function WotL_ArmorSpeciality(char, handle)
         return
     end
     
-    for key, type in pairs(ENUM_WotL_ArmorSpecialityDamageTypes) do
+    for _, type in pairs(ENUM_WotL_ArmorSpecialityDamageTypes) do
         local damage = NRD_HitStatusGetDamage(char, handle, type)
         if damage ~= 0 then
             local reduction = - math.floor(damage * speciality * 0.1)

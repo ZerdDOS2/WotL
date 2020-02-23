@@ -3,7 +3,14 @@ SubGoalCombiner SGC_AND
 INITSECTION
 
 KBSECTION
-//REGION
+//REGION Statuses Handler
+// IF
+//     CharacterStatusApplied(_Target, _Status, _)
+// THEN
+//     NRD_LuaCall("WotL_ResistanceStatusHandler", (STRING)_Target, _Status);
+//END_REGION
+
+//REGION Custom WotL Resistance Statuses Interaction Handler
 IF
     CharacterStatusApplied(_Target, _Status, _)
 THEN

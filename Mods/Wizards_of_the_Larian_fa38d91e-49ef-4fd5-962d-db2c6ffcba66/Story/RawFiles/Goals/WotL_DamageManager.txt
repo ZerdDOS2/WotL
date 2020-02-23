@@ -10,8 +10,15 @@ KBSECTION
 IF
 	NRD_OnPrepareHit(_, _, _, _Handle)
 THEN
-	NRD_LuaCall("WotL_PhysicalDamage", (STRING)_Handle);
+	NRD_LuaCall("WotL_DamageConverter", (STRING)_Handle);
 //END_REGION
+
+// Magic Armor damage dealt directly to HP is divided by half and applied
+// as Shadow damage to HP
+IF
+	NRD_OnHit(_Target, _, _, _Handle)
+THEN
+	NRD_LuaCall("WotL_ArmorDamageHandler", (STRING)_Target, (STRING)_Handle);
 
 //REGION Physical Armor to Magic Armor healing
 /*

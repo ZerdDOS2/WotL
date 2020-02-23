@@ -29,7 +29,7 @@ function WotL_Backstab(target, source, handle)
         isCritical = true
     end
 
-    for key, type in pairs(ENUM_WotL_AllDamageTypes) do
+    for _, type in pairs(ENUM_WotL_AllDamageTypes) do
         local damage = NRD_HitStatusGetDamage(target, handle, type)
         if damage ~= 0 then
             NRD_DebugLog("Damage Type: " .. type)

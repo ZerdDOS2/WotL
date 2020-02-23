@@ -4,7 +4,5 @@ requirement "Executioner",""
 
 requirement "ViolentMagic","Tag WotL_INNATE"
 
-requirement "LoneWolf","Tag WotL_DEACTIVATED"
-
 requirement "AttackOfOpportunity","Tag WotL_INNATE"
 
