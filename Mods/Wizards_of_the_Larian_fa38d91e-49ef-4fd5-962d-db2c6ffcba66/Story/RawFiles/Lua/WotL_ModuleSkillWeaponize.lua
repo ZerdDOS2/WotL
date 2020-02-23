@@ -8,7 +8,7 @@
 
 -- MARequirement = {["Requirement"] = "Tag", ["Not"] = false, ["Param"] = "WotL_MagicArtifactUser"}
 
--- Makes all skills scale on weapon damage
+-- Makes the skill scale on weapon damage
 function WotL_WeaponizeSkill(skill)
     -- local ability = Ext.StatGetAttribute(skill, "Ability")
     -- local damage = Ext.StatGetAttribute(skill, "Damage Multiplier")
@@ -17,7 +17,7 @@ function WotL_WeaponizeSkill(skill)
     -- Ext.Print("Old damage: " .. tostring(damage))
     -- Ext.Print("Ability: " .. tostring(ability))
     -- if damage ~= 0 and ENUM_WotL_MagicArtifactAbilities[ability] then
-        Ext.StatSetAttribute(skill, "UseWeaponDamage", 1)
+        Ext.StatSetAttribute(skill, "UseWeaponDamage", "Yes")
         -- local new = math.ceil(damage * 1.2)
         -- Ext.StatSetAttribute(skill, "Damage Multiplier", new)
         -- Ext.Print("New damage: " .. tostring(new))

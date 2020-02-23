@@ -20,12 +20,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="LoneWolf" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_DEACTIVATED" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="AttackOfOpportunity" />
         <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_INNATE" />
       </fields>

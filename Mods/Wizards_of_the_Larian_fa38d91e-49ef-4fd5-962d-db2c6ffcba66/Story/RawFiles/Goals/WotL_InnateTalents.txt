@@ -1,7 +1,7 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-//DB_WotL_InnateTalents((STRING)_Talent);
+// DB_WotL_InnateTalents((STRING)_Talent);
 DB_WotL_InnateTalents("QuickStep");
 DB_WotL_InnateTalents("ViolentMagic");
 DB_WotL_InnateTalents("AttackOfOpportunity");

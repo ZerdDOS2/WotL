@@ -11,6 +11,7 @@ function WotL_ChangeSkillMemorizationRequirements(skill, type)
                 r["Param"] = math.min(2*r["Param"], 5)
             end
         end
+        WotL_ModuleTPrint(memRequirements, "Skill")
         Ext.StatSetAttribute(skill, "MemorizationRequirements", memRequirements)
     end
 end
