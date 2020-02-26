@@ -20,7 +20,7 @@
         <field name="APStart" type="IntegerStatObjectFieldDefinition" value="6" />
         <field name="APRecovery" type="IntegerStatObjectFieldDefinition" value="6" />
         <field name="MPStart" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="500" />
         <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="BigQualifier" />
         <field name="Sight" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Penalty Qualifier" />
         <field name="Hearing" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Penalty Qualifier" />
@@ -86,7 +86,7 @@
         <field name="APMaximum" type="IntegerStatObjectFieldDefinition" value="6" />
         <field name="APStart" type="IntegerStatObjectFieldDefinition" value="6" />
         <field name="APRecovery" type="IntegerStatObjectFieldDefinition" value="6" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="500" />
         <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="BigQualifier" />
         <field name="Sight" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Penalty Qualifier" />
         <field name="Hearing" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Penalty Qualifier" />
@@ -209,7 +209,7 @@
         <field name="APMaximum" type="IntegerStatObjectFieldDefinition" value="6" />
         <field name="APStart" type="IntegerStatObjectFieldDefinition" value="6" />
         <field name="APRecovery" type="IntegerStatObjectFieldDefinition" value="6" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="150" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="500" />
         <field name="Gain" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="BigQualifier" />
         <field name="Sight" type="EnumerationStatObjectFieldDefinition" value="11" enumeration_type_name="Penalty Qualifier" />
         <field name="Hearing" type="EnumerationStatObjectFieldDefinition" value="16" enumeration_type_name="Penalty Qualifier" />
@@ -311,7 +311,7 @@
         <field name="APMaximum" type="IntegerStatObjectFieldDefinition" value="6" />
         <field name="APStart" type="IntegerStatObjectFieldDefinition" value="6" />
         <field name="APRecovery" type="IntegerStatObjectFieldDefinition" value="6" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="180" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="600" />
         <field name="Hearing" type="EnumerationStatObjectFieldDefinition" value="21" enumeration_type_name="Penalty Qualifier" />
         <field name="PathInfluence" type="StringStatObjectFieldDefinition" value="Web,50;BloodCloudCursed,50;BloodCloudElectrified,100;BloodCloudElectrifiedCursed,50;BloodCursed,50;BloodElectrified,100;BloodElectrifiedCursed,50;BloodFrozen,30;BloodFrozenCursed,50;Fire,70;FireCloud,70;FireCloudCursed,70;FireCursed,70;Lava,700;Oil,30;OilCursed,50;Poison,70;PoisonCloud,70;PoisonCloudCursed,70;PoisonCursed,70;SmokeCloudCursed,50;WaterCloudCursed,50;WaterCloudElectrified,100;WaterCloudElectrifiedCursed,100;WaterCursed,50;WaterElectrified,100;WaterElectrifiedCursed,100;WaterFrozen,30;WaterFrozenCursed,50;Deathfog,200;" />
       </fields>

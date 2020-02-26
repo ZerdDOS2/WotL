@@ -9,12 +9,12 @@ ENUM_WotL_ArmorSpecialityDamageTypes = {
 
 function WotL_ArmorSpeciality(char, handle)
     local armor = NRD_CharacterGetStatInt(char, "CurrentMagicArmor")
-    if armor == 0 then
+    if armor == 0 or armor == nil then
         return
     end
 
     local speciality = GetVarInteger(char, "WotL_Ability_ArmorSpeciality")
-    if speciality == 0 then
+    if speciality == 0 or speciality == nil then
         return
     end
     

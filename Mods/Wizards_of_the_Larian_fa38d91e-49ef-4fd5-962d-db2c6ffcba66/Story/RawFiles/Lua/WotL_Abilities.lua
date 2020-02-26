@@ -20,13 +20,13 @@ ENUM_WotL_AbilitiesNames = {
 
 function WotL_SetAbilityStatus(char)
     WotL_AddAbilityStatusesToBlacklist()
-    if not bool(ObjectGetFlag(char, "WotL_CharacterInitialized")) or bool(CharacterIsDead(char)) then
+    if not WotL_Bool(ObjectGetFlag(char, "WotL_CharacterInitialized")) or WotL_Bool(CharacterIsDead(char)) then
         return
     end
     for vanilla, ability in pairs(ENUM_WotL_AbilitiesNames) do
         local value = CharacterGetAbility(char, vanilla)
         local status = "WotL_" .. ability .. "_" .. tostring(value)
-        if not bool(HasActiveStatus(char, status)) then
+        if not WotL_Bool(HasActiveStatus(char, status)) then
             local variable = "WotL_Ability_" .. ability
             SetVarInteger(char, variable, value)
 

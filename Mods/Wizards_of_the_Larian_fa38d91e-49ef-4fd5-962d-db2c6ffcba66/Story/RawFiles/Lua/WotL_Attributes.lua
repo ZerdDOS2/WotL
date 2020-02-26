@@ -9,13 +9,13 @@ ENUM_WotL_AttributesNames = {
 
 function WotL_SetAttributeStatus(char)
     WotL_AddAttributeStatusesToBlacklist()
-    if not bool(ObjectGetFlag(char, "WotL_CharacterInitialized")) or bool(CharacterIsDead(char)) then
+    if not WotL_Bool(ObjectGetFlag(char, "WotL_CharacterInitialized")) or WotL_Bool(CharacterIsDead(char)) then
         return
     end
     for vanilla, attribute in pairs(ENUM_WotL_AttributesNames) do
         local value = CharacterGetAttribute(char, vanilla)
         local status = "WotL_" .. attribute .. "_" .. tostring(value)
-        if not bool(HasActiveStatus(char, status)) then
+        if not WotL_Bool(HasActiveStatus(char, status)) then
             local variable = "WotL_Attribute_" .. attribute
             SetVarInteger(char, variable, value)
 
