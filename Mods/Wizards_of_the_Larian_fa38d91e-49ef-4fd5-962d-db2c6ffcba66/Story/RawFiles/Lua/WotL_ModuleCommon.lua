@@ -18,9 +18,10 @@ function WotL_GetRootParent(stat)
     return stat
 end
 
-local ENUM_WotL_PrintTable = Set {
-    -- "Character",
-    "Potion",
+local ENUM_WotL_PrintTable = WotL_Set {
+    "Character",
+    -- "Object",
+    -- "Potion",
     -- "Skill",
     -- "Status",
     -- "Weapon",

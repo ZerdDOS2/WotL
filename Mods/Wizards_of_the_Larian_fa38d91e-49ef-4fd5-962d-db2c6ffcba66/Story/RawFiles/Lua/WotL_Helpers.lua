@@ -1,5 +1,5 @@
 -- Converts a string or number to a boolean
-function bool(v)
+function WotL_Bool(v)
     if type(v) == "string" then
         if v == "false" or v == "No" then
             return false
@@ -17,7 +17,7 @@ function bool(v)
 end
 
 -- Creates a Set from a list
-function Set(list)
+function WotL_Set(list)
     local set = {}
     for _, l in ipairs(list) do
         set[l] = true
@@ -26,7 +26,7 @@ function Set(list)
 end
 
 -- Prints a table recursively, identing basend on the value passed
-function tprint (tbl, indent)
+function WotL_TPrint(tbl, indent)
     if not indent then
         indent = 0
     end
@@ -34,7 +34,7 @@ function tprint (tbl, indent)
         local formatting = string.rep("  ", indent) .. k .. ": "
         if type(v) == "table" then
             Ext.Print(formatting)
-            tprint(v, indent+1)
+            WotL_TPrint(v, indent+1)
         elseif type(v) == 'boolean' then
             Ext.Print(formatting .. tostring(v))		
         else
@@ -44,6 +44,6 @@ function tprint (tbl, indent)
 end
 
 -- Truncates a number x to the specified decimal places n
-function truncate(x, n)
+function WotL_Truncate(x, n)
     return math.floor(x*10^n)/10^n
 end

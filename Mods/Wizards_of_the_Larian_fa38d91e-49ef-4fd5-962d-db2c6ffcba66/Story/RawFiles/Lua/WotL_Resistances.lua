@@ -20,10 +20,10 @@ end
 -- Calculates the final resistance a character must have considering the innate resistances and the statuses currently applied
 function WotL_CalculateFinalResistance(target, stat, original)
     local statuses = ENUM_WotL_ResistanceStatuses[stat]
-    local hasAbsorption = bool(HasActiveStatus(target, statuses[4]))
-    local hasImmunity = bool(HasActiveStatus(target, statuses[3]))
-    local hasResistance = bool(HasActiveStatus(target, statuses[2]))
-    local hasVulnerability = bool(HasActiveStatus(target, statuses[1]))
+    local hasAbsorption = WotL_Bool(HasActiveStatus(target, statuses[4]))
+    local hasImmunity = WotL_Bool(HasActiveStatus(target, statuses[3]))
+    local hasResistance = WotL_Bool(HasActiveStatus(target, statuses[2]))
+    local hasVulnerability = WotL_Bool(HasActiveStatus(target, statuses[1]))
 
     local final = 0
     local bender = false
@@ -32,7 +32,7 @@ function WotL_CalculateFinalResistance(target, stat, original)
         local handle = NRD_StatusGetHandle(target, statuses[1])
         local source = NRD_StatusGetGuidString(target, handle, "StatusSourceHandle")
         if source ~= nil then
-            if bool(CharacterHasTalent(source, "WotL_Bender_Placeholder")) then -- TODO: Add the Talent Code Name for Bender
+            if WotL_Bool(CharacterHasTalent(source, "WotL_Bender_Placeholder")) then -- TODO: Add the Talent Code Name for Bender
                 bender = true
             end
         end
