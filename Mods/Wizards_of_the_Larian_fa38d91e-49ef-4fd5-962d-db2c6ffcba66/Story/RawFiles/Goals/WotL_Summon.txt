@@ -22,7 +22,7 @@ AND
     NOT DB_WotL_BlacklistedSummons(_Skill)
 THEN
     DB_WotL_PotentialSummonSkill(_Summoner, _Skill);
-    ProcObjectTimer(_Summoner, "WotL_PotentialSummonSkill", 2000);
+    ProcObjectTimer(_Summoner, "WotL_PotentialSummonSkill", 3000);
 
 // Clears the DB_WotL_PotentialSummonSkill after the time has passed
 PROC
@@ -44,6 +44,8 @@ AND
     CharacterGetOwner(_Summon, _Summoner)
 AND
     DB_WotL_PotentialSummonSkill(_Summoner, _Skill)
+AND
+    CharacterHasSkill(_Summoner, _Skill, 1)
 AND
     NRD_SkillGetCooldown(_Summoner, _Skill, _Cooldown)
 THEN
@@ -73,6 +75,15 @@ AND
 THEN
     NOT DB_WotL_SummonKeepCooldown(_Summoner, _Summon, _Skill, _Cooldown);
     PROC_WotL_RemoveUnsummonSkill(_Summoner);
+
+// Removes the summon if the player unmemorizes the summon skill
+IF
+    SkillDeactivated(_Summoner, _Skill)
+AND
+    DB_WotL_SummonKeepCooldown(_Summoner, _Summon, _Skill, _Cooldown)
+THEN
+    NOT DB_WotL_SummonKeepCooldown(_Summoner, _Summon, _Skill, _Cooldown);
+    CharacterDie(_Summon, 0, "LifeTime");
 //END_REGION
 
 //REGION Unsummon Skill
@@ -95,6 +106,64 @@ AND
 THEN
     CharacterRemoveSkill(_Summoner, "Target_WotL_Unsummon");
     ApplyStatus(_Summoner, "WotL_REFRESHER", 0.0, 1);
+//END_REGION
+
+//REGION Infusion handler
+// Similarly to the CD handler, the idea is to listen to skill usage and save them if
+// they're considered linked to the status applied
+IF
+    CharacterUsedSkill(_Summoner, _Skill, _, _)
+THEN
+    DB_WotL_PotentialInfusionSkill(_Summoner, _Skill);
+    ProcObjectTimer(_Summoner, "WotL_PotentialInfusionSkill", 2000);
+
+// Clears the DB_WotL_PotentialInfusionSkill after the time has passed
+PROC
+    ProcObjectTimerFinished((CHARACTERGUID)_Summoner, "WotL_PotentialInfusionSkill")
+AND
+    DB_WotL_PotentialInfusionSkill(_Summoner, _Skill)
+THEN
+    NOT DB_WotL_PotentialInfusionSkill(_Summoner, _Skill);
+
+// If a permanent status has been applied to their own summon, assume it's an infusion
+// and saves it to DB_WotL_InfusionsKeepTrack
+IF
+    CharacterStatusApplied(_Summon, _Status, (CHARACTERGUID)_Summoner)
+AND
+    CharacterIsSummon(_Summon, 1)
+AND
+    CharacterGetOwner(_Summon, _Summoner)
+AND
+    NRD_StatusGetHandle(_Summon, _Status, _Handle)
+AND
+    NRD_StatusGetReal(_Summon, _Handle, "LifeTime", _LifeTime)
+AND
+    _LifeTime < 0.0
+AND
+    DB_WotL_PotentialInfusionSkill(_Summoner, _Skill)
+THEN
+    NOT DB_WotL_PotentialInfusionSkill(_Summoner, _Skill);
+    DB_WotL_InfusionsKeepTrack(_Summoner, _Summon, _Skill, _Status);
+
+// Unmemorizing the skill removes the status associated with it from
+// all summons
+IF
+    SkillDeactivated(_Summoner, _Skill)
+AND
+    DB_WotL_InfusionsKeepTrack(_Summoner, _Summon, _Skill, _Status)
+THEN
+    NOT DB_WotL_InfusionsKeepTrack(_Summoner, _Summon, _Skill, _Status);
+    RemoveStatus(_Summon, _Status);
+
+// Clears the DB_WotL_InfusionsKeepTrack when the summon dies
+IF
+    CharacterDied(_Summon)
+AND
+    CharacterGetOwner(_Summon, _Summoner)
+AND
+    DB_WotL_InfusionsKeepTrack(_Summoner, _Summon, _Skill, _Status)
+THEN
+    NOT DB_WotL_InfusionsKeepTrack(_Summoner, _Summon, _Skill, _Status);
 //END_REGION
 EXITSECTION
 

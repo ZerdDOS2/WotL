@@ -19,9 +19,11 @@ function WotL_GetRootParent(stat)
 end
 
 local ENUM_WotL_PrintTable = WotL_Set {
-    "Character",
+    -- "Armor",
+    -- "Character",
     -- "Object",
     -- "Potion",
+    -- "Shield",
     -- "Skill",
     -- "Status",
     -- "Weapon",
@@ -37,6 +39,6 @@ end
 -- Prints a table if the type is set
 function WotL_ModuleTPrint(table, type)
     if ENUM_WotL_PrintTable[type] then
-        tprint(table)
+        WotL_TPrint(table)
     end
 end

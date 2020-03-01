@@ -10,6 +10,8 @@ Ext.Require(WotL_Mod_GUID,"WotL_CustomHitChance.lua")
 -- Module Load Functions
 -- Common
 Ext.Require(WotL_Mod_GUID,"WotL_ModuleCommon.lua")
+-- Armor
+Ext.Require(WotL_Mod_GUID,"WotL_ModuleArmor.lua")
 -- Character
 Ext.Require(WotL_Mod_GUID,"WotL_ModuleCharacterEnum.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_ModuleCharacter.lua")
@@ -18,6 +20,8 @@ Ext.Require(WotL_Mod_GUID,"WotL_ModuleObject.lua")
 -- Potions
 Ext.Require(WotL_Mod_GUID,"WotL_ModulePotionEnum.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_ModulePotion.lua")
+-- Shields
+Ext.Require(WotL_Mod_GUID,"WotL_ModuleShield.lua")
 -- Skills
 Ext.Require(WotL_Mod_GUID,"WotL_ModuleSkillEnum.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_ModuleSkill.lua")
@@ -33,6 +37,8 @@ Ext.Require(WotL_Mod_GUID,"WotL_ArmorSpeciality.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_Attributes.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_Backstab.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_DamageManager.lua")
+Ext.Require(WotL_Mod_GUID,"WotL_LoneWolf.lua")
+Ext.Require(WotL_Mod_GUID,"WotL_MissingSkills.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_Resistances.lua")
 
 local WotL_GameSessionLoad = function ()
@@ -46,9 +52,11 @@ local WotL_ModuleLoad = function ()
     Ext.Print("          [WotL:Bootstrap.lua] Module Load Start")
     Ext.Print("===================================================================")
 
+    WotL_ModuleArmor()
     WotL_ModuleCharacter()
     WotL_ModuleObject()
     WotL_ModulePotion()
+    WotL_ModuleShield()
     WotL_ModuleSkill()
     WotL_ModuleStatus()
     WotL_ModuleWeapon()

@@ -12,7 +12,7 @@
 	<content contentuid="hbe8b28b6g4cfcg4bfag9214gadaae68895c7">Precision Lowered</content>
 	<content contentuid="hfbc938ceg297fg4232ga11dg3fe44985b9f8">Precision</content>
 	<content contentuid="h6b67efcagf943g43a1g959eg36f9ecc42e7e">Increases your Accuracy by 2% per point.</content><comment>Intelligence Description</comment>
-	<content contentuid="h6d2cd8aeg4e09g4003ga57cg3fea3a0f5502">Increases your Critical Chance by 2% per point. Also increases your ability to detect traps and find hidden treasures.</content><comment>Wits Description</comment>
+	<content contentuid="h6d2cd8aeg4e09g4003ga57cg3fea3a0f5502">Increases your Critical Chance by 2% per point and your Initiative by 1 per point. Also increases your ability to detect traps and find hidden treasures.</content><comment>Wits Description</comment>
 	<content contentuid="hd5dd26e5gadc6g40d9ga0c6g2ae909cbc842">+1 point = +[1]% Critical Chance.</content><comment>Wits Tooltip</comment>
 
 
@@ -103,7 +103,7 @@
 	<content contentuid="ha323378egb5f6g451cg858dged752a3540ca">Opportunist gives you the ability to perform attacks of opportunity. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent. It is automatically assigned for all Characters.&lt;/font&gt;</content><comment>Opportunist Description</comment>
 
 	<content titleid="Removed Talents"></content>
-	<content contentuid="hbaf5c48eg86eeg4947gb884g6508d4dbd1fe">Vanilla's Lone Wolf is no longer available!</content><comment>Vanilla Lone Wolf Description</comment>
+	<content contentuid="hbaf5c48eg86eeg4947gb884g6508d4dbd1fe">&lt;font color="#f7ba14"&gt;This bonuses are applied automatically, without needing to possess the talent.&lt;/font&gt;&lt;br /&gt;Lone Wolf provides +2 Max, Starting and Recovery AP, +30% Vitality and Armor, and doubles invested points in attributes. This bonus is temporarily removed while there are more than two members in the current party.</content><comment>Lone Wolf Description</comment>
 	
 
 	<comment>

@@ -24,5 +24,11 @@
         <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_INNATE" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="LoneWolf" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_REMOVED" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

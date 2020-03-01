@@ -8,7 +8,6 @@ ENUM_WotL_AttributesNames = {
 }
 
 function WotL_SetAttributeStatus(char)
-    WotL_AddAttributeStatusesToBlacklist()
     if not WotL_Bool(ObjectGetFlag(char, "WotL_CharacterInitialized")) or WotL_Bool(CharacterIsDead(char)) then
         return
     end
@@ -18,9 +17,6 @@ function WotL_SetAttributeStatus(char)
         if not WotL_Bool(HasActiveStatus(char, status)) then
             local variable = "WotL_Attribute_" .. attribute
             SetVarInteger(char, variable, value)
-
-            -- Remove Status from blacklist (NOT DB_WotL_BlacklistVariableStatuses(_Status);)
-            -- Add it back again (DB_WotL_BlacklistVariableStatuses(_Status);)
             ApplyStatus(char, status, -1.0, 1)
         end
     end

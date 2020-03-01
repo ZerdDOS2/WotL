@@ -22,7 +22,7 @@ ENUM_WotL_ArmorDamageSourceTypes = {
     ["TargetCurrentPhysicalArmor"] = {
         ["TargetCurrentMagicArmor"] = 1.0,
     },
-    -- Parse magic armor scaling abilities just to drop the UseWeaponDamage property.
+    -- Parse magic armor scaling abilities to include them as missable skills
     ["SourceMaximumMagicArmor"] = {
         ["SourceMaximumMagicArmor"] = 1.0,
     },
@@ -62,7 +62,22 @@ ENUM_WotL_SkillRangeAttributes = {
 -- }
 
 ENUM_WotL_SkillPresets = {
-    ["Projectile_BouncingShield"] = {
+    ["Projectile_OdinNECRO_Mute_Damage"] = {
         ["UseWeaponDamage"] = "No",
-    }
+    },
+    ["Projectile_OdinNECRO_HorrificScream_Damage"] = {
+        ["UseWeaponDamage"] = "No",
+    },
+    ["Projectile_OdinNECRO_WitchesBrew_Damage"] = {
+        ["UseWeaponDamage"] = "No",
+    },
+    ["Projectile_OdinNECRO_BlackShroud_Damage"] = {
+        ["UseWeaponDamage"] = "No",
+    },
+    ["Projectile_OdinNECRO_ArcaneVolley_Damage"] = {
+        ["UseWeaponDamage"] = "No",
+    },
+    ["Projectile_OdinNECRO_OphidianGlare_Damage"] = {
+        ["UseWeaponDamage"] = "No",
+    },
 }

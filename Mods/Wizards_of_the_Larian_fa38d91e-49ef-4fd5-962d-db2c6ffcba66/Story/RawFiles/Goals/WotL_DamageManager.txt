@@ -30,6 +30,11 @@ THEN
 	NRD_DebugLog((STRING)_Value);
 */
 //END_REGION
+
+// IF
+// 	NRD_OnStatusAttempt((CHARACTERGUID)_Char, _Status, _Handle, (CHARACTERGUID)_Causee)
+// THEN
+// 	NRD_LuaCall("WotL_StatusTesting", (STRING)_Char, (STRING)_Status, (STRING)_Handle, (STRING)_Causee);
 EXITSECTION
 
 ENDEXITSECTION

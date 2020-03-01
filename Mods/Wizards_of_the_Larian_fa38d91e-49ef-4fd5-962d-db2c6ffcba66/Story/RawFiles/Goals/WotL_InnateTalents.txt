@@ -15,8 +15,8 @@ AND
 AND
 	NOT IsTagged(_Char, "WotL_HasInnateTalents", 1)
 THEN
+	SetTag(_Char, "WotL_HasInnateTalents");
 	PROC_WotL_AddInnateTalents(_Char);
-	ProcObjectTimer(_Char, "WotL_FinalizeInnateTalents", 1000);
 
 PROC
 	PROC_WotL_AddInnateTalents((CHARACTERGUID)_Char)
@@ -27,13 +27,6 @@ AND
 THEN
 	NRD_CharacterSetPermanentBoostTalent(_Char, _Talent, 1);
 	CharacterAddAttribute(_Char, "Dummy", 0); // Force PlayerUpgrade sync
-
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_FinalizeInnateTalent")
-AND
-	NOT IsTagged(_Char, "WotL_HasInnateTalents", 1)
-THEN
-	SetTag(_Char, "WotL_HasInnateTalents");
 //END_REGION
 EXITSECTION
 

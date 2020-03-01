@@ -208,7 +208,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="InitiativeBonusFromWits" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -226,7 +226,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="HighGroundBaseDamageBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0.1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -250,13 +250,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SneakDefaultAPCost" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="1" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SneakSpeedBoost" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="-10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -298,7 +298,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SkillAbilityVitalityRestoredPerPoint" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="20" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -310,13 +310,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SkillAbilityArmorRestoredPerPoint" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="20" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SkillAbilityLifeStealPerPoint" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="10" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -346,37 +346,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="IncarnateSummoningLevel" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="6" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="LoneWolfArmorBoostPercentage" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="60" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="LoneWolfMagicArmorBoostPercentage" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="60" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="LoneWolfAPBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="2" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="LoneWolfVitalityBoostPercentage" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="30" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="LoneWolfMaxAPBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="2" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
