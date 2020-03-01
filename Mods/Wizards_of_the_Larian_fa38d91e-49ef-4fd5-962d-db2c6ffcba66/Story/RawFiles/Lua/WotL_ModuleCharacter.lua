@@ -61,7 +61,7 @@ function WotL_ModuleCharacter()
 
         WotL_ChangeCharacterArmor(character)
         WotL_ChangeCharacterMovement(character)
-        -- TODO: Curre"ntly refunds talents given upon preset change on CC
+        -- TODO: Currently refunds talents given upon preset change on CC
         -- WotL_ChangeInnateTalents(character)
     end
 end

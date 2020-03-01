@@ -1,6 +1,7 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
+NRD_LuaCall("WotL_AddAttributeStatusesToBlacklist");
 
 KBSECTION
 //REGION Adds Attribute Status and Variable

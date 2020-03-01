@@ -22,15 +22,14 @@ AND
 THEN
 	ObjectSetFlag(_Char, "WotL_CharacterInitialized");
 	ProcObjectTimer(_Char, "WotL_SetAllVariables", 2000);
-	//ProcObjectTimer(_Char, "WotL_InitialLoneWolfCheck", 3000);
 
 PROC
 	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 
-PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 AND
 	CharacterIsPlayer(_Char, 1)
 THEN

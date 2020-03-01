@@ -14,7 +14,8 @@ end
 
 -- Changes the scaling of skill damages from physical armor to magic armor.
 -- It also applies a scaling factor, since there's no SourceShieldMagicArmor
--- damage type. Removes the UseWeaponDamage property for proper scaling.
+-- damage type. Adds it to the ENUM_WotL_MissingSkills so they don't get
+-- the UseWeaponDamage property but are still allowed to miss
 local function WotL_ChangeSkillDamage(skill)
     local source = Ext.StatGetAttribute(skill, "Damage")
     for type, list in pairs(ENUM_WotL_ArmorDamageSourceTypes) do
@@ -27,7 +28,7 @@ local function WotL_ChangeSkillDamage(skill)
                 WotL_ModulePrint("Damage: " .. tostring(damage) .. " -> " .. tostring(new), "Skill")
                 Ext.StatSetAttribute(skill, "Damage", replace)
                 Ext.StatSetAttribute(skill, "Damage Multiplier", new)
-                Ext.StatSetAttribute(skill, "UseWeaponDamage", "No")
+                ENUM_WotL_MissingSkills[skill] = true
                 break
             end
             break
@@ -77,11 +78,15 @@ local function WotL_ChangeSkillRange(skill, type)
     end
 end
 
--- Makes the skill scale on weapon damage.
+-- Makes the skill scale on weapon damage, except explicitly declared missable skills
+-- that don't need to scale from weapon damage, such as armor scaling skills and
+-- grenades. Those won't have the % indication, but are still allowed to miss
 local function WotL_WeaponizeSkill(skill)
-        Ext.StatSetAttribute(skill, "UseWeaponDamage", "Yes")
+    if ENUM_WotL_MissingSkills[skill] then
+        return
+    end
+    Ext.StatSetAttribute(skill, "UseWeaponDamage", "Yes")
 end
-
 
 -------------------------------------------- PRESETS --------------------------------------------
 
@@ -134,15 +139,13 @@ function WotL_ModuleSkill()
         local type = Ext.StatGetAttribute(skill, "SkillType")
         
         WotL_ChangeSkillAP(skill, type)
+        -- The skill damage change has to come before WeaponizeSkill, so the
+        -- ENUM_WotL_MissingSkills are completely populated beforehand
+        WotL_ChangeSkillDamage(skill)
         WotL_ChangeSkillDescription(skill)
         WotL_ChangeSkillMemorizationRequirements(skill, type)
         WotL_ChangeSkillRange(skill, type)
-        -- TODO: Grenades shouldn't scale from weapon damage, but should miss as well
         WotL_WeaponizeSkill(skill)
-        -- The skill damage change has to come after WeaponizeSkill, since armor
-        -- damage skills can't scale from weapon damage
-        -- TODO: Implement a miss mechanic for those skills
-        WotL_ChangeSkillDamage(skill)
         WotL_ChangeSkillPreset(skill)
     end
 end

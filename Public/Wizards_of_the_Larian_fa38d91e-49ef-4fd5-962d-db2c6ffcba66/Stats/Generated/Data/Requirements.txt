@@ -6,3 +6,5 @@ requirement "ViolentMagic","Tag WotL_INNATE"
 
 requirement "AttackOfOpportunity","Tag WotL_INNATE"
 
+requirement "LoneWolf","Tag WotL_REMOVED"
+

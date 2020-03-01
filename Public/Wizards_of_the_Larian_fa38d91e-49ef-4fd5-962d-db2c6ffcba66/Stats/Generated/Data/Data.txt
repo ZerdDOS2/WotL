@@ -66,13 +66,13 @@ key "LeadershipAllResBonus","0"
 
 key "LeadershipDodgingBonus","20"
 
-key "InitiativeBonusFromWits","0"
+key "InitiativeBonusFromWits","1"
 
 key "WeaponAccuracyPenaltyPerLevel","0"
 
 key "WeaponAccuracyPenaltyCap","0"
 
-key "HighGroundBaseDamageBonus","0"
+key "HighGroundBaseDamageBonus","0.1"
 
 key "HighGroundThreshold","4"
 
@@ -80,9 +80,9 @@ key "HighGroundRangeMultiplier","1.5"
 
 key "LowGroundBaseDamagePenalty","0"
 
-key "SneakDefaultAPCost","1"
+key "SneakDefaultAPCost","2"
 
-key "SneakSpeedBoost","0"
+key "SneakSpeedBoost","-10"
 
 key "SkillAbilitySulfuricDamageBoostPerPoint","0"
 
@@ -96,13 +96,13 @@ key "SkillAbilityAirDamageBoostPerPoint","0"
 
 key "SkillAbilityPoisonAndEarthDamageBoostPerPoint","0"
 
-key "SkillAbilityVitalityRestoredPerPoint","20"
+key "SkillAbilityVitalityRestoredPerPoint","0"
 
 key "SkillAbilityHighGroundBonusPerPoint","0"
 
-key "SkillAbilityArmorRestoredPerPoint","20"
+key "SkillAbilityArmorRestoredPerPoint","0"
 
-key "SkillAbilityLifeStealPerPoint","10"
+key "SkillAbilityLifeStealPerPoint","0"
 
 key "SkillAbilityCritMultiplierPerPoint","0"
 
@@ -112,17 +112,7 @@ key "SummoningAbilityBonus","20"
 
 key "AbilityPerseveranceArmorPerPoint","0"
 
-key "IncarnateSummoningLevel","6"
-
-key "LoneWolfArmorBoostPercentage","60"
-
-key "LoneWolfMagicArmorBoostPercentage","60"
-
-key "LoneWolfAPBonus","2"
-
-key "LoneWolfVitalityBoostPercentage","30"
-
-key "LoneWolfMaxAPBonus","2"
+key "IncarnateSummoningLevel","5"
 
 key "TalentQuickStepPartialApBonus","2"
 
