@@ -26,7 +26,10 @@ function WotL_AddAttributeStatusesToBlacklist()
     for vanilla, attribute in pairs(ENUM_WotL_AttributesNames) do
         for i=0,60,1 do
             local status = "WotL_" .. attribute .. "_" .. tostring(i)
-            Osi.DB_WotL_BlacklistVariableStatuses(status)
+            local db = Osi.DB_WotL_BlacklistVariableStatuses:Get(status)
+            if next(db) == nil then
+                Osi.DB_WotL_BlacklistVariableStatuses(status)
+            end
         end
     end
 end

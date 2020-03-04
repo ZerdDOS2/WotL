@@ -3,525 +3,14 @@
   <stat_objects>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyHelmet" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyHelmet" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Belts" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Belts" />
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Itemslot" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="52" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2500" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Helmet" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyHelmet" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="HelmetScale,Helmet" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyHelmet" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 1" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Helmet_2" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyHelmet" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="HelmetScale,Helmet" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyHelmet" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="5" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="8" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 2" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Helmet_3" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyHelmet" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="HelmetScale,Helmet" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyHelmet" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="12" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 3" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Helmet_4" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyHelmet" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="HelmetScale,Helmet" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyHelmet" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="16" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 4" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Helmet_5" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyHelmet" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="HelmetScale,Helmet" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyHelmet" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="17" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyUpperBody" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyUpperBody" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="140" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="5000" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_UpperBody" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyUpperBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="ArmorScale,Upperbody" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyUpperBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 1" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_UpperBody_2" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyUpperBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="ArmorScale,Upperbody" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyUpperBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="5" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 2" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="8" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_UpperBody_3" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyUpperBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="ArmorScale,Upperbody" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyUpperBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 3" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="12" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_UpperBody_4" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyUpperBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="ArmorScale,Upperbody" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyUpperBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 4" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="16" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_UpperBody_5" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyUpperBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="ArmorScale,Upperbody" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyUpperBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="17" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyGloves" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyGloves" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="25" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2000" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Gloves" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyGloves" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="GlovesScale,Gloves" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyGloves" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 1" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Gloves_2" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyGloves" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="GlovesScale,Gloves" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyGloves" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="5" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 2" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="8" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Gloves_3" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyGloves" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="GlovesScale,Gloves" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyGloves" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 3" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="12" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Gloves_4" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyGloves" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="GlovesScale,Gloves" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyGloves" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 4" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="16" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Gloves_5" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyGloves" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="GlovesScale,Gloves" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyGloves" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="17" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyLowerBody" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyLowerBody" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="75" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="3500" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_LowerBody" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyLowerBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="PantsScale,Pants" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyLowerBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 1" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_LowerBody_2" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyLowerBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="PantsScale,Pants" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyLowerBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="5" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 2" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="8" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_LowerBody_3" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyLowerBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="PantsScale,Pants" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyLowerBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 3" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="12" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_LowerBody_4" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyLowerBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="PantsScale,Pants" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyLowerBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 4" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="16" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_LowerBody_5" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyLowerBody" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="PantsScale,Pants" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyLowerBody" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="17" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyBoots" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyBoots" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="35" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2000" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Boots" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyBoots" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BootsScale,ArmorShoes" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyBoots" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 1" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="4" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Boots_2" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyBoots" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BootsScale,ArmorShoes" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyBoots" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="5" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 2" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="8" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Boots_3" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyBoots" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BootsScale,ArmorShoes" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyBoots" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="9" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 3" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="12" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Boots_4" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyBoots" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BootsScale,ArmorShoes" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyBoots" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 4" />
-        <field name="MaxLevel" type="IntegerStatObjectFieldDefinition" value="16" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Heavy_Boots_5" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_HeavyBoots" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="BootsScale,ArmorShoes" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="HeavyBoots" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="17" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="PainReflection 5" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageHelmet" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageHelmet" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="21" />
         <field name="Weight" type="IntegerStatObjectFieldDefinition" value="300" />
         <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -533,24 +22,24 @@
         <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
         <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
         <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageUpperBody" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageUpperBody" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Rings" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Rings" />
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Itemslot" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="50" />
         <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -561,24 +50,23 @@
         <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
         <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageGloves" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageGloves" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_Amulets" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Amulets" />
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Itemslot" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="19" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="300" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="130" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="70" />
         <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -589,264 +77,10 @@
         <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
         <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageLowerBody" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageLowerBody" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="55" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="700" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageBoots" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageBoots" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="23" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightHelmet" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightHelmet" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="31" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1500" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightUpperBody" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightUpperBody" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="90" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="3000" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightGloves" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightGloves" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="13" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightLowerBody" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightLowerBody" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="50" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2500" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightBoots" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightBoots" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="16" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_ClothHelmet" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ClothHelmet" />
-        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="15" />
-        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="300" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ArmorType" />
-        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
-        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="UNI_Halloween_Pumpkin_A" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_ClothHelmet" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ActPart" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="4" />
-        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="FEAR,5,1" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="40" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="FUR_Bucket_A" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_ClothHelmet" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="FUR_Bucket_A" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ActPart" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
-        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="-1" />
-        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="Junk" />
-        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
-        <field name="ComboCategory" type="StringStatObjectFieldDefinition" value="Bucket" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -856,7 +90,8 @@
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
         <field name="Value" type="IntegerStatObjectFieldDefinition" value="6" />
@@ -879,24 +114,13 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Wood_Torso_Barrel_A" />
-        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_ClothArmor" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="10" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="5000" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="-100" />
-        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="-5" />
-        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ArmorType" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="_ClothGloves" />
         <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ClothGloves" />
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
         <field name="Value" type="IntegerStatObjectFieldDefinition" value="5" />
@@ -924,7 +148,8 @@
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
         <field name="Value" type="IntegerStatObjectFieldDefinition" value="5" />
@@ -952,7 +177,8 @@
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Itemslot" />
-        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
         <field name="Value" type="IntegerStatObjectFieldDefinition" value="3" />
@@ -975,14 +201,16 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_Belts" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Belts" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_ClothHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="ClothHelmet" />
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="6" enumeration_type_name="Itemslot" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Itemslot" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
-        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="21" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="4" />
         <field name="Weight" type="IntegerStatObjectFieldDefinition" value="300" />
         <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -994,6 +222,7 @@
         <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ArmorType" />
         <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
         <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -1001,15 +230,18 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_Rings" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Rings" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightHelmet" />
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="Itemslot" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Finesse 25" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="60" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="100" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="31" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1500" />
         <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -1020,21 +252,26 @@
         <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
         <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="_Amulets" />
-        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="Amulets" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightGloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightGloves" />
         <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="9" enumeration_type_name="Itemslot" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Finesse 25" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="60" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
-        <field name="Value" type="IntegerStatObjectFieldDefinition" value="130" />
-        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="70" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="13" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
         <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
@@ -1045,8 +282,585 @@
         <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
         <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightBoots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightBoots" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Finesse 25" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="16" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightLowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightLowerBody" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Finesse 25" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2500" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_LightUpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="LightUpperBody" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Finesse 25" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="90" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="3000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyHelmet" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 40" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="52" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2500" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyGloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyGloves" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 40" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="25" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyBoots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyBoots" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 40" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="35" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="2000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyLowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyLowerBody" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 40" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="75" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="3500" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_HeavyUpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="HeavyUpperBody" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Itemslot" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 40" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="100" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="140" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="5000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageLowerBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageLowerBody" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="Itemslot" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="55" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="700" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageHelmet" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Itemslot" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="300" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageGloves" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageGloves" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="Itemslot" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="19" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="300" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageBoots" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageBoots" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Itemslot" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="23" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="_MageUpperBody" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="MageUpperBody" />
+        <field name="ModifierType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ModifierType" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Slot" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="Itemslot" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="3" enumeration_type_name="Qualifier" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="1000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Air" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Water" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Earth" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Poison" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Piercing" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Physical" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="InventoryTab" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="InventoryTabs" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="5" enumeration_type_name="ArmorType" />
+        <field name="ItemColor" type="StringStatObjectFieldDefinition" value="Burnished Bronze" />
+        <field name="RuneSlots" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="RuneSlots_V1" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="FUR_Bucket_A" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_ClothHelmet" />
+        <field name="ItemGroup" type="StringStatObjectFieldDefinition" value="FUR_Bucket_A" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ActPart" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Initiative" type="IntegerStatObjectFieldDefinition" value="-1" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="Junk" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="40" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="UNI_Halloween_Pumpkin_A" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_ClothHelmet" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="2" enumeration_type_name="ActPart" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="500" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="4" />
+        <field name="ExtraProperties" type="StringStatObjectFieldDefinition" value="FEAR,5,1" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="40" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_Wood_Torso_Barrel_A" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_ClothArmor" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+        <field name="Armor Defense Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="5000" />
+        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="-100" />
+        <field name="Fire" type="IntegerStatObjectFieldDefinition" value="-5" />
+        <field name="ArmorType" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ArmorType" />
+        <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="20" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Heavy_UpperBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_UpperBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 0" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_HeavyUpperBody" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Heavy_LowerBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_LowerBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 0" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_HeavyLowerBody" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Heavy_Boots" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_Boots" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 0" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_HeavyBoots" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Heavy_Gloves" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_Gloves" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 0" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_HeavyGloves" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Heavy_Helmet" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Heavy_Helmet" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Constitution 0" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_HeavyHelmet" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Mage_Helmet" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_Helmet" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_MageHelmet" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Mage_Gloves" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_Gloves" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_MageGloves" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Mage_Boots" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_Boots" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_MageBoots" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Mage_LowerBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_LowerBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_MageLowerBody" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_REFERENCE_Mage_UpperBody" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="ARM_Mage_UpperBody" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="Value" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Weight" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="ObjectCategory" type="StringStatObjectFieldDefinition" value="REFERENCE_MageUpperBody" />
+        <field name="MinAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MaxAmount" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="Priority" type="IntegerStatObjectFieldDefinition" value="1" />
+        <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
       </fields>
     </stat_object>
   </stat_objects>

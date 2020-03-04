@@ -1,0 +1,30 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION DB_WotL_CurrentTurn keeps track of the current turn's character
+// Adds a character to the DB at turn start
+IF
+    ObjectTurnStarted((CHARACTERGUID)_Char)
+AND
+    CombatGetIDForCharacter(_Char, _ID)
+AND
+    NOT DB_WotL_CurrentTurn(_Char, _ID)
+THEN
+    DB_WotL_CurrentTurn(_Char, _ID);
+
+// Removes a character from the DB at turn end
+IF
+    ObjectTurnEnded((CHARACTERGUID)_Char)
+AND
+    CombatGetIDForCharacter(_Char, _ID)
+AND
+    DB_WotL_CurrentTurn(_Char, _ID)
+THEN
+    NOT DB_WotL_CurrentTurn(_Char, _ID);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

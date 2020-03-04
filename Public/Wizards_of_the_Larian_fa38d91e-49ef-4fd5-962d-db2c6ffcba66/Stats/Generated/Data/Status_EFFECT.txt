@@ -1,0 +1,9 @@
+new entry "WotL_LeadershipTarget"
+type "StatusData"
+data "StatusType" "EFFECT"
+data "ForGameMaster" "No"
+data "InitiateCombat" "No"
+data "DisplayName" "WotL_LeadershipTarget_DisplayName"
+data "DisplayNameRef" "Leadership"
+data "BeamEffect" "RS3_FX_GP_Status_SoulMate_Beam_01"
+

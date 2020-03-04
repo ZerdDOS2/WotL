@@ -1,7 +1,7 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-DB_WotL_BlacklistVariableStatuses("WotL_Power_0");
+
 KBSECTION
 //REGION Generic triggers for WotL_SetAllVariables Event
 IF

@@ -37,9 +37,9 @@ Ext.Require(WotL_Mod_GUID,"WotL_ArmorSpeciality.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_Attributes.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_Backstab.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_DamageManager.lua")
+Ext.Require(WotL_Mod_GUID,"WotL_Leadership.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_LoneWolf.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_MissingSkills.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_Resistances.lua")
 
 local WotL_GameSessionLoad = function ()
     -- Ext.StatusGetEnterChance = WotL_CustomStatusGetEnterChance

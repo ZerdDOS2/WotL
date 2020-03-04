@@ -35,10 +35,8 @@ function WotL_TPrint(tbl, indent)
         if type(v) == "table" then
             Ext.Print(formatting)
             WotL_TPrint(v, indent+1)
-        elseif type(v) == 'boolean' then
-            Ext.Print(formatting .. tostring(v))		
         else
-            Ext.Print(formatting .. v)
+            Ext.Print(formatting .. tostring(v))
         end
     end
 end
@@ -46,4 +44,17 @@ end
 -- Truncates a number x to the specified decimal places n
 function WotL_Truncate(x, n)
     return math.floor(x*10^n)/10^n
+end
+
+-- Inserts a value for a key that might not exist
+function WotL_TableInsertTable(name, key, value)
+    if name[key] == nil then
+        name[key] = {}
+    end
+    table.insert(name[key], value)
+end
+
+-- Removes a table entry based on the key
+function WotL_TableRemove(name, key)
+    name[key] = nil
 end
