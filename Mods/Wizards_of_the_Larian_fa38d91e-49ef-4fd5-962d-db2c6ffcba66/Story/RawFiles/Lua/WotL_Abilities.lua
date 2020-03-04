@@ -3,9 +3,9 @@ ENUM_WotL_AbilitiesNames = {
     -- SingleHanded = "",
     Ranged = "LongRange",
     DualWielding = "Speed",
-    PainReflection = "ArmorProficiency",
+    -- PainReflection = "",
     Perseverance = "ArmorSpeciality",
-    Leadership = "Healing",
+    Leadership = "Leadership",
     AirSpecialist = "Aerotheurge",
     EarthSpecialist = "Geomancer",
     RangerLore = "Huntsman",
@@ -37,7 +37,10 @@ function WotL_AddAbilityStatusesToBlacklist()
     for vanilla, ability in pairs(ENUM_WotL_AbilitiesNames) do
         for i=0,5,1 do
             local status = "WotL_" .. ability .. "_" .. tostring(i)
-            Osi.DB_WotL_BlacklistVariableStatuses(status)
+            local db = Osi.DB_WotL_BlacklistVariableStatuses:Get(status)
+            if next(db) == nil then
+                Osi.DB_WotL_BlacklistVariableStatuses(status)
+            end
         end
     end
 end

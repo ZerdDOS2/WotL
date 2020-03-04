@@ -5235,74 +5235,74 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Healing_0" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Leadership_0" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Healing 0" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Healing 0" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 0" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 0" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Healing_0" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Healing" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Leadership_0" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Leadership" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Healing_1" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Leadership_1" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Healing 1" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Healing 1" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 1" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 1" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Healing_1" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Healing" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Leadership_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Leadership" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Healing_2" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Leadership_2" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Healing 2" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Healing 2" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 2" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 2" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Healing_2" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Healing" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Leadership_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Leadership" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Healing_3" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Leadership_3" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Healing 3" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Healing 3" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 3" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 3" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Healing_3" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Healing" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Leadership_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Leadership" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Healing_4" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Leadership_4" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Healing 4" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Healing 4" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 4" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 4" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Healing_4" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Healing" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Leadership_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Leadership" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Healing_5" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_Leadership_5" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Healing 5" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Healing 5" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 5" />
+        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Leadership 5" />
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Healing_5" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Healing" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_Leadership_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_Leadership" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -6027,239 +6027,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_MagicArtifactUser" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Magic Artifact" />
-        <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="This character is holding a magic artifact and can channel magic through it." />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Blessed" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_MagicArtifactUser" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_MagicArtifactUser" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_AirVulnerability" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Air Vulnerability" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_AirVulnerability" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_AirResistance" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Air Resistance" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_AirResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_AirImmunity" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Air Immunity" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_AirImmunity" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_AirAbsorption" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Air Absorption" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_AirResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_EarthVulnerability" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Earth Vulnerability" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_EarthVulnerability" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_EarthResistance" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Earth Resistance" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_EarthResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_EarthImmunity" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Earth Immunity" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_EarthImmunity" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_EarthAbsorption" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Earth Absorption" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_EarthAbsorption" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_FireVulnerability" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Fire Vulnerability" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_FireVulnerability" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_FireResistance" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Fire Resistance" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_FireResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_FireImmunity" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Fire Immunity" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_FireResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_FireAbsorption" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Fire Absorption" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_FireResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_PoisonVulnerability" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Poison Vulnerability" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_PoisonVulnerability" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_PoisonResistance" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Poison Resistance" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_PoisonResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_PoisonImmunity" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Poison Immunity" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_PoisonResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_PoisonAbsorption" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Poison Absorption" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_PoisonResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_WaterVulnerability" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Water Vulnerability" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_WaterVulnerability" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_WaterResistance" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Water Resistance" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_WaterResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_WaterImmunity" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Water Immunity" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_WaterResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_WaterAbsorption" />
-        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="YesNo" />
-        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Water Absorption" />
-        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Crippled" />
-        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
-        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_WaterResistance" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_LW_Power_1" />
         <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
@@ -6280,6 +6047,66 @@
         <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="4" enumeration_type_name="FormatStringColor" />
         <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_LW_Base" />
         <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_LW_Base" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_LeadershipBuff_1" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Leadership" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_LeadershipBuff_1" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_LeadershipBuff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_LeadershipBuff_2" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Leadership" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_LeadershipBuff_2" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_LeadershipBuff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_LeadershipBuff_3" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Leadership" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_LeadershipBuff_3" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_LeadershipBuff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_LeadershipBuff_4" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Leadership" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_LeadershipBuff_4" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_LeadershipBuff" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_LeadershipBuff_5" />
+        <field name="ForGameMaster" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="InitiateCombat" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Leadership" />
+        <field name="Icon" type="StringStatObjectFieldDefinition" value="statIcons_Leadership" />
+        <field name="FormatColor" type="EnumerationStatObjectFieldDefinition" value="8" enumeration_type_name="FormatStringColor" />
+        <field name="StatsId" type="StringStatObjectFieldDefinition" value="Stats_WotL_LeadershipBuff_5" />
+        <field name="StackId" type="StringStatObjectFieldDefinition" value="Stack_WotL_LeadershipBuff" />
       </fields>
     </stat_object>
   </stat_objects>

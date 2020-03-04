@@ -1083,3 +1083,33 @@ data "APStart" "2"
 data "APRecovery" "2"
 data "MagicArmorBoost" "30"
 
+new entry "Stats_WotL_LeadershipBuff_1"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "DodgeBoost" "10"
+
+new entry "Stats_WotL_LeadershipBuff_2"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "DodgeBoost" "20"
+
+new entry "Stats_WotL_LeadershipBuff_3"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "DodgeBoost" "30"
+
+new entry "Stats_WotL_LeadershipBuff_4"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "DodgeBoost" "40"
+
+new entry "Stats_WotL_LeadershipBuff_5"
+type "Potion"
+data "Act" "1"
+data "Act part" "0"
+data "DodgeBoost" "50"
+

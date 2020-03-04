@@ -1,3 +1,4 @@
+-- Some missing skills come from the WotL_ModuleSkill.lua -> WotL_ChangeSkillDamage
 ENUM_WotL_MissingSkills = WotL_Set {
     -- Grenades
     "Projectile_Grenade_ArmorPiercing",
@@ -24,29 +25,22 @@ ENUM_WotL_MissingSkills = WotL_Set {
     "Projectile_Grenade_CursedPoisonFlask",
 }
 
-function WotL_CheckMissingSkill(target, handle)
+function WotL_CheckMissingSkill(target, source, handle)
     local skill = NRD_StatusGetString(target, handle, "SkillId")
-    -- TODO: SkillId sometimes come with a value appended to it to indicate the level scaling
-    -- so it doesn't match the exact string on the table. The solution implemented is
-    -- significantly worst performance wise, so it'd be best to have a different solution.
-    -- if skill == nil or skill == "" or not ENUM_WotL_MissingSkills[skill] then
-    --     return
-    -- end
-
-    -- O(n*m) solution :/
-    local isMissable = false
-    for missable, _ in pairs(ENUM_WotL_MissingSkills) do
-        if string.find(skill, missable) ~= nil then
-            isMissable = true
-        end
-    end
-    if not isMissable then
+    if skill == nil or skill == "" then
         return
     end
-    --
 
-    local source = NRD_StatusGetGuidString(target, handle, "StatusSourceHandle")
-    if source == nil or source == "" then
+    -- SkillId sometimes come with a value appended to it to indicate the level scaling
+    -- so it doesn't match the exact string on the table. The solution is to use a
+    -- regex to remove that last "_-1" (or any number) if it exists, before trying to
+    -- match the WotL_Set.
+    skill = string.gsub(skill, "_%-?%d+$", "")
+    local spCost = NRD_StatGetInt(skill, "Magic Cost")
+    local sType = NRD_StatGetString(skill, "SkillType")
+
+    -- Target skills with SP cost have the "RollForDamage" property set to 0.
+    if not ENUM_WotL_MissingSkills[skill] and (sType ~= "Target" or spCost == 0) then
         return
     end
 

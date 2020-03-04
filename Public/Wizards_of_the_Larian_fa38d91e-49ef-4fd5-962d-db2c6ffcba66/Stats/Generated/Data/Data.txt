@@ -64,7 +64,7 @@ key "LeadershipRange","0"
 
 key "LeadershipAllResBonus","0"
 
-key "LeadershipDodgingBonus","20"
+key "LeadershipDodgingBonus","10"
 
 key "InitiativeBonusFromWits","1"
 

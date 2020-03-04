@@ -202,7 +202,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="LeadershipDodgingBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="20" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
