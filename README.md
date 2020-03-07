@@ -9,7 +9,9 @@ Current design available at [this doc](https://docs.google.com/document/d/1BKWu-
 * Download the latest version and place the contents inside `steamapps\common\The Divinity Engine 2\DefEd` and `steamapps\common\Divinity Original Sin 2\DefEd\bin`
 
 # Releases
-* No release yet
+* Download the `.pak` file and place it under `\Documents\Larian Studios\Divinity Original Sin 2 Definitive Edition\Mods`
+
+https://github.com/ZerdDOS2/WotL/releases
 
 # Attribution
 - [Divinity: Original Sin 2](http://store.steampowered.com/app/435150/Divinity_Original_Sin_2/), a game by [Larian Studios](http://larian.com/)
