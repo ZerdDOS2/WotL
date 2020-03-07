@@ -7,9 +7,9 @@
             <children>
                 <node id="Dependencies" />
                 <node id="ModuleInfo">
-                    <attribute id="Author" value="" type="30" />
+                    <attribute id="Author" value="Zerd" type="30" />
                     <attribute id="CharacterCreationLevelName" value="" type="22" />
-                    <attribute id="Description" value="" type="30" />
+                    <attribute id="Description" value="Overhauls the game into a more DnD-like version of DOS2. All attacks are allowed to miss (including skills!) and converts all damage types into only one armor bar." type="30" />
                     <attribute id="DescriptionName" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
                     <attribute id="DisplayName" value="" handle="ls::TranslatedStringRepository::s_HandleUnknown" type="28" />
                     <attribute id="Folder" value="Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66" type="30" />
@@ -17,7 +17,7 @@
                     <attribute id="LobbyLevelName" value="" type="22" />
                     <attribute id="MD5" value="" type="23" />
                     <attribute id="MenuLevelName" value="" type="22" />
-                    <attribute id="Name" value="Wizards_of_the_Larian" type="22" />
+                    <attribute id="Name" value="Wizards of the Larian" type="22" />
                     <attribute id="NumPlayers" value="2" type="1" />
                     <attribute id="PhotoBooth" value="" type="22" />
                     <attribute id="StartupLevelName" value="" type="22" />
@@ -27,7 +27,7 @@
                     <attribute id="Version" value="268435456" type="4" />
                     <children>
                         <node id="PublishVersion">
-                            <attribute id="Version" value="908857753" type="4" />
+                            <attribute id="Version" value="909321303" type="4" />
                         </node>
                         <node id="Scripts" />
                         <node id="TargetModes">
