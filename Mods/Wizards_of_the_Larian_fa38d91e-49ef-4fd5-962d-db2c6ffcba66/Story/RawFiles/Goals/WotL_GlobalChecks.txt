@@ -7,8 +7,6 @@ KBSECTION
 IF
 	CharacterStatusAttempt(_Char, _Status, _)
 AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-AND
 	CharacterIsDead(_Char, 0)
 AND
 	NOT DB_WotL_BlacklistVariableStatuses(_Status)
@@ -18,8 +16,6 @@ THEN
 IF
 	CharacterStatusApplied(_Char, _Status, _)
 AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-AND
 	CharacterIsDead(_Char, 0)
 AND
 	NOT DB_WotL_BlacklistVariableStatuses(_Status)
@@ -28,8 +24,6 @@ THEN
 
 IF
 	CharacterStatusRemoved(_Char, _Status, _)
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 AND
 	CharacterIsDead(_Char, 0)
 AND
@@ -49,15 +43,21 @@ THEN
 
 IF
 	ItemEquipped(_, _Char)
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 
 IF
 	ItemUnEquipped(_, _Char)
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+	CharacterJoinedParty(_Char)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+	CharacterLeftParty(_Char)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 //END_REGION
