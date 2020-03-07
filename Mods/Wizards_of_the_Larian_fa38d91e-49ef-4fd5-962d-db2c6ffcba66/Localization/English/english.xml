@@ -3,8 +3,10 @@
 	<content contentuid="hb924258ag2cf7g4c11gaf4eg8b7de303c197"></content><comment>Damage description that covered Strength, Finesse and Intelligence in Vanilla</comment>
 	<content contentuid="hc8c67074g3c19g44d1g8b7bg9e5a8d06d87f">Power</content><comment>Strength Name</comment>
 	<content contentuid="h18f97d5bg9a79g4917g809dgb0ac7a5ec302">Increases your damage by 3% per point and allows you to lift and carry heavier items.</content><comment>Strength Description</comment>
+	<content contentuid="hada430deg235ag4273g96cag3a1528986eec">Determines your damage and weight you can lift</content><comment>Strength Description on Control UI</comment>
 	<content contentuid="h27e3bc03g87a9g4e13ga38dg641b7db4b441">Evasion</content>
 	<content contentuid="h75391bafg8744g4441g9b1egf52f182f96fc">Gives you 2% dodge per point.</content><comment>Finesse Description</comment>
+	<content contentuid="h630a6524g289eg4b48gaaa3g72f636f99449">Determines your Dodge</content><comment>Finesse Description on Control UI</comment>
 	<content contentuid="h89894c92gd301g4292g8cf0gd8cd159d70d8">Evasion Lowered</content>
 	<content contentuid="h33d41553g12cag401eg8c71g640d3d654054">Precision</content>
 	<content contentuid="h5f3f6bdagdcd6g4d7agbd92g2a56eac26fd1">Precision: [1][2]&lt;br&gt;</content>
@@ -12,6 +14,7 @@
 	<content contentuid="hbe8b28b6g4cfcg4bfag9214gadaae68895c7">Precision Lowered</content>
 	<content contentuid="hfbc938ceg297fg4232ga11dg3fe44985b9f8">Precision</content>
 	<content contentuid="h6b67efcagf943g43a1g959eg36f9ecc42e7e">Increases your Accuracy by 2% per point.</content><comment>Intelligence Description</comment>
+	<content contentuid="h531fee9cg4182g40b9g8971g62ad71b3a0d2">Determines your Accuracy</content><comment>Intelligence Description on Control UI</comment>
 	<content contentuid="h6d2cd8aeg4e09g4003ga57cg3fea3a0f5502">Increases your Critical Chance by 2% per point and your Initiative by 1 per point. Also increases your ability to detect traps and find hidden treasures.</content><comment>Wits Description</comment>
 	<content contentuid="hd5dd26e5gadc6g40d9ga0c6g2ae909cbc842">+1 point = +[1]% Critical Chance.</content><comment>Wits Tooltip</comment>
 
@@ -37,16 +40,16 @@
 	<content contentuid="ha23ceefdg2365g476cg98d0g3df72fdafc92">Level [1]: +[1] * 0.3m</content><comment>Dual Wielding Tooltip for Current Level</comment>
 
 	<content titleid="Defence Abilities"></content>
-	<content contentuid="h591d7502gb8c3g443cg86ebga0b3a903155a">Retribution Name</content><comment>Retribution Name</comment>
-	<content contentuid="hded47ed1gcc2eg4ce8g9277g5ee6b7204293">Retribution Description</content><comment>Retribution Description</comment>
-	<content contentuid="h7a786d38g8a67g4ec6gab80g0e17f17c5210"></content>Retribution Tooltip for Next Level<comment>Retribution Tooltip for Next Level</comment>
-	<content contentuid="h8dff50e3g5cfcg4ef7g98fbg54171b2f841f"></content>Retribution Tooltip for Current Level<comment>Retribution Tooltip for Current Level</comment>
+	<content contentuid="h591d7502gb8c3g443cg86ebga0b3a903155a">Focus</content><comment>Retribution Name</comment>
+	<content contentuid="hded47ed1gcc2eg4ce8g9277g5ee6b7204293">Increases the duration of status you apply by 1 turn per point.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;Doesn't increase the duration of Charm, Fear, Knocked Down, Polymorph and Incapacitaded statuses.&lt;/font&gt;&lt;br&gt;</content><comment>Retribution Description</comment>
+	<content contentuid="h7a786d38g8a67g4ec6gab80g0e17f17c5210">Next Level [1]: +[1] duration.</content><comment>Retribution Tooltip for Next Level</comment>
+	<content contentuid="h8dff50e3g5cfcg4ef7g98fbg54171b2f841f">Level [1]: +[1] duration.</content><comment>Retribution Tooltip for Current Level</comment>
 	<content contentuid="h5b61fccfg5d2ag4a81g9cacg068403d61b5c">Armor Speciality</content><comment>Perseverance Name</comment>
 	<content contentuid="h1bae56a9ga45fg431fg80bfg2afbef03c1d2">Decrease all damage dealt to you while your armor is up by 10% per point.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;Doesn't reduce piercing, shadow and armor damages.&lt;br&gt;Reduction is applied before resistances and vulnerabilities.&lt;/font&gt;&lt;br&gt;</content><comment>Perseverance Description</comment>
 	<content contentuid="hce4fa62bgf76dg448bg965bg573fe490ace6">Next Level [1]: +[1]0% reduction.</content><comment>Perseverance Tooltip for Next Level</comment>
 	<content contentuid="hf9b07ea6gde9fg4848ga603g3548d25c0918">Level [1]: [1]0% reduction.</content><comment>Perseverance Tooltip for Next Level</comment>
 	<content contentuid="h7c65fe39g1526g427bg8a2dgab7e74c66202">Leadership</content><comment>Leadership Name</comment>
-	<content contentuid="h8256bf13gb4cag4662gaafegb5724b210c92">Damaging an enemy close to you causes all your allies to gain 10% dodge per point during the enemy's turn.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;You need to be up to 5 m from the enemy when dealing the damage and at their turn start.&lt;/font&gt;</content><comment>Leadership Description</comment>
+	<content contentuid="h8256bf13gb4cag4662gaafegb5724b210c92">Damaging an enemy close to you causes all your allies to gain 10% dodge per point during the enemy's turn.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;You need to be up to 5 m from the enemy when dealing the damage and at their turn start.&lt;/font&gt;&lt;br&gt;</content><comment>Leadership Description</comment>
 	<content contentuid="h9437181dg238eg47a5g8572g9b0331fa3c52">Next Level [1]: +[2]% Dodge.</content><comment>Leadership Tooltip for Next Level</comment>
 	<content contentuid="h1a9b3902gfdc5g4936gaa8ega6b2c22ebf43">Level [1]: +[2]% Dodge.</content><comment>Leadership Tooltip for Current Level</comment>
 	

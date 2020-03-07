@@ -8,7 +8,7 @@ ENUM_WotL_AttributesNames = {
 }
 
 function WotL_SetAttributeStatus(char)
-    if not WotL_Bool(ObjectGetFlag(char, "WotL_CharacterInitialized")) or WotL_Bool(CharacterIsDead(char)) then
+    if WotL_Bool(CharacterIsDead(char)) then
         return
     end
     for vanilla, attribute in pairs(ENUM_WotL_AttributesNames) do

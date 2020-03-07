@@ -2,29 +2,51 @@ Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
 // Current WotL Version
-DB_WotL_Version("WotL_Version_1.0.0.0");
+// DB_WotL_Version("WotL_Version_1.0.0.0");
 KBSECTION
 //REGION Game Start and Versioning
+// GameStarted launches an iterator for every character that launches the
+// WotL_InitializeCharacter event for each character
 IF
 	GameStarted(_,_)
-AND
-	DB_WotL_Version(_Version)
-AND
-	GlobalGetFlag(_Version, 0)
+// AND
+// 	DB_WotL_Version(_Version)
+// AND
+// 	GlobalGetFlag(_Version, 0)
 THEN
-	GlobalSetFlag(_Version);
+	// GlobalSetFlag(_Version);
+	TimerLaunch("WotL_GameStarted", 1000);
 
-// Comes from WotL_CharInit.charScript
 IF
-	StoryEvent((CHARACTERGUID)_Char, "WotL_InitializeCharacter")
-AND
-	NOT DB_CharacterCreationDummy(_Char)
+	TimerFinished("WotL_GameStarted")
 THEN
-	ObjectSetFlag(_Char, "WotL_CharacterInitialized");
-	ProcObjectTimer(_Char, "WotL_SetAllVariables", 2000);
+	CharacterLaunchOsirisOnlyIterator("WotL_Iterator_InitializeCharacter");
+
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_Iterator_InitializeCharacter")
+THEN
+	SetStoryEvent(_Char, "WotL_InitializeCharacter");
+
+// CharacterEnteredRegion launches the WotL_InitializeCharacter event
+IF
+	CharacterEnteredRegion(_Char, _)
+THEN
+	ProcObjectTimer(_Char, "WotL_InitializeCharacterTimer", 1000);
 
 PROC
-	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+	ProcObjectTimerFinished(_Char, "WotL_InitializeCharacterTimer")
+THEN
+	SetStoryEvent(_Char, "WotL_InitializeCharacter");
+
+// WotL_InitializeCharacter launches the WotL_SetAllVariables event,
+// which loops for players
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_InitializeCharacter")
+THEN
+	ProcObjectTimer(_Char, "WotL_SetAllVariablesTimer", 2000);
+
+PROC
+	ProcObjectTimerFinished((CHARACTERGUID)_Char, "WotL_SetAllVariablesTimer")
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 
@@ -33,7 +55,7 @@ IF
 AND
 	CharacterIsPlayer(_Char, 1)
 THEN
-	ProcObjectTimer(_Char, "WotL_SetAllVariables", 2000);
+	ProcObjectTimer(_Char, "WotL_SetAllVariablesTimer", 2000);
 //END_REGION
 EXITSECTION
 

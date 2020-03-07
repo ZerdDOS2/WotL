@@ -1,7 +1,4 @@
 function WotL_LoneWolf(char)
-    if not WotL_Bool(ObjectGetFlag(char, "WotL_CharacterInitialized")) then
-        return
-    end
     if not WotL_Bool(CharacterIsPlayer(char)) then
         return
     end
@@ -14,7 +11,7 @@ function WotL_LoneWolf(char)
         if WotL_Bool(CharacterIsInPartyWith(char, player[1])) then
             count = count + 1
         end
-        if string.find(player[1], char) ~= nil then
+        if player[1] == char then
             isPlayer = true
         end
     end

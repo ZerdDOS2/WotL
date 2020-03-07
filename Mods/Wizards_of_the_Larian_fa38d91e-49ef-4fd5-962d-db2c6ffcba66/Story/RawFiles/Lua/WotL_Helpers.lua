@@ -1,5 +1,8 @@
 -- Converts a string or number to a boolean
 function WotL_Bool(v)
+    if type(v) == "boolean" then
+        return v
+    end
     if type(v) == "string" then
         if v == "false" or v == "No" then
             return false

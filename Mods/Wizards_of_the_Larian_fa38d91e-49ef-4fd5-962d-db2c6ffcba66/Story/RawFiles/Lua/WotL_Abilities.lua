@@ -3,7 +3,7 @@ ENUM_WotL_AbilitiesNames = {
     -- SingleHanded = "",
     Ranged = "LongRange",
     DualWielding = "Speed",
-    -- PainReflection = "",
+    PainReflection = "Focus",
     Perseverance = "ArmorSpeciality",
     Leadership = "Leadership",
     AirSpecialist = "Aerotheurge",
@@ -19,7 +19,7 @@ ENUM_WotL_AbilitiesNames = {
 }
 
 function WotL_SetAbilityStatus(char)
-    if not WotL_Bool(ObjectGetFlag(char, "WotL_CharacterInitialized")) or WotL_Bool(CharacterIsDead(char)) then
+    if WotL_Bool(CharacterIsDead(char)) then
         return
     end
     for vanilla, ability in pairs(ENUM_WotL_AbilitiesNames) do

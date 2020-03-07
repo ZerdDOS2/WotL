@@ -10,12 +10,7 @@ KBSECTION
 //REGION Adds the innate talents
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
-AND
-	ObjectGetFlag(_Char, "WotL_CharacterInitialized", 1)
-AND
-	NOT IsTagged(_Char, "WotL_HasInnateTalents", 1)
 THEN
-	SetTag(_Char, "WotL_HasInnateTalents");
 	PROC_WotL_AddInnateTalents(_Char);
 
 PROC
