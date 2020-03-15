@@ -1,6 +1,6 @@
--- Serves as a DB to keep track of the current characters with the buff
--- The buffs are removed when the target's turn ends
-local WotL_LeadershipCurrentBuffs = {}
+-- Serves as a DB to keep track of the current characters with the debuff
+-- The debuffs are removed when the target's turn ends
+local WotL_LeadershipCurrentDebuffs = {}
 
 -- Damaging an enemy in range applies the leadership status, but removes
 -- any previous leadership status applied
@@ -28,48 +28,46 @@ function WotL_Leadership(target, source, handle)
         return
     end
 
-    RemoveStatus(target, "WotL_LeadershipTarget")
-    ApplyStatus(target, "WotL_LeadershipTarget", 6.0, 1, source)
+    RemoveStatus(target, "WotL_LeadershipEffect")
+    ApplyStatus(target, "WotL_LeadershipEffect", 6.0, 1, source)
 end
 
--- Upon target's turn start, applies a dodge bonus to all allies of the leadership source
+-- Upon target's turn start, applies an accuracy debuff to them, and a dodge debuff to the source
 function WotL_LeadershipTurn(target)
-    if not WotL_Bool(HasActiveStatus(target, "WotL_LeadershipTarget")) then
+    if not WotL_Bool(HasActiveStatus(target, "WotL_LeadershipEffect")) then
         return
     end
 
-    local handle = NRD_StatusGetHandle(target, "WotL_LeadershipTarget")
+    local handle = NRD_StatusGetHandle(target, "WotL_LeadershipEffect")
     local source = NRD_StatusGetGuidString(target, handle, "StatusSourceHandle")
 
     local distance = GetDistanceTo(target, source)
     if distance > 5.0 then
-        RemoveStatus(target, "WotL_LeadershipTarget")
+        RemoveStatus(target, "WotL_LeadershipEffect")
         return
     end
 
     local leadership = GetVarInteger(source, "WotL_Ability_Leadership")
-    local status = "WotL_LeadershipBuff_" .. tostring(leadership)
-    
-    local combatID = CombatGetIDForCharacter(target)
-    local combatants = Osi.DB_CombatCharacters:Get(nil, combatID)
-    -- Escapes the '-' on the source GUID to allow string.find to work
-    local rxpSource = string.gsub(source, "%-", "%%%0")
-    for _, combatant in pairs(combatants) do
-        if WotL_Bool(CharacterIsAlly(source, combatant[1])) and string.find(combatant[1], rxpSource) == nil then
-            ApplyStatus(combatant[1], status, 6.0, 1)
-            WotL_TableInsertTable(WotL_LeadershipCurrentBuffs, target, {combatant[1], status})
-        end
-    end
+    local statusTarget = "WotL_LeadershipTarget_" .. tostring(leadership)
+    local statusSource = "WotL_LeadershipSource_" .. tostring(leadership)
+
+    ApplyStatus(target, statusTarget, 6.0, 1)
+    ApplyStatus(source, statusSource, 6.0, 1)
+    WotL_LeadershipCurrentDebuffs[target] = {statusTarget, source, statusSource}
 end
 
--- Removes all dodge buffs after the target's turn ends
+-- Removes the debuffs upon the target's turn end
 function WotL_LeadershipEndTurn(target)
-    local currentBuffs = WotL_LeadershipCurrentBuffs[target]
-    if currentBuffs == nil then
+    local current = WotL_LeadershipCurrentDebuffs[target]
+    if current == nil then
         return
     end
-    for _, curr in pairs (currentBuffs) do
-        RemoveStatus(curr[1], curr[2])
-    end
-    WotL_TableRemove(WotL_LeadershipCurrentBuffs, target)
+
+    local statusTarget = current[1]
+    local source = current[2]
+    local statusSource = current[3]
+
+    RemoveStatus(target, statusTarget)
+    RemoveStatus(source, statusSource)
+    WotL_TableRemove(WotL_LeadershipCurrentDebuffs, target)
 end

@@ -23,6 +23,31 @@ THEN
 	NRD_CharacterSetPermanentBoostTalent(_Char, _Talent, 1);
 	CharacterAddAttribute(_Char, "Dummy", 0); // Force PlayerUpgrade sync
 //END_REGION
+
+//REGION Reworked Talents
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+THEN
+	NRD_LuaCall("WotL_ReworkedTalents_Torturer", (STRING)_Char);
+
+IF
+    CharacterStatusApplied(_Summon, "SUMMONING_ABILITY", _)
+AND
+    CharacterIsSummon(_Summon, 1)
+AND
+    NOT NRD_CharacterGetInt(_Summon, "Totem", 1)
+AND
+    CharacterGetOwner(_Summon, _Summoner)
+THEN
+	DB_WotL_SummonsCount(_Summoner, _Summon);
+
+IF
+	CharacterDied(_Summon)
+AND
+	DB_WotL_SummonsCount(_Summoner, _Summon)
+THEN
+	NOT DB_WotL_SummonsCount(_Summoner, _Summon);
+//END_REGION
 EXITSECTION
 
 ENDEXITSECTION

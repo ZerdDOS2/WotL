@@ -1,3 +1,49 @@
+-- Doubles the potion AP boost and provides a maximum if there is none
+local function WotL_ChangePotionAPBoost(potion)
+    local givesAP = 0
+
+    local APStart = Ext.StatGetAttribute(potion, "APStart")
+    if (APStart ~= nil and APStart ~= 0) then
+        local new = 2*APStart
+        WotL_ModulePrint("APStart: " .. tostring(APStart) .. " -> " .. tostring(new), "Potion")
+        givesAP = math.max(givesAP, new)
+        Ext.StatSetAttribute(potion, "APStart", new)
+    end
+
+    local APRecovery = Ext.StatGetAttribute(potion, "APRecovery")
+    if (APRecovery ~= nil and APRecovery ~= 0) then
+        local new = 2*APRecovery
+        WotL_ModulePrint("APRecovery: " .. tostring(APRecovery) .. " -> " .. tostring(new), "Potion")
+        givesAP = math.max(givesAP, new)
+        Ext.StatSetAttribute(potion, "APRecovery", new)
+    end
+
+    local ActionPoints = Ext.StatGetAttribute(potion, "ActionPoints")
+    if (ActionPoints ~= nil and ActionPoints ~= 0) then
+        local new = 2*ActionPoints
+        WotL_ModulePrint("ActionPoints: " .. tostring(ActionPoints) .. " -> " .. tostring(new), "Potion")
+        givesAP = math.max(givesAP, new)
+        Ext.StatSetAttribute(potion, "ActionPoints", new)
+    end
+
+    local APMaximum = Ext.StatGetAttribute(potion, "APMaximum")
+    if (ActionPoints ~= nil and ActionPoints ~= 0) or (givesAP > 0) then
+        local new = math.max(givesAP, 2*APMaximum)
+        WotL_ModulePrint("APMaximum: " .. tostring(APMaximum) .. " -> " .. tostring(new), "Potion")
+        Ext.StatSetAttribute(potion, "APMaximum", new)
+    end
+end
+
+-- Doubles the potion AP cost, up to 6.
+local function WotL_ChangePotionAPCost(potion)
+    local AP = Ext.StatGetAttribute(potion, "UseAPCost")
+    if AP ~= nil and AP ~= 0 then
+        local new = math.min(2*AP, 6)
+        WotL_ModulePrint("AP: " .. tostring(AP) .. " -> " .. tostring(new), "Potion")
+        Ext.StatSetAttribute(potion, "UseAPCost", new)
+    end
+end
+
 -- Changes the physical armor bonus from potions to magic armor.
 -- Picks the maximum between them, but if physical armor is negative
 -- and magic armor isn't positive, picks the minimum between them.
@@ -31,11 +77,11 @@ local function WotL_ChangePotionArmor(potion)
     end
 end
 
--- Changes the value for movement bonuses by a factor of 0.3 (same as characters).
+-- Changes the value for movement bonuses by a factor of 0.4 (same as characters).
 local function WotL_ChangePotionMovement(potion)
     local movement = Ext.StatGetAttribute(potion, "Movement")
     if movement ~= 0 then
-        local new = math.ceil(movement * 0.3)
+        local new = math.ceil(movement * 0.4)
         WotL_ModulePrint("Movement: " .. tostring(movement) .. " -> " .. tostring(new), "Potion")
         Ext.StatSetAttribute(potion, "Movement", new)
     end
@@ -109,6 +155,8 @@ function WotL_ModulePotion()
     for _, potion in pairs(Ext.GetStatEntries("Potion")) do
         WotL_ModulePrint("Potion: " .. potion, "Potion")
 
+        WotL_ChangePotionAPBoost(potion)
+        WotL_ChangePotionAPCost(potion)
         WotL_ChangePotionArmor(potion)
         WotL_ChangePotionMovement(potion)
         WotL_ChangePotionResistance(potion)

@@ -45,4 +45,9 @@ function WotL_Backstab(target, source, handle)
             NRD_HitStatusAddDamage(target, handle, type, delta)
         end
     end
+    
+    if isCritical then
+        -- Applies a status just for the text
+        ApplyStatus(target, "WotL_BackstabCritical", 0.0, 1, source)
+    end
 end

@@ -61,3 +61,23 @@ end
 function WotL_TableRemove(name, key)
     name[key] = nil
 end
+
+-- Rolls a random chance of source hitting target
+-- Returns true for a hit and false for a miss
+function WotL_RollHitChance(target, source)
+    local dodge = NRD_CharacterGetComputedStat(target, "Dodge", 1)
+    -- Ext.Print("Dodge:" .. tostring(dodge))
+    local accuracy = NRD_CharacterGetComputedStat(source, "Accuracy", 1)
+    -- Ext.Print("Accuracy:" .. tostring(accuracy))
+    local cthb = NRD_CharacterGetComputedStat(source, "ChanceToHitBoost", 1)
+
+    local hitChance = accuracy + cthb - dodge
+    hitChance = math.max(hitChance, 5)
+    hitChance = math.min(hitChance, 95)
+
+    local roll = math.random(1, 100)
+    if roll > hitChance then
+        return false
+    end
+    return true
+end

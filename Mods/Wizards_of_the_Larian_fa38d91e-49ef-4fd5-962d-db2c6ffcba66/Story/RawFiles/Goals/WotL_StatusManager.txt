@@ -1,0 +1,23 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+
+KBSECTION
+//REGION OnStatusAttempt
+// Groups all NRD_OnStatusAttempt functions to make it easier to organize
+// the order they occur.
+IF
+    NRD_OnStatusAttempt((CHARACTERGUID)_Target, _Status, _Handle, (CHARACTERGUID)_Source)
+AND
+    NOT DB_WotL_BlacklistVariableStatuses(_Status)
+THEN
+    // Increases the status duration based on the source's focus. (WotL_Focus.lua)
+    NRD_LuaCall("WotL_Focus", (STRING)_Target, _Status, (STRING)_Handle, (STRING)_Source);
+    // Allow healing statuses to have their application cancelled if the target is
+    // either Undead or Decaying. (WotL_MissingStatuses.lua)
+    NRD_LuaCall("WotL_CheckMissingStatus", (STRING)_Target, _Status, (STRING)_Handle, (STRING)_Source);
+//END_REGION
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"

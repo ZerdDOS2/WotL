@@ -1,29 +1,27 @@
--- Some missing skills come from the WotL_ModuleSkill.lua -> WotL_ChangeSkillDamage
-ENUM_WotL_MissingSkills = WotL_Set {
-    -- Grenades
-    "Projectile_Grenade_ArmorPiercing",
-    "Projectile_Grenade_Nailbomb",
-    "Projectile_Grenade_Flashbang",
-    "Projectile_Grenade_Molotov",
-    "Projectile_Grenade_CursedMolotov",
-    "Projectile_Grenade_Love",
-    "Projectile_Grenade_MindMaggot",
-    "Projectile_Grenade_ChemicalWarfare",
-    "Projectile_Grenade_Terror",
-    "Projectile_Grenade_Ice",
-    "Projectile_Grenade_BlessedIce",
-    "Projectile_Grenade_Holy",
-    "Projectile_Grenade_Tremor",
-    "Projectile_Grenade_Taser",
-    "Projectile_Grenade_WaterBalloon",
-    "Projectile_Grenade_WaterBlessedBalloon",
-    "Projectile_Grenade_SmokeBomb",
-    "Projectile_Grenade_MustardGas",
-    "Projectile_Grenade_OilFlask",
-    "Projectile_Grenade_BlessedOilFlask",
-    "Projectile_Grenade_PoisonFlask",
-    "Projectile_Grenade_CursedPoisonFlask",
-}
+-- ENUM_WotL_MissingSkills is started at WotL_SessionSkill.lua -> WotL_RegisterMissingSkill
+-- Grenades
+ENUM_WotL_MissingSkills["Projectile_Grenade_ArmorPiercing"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_Nailbomb"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_Flashbang"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_Molotov"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_CursedMolotov"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_Love"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_MindMaggot"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_ChemicalWarfare"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_Terror"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_Ice"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_BlessedIce"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_Holy"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_Tremor"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_Taser"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_WaterBalloon"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_WaterBlessedBalloon"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_SmokeBomb"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_MustardGas"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_OilFlask"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_BlessedOilFlask"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_PoisonFlask"] = true
+ENUM_WotL_MissingSkills["Projectile_Grenade_CursedPoisonFlask"] = true
 
 function WotL_CheckMissingSkill(target, source, handle)
     local skill = NRD_StatusGetString(target, handle, "SkillId")
@@ -44,16 +42,17 @@ function WotL_CheckMissingSkill(target, source, handle)
         return
     end
 
-    local dodge = NRD_CharacterGetComputedStat(target, "Dodge", 1)
-    local accuracy = NRD_CharacterGetComputedStat(source, "Accuracy", 1)
-
-    local hitChance = accuracy - dodge
-    hitChance = math.max(hitChance, 5)
-    hitChance = math.min(hitChance, 95)
-
-    local roll = math.random(1, 100)
-    if roll >= hitChance then
+    if not WotL_RollHitChance(target, source) then
         NRD_StatusSetInt(target, handle, "Hit", 0)
         NRD_StatusSetInt(target, handle, "Missed", 1)
+        -- Clearing the damage removes the miss text and animation
+        NRD_HitStatusClearAllDamage(target, handle)
+
+        -- Mocks a fake hit just to have the missing animation
+        local simulate = NRD_HitPrepare(target, source)
+        NRD_HitSetInt(simulate, "Hit", 0)
+        NRD_HitSetInt(simulate, "Missed", 1)
+        NRD_HitSetInt(simulate, "NoEvents", 1)
+        NRD_HitExecute(simulate)
     end
 end

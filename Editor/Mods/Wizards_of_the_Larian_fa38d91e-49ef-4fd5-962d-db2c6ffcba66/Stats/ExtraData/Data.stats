@@ -244,7 +244,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="LowGroundBaseDamagePenalty" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="-0.1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -352,7 +352,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="TalentQuickStepPartialApBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="2" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="1.5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -365,6 +365,18 @@
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="DualWieldingAPPenalty" />
         <field name="Value" type="FloatStatObjectFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TalentExecutionerActionPointBonus" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="TorturerDamageStatusTurnIncrease" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
       </fields>
     </stat_object>
   </stat_objects>

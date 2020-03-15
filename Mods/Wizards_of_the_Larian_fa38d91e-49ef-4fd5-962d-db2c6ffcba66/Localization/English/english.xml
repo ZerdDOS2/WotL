@@ -1,25 +1,56 @@
 <contentList>
 	<content titleid="Attributes"></content>
 	<content contentuid="hb924258ag2cf7g4c11gaf4eg8b7de303c197"></content><comment>Damage description that covered Strength, Finesse and Intelligence in Vanilla</comment>
+	<content titleid="Power (Strength)"></content>
 	<content contentuid="hc8c67074g3c19g44d1g8b7bg9e5a8d06d87f">Power</content><comment>Strength Name</comment>
+	<content contentuid="hb4e3a075g5f82g4a0dgaffbg456e5c15c3db">Power</content><comment>Strength Name on Control UI</comment>
+	<content contentuid="hebb82804gc1d3g4366g9cecgbd2fc7e06d1c">Power: [1][2]&lt;br&gt;(Warn Zerd: 014)</content>
+	<content contentuid="h99b3c566gb2a2g4dd6g8f1cg2eee64455680">Power Lowered (Warn Zerd: 011)</content>
 	<content contentuid="h18f97d5bg9a79g4917g809dgb0ac7a5ec302">Increases your damage by 3% per point and allows you to lift and carry heavier items.</content><comment>Strength Description</comment>
 	<content contentuid="hada430deg235ag4273g96cag3a1528986eec">Determines your damage and weight you can lift</content><comment>Strength Description on Control UI</comment>
-	<content contentuid="h27e3bc03g87a9g4e13ga38dg641b7db4b441">Evasion</content>
+	<content contentuid="ha60747feg82ccg49c6g9e9dgc5b919f92843">[Power Persuasion]</content><comment>Strenght Persuasion Check</comment>
+	<content contentuid="h187a7051gafdcg4fd7g8a89g08d90d03facc">[Power Check]</content><comment>Strenght Check</comment>
+	<content titleid="Evasion (Finesse)"></content>
+	<content contentuid="h27e3bc03g87a9g4e13ga38dg641b7db4b441">Evasion</content><comment>Finesse Name</comment>
+	<content contentuid="h281c2da7g2d2bg4d69g986agfd124c7f569f">Evasion</content><comment>Finesse Name on Control UI</comment>
+	<content contentuid="h3b3ad9d6g754fg44a0g953dg4f87d4ac96fe">Evasion</content><comment>Finesse Name on the Character Sheet Tooltip (Why is it a different entry?)</comment>
+	<content contentuid="h6a3639d1g294eg49cegb235gdbeb9defcf12">Evasion: [1][2]&lt;br&gt;(Warn Zerd: 015)</content>
+	<content contentuid="h89894c92gd301g4292g8cf0gd8cd159d70d8">Evasion Lowered (Warn Zerd: 012)</content>
 	<content contentuid="h75391bafg8744g4441g9b1egf52f182f96fc">Gives you 2% dodge per point.</content><comment>Finesse Description</comment>
 	<content contentuid="h630a6524g289eg4b48gaaa3g72f636f99449">Determines your Dodge</content><comment>Finesse Description on Control UI</comment>
-	<content contentuid="h89894c92gd301g4292g8cf0gd8cd159d70d8">Evasion Lowered</content>
-	<content contentuid="h33d41553g12cag401eg8c71g640d3d654054">Precision</content>
-	<content contentuid="h5f3f6bdagdcd6g4d7agbd92g2a56eac26fd1">Precision: [1][2]&lt;br&gt;</content>
-	<content contentuid="h8e8351e9gc40ag4e4cgaebfgc810a27ffff8">Precision</content>
-	<content contentuid="hbe8b28b6g4cfcg4bfag9214gadaae68895c7">Precision Lowered</content>
-	<content contentuid="hfbc938ceg297fg4232ga11dg3fe44985b9f8">Precision</content>
+	<content contentuid="heaba9947g10fcg483ag87ceg59aa683f0824">[Evasion Persuasion]</content><comment>Finesse Persuasion Check</comment>
+	<content contentuid="hd25870f2gc785g4c67g8cfcg00fb848f221e">[Evasion Check]</content><comment>Finesse Check</comment>
+	<content titleid="Precision (Intelligence)"></content>
+	<content contentuid="h33d41553g12cag401eg8c71g640d3d654054">Precision</content><comment>Intelligence Name</comment>
+	<content contentuid="h8e8351e9gc40ag4e4cgaebfgc810a27ffff8">Precision (Warn Zerd: 001)</content>
+	<content contentuid="hfbc938ceg297fg4232ga11dg3fe44985b9f8">Precision</content><comment>Intelligence Name on Control UI</comment>
+	<content contentuid="h5f3f6bdagdcd6g4d7agbd92g2a56eac26fd1">Precision: [1][2]&lt;br&gt;(Warn Zerd: 016)</content>
+	<content contentuid="hbe8b28b6g4cfcg4bfag9214gadaae68895c7">Precision Lowered (Warn Zerd: 013)</content>
 	<content contentuid="h6b67efcagf943g43a1g959eg36f9ecc42e7e">Increases your Accuracy by 2% per point.</content><comment>Intelligence Description</comment>
 	<content contentuid="h531fee9cg4182g40b9g8971g62ad71b3a0d2">Determines your Accuracy</content><comment>Intelligence Description on Control UI</comment>
+	<content contentuid="h19b4d78egae01g47fag87edg387d5d3d1001">[Precision Persuasion]</content><comment>Intelligence Persuasion Check</comment>
+	<content contentuid="he2d993c6gaa9eg421dgaa8bg6898f3c00b6b">[Precision Check]</content><comment>Intelligence Check</comment>
+	<content titleid="Wits"></content>
 	<content contentuid="h6d2cd8aeg4e09g4003ga57cg3fea3a0f5502">Increases your Critical Chance by 2% per point and your Initiative by 1 per point. Also increases your ability to detect traps and find hidden treasures.</content><comment>Wits Description</comment>
 	<content contentuid="hd5dd26e5gadc6g40d9ga0c6g2ae909cbc842">+1 point = +[1]% Critical Chance.</content><comment>Wits Tooltip</comment>
 
+	<content titleid="General Character Sheet Tooltips"></content>
+	<content contentuid="h9df517d1gf64bg499dgb23fg462fd1f061bc">How much chance you have to strike a critical attack.</content><comment>Critical Chance Tooltip</comment>
+	<content contentuid="hb677b3f7g5cf6g49c3g84fag2f773ef50dd6">None</content><comment>Physical Armour Name in Character Sheet</comment>
+	<content contentuid="h95445c28ga761g4804g8944g93ca17d9dbe6">This Armour bar does nothing!</content><comment>Physical Armour Tooltip</comment>
+	<content contentuid="hc6dcb940gb6b6g41aagaeceg31008af9c082">Armour</content><comment>Magic Armour Name in Character Sheet</comment>
+	<content contentuid="hcabd2bc9g7806g47b3g8898gc6c61ee230e5">Armour:</content><comment>Magic Armour Name in Armor Bar</comment>
+	<content contentuid="h3f9a1615g1393g4310g954egb5b0db8e3e8a">Armour absorbs damage.</content><comment>Magic Armour Tooltip</comment>
+	<content contentuid="h85fee3f4g0226g41c6g9d38g83b7b5bf96ba">Physical</content><comment>Earth Resistance Name in Chacter Sheet</comment>
+	<content contentuid="hac36ad5ag557fg4456ga0edga5a40606fabb">Physical Resistance</content><comment>Earth Resistance Name in Character Sheet Tooltip</comment>
+	<content contentuid="h8d4b3a3cg9581g4d7cgb17bgba87914bc638">Reduces the damage from physical-based attacks.</content><comment>Earth Resistance Tooltip in Character Sheet</comment>
+
+	<content contentuid="h0d765ef8gca43g4e90ga3cegbb41065861cb">earth (Warn Zerd: 002)</content>
+	<content contentuid="hd1fb2660g2e2cg4a2egb80dg7fe9ab55c090">Earth (Warn Zerd: 003)</content>
+	<comment><content contentuid="hc1fc5c31g0eafg435dga3cbgb7b28258cb4c">Earth</content>This is the "Earth" skin tone, no need to change that to physical</comment>
 
 	<content titleid="Abilities"></content>
+
 	<content titleid="Offence Abilities"></content>
 	<content contentuid="h5fb2ef9cg4258g446eg9522gd6be58f3ab23">Offence</content><comment>Character Sheet "Weapon Abilities" section</comment>
 	<content contentuid="h3fb5cd5ag9ec8g4746g8f9cg03100b26bd3a">Lifesteal</content><comment>Two-Handed Name</comment>
@@ -36,7 +67,7 @@
 	<content contentuid="h2ea37099g75b8g4156gb3beg5b52ced2aa40">Level [1]: + [1]m Range.</content><comment>Ranged Tooltip for Current Level</comment>
 	<content contentuid="h03d68693g35e7g4721ga1b3g9f9882f08b12">Speed</content><comment>Dual Wielding Name</comment>
 	<content contentuid="h768669d0g02adg48f7g901eg83068a96bf19">Increases your movement speed by 0.3m per point</content><comment>Dual Wielding Description</comment>
-	<content contentuid="hb034efe9g235bg44c9g9307g65a6d96c90e6">Next Level [1] + [1] * 0.3m</content><comment>Dual Wielding Tooltip for Next Level</comment>
+	<content contentuid="hb034efe9g235bg44c9g9307g65a6d96c90e6">Next Level [1]: + [1] * 0.3m</content><comment>Dual Wielding Tooltip for Next Level</comment>
 	<content contentuid="ha23ceefdg2365g476cg98d0g3df72fdafc92">Level [1]: +[1] * 0.3m</content><comment>Dual Wielding Tooltip for Current Level</comment>
 
 	<content titleid="Defence Abilities"></content>
@@ -44,14 +75,14 @@
 	<content contentuid="hded47ed1gcc2eg4ce8g9277g5ee6b7204293">Increases the duration of status you apply by 1 turn per point.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;Doesn't increase the duration of Charm, Fear, Knocked Down, Polymorph and Incapacitaded statuses.&lt;/font&gt;&lt;br&gt;</content><comment>Retribution Description</comment>
 	<content contentuid="h7a786d38g8a67g4ec6gab80g0e17f17c5210">Next Level [1]: +[1] duration.</content><comment>Retribution Tooltip for Next Level</comment>
 	<content contentuid="h8dff50e3g5cfcg4ef7g98fbg54171b2f841f">Level [1]: +[1] duration.</content><comment>Retribution Tooltip for Current Level</comment>
-	<content contentuid="h5b61fccfg5d2ag4a81g9cacg068403d61b5c">Armor Speciality</content><comment>Perseverance Name</comment>
-	<content contentuid="h1bae56a9ga45fg431fg80bfg2afbef03c1d2">Decrease all damage dealt to you while your armor is up by 10% per point.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;Doesn't reduce piercing, shadow and armor damages.&lt;br&gt;Reduction is applied before resistances and vulnerabilities.&lt;/font&gt;&lt;br&gt;</content><comment>Perseverance Description</comment>
+	<content contentuid="h5b61fccfg5d2ag4a81g9cacg068403d61b5c">Armour Speciality</content><comment>Perseverance Name</comment>
+	<content contentuid="h1bae56a9ga45fg431fg80bfg2afbef03c1d2">Decrease all damage dealt to you while your armour is up by 10% per point.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;Doesn't reduce piercing, shadow and armour damages.&lt;br&gt;Reduction is applied before resistances and vulnerabilities.&lt;/font&gt;&lt;br&gt;</content><comment>Perseverance Description</comment>
 	<content contentuid="hce4fa62bgf76dg448bg965bg573fe490ace6">Next Level [1]: +[1]0% reduction.</content><comment>Perseverance Tooltip for Next Level</comment>
 	<content contentuid="hf9b07ea6gde9fg4848ga603g3548d25c0918">Level [1]: [1]0% reduction.</content><comment>Perseverance Tooltip for Next Level</comment>
 	<content contentuid="h7c65fe39g1526g427bg8a2dgab7e74c66202">Leadership</content><comment>Leadership Name</comment>
-	<content contentuid="h8256bf13gb4cag4662gaafegb5724b210c92">Damaging an enemy close to you causes all your allies to gain 10% dodge per point during the enemy's turn.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;You need to be up to 5 m from the enemy when dealing the damage and at their turn start.&lt;/font&gt;&lt;br&gt;</content><comment>Leadership Description</comment>
-	<content contentuid="h9437181dg238eg47a5g8572g9b0331fa3c52">Next Level [1]: +[2]% Dodge.</content><comment>Leadership Tooltip for Next Level</comment>
-	<content contentuid="h1a9b3902gfdc5g4936gaa8ega6b2c22ebf43">Level [1]: +[2]% Dodge.</content><comment>Leadership Tooltip for Current Level</comment>
+	<content contentuid="h8256bf13gb4cag4662gaafegb5724b210c92">Damaging an enemy close to you causes them to lose accuracy and you to lose dodge during their next turn.&lt;br&gt;&lt;br&gt;&lt;font size='16'&gt;You need to be up to 5 m from the enemy when dealing the damage and at their turn start.&lt;/font&gt;&lt;br&gt;</content><comment>Leadership Description</comment>
+	<content contentuid="h9437181dg238eg47a5g8572g9b0331fa3c52">Next Level [1]: -[2]% Accuracy and -[2]% Dodge.</content><comment>Leadership Tooltip for Next Level</comment>
+	<content contentuid="h1a9b3902gfdc5g4936gaa8ega6b2c22ebf43">Level [1]: -[2]% Accuracy and -[2]% Dodge.</content><comment>Leadership Tooltip for Current Level</comment>
 	
     <content titleid="Skills Abilities"></content>
 	<comment><content contentuid="h03cd984dg2334g4bb7g86bfg0b9419b803cf">Skills</content><comment>Character Sheet "Skill" section</comment></comment>
@@ -60,11 +91,11 @@
 	<content contentuid="hc39ddc5dgd298g4fbcg97cfg1c721e8fa72f"></content><comment>Aerotheurge Tooltip for Next Level</comment>
 	<content contentuid="h9b56cad2g1e5fg40c0gaa03g1b6588b101b6"></content><comment>Aerotheurge Tooltip for Current Level</comment>
 	<comment><content contentuid="h21354580g6870g411dgbef4g52f34942686a">Hydrosophist</content><comment>Hydrosophist Name</comment></comment>
-	<content contentuid="hbac7843eg0419g4685ga4d6g5aab9302a18a">Water and Ice skills. Focused on Crowd Control, Buffs, Healing and Armor Restoration.</content><comment>Hydrosophist Description</comment>
+	<content contentuid="hbac7843eg0419g4685ga4d6g5aab9302a18a">Water and Ice skills. Focused on Crowd Control, Buffs, Healing and Armour Restoration.</content><comment>Hydrosophist Description</comment>
 	<content contentuid="h0a8b0b59g5da9g483fg86a3g59afce30dbb7"></content><comment>Hydrosophist Tooltip for Next Level</comment>
 	<content contentuid="hc4400964gcf4bg429cg882cg9e90ba8cf0ce"></content><comment>Hydrosophist Tooltip for Current Level</comment>
 	<comment><content contentuid="h814e6bb5g3f51g4549gb3e4ge99e1d0017e1">Geomancer</content><comment>Geomancer Name</comment></comment>
-	<content contentuid="hc5c3b4a8g0f31g45deg873ag413f99d89910">Earth and Poison skills. Focused on Area of Effect Damage, Soft Crowd Control, Armor Restoration and Damage Per Turn.</content><comment>Geomancer Description</comment>
+	<content contentuid="hc5c3b4a8g0f31g45deg873ag413f99d89910">Earth and Poison skills. Focused on Area of Effect Damage, Soft Crowd Control, Armour Restoration and Damage Per Turn.</content><comment>Geomancer Description</comment>
 	<content contentuid="h414d6fb1g056fg4735ga293gac9f5ba97246"></content><comment>Geomancer Tooltip for Next Level</comment>
 	<content contentuid="hcaa6c292g90ccg41a3g9186g6913a8af0656"></content><comment>Geomancer Tooltip for Current Level</comment>
 	<comment><content contentuid="hf0a5a77dg132ag4517g8701g9d2ca3057a28">Pyrokinetic</content><comment>Pyrokinetic Name</comment></comment>
@@ -81,8 +112,8 @@
 	<content contentuid="h609604e5g6a27g4154gaa8cg2255868e4dbc"></content><comment>Huntsman Tooltip for Current Level</comment>
 	<comment><content contentuid="hac10f374gf9dbg4ee5gb5d0g7b1d3cb6d1fe">Summoning</content><comment>Summoning Name</comment></comment>
 	<content contentuid="h1d6340c5g7f22g4db4ga12agae3143d9a292">Increases your summons base stats and attributes. Upon reaching 5 Summoning, your Incarnate gain increased size and more attributes.</content><comment>Summoning Description</comment>
-	<content contentuid="h8f2b04a3g7fe4g4eb9g9b29gdf28318d1c6e">Next Level [1]: Summons start with [2]% more Vitality, Damage, and Armor.</content><comment>Summoning Tooltip for Next Level</comment>
-	<content contentuid="h075cdd30g57e6g4738g9068ge71dff923b82">Level [1]: Summons start with [2]% more Vitality, Damage, and Armor.</content><comment>Summoning Tooltip for Current Level</comment>
+	<content contentuid="h8f2b04a3g7fe4g4eb9g9b29gdf28318d1c6e">Next Level [1]: Summons start with [2]% more Vitality, Damage, and Armour.</content><comment>Summoning Tooltip for Next Level</comment>
+	<content contentuid="h075cdd30g57e6g4738g9068ge71dff923b82">Level [1]: Summons start with [2]% more Vitality, Damage, and Armour.</content><comment>Summoning Tooltip for Current Level</comment>
 	<comment><content contentuid="h70714d89g196eg4affga165gaa9d72a61368">Polymorph</content><comment>Polymorph Name</comment></comment>
 	<content contentuid="hde85b3faga9aag4420g9089gc7e6eee20084">Provides 1 free Attribute Point per point invested.</content><comment>Polymorph Description</comment>
 	<comment><content contentuid="hed591025g5c39g48ccga899gc9b1569716c1">Scoundrel</content><comment>Scoundrel Name</comment></comment>
@@ -99,67 +130,46 @@
 
 	<content titleid="Innate Talents"></content>
 	<content contentuid="h01248cafga159g43aaga826g214fd84dde62">&lt;font color='#666666'&gt;(Innate) The Pawn&lt;/font&gt;</content><comment>The Pawn Name</comment>
-	<content contentuid="h91a3adcbg43d8g4d85ga819gffe52d51a629">The Pawn permits your character [2] AP worth of free movement per turn. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent. It is automatically assigned for all Characters.&lt;/font&gt;</content><comment>The Pawn Description</comment>
+	<content contentuid="h91a3adcbg43d8g4d85ga819gffe52d51a629">The Pawn permits your character 1.5 AP worth of free movement per turn. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent. It is automatically assigned for all Characters.&lt;/font&gt;</content><comment>The Pawn Description</comment>
 	<content contentuid="hfb87cc03g1dc0g4095g93efg0becba59f352">&lt;font color='#666666'&gt;(Innate) Savage Sortilege&lt;/font&gt;</content><comment>Savage Sortilege Name</comment>
 	<content contentuid="h90812fdfg4f53g49afg8a97g42aefdeb508c">Savage Sortilege gives all magical skills a critical chance equal to your critical chance score. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent. It is automatically assigned for all Characters.&lt;/font&gt;</content><comment>Savage Sortilege Description</comment>
 	<content contentuid="ha6916b7cg086eg4d2dgb30ag80c997699e8a">&lt;font color='#666666'&gt;(Innate) Opportunist&lt;/font&gt;</content><comment>Opportunist Name</comment>
 	<content contentuid="ha323378egb5f6g451cg858dged752a3540ca">Opportunist gives you the ability to perform attacks of opportunity. &lt;br /&gt;&lt;br /&gt;&lt;font color="#f7ba14"&gt;This is an Innate Talent. It is automatically assigned for all Characters.&lt;/font&gt;</content><comment>Opportunist Description</comment>
 
 	<content titleid="Removed Talents"></content>
-	<content contentuid="hbaf5c48eg86eeg4947gb884g6508d4dbd1fe">&lt;font color="#f7ba14"&gt;This bonuses are applied automatically, without needing to possess the talent.&lt;/font&gt;&lt;br /&gt;Lone Wolf provides +2 Max, Starting and Recovery AP, +30% Vitality and Armor, and doubles invested points in attributes. This bonus is temporarily removed while there are more than two members in the current party.</content><comment>Lone Wolf Description</comment>
+	<content contentuid="hbaf5c48eg86eeg4947gb884g6508d4dbd1fe">&lt;font color="#f7ba14"&gt;This bonuses are applied automatically, without needing to possess the talent.&lt;/font&gt;&lt;br /&gt;Lone Wolf provides +2 Max, Starting and Recovery AP, +30% Vitality and Armour, and doubles invested points in attributes. This bonus is temporarily removed while there are more than two members in the current party.</content><comment>Lone Wolf Description</comment>
 	
+	<content titleid="Reworked Talents"></content>
+	<content contentuid="hec141b07gb2e6g4283g8006gd94adc63d734">Generous Host</content><comment>Torturer Name</comment>
+	<content contentuid="h53f1f4d5gf664g4cb3gac8dgb4fbd2651d51">[1] allows you to control one extra summon, but you receive a -2 AP Start, Recovery and Maximum debuff while controlling more than 1 summon.</content><comment>Torturer Description</comment>
 
-	<comment>
-	<content contentuid="h04248accg2cc5g4798g9d22g1de1e1846b54">Restore [1] equal to damage dealt.</content>
-	<content contentuid="h71b09f9fg285fg4532gab16g1c7640864141">Damage is based on your level and receives bonus from Strength.</content>
-	<content contentuid="ha4cfd852g52f1g4079g8919gd392ac8ade1a">Damage is based on your attack and receives a bonus from Strength.</content>
-	<content contentuid="hd8bbf9a7g2ecag4674g88bdg1610c1fb2b4a">Damage may be reduced by resistances.</content>
-	<content contentuid="hf9f740eegedb2g4ff7g94f3gd36736304474">The stats of the summons will depend on the caster's level and attributes.</content>
-	<content contentuid="h9a4b810cg2aa9g4e33gb8d6gcb8741d412f4">Huntsman skills advance archers and rangers. A high level of Finesse improves these skills&apos; reach, while Strength improves their damage. Read this book to learn this skill.</content>
-	<content contentuid="h00d71466g0fd5g4e76g8a3bgb69a2f203cd8">Warfare skills are skills for warriors. High Strength improves some of these skills. Read this book to learn this skill.</content>
-	<content contentuid="h8aa9cb44g404dg4d9dgba24g125291f2ca65">Conjure a personal elemental that matches the ground surface it&apos;s summoned onto. Your Incarnate can be buffed with Infusions. Once you hit Summoning ability level of 5, a colossal Incarnate Champion will answer your summons!</content>
-	<content contentuid="h34f3a0e4g7722g4d5fg97f8gd9b67a582c32">Black-Hearted</content>
-	<content contentuid="h493986c9g104eg4517g9c49g90cee026cd6c">[1] characters suffer damage from all healing effects - including potions - but gain 50% Lifesteal. They cannot benefit from Blessed. In combat, their Bless skill also becomes its opposite...</content>
-	<content contentuid="hd8c70f78g43eeg44c9g81f2gcf16132b1e21">Braveheart</content>
-	<content contentuid="hcb8f9837gdf0fg4a01ga7d6g5ed522b74189">Characters with Braveheart are considered a priority target by enemies in melee, but cannot flee from combat. In addition, attacks of opportunity provoke immediate retaliation from Braveheart.</content>
-	<content contentuid="hf9a4b3bbgddefg469fg8170ga44988007e2a">[1] lets you heal from poison, but regular healing will damage you instead.</content>
-	<content contentuid="h53f1f4d5gf664g4cb3gac8dgb4fbd2651d51">With [1], the duration of damage statuses caused by you is extended by one turn. Burning, Poisoned, Bleeding, Necrofire, Acid, Suffocating, Entangled, Death Wish, Shackles of Pain and Ruptured Tendons are affected by this talent.</content>
-	<content contentuid="hdadd9969g6bd6g41dcgb943g0b297855c48d">Hydrosophist skills are Water-based magic spells. High Strength improves these skills' damage. Read this book to learn this skill.</content>	
-	<content contentuid="he6e92b9bg7e24g4bf0g8bdag9d7a8c3a8c85">Minor Wisdom Potion</content>
-	<content contentuid="h180890f0g7493g4c58g97a7g0ddd791704bf">Foolishness Potion</content>
-	<content contentuid="h37b9af4fg7b02g44a5gb6c5gb48b6cfca0a4">Medium Wisdom Potion</content>
-	<content contentuid="h42974c6dg5d3eg4599g9682g6ab4232644a1">Large Wisdom Potion</content>
-	<content contentuid="h962896e1gd695g4a14g91e4g8653934ab1a9">Permanent Wisdom Potion</content>
-	<content contentuid="h2284147ag95d8g4630gab6ag5508205213af">Fan of Blades</content>
-	<content contentuid="h1f7301f2g8b29g460bgb0adgb9d31277db79">Fan of Blades Skillbook</content>
-	<content contentuid="h421ea4e4g65d1g46dagb94fg66bd0a375426">Graft Flesh</content>
-	<content contentuid="h724661bbg2390g433bgb147g34ccd534fc1f">Graft Flesh Scroll</content>
-	<content contentuid="h7caba7dfgfdddg4570g8aedgb76d86d48600">Graft Flesh Skillbook</content>
-	<content contentuid="hd8656341g2c58g4c5fg98f6g9cd654abc451">Graft Flesh</content>
-	<content contentuid="h6ee4fd05gf8e2g40bbg8d9eg3afd7ae17fa3">Elemental Weapons Skillbook</content>
-	<content contentuid="hbcab4a97g8038g4533g95edg11a3fb966b07">Willpower increased. Attacking enemies will become Chilled.</content>
-	<content contentuid="hd980a2a1gc33eg4810gafc8g07f55ba70245">Egalitarian</content>
-	<content contentuid="hfc8981a1g8f84g49c8ga8b4g17564a836c45">[1] equally distributes statuses you successfully receive to all other characters within 3m.</content>
-	<content contentuid="h81ca938fg5ef4g452agb093g1294e2f0718b">[1] absorbs blood surfaces to heal you and restores a small amount of Vitality when any nearby character dies.</content>
-	<content contentuid="hf3893f8fg20c5g4078ga83cgef8783082103">[1] refunds used skillbooks. In combat, using three skills of the same school in a row restores 1 Action Point.</content>
-	<content contentuid="h70fe2b7cg2c09g403ag9dd2g82b757e0d39c">Academic</content>
-	<content contentuid="hed23d18dg2775g49e7g909bgffcb93b19f78">Reptile Regrowth Scroll</content>
-	<content contentuid="h480eb6ebgfa27g4a1agb3dcgf68623cc3f2c">Reptile Regrowth Skillbook</content>
-	<content contentuid="hf3cd8067g36c0g4b48ga4dfg361f33579b43">[1] reduces the cost of using grenades and scrolls by [2] AP when your offhand is free. Additionally, your first equipment change per turn costs nothing.</content>
-	<content contentuid="h42b4c1e3g7c07g400dg8924g2807a024e6bb">[1] enables you to talk to animals. Beasts of the wild will occasionally come to your aid when you strike a foe.</content>
-	<content contentuid="h49426677g68f9g4467g947cg68fad9de4af8">[1] gives you +[2]% extra Vitality and +2% to all Resistances (including physical) for every point in Warfare.</content>	
-	<content contentuid="hc453e399ge1f5g41f1gaeabgcdd4de833c63">A character with [1] has an extra [2]% [3], but takes a [4]% penalty to [5]. Demon gives an additional +3% Fire Resistance each time a Pyrokinetic spell is cast, while Ice King gives immunity to Chilled, Frozen and Slipping.</content>
-	<content contentuid="h00f565c4g6178g424fgb031g41a2c12bf85d">[1] gives you [2]% Dodging while dual wielding. When missed by an attack in close range, you retaliate.</content>
-	<content contentuid="hb6ef5200g4cd4g48dag8006gac3dc3e8aa51">While sneaking, [1] increases attack damage by [2]% and causes attacks to inflict Atrophy. Also reduces cost of entering sneak mode by [3] AP.</content>
-	<content contentuid="h6f77e8f2g044eg44a8gacb8g64457aac8c8f">[1] increases the range of skills and scrolls by [2]m and boosts your damage by 10%. Enemy characters within 4 meters decrease your damage by 20%, however.</content>
-	<content contentuid="hfb6e0d6aga98fg4398g979agcc71ba1ec1e0">Arrow Efficiency</content>
-	<content contentuid="h6a4d6da0g29cfg44ecg8913g5a0a76cf1bbd">[1] gives you [2]% chance to recover a special arrow after shooting it, and a separate [2]% chance to immediately repeat a special arrow attack.</content>
-	<content contentuid="hd29d87cbga2f2g42eeg837cg910c0b0fa8d8">Grafted Flesh</content>
-	<content contentuid="h7c768edbgea39g47f7g8b0cg61fde6b89c28">Applies Slowed.</content>
-	<content contentuid="hb3f2df95ga8afg4a70gb632g9f5dc7272651">Chance of Frost Aegis, which protects the wearer against statuses.</content>
-	<content contentuid="headeaff8ge018g4883ga651g04330a3953ab">Frost Aegis</content>
-	<content contentuid="h19b4d78egae01g47fag87edg387d5d3d1001">[Resolve Persuasion]</content>
-	<content contentuid="h580f53ebg8269g469ag97f0g7b35c71413e9">[Intellect Persuasion]</content>
-	<content contentuid="h00b3b829g02a8g43b3gabb7gbf8dc9df3b6a">[Wisdom Persuasion]</content>
-	</comment>
+	<content titleid="Vanilla Talents"></content>
+	<content contentuid="h493986c9g104eg4517g9c49g90cee026cd6c">[1] adds [2]% of all healing you receive by skills or consumables to your Armour.</content><comment>Living Armour description</comment>
+
+	<content titleid="Log Texts"></content>
+	<content contentuid="h50116f77g1be8g4cabg8c9eg97ce9b755773">Backstab!</content><comment>Backstab Critical! warning</comment>
+
+	<content titleid="Damage Types"></content>
+	<content contentuid="h68b77a37g9c43g4436gb360gd651af08d7bb">physical damage</content><comment>Earth Damage Name in Damage Tooltips</comment>
+
+	<content contentuid="hf1ff2734g96adg486fg800cgd9d0320b04c7">Damage is based on your current Magic Armour.</content><comment>Skill scaling from Current Magic Armour</comment>
+	<content contentuid="ha4cfd852g52f1g4079g8919gd392ac8ade1a">Damage is based on your basic attack and receives a bonus from Power.</content><comment>Damage scaling from Basic Attacks.</comment>
+	
+	<content contentuid="hb0ee5937g1664g4354g9942gae78cbe2e6ae">Reduces the damage from earth-based attacks. (Warn Zerd: 004)</content>
+	<content contentuid="h57599abcgd098g4704ga4c1gb17d0137da2f">Earth Resistance (Warn Zerd: 005)</content>
+
+	<content contentuid="h161d5479g06d6g408egade2g37a203e3361f">Armour</content><comment>Physical Armour Damage in Skill Tooltips</comment>
+	<content contentuid="h1feadc00g239ag430bgac99g7b5f3605a1c1">Physical Armour (Warn Zerd: 006)</content>
+	<content contentuid="h622fada7g51abg454fg86e4gb22e50dcd738">Physical Armour (Warn Zerd: 007)</content>
+	<content contentuid="h6b165a70gef80g44fag8001gd3f6343fde73">Physical Armour (Warn Zerd: 008)</content>
+	<content contentuid="hd8bbf9a7g2ecag4674g88bdg1610c1fb2b4a"></content><comment>"Resisted by [1]" Description for Saving Throws. Had to remove it because Decaying Touch is hardcoded.</comment>
+	<content contentuid="hd5aaae39g8dc4g4d7cga540g6c6ca35f0366"></content><comment>Physical Armour description on statuses saving throws</comment>
+	<content contentuid="he2545323g7459g43b1gb0d7g0ae7e920ae08">Physical Armour (Warn Zerd: 009)</content>
+	<content contentuid="ha9d2f52cg91b0g4715g83f1g12b8f49d4c3c">Physical Armour (Warn Zerd: 010)</content>
+	<content contentuid="h50eb8e33g82edg412eg9886gec19ca591254">Armour</content><comment>Armor Restoration Potion</comment>
+	<content contentuid="h9c96efa9gd082g4043gace3g208be7503e88">Armour</content><comment>Magic Armour Boost on Statuses Tooltips</comment>
+	<content contentuid="hd82fb3dag025bg4caag856egceaf8ecad162">Armour</content><comment>Magic Armour Tooltip on Character's portrait</comment>
+	<content contentuid="hdb4307b4g1a6fg4c05g9602g6a4a6e7a29d9">Armour</content><comment>Magic Armour Damage in Skill Tooltips</comment>
+	<content contentuid="h9a15e1e8gc13bg4586gb1cdgb377a0d2a7b2">Armour</content><comment>Magic Armour Restoration in Skill Tooltips</comment>
+	<content contentuid="hd9f9cf80g7affg4a45g8519gd705ed9bc3bd">Armour</content><comment>Magic Armour Name in Items</comment>
 </contentList>
