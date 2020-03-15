@@ -165,6 +165,31 @@ AND
 THEN
     NOT DB_WotL_InfusionsKeepTrack(_Summoner, _Summon, _Skill, _Status);
 //END_REGION
+
+/*
+//REGION Identical Summons
+IF
+    CharacterStatusApplied(_Summon, "SUMMONING_ABILITY", _)
+AND
+    CharacterIsSummon(_Summon, 1)
+AND
+    NOT NRD_CharacterGetInt(_Summon, "Totem", 1)
+AND
+    CharacterGetOwner(_Summon, _Summoner)
+AND
+    DB_WotL_SummonKeepCooldown(_Summoner, _OtherSummon, _, _)
+AND
+    _OtherSummon != _Summon
+AND
+    GetTemplate(_Summon, _SummonTemplate)
+AND
+    GetTemplate(_OtherSummon, _OtherSummonTemplate)
+AND
+   _SummonTemplate == _OtherSummonTemplate
+THEN
+    CharacterDie(_OtherSummon, 0, "None");
+//END_REGION
+*/
 EXITSECTION
 
 ENDEXITSECTION

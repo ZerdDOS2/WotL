@@ -80,4 +80,9 @@ ENUM_WotL_SkillPresets = {
     ["Projectile_OdinNECRO_OphidianGlare_Damage"] = {
         ["UseWeaponDamage"] = "No",
     },
+    
+    ["Projectile_StaffOfMagus"] = {
+        ["Damage Multiplier"] = 100,
+        ["ActionPoints"] = 6,
+    }
 }

@@ -14,8 +14,7 @@ end
 
 -- Changes the scaling of skill damages from physical armor to magic armor.
 -- It also applies a scaling factor, since there's no SourceShieldMagicArmor
--- damage type. Adds it to the ENUM_WotL_MissingSkills so they don't get
--- the UseWeaponDamage property but are still allowed to miss
+-- damage type.
 local function WotL_ChangeSkillDamage(skill)
     local source = Ext.StatGetAttribute(skill, "Damage")
     for type, list in pairs(ENUM_WotL_ArmorDamageSourceTypes) do

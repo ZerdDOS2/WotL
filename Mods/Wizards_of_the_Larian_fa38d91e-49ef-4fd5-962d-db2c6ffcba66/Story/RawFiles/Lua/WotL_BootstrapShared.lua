@@ -5,7 +5,9 @@ Ext.Require(WotL_Mod_GUID,"WotL_Helpers.lua")
 
 -- Listeners (Core overrides)
 Ext.Require(WotL_Mod_GUID,"WotL_CustomHitChance.lua")
--- Ext.Require(WotL_Mod_GUID,"WotL_StatusEnterChance.lua")
+
+-- Session Load Functions
+Ext.Require(WotL_Mod_GUID,"WotL_SessionSkill.lua")
 
 -- Module Load Functions
 -- Common
@@ -31,26 +33,21 @@ Ext.Require(WotL_Mod_GUID,"WotL_ModuleStatus.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_ModuleWeaponEnum.lua")
 Ext.Require(WotL_Mod_GUID,"WotL_ModuleWeapon.lua")
 
--- In-game scripts
-Ext.Require(WotL_Mod_GUID,"WotL_Abilities.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_ArmorSpeciality.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_Attributes.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_Backstab.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_DamageManager.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_Focus.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_Leadership.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_LoneWolf.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_MissingSkills.lua")
+local WotL_GameSessionLoad = function()
+    Ext.Print("===================================================================")
+    Ext.Print("           [WotL:BootstrapShared.lua] Session Load Start")
+    Ext.Print("===================================================================")
 
-local WotL_GameSessionLoad = function ()
-    -- Ext.StatusGetEnterChance = WotL_CustomStatusGetEnterChance
-    Ext.GetHitChance = WotL_CustomGetHitChance
-    Ext.EnableStatOverride("HitChance")
+    WotL_SessionSkill()
+
+    Ext.Print("===================================================================")
+    Ext.Print("         [WotL:BootstrapShared.lua] Session Load Finished")
+    Ext.Print("===================================================================")
 end
 
 local WotL_ModuleLoad = function ()
     Ext.Print("===================================================================")
-    Ext.Print("          [WotL:Bootstrap.lua] Module Load Start")
+    Ext.Print("           [WotL:BootstrapShared.lua] Module Load Start")
     Ext.Print("===================================================================")
 
     WotL_ModuleArmor()
@@ -63,9 +60,10 @@ local WotL_ModuleLoad = function ()
     WotL_ModuleWeapon()
 
     Ext.Print("===================================================================")
-    Ext.Print("          [WotL:Bootstrap.lua] Module Load Finished")
+    Ext.Print("          [WotL:BootstrapShared.lua] Module Load Finished")
     Ext.Print("===================================================================")
 end
 
 Ext.RegisterListener("SessionLoading", WotL_GameSessionLoad)
 Ext.RegisterListener("ModuleLoading", WotL_ModuleLoad)
+Ext.RegisterListener("GetHitChance", WotL_CustomGetHitChance)

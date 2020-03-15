@@ -1,6 +1,8 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
+DB_WotL_BlacklistVariableStatuses("WotL_GenerousHost");
+DB_WotL_BlacklistVariableStatuses("WotL_GenerousHost_Debuff");
 
 KBSECTION
 //REGION Generic triggers for WotL_SetAllVariables Event
@@ -58,6 +60,21 @@ THEN
 
 IF
 	CharacterLeftParty(_Char)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+	CharacterLockedTalent(_Char, _)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+	CharacterUnlockedTalent(_Char, _)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+    ObjectTurnStarted((CHARACTERGUID)_Char)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
 //END_REGION

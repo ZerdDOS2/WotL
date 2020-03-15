@@ -13,7 +13,7 @@ AND
 THEN
 	// This transforms all physical damage to earth damage for two reasons.
 	// One is for compatibility sake, and second is to avoid earth particle
-	// effects on weapons.
+	// effects on weapons. (WotL_DamageManager.lua)
 	NRD_LuaCall("WotL_DamageConverter", (STRING)_Handle);
 //END_REGION
 
@@ -30,15 +30,16 @@ THEN
 	// Reduces damage received if the target has armor, based on armor speciality
 	NRD_LuaCall("WotL_ArmorSpeciality", (STRING)_Target, (STRING)_Handle);
 	// Magic Armor damage dealt directly to HP is divided by half and applied
-	// as Shadow damage to HP
+	// as Shadow damage to HP. (WotL_DamageManager.lua)
 	NRD_LuaCall("WotL_ArmorDamageHandler", (STRING)_Target, (STRING)_Handle);
 	// Transforms the insta-crit into a normal crit random roll, while providing
-	// a damage boost instead.
+	// a damage boost instead. (WotL_Backstab.lua)
 	NRD_LuaCall("WotL_Backstab", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
-	// 
+	// Applies a status effect that links the target and the source for usage later
+	// on WotL_Leadership.txt. (WotL_Leadership.lua)
 	NRD_LuaCall("WotL_Leadership", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
 	// Specific skills that don't have the UseWeaponDamage property should be
-	// missable as well. Those skills are ... hardcoded
+	// missable as well. Those skills are ... hardcoded. (WotL_MissingSkills.lua)
 	NRD_LuaCall("WotL_CheckMissingSkill", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
 //END_REGION
 EXITSECTION

@@ -14,12 +14,12 @@ local function WotL_ChangeCharacterArmor(character)
     end
 end
 
--- Changes the default value for movement of characters by a factor of 0.3.
--- The default value for player characters changes from 5 m to 1.5 m.
+-- Changes the default value for movement of characters by a factor of 0.5.
+-- The default value for player characters changes from 5 m to 2 m.
 local function WotL_ChangeCharacterMovement(character)
     local movement = Ext.StatGetAttribute(character, "Movement")
     if movement ~= 0 then
-        local new = math.ceil(movement * 0.3)
+        local new = math.ceil(movement * 0.4)
         WotL_ModulePrint("Movement: " .. tostring(movement) .. " -> " .. tostring(new), "Character")
         Ext.StatSetAttribute(character, "Movement", new)
     end
