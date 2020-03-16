@@ -1,19 +1,4 @@
-ENUM_WotL_AllDamageTypes = {
-    "Air",
-    "Chaos",
-    "Corrosive",
-    "Earth",
-    "Fire",
-    "Magic",
-    "Physical",
-    "Piercing",
-    "Poison",
-    "Shadow",
-    "Water",
-}
-
 WotL_BackstabMultiplier = 1.5
-
 function WotL_Backstab(target, source, handle)
     local hit = WotL_Bool(NRD_StatusGetInt(target, handle, "Hit"))
     local backstab = WotL_Bool(NRD_StatusGetInt(target, handle, "AlwaysBackstab"))

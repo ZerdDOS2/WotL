@@ -1,6 +1,7 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
+// Calls it from WotL_Attributes.lua
 NRD_LuaCall("WotL_AddAttributeStatusesToBlacklist");
 
 KBSECTION
@@ -8,6 +9,7 @@ KBSECTION
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 THEN
+	// Calls it from WotL_Attributes.lua
 	NRD_LuaCall("WotL_SetAttributeStatus", (STRING)_Char);
 //END_REGION
 EXITSECTION

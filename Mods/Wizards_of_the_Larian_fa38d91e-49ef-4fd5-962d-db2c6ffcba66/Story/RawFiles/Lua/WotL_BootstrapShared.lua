@@ -1,37 +1,37 @@
 local WotL_Mod_GUID = "Wizards_of_the_Larian_fa38d91e-49ef-4fd5-962d-db2c6ffcba66"
 
 -- Lib
-Ext.Require(WotL_Mod_GUID,"WotL_Helpers.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_Helpers.lua")
 
 -- Listeners (Core overrides)
-Ext.Require(WotL_Mod_GUID,"WotL_CustomHitChance.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_CustomHitChance.lua")
 
 -- Session Load Functions
-Ext.Require(WotL_Mod_GUID,"WotL_SessionSkill.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_SessionSkill.lua")
 
 -- Module Load Functions
 -- Common
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleCommon.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleCommon.lua")
 -- Armor
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleArmor.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleArmor.lua")
 -- Character
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleCharacterEnum.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleCharacter.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleCharacterEnum.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleCharacter.lua")
 -- Object
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleObject.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleObject.lua")
 -- Potions
-Ext.Require(WotL_Mod_GUID,"WotL_ModulePotionEnum.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_ModulePotion.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModulePotionEnum.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModulePotion.lua")
 -- Shields
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleShield.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleShield.lua")
 -- Skills
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleSkillEnum.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleSkill.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleSkillEnum.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleSkill.lua")
 -- Status
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleStatus.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleStatus.lua")
 -- Weapons
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleWeaponEnum.lua")
-Ext.Require(WotL_Mod_GUID,"WotL_ModuleWeapon.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleWeaponEnum.lua")
+Ext.Require(WotL_Mod_GUID, "WotL_ModuleWeapon.lua")
 
 local WotL_GameSessionLoad = function()
     Ext.Print("===================================================================")
