@@ -28,6 +28,7 @@ AND
 	ObjectIsCharacter(_Source, 1)
 THEN
 	// Reduces damage received if the target has armor, based on armor speciality
+	// (WotL_AbilitiesEffects.lua)
 	NRD_LuaCall("WotL_ArmorSpeciality", (STRING)_Target, (STRING)_Handle);
 	// Magic Armor damage dealt directly to HP is divided by half and applied
 	// as Shadow damage to HP. (WotL_DamageManager.lua)
@@ -36,8 +37,11 @@ THEN
 	// a damage boost instead. (WotL_Backstab.lua)
 	NRD_LuaCall("WotL_Backstab", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
 	// Applies a status effect that links the target and the source for usage later
-	// on WotL_Leadership.txt. (WotL_Leadership.lua)
+	// on WotL_Leadership.txt. (WotL_AbilitiesEffects.lua)
 	NRD_LuaCall("WotL_Leadership", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
+	// Increases the damage from Attacks of Opportunity, and criples the target if
+	// the attacker still has armor. (WotL_ReworkedTalents.lua)
+	NRD_LuaCall("WotL_ReworkedTalents_Sentinel", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
 	// Specific skills that don't have the UseWeaponDamage property should be
 	// missable as well. Those skills are ... hardcoded. (WotL_MissingSkills.lua)
 	NRD_LuaCall("WotL_CheckMissingSkill", (STRING)_Target, (STRING)_Source, (STRING)_Handle);

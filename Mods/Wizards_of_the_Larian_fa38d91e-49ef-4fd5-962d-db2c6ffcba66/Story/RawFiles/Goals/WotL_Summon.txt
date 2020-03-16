@@ -190,6 +190,28 @@ THEN
     CharacterDie(_OtherSummon, 0, "None");
 //END_REGION
 */
+
+//REGION Summons Count
+// Keeps track of the amount of summons from a character using
+// DB_WotL_SummonsCount
+IF
+    CharacterStatusApplied(_Summon, "SUMMONING_ABILITY", _)
+AND
+    CharacterIsSummon(_Summon, 1)
+AND
+    NOT NRD_CharacterGetInt(_Summon, "Totem", 1)
+AND
+    CharacterGetOwner(_Summon, _Summoner)
+THEN
+	DB_WotL_SummonsCount(_Summoner, _Summon);
+
+IF
+	CharacterDied(_Summon)
+AND
+	DB_WotL_SummonsCount(_Summoner, _Summon)
+THEN
+	NOT DB_WotL_SummonsCount(_Summoner, _Summon);
+//END_REGION
 EXITSECTION
 
 ENDEXITSECTION

@@ -73,7 +73,7 @@ ENUM_WotL_WeaponPresets = {
     },
     ["_Crossbows"] = {
         ["AttackAPCost"] = 4,
-        ["Damage Range"] = 20,
+        ["Damage Range"] = 10,
         ["DamageFromBase"] = 95,
         ["CriticalDamage"] = 150,
         ["WeaponRange"] = 800,

@@ -25,28 +25,15 @@ THEN
 //END_REGION
 
 //REGION Reworked Talents
+
+//REGION Generous Host
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 THEN
-	NRD_LuaCall("WotL_ReworkedTalents_Torturer", (STRING)_Char);
+	// Calls the Generous Host Manager (WotL_ReworkedTalents.lua)
+	NRD_LuaCall("WotL_ReworkedTalents_GenerousHost", (STRING)_Char);
+//END_REGION
 
-IF
-    CharacterStatusApplied(_Summon, "SUMMONING_ABILITY", _)
-AND
-    CharacterIsSummon(_Summon, 1)
-AND
-    NOT NRD_CharacterGetInt(_Summon, "Totem", 1)
-AND
-    CharacterGetOwner(_Summon, _Summoner)
-THEN
-	DB_WotL_SummonsCount(_Summoner, _Summon);
-
-IF
-	CharacterDied(_Summon)
-AND
-	DB_WotL_SummonsCount(_Summoner, _Summon)
-THEN
-	NOT DB_WotL_SummonsCount(_Summoner, _Summon);
 //END_REGION
 EXITSECTION
 
