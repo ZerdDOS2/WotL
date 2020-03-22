@@ -40,8 +40,8 @@ THEN
 	// on WotL_Leadership.txt. (WotL_AbilitiesEffects.lua)
 	NRD_LuaCall("WotL_Leadership", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
 	// Increases the damage from Attacks of Opportunity, and criples the target if
-	// the attacker still has armor. (WotL_ReworkedTalents.lua)
-	NRD_LuaCall("WotL_ReworkedTalents_Sentinel", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
+	// the attacker still has armor. (WotL_Talents.lua)
+	// NRD_LuaCall("WotL_ReworkedTalents_Sentinel", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
 	// Specific skills that don't have the UseWeaponDamage property should be
 	// missable as well. Those skills are ... hardcoded. (WotL_MissingSkills.lua)
 	NRD_LuaCall("WotL_CheckMissingSkill", (STRING)_Target, (STRING)_Source, (STRING)_Handle);

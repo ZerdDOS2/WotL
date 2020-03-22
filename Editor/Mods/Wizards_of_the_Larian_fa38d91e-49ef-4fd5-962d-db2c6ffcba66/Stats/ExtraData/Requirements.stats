@@ -4,7 +4,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="QuickStep" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_INNATE" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="TALENT_QuickStep" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -15,19 +15,24 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ViolentMagic" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_INNATE" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="TALENT_ViolentMagic" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="AttackOfOpportunity" />
-        <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_INNATE" />
+        <field name="Requirements" type="StringStatObjectFieldDefinition" value="TALENT_AttackOfOpportunity" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="LoneWolf" />
         <field name="Requirements" type="StringStatObjectFieldDefinition" value="Tag WotL_REMOVED" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="NoAttackOfOpportunity" />
       </fields>
     </stat_object>
   </stat_objects>

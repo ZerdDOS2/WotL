@@ -31,12 +31,18 @@ THEN
     NOT DB_WotL_CurrentTurn(_Char, _ID);
     // Iterates all Statuses currently posessed by the character
     NRD_IterateStatuses(_Char, "WotL_RemoveStatusesAtTurnEnd");
-	
+
+// Separated rule because casting to char to string causes issues
 IF
-	ObjectTurnEnded((CHARACTERGUID)_Char)
+    ObjectTurnEnded((CHARACTERGUID)_Char)
+// AND
+//     CombatGetIDForCharacter(_Char, _ID)
 THEN
-	// Calls the Leadership Turn End function (WotL_AbilitiesEffects.lua)
+    // Calls the Leadership Turn End function (WotL_AbilitiesEffects.lua)
     NRD_LuaCall("WotL_LeadershipEndTurn", (STRING)_Char);
+    // Calls the handler which gets the next character in the turn order,
+    // which launches the StatusIteratorEvent (WotL_StatusRequestDelete.lua)
+    // NRD_LuaCall("WotL_RemoveStatusesAtTurnStartHandler", (STRING)_ID);
 //END_REGION
 
 //REGION Status Request Delete
@@ -45,6 +51,12 @@ IF
     NRD_StatusIteratorEvent("WotL_RemoveStatusesAtTurnEnd", _Char, _Status, _Handle)
 THEN
     NRD_LuaCall("WotL_RemoveStatusesAtTurnEnd", (STRING)_Char, _Status, (STRING)_Handle);
+
+// Removes statuses requested at turn end (WotL_StatusRequestDelete.lua)
+IF
+    NRD_StatusIteratorEvent("WotL_RemoveStatusesAtTurnStart", _Char, _Status, _Handle)
+THEN
+    NRD_LuaCall("WotL_RemoveStatusesAtTurnStart", (STRING)_Char, _Status, (STRING)_Handle);
 //END_REGION
 EXITSECTION
 

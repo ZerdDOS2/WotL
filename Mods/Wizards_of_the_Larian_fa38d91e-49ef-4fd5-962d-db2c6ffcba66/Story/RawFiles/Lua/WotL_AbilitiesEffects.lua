@@ -30,7 +30,13 @@ function WotL_ArmorSpeciality(target, handle)
 end
 
 -- ------------------------------------------ FOCUS ------------------------------------------
-ENUM_WotL_StatusTypeBlockExtension = WotL_Set {
+ENUM_WotL_StatusFocusBlacklist = WotL_Set {
+    "WotL_LeadershipEffect",
+    "WotL_Sentinel_Debuff",
+    "WotL_Adrenaline",
+}
+
+ENUM_WotL_StatusTypeFocusBlacklist = WotL_Set {
     "CHARMED",
     "FEAR",
     "INCAPACITATED",
@@ -38,13 +44,18 @@ ENUM_WotL_StatusTypeBlockExtension = WotL_Set {
     "POLYMORPHED",
 }
 
+WotL_Focus_TurnsExtendedPerPoint = 1.0
 function WotL_Focus(target, status, handle, source)
     if not WotL_Bool(NRD_StatExists(status)) then
         return
     end
 
+    if ENUM_WotL_StatusFocusBlacklist[status] then
+        return
+    end
+
     local type = NRD_StatGetString(status, "StatusType")
-    if ENUM_WotL_StatusTypeBlockExtension[type] then
+    if ENUM_WotL_StatusTypeFocusBlacklist[type] then
         return
     end
 
@@ -58,7 +69,7 @@ function WotL_Focus(target, status, handle, source)
         return
     end
 
-    turns = turns + 6.0*focus
+    turns = turns + 6.0 * WotL_Focus_TurnsExtendedPerPoint * focus
     NRD_StatusSetReal(target, handle, "LifeTime", turns)
     NRD_StatusSetReal(target, handle, "CurrentLifeTime", turns)
 end
@@ -68,6 +79,7 @@ end
 -- The debuffs are removed when the target's turn ends
 local WotL_LeadershipCurrentDebuffs = {}
 
+WotL_Leadership_MaximumDistance = 5.0
 -- Damaging an enemy in range applies the leadership status, but removes
 -- any previous leadership status applied
 function WotL_Leadership(target, source, handle)
@@ -88,12 +100,12 @@ function WotL_Leadership(target, source, handle)
     end
 
     local distance = GetDistanceTo(target, source)
-    if distance > 5.0 then
+    if distance > WotL_Leadership_MaximumDistance then
         return
     end
 
     RemoveStatus(target, "WotL_LeadershipEffect")
-    ApplyStatus(target, "WotL_LeadershipEffect", 6.0, 1, source)
+    ApplyStatus(target, "WotL_LeadershipEffect", WotL_StatusRemovalAtTurnEndCustomNumber, 1, source)
 end
 
 -- Upon target's turn start, applies an accuracy debuff to them, and a dodge debuff to the source
@@ -106,14 +118,23 @@ function WotL_LeadershipTurn(target)
     local source = NRD_StatusGetGuidString(target, handle, "StatusSourceHandle")
 
     local distance = GetDistanceTo(target, source)
-    if distance > 5.0 then
+    if distance > WotL_Leadership_MaximumDistance then
         RemoveStatus(target, "WotL_LeadershipEffect")
         return
     end
 
     local leadership = GetVarInteger(source, "WotL_Ability_Leadership")
-    local statusTarget = "WotL_LeadershipTarget_" .. tostring(leadership)
-    local statusSource = "WotL_LeadershipSource_" .. tostring(leadership)
+    local statusTarget = "WotL_LeadershipTarget_"
+    local statusSource = "WotL_LeadershipSource_"
+
+    local hasArmor = WotL_Bool(CharacterGetMagicArmorPercentage(source))
+    if hasArmor then
+        statusTarget = statusTarget .. "Armor_"
+        statusSource = statusSource .. "Armor_"
+    end
+
+    statusTarget = statusTarget .. tostring(leadership)
+    statusSource = statusSource .. tostring(leadership)
 
     ApplyStatus(target, statusTarget, 6.0, 1)
     ApplyStatus(source, statusSource, 6.0, 1)

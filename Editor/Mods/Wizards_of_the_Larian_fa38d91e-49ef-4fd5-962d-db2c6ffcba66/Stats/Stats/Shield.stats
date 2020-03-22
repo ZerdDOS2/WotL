@@ -9,7 +9,7 @@
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
         <field name="Magic Armor Value" type="IntegerStatObjectFieldDefinition" value="90" />
-        <field name="Blocking" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="Blocking" type="IntegerStatObjectFieldDefinition" value="10" />
         <field name="Durability" type="IntegerStatObjectFieldDefinition" value="0" />
         <field name="DurabilityDegradeSpeed" type="EnumerationStatObjectFieldDefinition" value="7" enumeration_type_name="Qualifier" />
         <field name="Value" type="IntegerStatObjectFieldDefinition" value="60" />

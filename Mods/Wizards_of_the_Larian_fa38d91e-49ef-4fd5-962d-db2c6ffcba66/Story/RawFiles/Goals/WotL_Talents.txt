@@ -9,7 +9,36 @@ DB_WotL_InnateTalents("AttackOfOpportunity");
 KBSECTION
 //REGION Adds the innate talents
 IF
+	CharacterEnteredRegion(_Char, _Region)
+AND
+	NOT IsCharacterCreationLevel(_Region, 1)
+AND
+	NOT GetVarInteger(_Char, "WotL_HasInnateTalents", 1)
+THEN
+	ProcObjectTimer(_Char, "WotL_InnateTalentsTimer", 2000);
+
+PROC
+	ProcObjectTimerFinished(_Char, "WotL_InnateTalentsTimer")
+THEN
+	SetVarInteger(_Char, "WotL_HasInnateTalents", 1);
+	ItemTemplateAddTo("EQ_WotL_InnateTalentsOverhead_9c6fb130-497a-45b2-aaf6-ba437eb1c862", _Char, 1, 0);
+
+IF
+	ItemAddedToCharacter(_Item, _Char)
+AND
+	GetTemplate(_Item, "EQ_WotL_InnateTalentsOverhead_9c6fb130-497a-45b2-aaf6-ba437eb1c862")
+THEN
+	CharacterEquipItem(_Char, _Item);
+
+IF
+	ItemEquipped(_Item, _Char)
+THEN
+	NRD_LuaCall("WotL_AddInnateTalentsToItem", (STRING)_Item, (STRING)_Char);
+
+IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+AND
+	NOT CharacterIsPlayer(_Char, 1)
 THEN
 	PROC_WotL_AddInnateTalents(_Char);
 
@@ -30,8 +59,27 @@ THEN
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 THEN
-	// Calls the Generous Host Manager (WotL_ReworkedTalents.lua)
+	// Calls the Generous Host Manager (WotL_Talents.lua)
 	NRD_LuaCall("WotL_ReworkedTalents_GenerousHost", (STRING)_Char);
+//END_REGION
+
+//REGION Lone Wolf
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+THEN
+	NRD_LuaCall("WotL_ReworkedTalents_LoneWolf", (STRING)_Char);
+//END_REGION
+
+//REGION What A Rush
+// Since the AP amount if hardcoded, I add a status to increase the AP
+// gain if the target is below the threshold
+IF
+	CharacterVitalityChanged(_Char, _Percentage)
+AND
+	CharacterHasTalent(_Char, "WhatARush", 1)
+THEN
+	// Calls the What A Rush Manager (WotL_Talents.lua)
+	NRD_LuaCall("WotL_ReworkedTalents_WhatARush", (STRING)_Char, (STRING)_Percentage);
 //END_REGION
 
 //END_REGION
