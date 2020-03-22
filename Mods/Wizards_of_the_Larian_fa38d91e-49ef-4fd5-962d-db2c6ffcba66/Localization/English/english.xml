@@ -44,6 +44,8 @@
 	<content contentuid="h85fee3f4g0226g41c6g9d38g83b7b5bf96ba">Physical</content><comment>Earth Resistance Name in Chacter Sheet</comment>
 	<content contentuid="hac36ad5ag557fg4456ga0edga5a40606fabb">Physical Resistance</content><comment>Earth Resistance Name in Character Sheet Tooltip</comment>
 	<content contentuid="h8d4b3a3cg9581g4d7cgb17bgba87914bc638">Reduces the damage from physical-based attacks.</content><comment>Earth Resistance Tooltip in Character Sheet</comment>
+	<content contentuid="h57599abcgd098g4704ga4c1gb17d0137da2f">Physical Resistance</content><comment>Earth Resistance Name on Items/Characters tooltips</comment>
+	<content contentuid="hb0ee5937g1664g4354g9942gae78cbe2e6ae">Reduces the damage from physical-based attacks.</content><comment>Earth Resistance Description on Items/Characters tooltips</comment>
 
 	<content contentuid="h0d765ef8gca43g4e90ga3cegbb41065861cb">earth (Warn Zerd: 002)</content>
 	<content contentuid="hd1fb2660g2e2cg4a2egb80dg7fe9ab55c090">Earth (Warn Zerd: 003)</content>
@@ -141,10 +143,11 @@
 	
 	<content titleid="Reworked Talents"></content>
 	<content contentuid="hec141b07gb2e6g4283g8006gd94adc63d734">Generous Host</content><comment>Torturer Name</comment>
-	<content contentuid="h53f1f4d5gf664g4cb3gac8dgb4fbd2651d51">[1] allows you to control one extra summon, but you receive a -2 AP Start, Recovery and Maximum debuff while controlling more than 1 summon.</content><comment>Torturer Description</comment>
+	<content contentuid="h53f1f4d5gf664g4cb3gac8dgb4fbd2651d51">[1] allows you to control one extra summon, but you receive a -2 AP Start, Recovery and Maximum debuff while controlling your maximum amount of summons.</content><comment>Torturer Description</comment>
 
 	<content titleid="Vanilla Talents"></content>
 	<content contentuid="h493986c9g104eg4517g9c49g90cee026cd6c">[1] adds [2]% of all healing you receive by skills or consumables to your Armour.</content><comment>Living Armour description</comment>
+	<content contentuid="hd7c21999g602cg4497gaa65g41507b81eda1">[1] increases your start, recovery and maximum Action Points by 2 when your health is below 50%.</content><comment>What A Rush description</comment>
 
 	<content titleid="Log Texts"></content>
 	<content contentuid="h50116f77g1be8g4cabg8c9eg97ce9b755773">Backstab!</content><comment>Backstab Critical! warning</comment>
@@ -155,9 +158,6 @@
 	<content contentuid="hf1ff2734g96adg486fg800cgd9d0320b04c7">Damage is based on your current Magic Armour.</content><comment>Skill scaling from Current Magic Armour</comment>
 	<content contentuid="ha4cfd852g52f1g4079g8919gd392ac8ade1a">Damage is based on your basic attack and receives a bonus from Power.</content><comment>Damage scaling from Basic Attacks.</comment>
 	
-	<content contentuid="hb0ee5937g1664g4354g9942gae78cbe2e6ae">Reduces the damage from earth-based attacks. (Warn Zerd: 004)</content>
-	<content contentuid="h57599abcgd098g4704ga4c1gb17d0137da2f">Earth Resistance (Warn Zerd: 005)</content>
-
 	<content contentuid="h161d5479g06d6g408egade2g37a203e3361f">Armour</content><comment>Physical Armour Damage in Skill Tooltips</comment>
 	<content contentuid="h1feadc00g239ag430bgac99g7b5f3605a1c1">Physical Armour (Warn Zerd: 006)</content>
 	<content contentuid="h622fada7g51abg454fg86e4gb22e50dcd738">Physical Armour (Warn Zerd: 007)</content>

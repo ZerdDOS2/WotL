@@ -12,11 +12,6 @@ THEN
 	// Calls it from WotL_AbilitiesStatus.lua
 	NRD_LuaCall("WotL_SetAbilityStatus", (STRING)_Char);
 //END_REGION
-
-IF
-	TextEventSet("WotL_LuaReset")
-THEN
-	NRD_LuaReset(1);
 EXITSECTION
 
 ENDEXITSECTION

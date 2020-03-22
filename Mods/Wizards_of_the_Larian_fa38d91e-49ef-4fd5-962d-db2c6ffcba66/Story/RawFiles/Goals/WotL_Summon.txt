@@ -203,14 +203,14 @@ AND
 AND
     CharacterGetOwner(_Summon, _Summoner)
 THEN
-	DB_WotL_SummonsCount(_Summoner, _Summon);
+    DB_WotL_SummonsCount(_Summoner, _Summon);
 
 IF
-	CharacterDied(_Summon)
+    CharacterDied(_Summon)
 AND
-	DB_WotL_SummonsCount(_Summoner, _Summon)
+    DB_WotL_SummonsCount(_Summoner, _Summon)
 THEN
-	NOT DB_WotL_SummonsCount(_Summoner, _Summon);
+    NOT DB_WotL_SummonsCount(_Summoner, _Summon);
 //END_REGION
 EXITSECTION
 

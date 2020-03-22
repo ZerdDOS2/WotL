@@ -33,6 +33,16 @@ ENUM_WotL_PotionPresets = {
         ["APRecovery"] = -2,
         ["APMaximum"] = -2,
     },
+    ["Stats_WotL_WhatARush"] = {
+        ["APStart"] = 2,
+        ["APRecovery"] = 2,
+        ["APMaximum"] = 2,
+    },
+    ["Stats_WotL_Adrenaline"] = {
+        ["ActionPoints"] = 4,
+        ["APRecovery"] = -4,
+        ["APMaximum"] = 0,
+    },
     -- Reducing Dodge
     ["Stats_Crippled"] = {
         ["DodgeBoost"] = -15,

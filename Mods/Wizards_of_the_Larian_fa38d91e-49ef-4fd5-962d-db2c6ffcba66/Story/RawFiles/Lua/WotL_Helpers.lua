@@ -25,7 +25,7 @@ function WotL_Bool(v)
         return true
 
     elseif type(v) == "number" then
-        if v == 0 then
+        if v == 0 or v ~= v then
             return false
         end
         return true
@@ -88,8 +88,14 @@ function WotL_RollHitChance(target, source)
     hitChance = math.max(hitChance, 5)
     hitChance = math.min(hitChance, 95)
 
+    return WotL_RollRandomChance(hitChance)
+end
+
+-- Rolls a random number and return 
+-- if the chance succeeded or not
+function WotL_RollRandomChance(chance)
     local roll = math.random(1, 100)
-    if roll > hitChance then
+    if roll > chance then
         return false
     end
     return true

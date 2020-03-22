@@ -863,5 +863,12 @@
         <field name="MinLevel" type="IntegerStatObjectFieldDefinition" value="1" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="ARM_WotL_InnateTalentsOverhead" />
+        <field name="Using" type="BaseClassStatObjectFieldDefinition" value="_Overhead" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="1" enumeration_type_name="ActPart" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>
