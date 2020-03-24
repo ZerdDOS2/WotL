@@ -78,7 +78,7 @@ key "HighGroundThreshold","4"
 
 key "HighGroundRangeMultiplier","1.5"
 
-key "LowGroundBaseDamagePenalty","0"
+key "LowGroundBaseDamagePenalty","-0.1"
 
 key "SneakDefaultAPCost","2"
 
@@ -114,9 +114,15 @@ key "AbilityPerseveranceArmorPerPoint","0"
 
 key "IncarnateSummoningLevel","5"
 
-key "TalentQuickStepPartialApBonus","2"
+key "TalentQuickStepPartialApBonus","1.5"
 
 key "CriticalBonusFromWits","2"
 
 key "DualWieldingAPPenalty","4"
+
+key "TalentExecutionerActionPointBonus","4"
+
+key "TorturerDamageStatusTurnIncrease","0"
+
+key "TalentWhatARushThreshold","0"
 

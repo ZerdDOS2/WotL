@@ -788,3 +788,8 @@ data "MaxAmount" "1"
 data "Priority" "1"
 data "MinLevel" "1"
 
+new entry "ARM_WotL_InnateTalentsOverhead"
+type "Armor"
+using "_Overhead"
+data "Act part" "1"
+

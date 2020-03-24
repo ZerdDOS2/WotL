@@ -33,7 +33,7 @@ THEN
 IF
 	ItemEquipped(_Item, _Char)
 THEN
-	NRD_LuaCall("WotL_AddInnateTalentsToItem", (STRING)_Item, (STRING)_Char);
+	WotL_AddInnateTalentsToItem(_Item, _Char);
 
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
@@ -60,14 +60,14 @@ IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 THEN
 	// Calls the Generous Host Manager (WotL_Talents.lua)
-	NRD_LuaCall("WotL_ReworkedTalents_GenerousHost", (STRING)_Char);
+	WotL_Talent_GenerousHost(_Char);
 //END_REGION
 
 //REGION Lone Wolf
 IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 THEN
-	NRD_LuaCall("WotL_ReworkedTalents_LoneWolf", (STRING)_Char);
+	WotL_Talent_LoneWolf(_Char);
 //END_REGION
 
 //REGION What A Rush
@@ -79,7 +79,7 @@ AND
 	CharacterHasTalent(_Char, "WhatARush", 1)
 THEN
 	// Calls the What A Rush Manager (WotL_Talents.lua)
-	NRD_LuaCall("WotL_ReworkedTalents_WhatARush", (STRING)_Char, (STRING)_Percentage);
+	WotL_Talent_WhatARush(_Char, _Percentage);
 //END_REGION
 
 //END_REGION

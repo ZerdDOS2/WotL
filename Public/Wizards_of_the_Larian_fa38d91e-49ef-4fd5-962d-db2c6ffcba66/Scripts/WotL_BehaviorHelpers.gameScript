@@ -1,0 +1,15 @@
+EVENTS
+
+EVENT WotL_GetInnerDistance
+VARS
+	CHARACTER:_Source
+	CHARACTER:_Target
+	FLOAT:_Distance
+ON
+	OnCharacterCharacterEvent(_Source, _Target, "WotL_GetInnerDistance")
+ACTIONS
+	IF "c1"
+		GetInnerDistance(_Distance, _Source, _Target)
+	THEN
+		SetVar(_Source, "WotL_InnerDistance", _Distance)
+	ENDIF

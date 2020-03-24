@@ -8,7 +8,7 @@ ENUM_WotL_StatusReplaces = {
 
 -- WotL_StatusReplacer replaces the key status with the first status
 -- on the ENUM_WotL_StatusReplaces and removes the stacking statuses
-function WotL_StatusReplacer(target, status, handle, source)
+local function StatusReplacer(target, status, handle, source)
     if ENUM_WotL_StatusReplaces[status] == nil then
         return
     end
@@ -34,7 +34,7 @@ function WotL_StatusReplacer(target, status, handle, source)
 
     -- If it doesn't pass the random roll, it's instantly prevented
     local canEnterChance = NRD_StatusGetInt(target, handle, "CanEnterChance")
-    if not WotL_RollRandomChance(canEnterChance) then
+    if not WotL_Bool(WotL_RollRandomChance(canEnterChance)) then
         NRD_StatusPreventApply(target, handle, 1)
         return
     end
@@ -65,10 +65,12 @@ function WotL_StatusReplacer(target, status, handle, source)
     local lifeTime = NRD_StatusGetReal(target, handle, "LifeTime")
     ApplyStatus(target, ENUM_WotL_StatusReplaces[status][1], lifeTime, 0, source)
 end
+Ext.NewCall(StatusReplacer, "WotL_StatusReplacer", "(CHARACTERGUID)_Target, (STRING)_Status, (INTEGER64)_Handle, (CHARACTERGUID)_Source")
 
 -- WotL_StatusStacker provides the status interaction between any
 -- status on the ENUM_WotL_StatusReplaces to apply the key status
-function WotL_StatusStacker(target, status, handle, source)
+local function StatusStacker(target, status, handle, source)
+    -- Looks for the result of the stacking status
     local result = false
     for key, table in pairs(ENUM_WotL_StatusReplaces) do
         for _, elem in pairs (table) do
@@ -79,10 +81,24 @@ function WotL_StatusStacker(target, status, handle, source)
         end
     end
 
+    -- If it isn't a stackable status, simply return
     if not result then
         return
     end
 
+    -- Checks if the target already has the result of the stacking
+    -- statuses
+    local hasResult = WotL_Bool(HasActiveStatus(target, result))
+
+    -- If the target already has the result, the stacking statuses
+    -- are blocked from applying
+    if hasResult then
+        NRD_StatusPreventApply(target, handle, 1)
+        return
+    end
+
+    -- Checks if the target has one of the stackable statuses
+    -- including the status itself
     local hasStack = false
     for _, stack in pairs(ENUM_WotL_StatusReplaces[result]) do
         if WotL_Bool(HasActiveStatus(target, stack)) then
@@ -91,26 +107,32 @@ function WotL_StatusStacker(target, status, handle, source)
         end
     end
 
+    -- If it doesn't have the stacking status, the applial should
+    -- proceed normally
     if not hasStack then
         return
     end
 
     -- If it doesn't pass the random roll, it's instantly prevented
     local canEnterChance = NRD_StatusGetInt(target, handle, "CanEnterChance")
-    if not WotL_RollRandomChance(canEnterChance) then
+    if not WotL_Bool(WotL_RollRandomChance(canEnterChance)) then
         NRD_StatusPreventApply(target, handle, 1)
         return
     end
     
+    -- Replaces the status with it's stacking result
     NRD_StatusPreventApply(target, handle, 1)
     ApplyStatus(target, result, 6.0, 0, source)
 end
+Ext.NewCall(StatusStacker, "WotL_StatusStacker", "(CHARACTERGUID)_Target, (STRING)_Status, (INTEGER64)_Handle, (CHARACTERGUID)_Source")
 
 -- WotL_Adrenaline replaces ADRENALINE with WotL_Adrenaline, and only
 -- apply it for 1 turn. Needed a special function and couldn't use
 -- WotL_StatusReplacer because vanilla's adrenaline is applied for
 -- -1 turns, and I only need to apply it for one
-function WotL_Adrenaline(target, handle)
+WotL_AdrenalineReplacer_Status = "WotL_Adrenaline"
+local function AdrenalineReplacer(target, handle)
     NRD_StatusPreventApply(target, handle, 1)
-    ApplyStatus(target, "WotL_Adrenaline", 6.0, 0, target)
+    ApplyStatus(target, WotL_AdrenalineReplacer_Status, 6.0, 0, target)
 end
+Ext.NewCall(AdrenalineReplacer, "WotL_AdrenalineReplacer", "(CHARACTERGUID)_Target, (INTEGER64)_Handle")

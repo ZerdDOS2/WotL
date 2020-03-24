@@ -7,7 +7,7 @@ ENUM_WotL_AttributesNames = {
     Wits =  "Wits",
 }
 
-function WotL_SetAttributeStatus(char)
+local function SetAttributeStatus(char)
     if WotL_Bool(CharacterIsDead(char)) then
         return
     end
@@ -21,8 +21,9 @@ function WotL_SetAttributeStatus(char)
         end
     end
 end
+Ext.NewCall(SetAttributeStatus, "WotL_SetAttributeStatus", "(CHARACTERGUID)_Char")
 
-function WotL_AddAttributeStatusesToBlacklist()
+local function AddAttributeStatusesToBlacklist()
     for vanilla, attribute in pairs(ENUM_WotL_AttributesNames) do
         for i=0,60,1 do
             local status = "WotL_" .. attribute .. "_" .. tostring(i)
@@ -33,3 +34,4 @@ function WotL_AddAttributeStatusesToBlacklist()
         end
     end
 end
+Ext.NewCall(AddAttributeStatusesToBlacklist, "WotL_AddAttributeStatusesToBlacklist", "")

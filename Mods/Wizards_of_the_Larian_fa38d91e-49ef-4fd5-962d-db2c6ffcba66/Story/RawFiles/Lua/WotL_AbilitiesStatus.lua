@@ -18,7 +18,7 @@ ENUM_WotL_AbilitiesNames = {
     WarriorLore = "Warfare",
 }
 
-function WotL_SetAbilityStatus(char)
+local function SetAbilityStatus(char)
     if WotL_Bool(CharacterIsDead(char)) then
         return
     end
@@ -32,8 +32,9 @@ function WotL_SetAbilityStatus(char)
         end
     end
 end
+Ext.NewCall(SetAbilityStatus, "WotL_SetAbilityStatus", "(CHARACTERGUID)_Char")
 
-function WotL_AddAbilityStatusesToBlacklist()
+local function AddAbilityStatusesToBlacklist()
     for vanilla, ability in pairs(ENUM_WotL_AbilitiesNames) do
         for i=0,5,1 do
             local status = "WotL_" .. ability .. "_" .. tostring(i)
@@ -44,3 +45,4 @@ function WotL_AddAbilityStatusesToBlacklist()
         end
     end
 end
+Ext.NewCall(AddAbilityStatusesToBlacklist, "WotL_AddAbilityStatusesToBlacklist", "")

@@ -23,7 +23,7 @@ ENUM_WotL_MissingSkills["Projectile_Grenade_BlessedOilFlask"] = true
 ENUM_WotL_MissingSkills["Projectile_Grenade_PoisonFlask"] = true
 ENUM_WotL_MissingSkills["Projectile_Grenade_CursedPoisonFlask"] = true
 
-function WotL_CheckMissingSkill(target, source, handle)
+local function CheckMissingSkill(target, source, handle)
     local skill = NRD_StatusGetString(target, handle, "SkillId")
     if skill == nil or skill == "" then
         return
@@ -42,17 +42,14 @@ function WotL_CheckMissingSkill(target, source, handle)
         return
     end
 
-    if not WotL_RollHitChance(target, source) then
+    if not WotL_Bool(WotL_RollHitChance(target, source)) then
         NRD_StatusSetInt(target, handle, "Hit", 0)
         NRD_StatusSetInt(target, handle, "Missed", 1)
         -- Clearing the damage removes the miss text and animation
         NRD_HitStatusClearAllDamage(target, handle)
 
         -- Mocks a fake hit just to have the missing animation
-        local simulate = NRD_HitPrepare(target, source)
-        NRD_HitSetInt(simulate, "Hit", 0)
-        NRD_HitSetInt(simulate, "Missed", 1)
-        NRD_HitSetInt(simulate, "NoEvents", 1)
-        NRD_HitExecute(simulate)
+        WotL_MockFakeHit(target, source)
     end
 end
+Ext.NewCall(CheckMissingSkill, "WotL_CheckMissingSkill", "(CHARACTERGUID)_Target, (CHARACTERGUID)_Source, (INTEGER64)_Handle")

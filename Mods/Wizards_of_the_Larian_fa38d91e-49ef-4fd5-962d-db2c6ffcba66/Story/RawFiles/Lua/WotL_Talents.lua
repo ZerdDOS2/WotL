@@ -1,6 +1,6 @@
 -- ------------------------------------------ INNATE TALENTS ------------------------------------------
 -- Adds the 3 innate talents to any overhead item equipped
-function WotL_AddInnateTalentsToItem(item, char)
+local function AddInnateTalentsToItem(item, char)
     local stat = NRD_ItemGetStatsId(item)
     if stat == nil then
         return
@@ -35,9 +35,10 @@ function WotL_AddInnateTalentsToItem(item, char)
     local new = NRD_ItemClone()
     CharacterEquipItem(char, new)
 end
+Ext.NewCall(AddInnateTalentsToItem, "WotL_AddInnateTalentsToItem", "(ITEMGUID)_Item, (CHARACTERGUID)_Char")
 
 -- ------------------------------------------ GENEROUS HOST ------------------------------------------
-function WotL_ReworkedTalents_GenerousHost(char)
+local function GenerousHost(char)
     -- Vanilla's Torturer became Generous Host
     local hasTalent = WotL_Bool(CharacterHasTalent(char, "Torturer"))
     local status = "WotL_GenerousHost"
@@ -73,31 +74,21 @@ function WotL_ReworkedTalents_GenerousHost(char)
         RemoveStatus(char, status)
     end
 end
+Ext.NewCall(GenerousHost, "WotL_Talent_GenerousHost", "(CHARACTERGUID)_Char")
 
 -- ------------------------------------------ LONE WOLF ------------------------------------------
-function WotL_ReworkedTalents_LoneWolf(char)
+WotL_LoneWolf_PartySizeThreshold = 2
+local function LoneWolf(char)
     if not WotL_Bool(CharacterIsPlayer(char)) then
         return
     end
 
-    local count = 0
-    local isPlayer = false
-
-    local players = Osi.DB_IsPlayer:Get(nil)
-    for _, player in pairs(players) do
-        if WotL_Bool(CharacterIsInPartyWith(char, player[1])) then
-            count = count + 1
-        end
-        if player[1] == char then
-            isPlayer = true
-        end
-    end
-    
-    if not isPlayer then
+    local count = WotL_GetPlayerPartyCount(char)
+    if count == 0 then
         return
     end
 
-    if count <= 2 then
+    if count <= WotL_LoneWolf_PartySizeThreshold then
         if not WotL_Bool(HasAppliedStatus(char, "WotL_LW_Base")) then
             ApplyStatus(char, "WotL_LW_Base", -1.0, 1)
         end
@@ -111,7 +102,7 @@ function WotL_ReworkedTalents_LoneWolf(char)
         local value = CharacterGetBaseAttribute(char, attribute)
         local boost = NRD_CharacterGetPermanentBoostInt(char, attribute)
         local final = 0
-        if count <= 2 then
+        if count <= WotL_LoneWolf_PartySizeThreshold then
             final = (value - 10) - boost
         end
         if final ~= boost then
@@ -120,10 +111,11 @@ function WotL_ReworkedTalents_LoneWolf(char)
         end
     end
 end
+Ext.NewCall(LoneWolf, "WotL_Talent_LoneWolf", "(CHARACTERGUID)_Char")
 
 -- ------------------------------------------ SENTINEL ------------------------------------------
 WotL_Sentinel_DamageIncrease = 0.25
-function WotL_ReworkedTalents_Sentinel(target, source, handle)
+local function Sentinel(target, source, handle)
     -- Vanilla's Parry Master became Sentinel
     local hasTalent = WotL_Bool(CharacterHasTalent(source, "DualWieldingDodging"))
     if not hasTalent then
@@ -143,7 +135,7 @@ function WotL_ReworkedTalents_Sentinel(target, source, handle)
     end
 
     -- Extra safety check
-    if not WotL_IsCurrentTurn(target) then
+    if not WotL_Bool(WotL_IsCurrentTurn(target)) then
         return
     end
 
@@ -175,12 +167,13 @@ function WotL_ReworkedTalents_Sentinel(target, source, handle)
     -- Check WotL_TurnManager.txt and WotL_StatusRequestDelete.lua
     ApplyStatus(target, "WotL_Sentinel_Debuff", WotL_StatusRemovalAtTurnEndCustomNumber, 0, source)
 end
+Ext.NewCall(Sentinel, "WotL_Talent_Sentinel", "(CHARACTERGUID)_Target, (CHARACTERGUID)_Source, (INTEGER64)_Handle")
 
 -- ------------------------------------------ WHAT A RUSH ------------------------------------------
 -- The threshold in ExtraData was set to 0, because the AP gain is hardcoded. This way, all the AP
 -- bonus is set by the status WotL_WhatARush, so the bonuses aren't displayed twice on the tooltip
-WotL_WhatARush_Threshold = 50.0
-function WotL_ReworkedTalents_WhatARush(char, percentage)
+WotL_WhatARush_Threshold = 50
+local function WhatARush(char, percentage)
     local isLow = percentage < WotL_WhatARush_Threshold
     local status = "WotL_WhatARush"
     local hasStatus = WotL_Bool(HasActiveStatus(char, status))
@@ -194,3 +187,4 @@ function WotL_ReworkedTalents_WhatARush(char, percentage)
         RemoveStatus(char, status)
     end
 end
+Ext.NewCall(WhatARush, "WotL_Talent_WhatARush", "(CHARACTERGUID)_Char, (INTEGER)_Percentage")
