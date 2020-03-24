@@ -1,5 +1,5 @@
 WotL_BackstabMultiplier = 1.5
-function WotL_Backstab(target, source, handle)
+local function Backstab(target, source, handle)
     local hit = WotL_Bool(NRD_StatusGetInt(target, handle, "Hit"))
     local backstab = WotL_Bool(NRD_StatusGetInt(target, handle, "AlwaysBackstab"))
     if not hit or not backstab then
@@ -36,3 +36,4 @@ function WotL_Backstab(target, source, handle)
         ApplyStatus(target, "WotL_BackstabCritical", 0.0, 1, source)
     end
 end
+Ext.NewCall(Backstab, "WotL_Backstab", "(CHARACTERGUID)_Target, (CHARACTERGUID)_Source, (INTEGER64)_Handle")

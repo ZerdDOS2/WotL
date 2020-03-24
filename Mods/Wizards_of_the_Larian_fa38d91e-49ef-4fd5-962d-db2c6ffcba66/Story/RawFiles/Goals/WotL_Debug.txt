@@ -27,7 +27,7 @@ THEN
 	ProcObjectTimer(_Char, "WotL_InnateTalentsTimer", 10);
 
 IF
-	TextEventSet("luareset")
+	TextEventSet("wotl_luareset")
 THEN
 	NRD_LuaReset(1);
 EXITSECTION

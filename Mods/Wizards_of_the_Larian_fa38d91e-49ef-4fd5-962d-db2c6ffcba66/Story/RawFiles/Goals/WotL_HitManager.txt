@@ -8,20 +8,18 @@ KBSECTION
 // the order they occur.
 IF
 	NRD_OnPrepareHit(_Target, _, _, _Handle)
-AND
-	ObjectIsCharacter(_Target, 1)
 THEN
 	// This transforms all physical damage to earth damage for two reasons.
 	// One is for compatibility sake, and second is to avoid earth particle
 	// effects on weapons. (WotL_DamageManager.lua)
-	NRD_LuaCall("WotL_DamageConverter", (STRING)_Handle);
+	WotL_DamageConverter(_Handle);
 //END_REGION
 
 //REGION OnHit
 // Groups all NRD_OnHit functions to make it easier to organize
 // the order they occur
 IF
-	NRD_OnHit(_Target, _Source, _, _Handle)
+	NRD_OnHit((CHARACTERGUID)_Target, (CHARACTERGUID)_Source, _, _Handle)
 AND
 	ObjectIsCharacter(_Target, 1)
 AND
@@ -29,22 +27,21 @@ AND
 THEN
 	// Reduces damage received if the target has armor, based on armor speciality
 	// (WotL_AbilitiesEffects.lua)
-	NRD_LuaCall("WotL_ArmorSpeciality", (STRING)_Target, (STRING)_Handle);
+	WotL_ArmorSpeciality(_Target, _Handle);
 	// Magic Armor damage dealt directly to HP is divided by half and applied
 	// as Shadow damage to HP. (WotL_DamageManager.lua)
-	NRD_LuaCall("WotL_ArmorDamageHandler", (STRING)_Target, (STRING)_Handle);
+	WotL_ArmorDamageHandler(_Target, _Handle);
 	// Transforms the insta-crit into a normal crit random roll, while providing
 	// a damage boost instead. (WotL_Backstab.lua)
-	NRD_LuaCall("WotL_Backstab", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
-	// Applies a status effect that links the target and the source for usage later
-	// on WotL_Leadership.txt. (WotL_AbilitiesEffects.lua)
-	NRD_LuaCall("WotL_Leadership", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
+	WotL_Backstab(_Target, _Source, _Handle);
+	// Applies a status effect that links the target and the source (WotL_AbilitiesEffects.lua)
+	WotL_Leadership(_Target, _Source, _Handle);
 	// Increases the damage from Attacks of Opportunity, and criples the target if
 	// the attacker still has armor. (WotL_Talents.lua)
-	// NRD_LuaCall("WotL_ReworkedTalents_Sentinel", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
+	// WotL_Talent_Sentinel(_Target, _Source, _Handle);
 	// Specific skills that don't have the UseWeaponDamage property should be
 	// missable as well. Those skills are ... hardcoded. (WotL_MissingSkills.lua)
-	NRD_LuaCall("WotL_CheckMissingSkill", (STRING)_Target, (STRING)_Source, (STRING)_Handle);
+	WotL_CheckMissingSkill(_Target, _Source, _Handle);
 //END_REGION
 EXITSECTION
 

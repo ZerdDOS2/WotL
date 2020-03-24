@@ -25,7 +25,7 @@
         <field name="UseWeaponDamage" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="UseWeaponProperties" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="YesNo" />
         <field name="Icon" type="StringStatObjectFieldDefinition" value="Skill_Source_BanishSummon" />
-        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Target_WotL_Unsummon_DisplayName" />
+        <field name="DisplayName" type="TranslatedStringStatObjectFieldDefinition" value="Unsummon" />
         <field name="Description" type="TranslatedStringStatObjectFieldDefinition" value="Target_WotL_Unsummon_Description" />
         <field name="StatsDescription" type="TranslatedStringStatObjectFieldDefinition" value="Target_WotL_Unsummon_StatsDescription" />
         <field name="StatsDescriptionParams" type="StringStatObjectFieldDefinition" value="TargetRadius" />

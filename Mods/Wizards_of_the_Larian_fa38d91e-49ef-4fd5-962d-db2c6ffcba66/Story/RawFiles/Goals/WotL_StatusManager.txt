@@ -13,7 +13,7 @@ AND
 THEN
     // Allow healing statuses to have their application cancelled if the target is
     // either Undead or Decaying. (WotL_MissingStatuses.lua)
-    NRD_LuaCall("WotL_CheckMissingStatus", (STRING)_Target, _Status, (STRING)_Handle, (STRING)_Source);
+    WotL_CheckMissingStatus(_Target, _Status, _Handle, _Source);
 
 IF
     NRD_OnStatusAttempt((CHARACTERGUID)_Target, _Status, _Handle, (CHARACTERGUID)_Source)
@@ -21,7 +21,7 @@ AND
     NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
     // Replaces a status with a lower tier one (WotL_StatusReplacer.lua)
-    NRD_LuaCall("WotL_StatusReplacer", (STRING)_Target, _Status, (STRING)_Handle, (STRING)_Source);
+    WotL_StatusReplacer(_Target, _Status, _Handle, _Source);
 
 IF
     NRD_OnStatusAttempt((CHARACTERGUID)_Target, _Status, _Handle, (CHARACTERGUID)_Source)
@@ -29,7 +29,7 @@ AND
     NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
     // Allows lower tiered status to stack into a higher tier one (WotL_StatusReplacer.lua)
-    NRD_LuaCall("WotL_StatusStacker", (STRING)_Target, _Status, (STRING)_Handle, (STRING)_Source);
+    WotL_StatusStacker(_Target, _Status, _Handle, _Source);
 
 IF
     NRD_OnStatusAttempt((CHARACTERGUID)_Target, _Status, _Handle, (CHARACTERGUID)_Source)
@@ -37,13 +37,13 @@ AND
     NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
     // Increases the status duration based on the source's focus. (WotL_AbilitiesEffects.lua)
-    NRD_LuaCall("WotL_Focus", (STRING)_Target, _Status, (STRING)_Handle, (STRING)_Source);
+    WotL_Focus(_Target, _Status, _Handle, _Source);
 
 IF
     NRD_OnStatusAttempt((CHARACTERGUID)_Target, "ADRENALINE", _Handle, _)
 THEN
     // Replaces vanilla's hardcoded ADRENALINE with WotL's version (WotL_StatusReplacer.lua)
-    NRD_LuaCall("WotL_Adrenaline", (STRING)_Target, (STRING)_Handle);
+    WotL_AdrenalineReplacer(_Target, _Handle);
 //END_REGION
 EXITSECTION
 

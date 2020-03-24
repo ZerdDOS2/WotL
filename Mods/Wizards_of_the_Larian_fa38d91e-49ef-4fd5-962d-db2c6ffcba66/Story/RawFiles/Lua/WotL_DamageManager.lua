@@ -1,5 +1,5 @@
 -- Transforms all Physical damage to Earth and Corrosive to Magic
-function WotL_DamageConverter(handle)
+local function DamageConverter(handle)
     local physical = NRD_HitGetDamage(handle, "Physical")
     if physical ~= nil and physical ~= 0 then
         NRD_HitClearDamage(handle, "Physical")
@@ -12,10 +12,11 @@ function WotL_DamageConverter(handle)
         NRD_HitAddDamage(handle, "Magic", corrosive)
     end
 end
+Ext.NewCall(DamageConverter, "WotL_DamageConverter", "(INTEGER64)_Handle")
 
 -- When the target has no armor, half of the Magic Armor Damage is dealt
 -- to HP using Shadow damage
-function WotL_ArmorDamageHandler(target, handle)
+local function ArmorDamageHandler(target, handle)
     local damage = NRD_HitStatusGetDamage(target, handle, "Magic")
     if damage ~= nil and damage > 0 then
         local armor = NRD_CharacterGetStatInt(target, "CurrentMagicArmor")
@@ -25,3 +26,4 @@ function WotL_ArmorDamageHandler(target, handle)
         end
     end
 end
+Ext.NewCall(ArmorDamageHandler, "WotL_ArmorDamageHandler", "(CHARACTERGUID)_Target, (INTEGER64)_Handle")

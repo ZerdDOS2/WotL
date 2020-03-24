@@ -1,4 +1,4 @@
-function WotL_CheckMissingStatus(target, status, handle, source)
+local function CheckMissingStatus(target, status, handle, source)
     if not WotL_Bool(NRD_StatExists(status)) then
         return
     end
@@ -33,14 +33,19 @@ function WotL_CheckMissingStatus(target, status, handle, source)
         return
     end
 
-    if not WotL_RollHitChance(target, source) then
+    -- Makes sure that skils that apply multiple healing statuses
+    -- uses the same roll (Eg.: Odinblade's reworked Restoration)
+    local roll = WotL_GetRecentRoll(target, source)
+    if roll == -1 then
+        roll = WotL_RollHitChance(target, source)
+        WotL_SaveRecentRoll(target, source, roll)
+    end
+
+    if not WotL_Bool(roll) then
         NRD_StatusPreventApply(target, handle, 1)
 
         -- Mocks a fake hit just to have the missing animation
-        local simulate = NRD_HitPrepare(target, source)
-        NRD_HitSetInt(simulate, "Hit", 0)
-        NRD_HitSetInt(simulate, "Missed", 1)
-        NRD_HitSetInt(simulate, "NoEvents", 1)
-        NRD_HitExecute(simulate)
+        WotL_MockFakeHit(target, source)
     end
 end
+Ext.NewCall(CheckMissingStatus, "WotL_CheckMissingStatus", "(CHARACTERGUID)_Target, (STRING)_Status, (INTEGER64)_Handle, (CHARACTERGUID)_Source")

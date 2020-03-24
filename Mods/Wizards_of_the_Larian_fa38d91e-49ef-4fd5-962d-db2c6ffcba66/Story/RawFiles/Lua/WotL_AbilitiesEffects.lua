@@ -9,7 +9,7 @@ ENUM_WotL_ArmorSpecialityDamageTypes = {
 }
 
 WotL_ArmorSpeciality_DamageReductionPerPoint = 0.1
-function WotL_ArmorSpeciality(target, handle)
+local function ArmorSpeciality(target, handle)
     local armor = NRD_CharacterGetStatInt(target, "CurrentMagicArmor")
     if armor == 0 or armor == nil then
         return
@@ -28,6 +28,7 @@ function WotL_ArmorSpeciality(target, handle)
         end
     end
 end
+Ext.NewCall(ArmorSpeciality, "WotL_ArmorSpeciality", "(CHARACTERGUID)_Target, (INTEGER64)_Handle")
 
 -- ------------------------------------------ FOCUS ------------------------------------------
 ENUM_WotL_StatusFocusBlacklist = WotL_Set {
@@ -45,7 +46,7 @@ ENUM_WotL_StatusTypeFocusBlacklist = WotL_Set {
 }
 
 WotL_Focus_TurnsExtendedPerPoint = 1.0
-function WotL_Focus(target, status, handle, source)
+local function Focus(target, status, handle, source)
     if not WotL_Bool(NRD_StatExists(status)) then
         return
     end
@@ -73,6 +74,7 @@ function WotL_Focus(target, status, handle, source)
     NRD_StatusSetReal(target, handle, "LifeTime", turns)
     NRD_StatusSetReal(target, handle, "CurrentLifeTime", turns)
 end
+Ext.NewCall(Focus, "WotL_Focus", "(CHARACTERGUID)_Target, (STRING)_Status, (INTEGER64)_Handle, (CHARACTERGUID)_Source")
 
 -- ------------------------------------------ LEADERSHIP ------------------------------------------
 -- Serves as a DB to keep track of the current characters with the debuff
@@ -82,12 +84,12 @@ local WotL_LeadershipCurrentDebuffs = {}
 WotL_Leadership_MaximumDistance = 5.0
 -- Damaging an enemy in range applies the leadership status, but removes
 -- any previous leadership status applied
-function WotL_Leadership(target, source, handle)
+local function Leadership(target, source, handle)
     if not WotL_Bool(GetVarInteger(source, "WotL_Ability_Leadership")) then
         return
     end
 
-    if not WotL_IsCurrentTurn(source) then
+    if not WotL_Bool(WotL_IsCurrentTurn(source)) then
         return
     end
 
@@ -99,7 +101,8 @@ function WotL_Leadership(target, source, handle)
         return
     end
 
-    local distance = GetDistanceTo(target, source)
+    local distance = WotL_GetInnerDistance(source, target)
+    Ext.Print("Distance: " .. tostring(distance))
     if distance > WotL_Leadership_MaximumDistance then
         return
     end
@@ -107,9 +110,10 @@ function WotL_Leadership(target, source, handle)
     RemoveStatus(target, "WotL_LeadershipEffect")
     ApplyStatus(target, "WotL_LeadershipEffect", WotL_StatusRemovalAtTurnEndCustomNumber, 1, source)
 end
+Ext.NewCall(Leadership, "WotL_Leadership", "(CHARACTERGUID)_Target, (CHARACTERGUID)_Source, (INTEGER64)_Handle")
 
 -- Upon target's turn start, applies an accuracy debuff to them, and a dodge debuff to the source
-function WotL_LeadershipTurn(target)
+local function LeadershipTurn(target)
     if not WotL_Bool(HasActiveStatus(target, "WotL_LeadershipEffect")) then
         return
     end
@@ -117,7 +121,8 @@ function WotL_LeadershipTurn(target)
     local handle = NRD_StatusGetHandle(target, "WotL_LeadershipEffect")
     local source = NRD_StatusGetGuidString(target, handle, "StatusSourceHandle")
 
-    local distance = GetDistanceTo(target, source)
+    local distance = WotL_GetInnerDistance(source, target)
+    Ext.Print("Distance: " .. tostring(distance))
     if distance > WotL_Leadership_MaximumDistance then
         RemoveStatus(target, "WotL_LeadershipEffect")
         return
@@ -140,9 +145,10 @@ function WotL_LeadershipTurn(target)
     ApplyStatus(source, statusSource, 6.0, 1)
     WotL_LeadershipCurrentDebuffs[target] = {statusTarget, source, statusSource}
 end
+Ext.NewCall(LeadershipTurn, "WotL_LeadershipTurn", "(CHARACTERGUID)_Target")
 
 -- Removes the debuffs upon the target's turn end
-function WotL_LeadershipEndTurn(target)
+local function LeadershipEndTurn(target)
     local current = WotL_LeadershipCurrentDebuffs[target]
     if current == nil then
         return
@@ -156,3 +162,4 @@ function WotL_LeadershipEndTurn(target)
     RemoveStatus(source, statusSource)
     WotL_TableRemove(WotL_LeadershipCurrentDebuffs, target)
 end
+Ext.NewCall(LeadershipEndTurn, "WotL_LeadershipEndTurn", "(CHARACTERGUID)_Target")

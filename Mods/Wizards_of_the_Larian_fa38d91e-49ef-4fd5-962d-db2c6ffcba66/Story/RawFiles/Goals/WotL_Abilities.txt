@@ -2,7 +2,7 @@ Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
 // Calls it from WotL_AbilitiesStatus.lua
-NRD_LuaCall("WotL_AddAbilityStatusesToBlacklist");
+WotL_AddAbilityStatusesToBlacklist();
 
 KBSECTION
 //REGION Adds Ability Status and Variable
@@ -10,7 +10,7 @@ IF
 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
 THEN
 	// Calls it from WotL_AbilitiesStatus.lua
-	NRD_LuaCall("WotL_SetAbilityStatus", (STRING)_Char);
+	WotL_SetAbilityStatus(_Char);
 //END_REGION
 EXITSECTION
 

@@ -3,32 +3,19 @@ SubGoalCombiner SGC_AND
 INITSECTION
 
 KBSECTION
-//REGION DB_WotL_CurrentTurn keeps track of the current turns character
-// Adds a character to the DB at turn start
-IF
-    ObjectTurnStarted((CHARACTERGUID)_Char)
-AND
-    CombatGetIDForCharacter(_Char, _ID)
-AND
-    NOT DB_WotL_CurrentTurn(_Char, _ID)
-THEN
-    DB_WotL_CurrentTurn(_Char, _ID);
-
+//REGION Turn Started
 IF
 	ObjectTurnStarted((CHARACTERGUID)_Char)
 THEN
 	// Calls the Leadership Turn Start function (WotL_AbilitiesEffects.lua)
-    NRD_LuaCall("WotL_LeadershipTurn", (STRING)_Char);
+    WotL_LeadershipTurn(_Char);
+//END_REGION
 
-// Removes a character from the DB at turn end
+//REGION Turn Ended
+// Launches the iterator to clear certain statuses at turn end
 IF
     ObjectTurnEnded((CHARACTERGUID)_Char)
-AND
-    CombatGetIDForCharacter(_Char, _ID)
-AND
-    DB_WotL_CurrentTurn(_Char, _ID)
 THEN
-    NOT DB_WotL_CurrentTurn(_Char, _ID);
     // Iterates all Statuses currently posessed by the character
     NRD_IterateStatuses(_Char, "WotL_RemoveStatusesAtTurnEnd");
 
@@ -36,27 +23,27 @@ THEN
 IF
     ObjectTurnEnded((CHARACTERGUID)_Char)
 // AND
-//     CombatGetIDForCharacter(_Char, _ID)
+//     CombatGetIDForCharacter(_Char, _CombatID)
 THEN
     // Calls the Leadership Turn End function (WotL_AbilitiesEffects.lua)
-    NRD_LuaCall("WotL_LeadershipEndTurn", (STRING)_Char);
+    WotL_LeadershipEndTurn(_Char);
     // Calls the handler which gets the next character in the turn order,
     // which launches the StatusIteratorEvent (WotL_StatusRequestDelete.lua)
-    // NRD_LuaCall("WotL_RemoveStatusesAtTurnStartHandler", (STRING)_ID);
+    // WotL_RemoveStatusesAtTurnStartHandler(_CombatID);
 //END_REGION
 
 //REGION Status Request Delete
 // Removes statuses requested at turn end (WotL_StatusRequestDelete.lua)
 IF
-    NRD_StatusIteratorEvent("WotL_RemoveStatusesAtTurnEnd", _Char, _Status, _Handle)
+    NRD_StatusIteratorEvent("WotL_RemoveStatusesAtTurnEnd", (CHARACTERGUID)_Char, _Status, _Handle)
 THEN
-    NRD_LuaCall("WotL_RemoveStatusesAtTurnEnd", (STRING)_Char, _Status, (STRING)_Handle);
+    WotL_RemoveStatusesAtTurnEnd(_Char, _Status, _Handle);
 
-// Removes statuses requested at turn end (WotL_StatusRequestDelete.lua)
+// Removes statuses requested right before turn start (WotL_StatusRequestDelete.lua)
 IF
-    NRD_StatusIteratorEvent("WotL_RemoveStatusesAtTurnStart", _Char, _Status, _Handle)
+    NRD_StatusIteratorEvent("WotL_RemoveStatusesAtTurnStart", (CHARACTERGUID)_Char, _Status, _Handle)
 THEN
-    NRD_LuaCall("WotL_RemoveStatusesAtTurnStart", (STRING)_Char, _Status, (STRING)_Handle);
+    WotL_RemoveStatusesAtTurnStart(_Char, _Status, _Handle);
 //END_REGION
 EXITSECTION
 

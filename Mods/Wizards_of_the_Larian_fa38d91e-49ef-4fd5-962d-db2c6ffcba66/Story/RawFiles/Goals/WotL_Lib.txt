@@ -1,0 +1,17 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_RandomRollRecentResult(NULL_00000000-0000-0000-0000-000000000000, NULL_00000000-0000-0000-0000-000000000000, 0);
+KBSECTION
+// Clears the Recent Roll DB after a short period of time.
+// Called from WotL_LibServer.lua
+PROC
+    ProcObjectTimerFinished((CHARACTERGUID)_Source, "WotL_ClearRandomRollRecentResultTimer")
+AND
+    DB_RandomRollRecentResult(_Target, _Source, _Roll)
+THEN
+    NOT DB_RandomRollRecentResult(_Target, _Source, _Roll);
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__WotL_Goal"
