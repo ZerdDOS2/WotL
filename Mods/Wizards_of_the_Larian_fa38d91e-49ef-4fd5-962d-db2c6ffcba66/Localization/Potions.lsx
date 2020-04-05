@@ -1,0 +1,2188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<header version="2" time="0" />
+	<version major="3" minor="6" revision="4" build="1" />
+	<region id="TranslatedStringKeys">
+		<node id="root">
+			<children>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hb2d0c5ecg0edfg4e80g91d9ge7a5b919317f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_0" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h9aba7b6fg10bag44degbc5dg147ef5eb1c8a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_1" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hb3b6aa36g4d73g48a1g9970g43d81ceae5a1" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_2" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h95087c5cgeb9fg475dga3bage30ca9432f66" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_3" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h48996da8ge679g4b2fg8d20g29d53228231f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_4" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h749f7fd0g2530g4950g9166g48114a7b5922" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_5" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h63099bf1g6fa8g4a4dg9ef2gd1d07f65bf4f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_6" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h2e5d5f3dgd65dg438eg868ag93b00abc7dba" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_7" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hf4ae47fagb29ag4224g8679g1dc43adc4d25" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_8" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="he3993224g512eg4983g8659g6ee774c9f29b" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_9" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h3e8d6eaag5c5dg4a3bgbb7cg9a8e8bf9cf97" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_10" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="ha357ebabg8568g4aa2g86e5g4058279062ad" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_11" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h6e566e87gec02g4977ga65cg87d33ef3611b" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_12" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hc2904336g474ag4f1dg9690g4c73c93d28e9" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_13" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h9e92a330g25d6g4d77g9b4egb958551f4c69" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_14" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h7e5c498bgd68eg4dc4gbab6gef8b5c2ab019" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_15" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h7788fcf3g5549g48e4g8a78g42fd3bc94a1e" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_16" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hbba69510g3adbg4480ga8afgde546998bbb1" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_17" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="he126b65cg2799g4c84g9df3ga131ad1f7a8e" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_18" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h8a5a7331g9b5fg4902g92cbg96f817609f6d" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_19" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h60270fd2g2d25g447dgbb36g048ee482c482" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_20" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h629aba82g800bg40fagb4b0g0977497a3a82" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_21" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h77dcea29g2dd8g4cadga25ag4fb4661c41df" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_22" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hea60125fg15a7g44dfga7a1gf4498d78c327" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_23" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hb1e58520gcb68g4f3dg9ef6gce14a0a7c63c" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_24" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h0085a961g4228g4f51gac24gdcded7df1648" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_25" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="he433c824ge6ffg4928g90c1g95e156f2b2b4" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_26" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h2dc8ce01ge2a5g4ba1ga1bfg0ed11b62e0de" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_27" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h143503dag66fag44fegba2dgeadc1c94490a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_28" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h0b2309f2gfd47g4035g9bb8g0dbfe8e85fae" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_29" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h976a4ddfgc149g43b0g9f75g41ea266869a4" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_30" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h8ecbc47eg40b1g4c54gaea1g28d578c20353" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_31" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h85aa3e99g7c75g4c14g8cb3g598a14f72234" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_32" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h86b98e76gde7fg426cgb542g40d0f8542d68" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_33" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h921478aegec52g487cg81bag1737e7ded491" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_34" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hdf47c71dg3cd7g4bb3g94cag84efb043ec7d" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_35" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="ha8b8fde9g22cag4173gb128ga11d8c05d29d" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_36" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h8acffea5g3ed5g4191gb461g726e5f099f4b" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_37" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h7b6e85c9g6c8bg4545gb75eg9c052272970e" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_38" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hb9b944f8g8638g42ecgb338g3b5900928bc4" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_39" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h4096a98cge8f1g4af0gbca3gc8c8a21ff38a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_40" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hfda607d6g0dd8g4bdag8bc7g1cc1ec47afe6" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_41" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h36325cc3g7dcfg419cg8a4bgc8242b8f0757" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_42" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h7aa5e432gbfd5g453eg96f1gcd37daf06654" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_43" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h35fd34bcg7576g4ca7gada1g75a82d68def5" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_44" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h59bf565dg765bg43fega0baga89e2faa4712" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_45" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hf964e6aag4753g4809g9f9dga241a8428fc7" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_46" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h4abc94c3gbd75g4939gbc96g0c499dd251b8" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_47" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h61036b87g8113g4473g8aaeg88d1eafd99af" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_48" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="ha5ec95eag3423g4e58g8888g175011e1a9c0" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_49" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h984cfcf9gc943g4836gb53dg93f68e9ec656" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_50" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h4b205a2egcbbcg44b9ga6e8g11b05ed0094a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_51" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h581a8942g87ebg46d7g89d0g5d561ef28df2" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_52" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="he5f3984fg7498g4967g8287g7d56621b5bfc" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_53" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hb8aeb555g9655g403cgac19g309a2a2d813f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_54" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h22908e21g4fccg4dcag8a55g7ab5fb251118" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_55" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="he62269f9g9f6fg4dc1g8cf6g326054265d94" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_56" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h4c010f60g61f1g432dgbcf8gb486ddc05ef8" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_57" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="he5f1262egaa3eg4b6bg9ec5ge95727b8c665" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_58" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="ha0b744c5g8804g44b3gba96g1d7188481807" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_59" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h5a196ca6g6f9cg4cbega204gd0238015c4e8" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_60" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="he6c46ad8g9096g4abeg8c70g05233ea3b705" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_61" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="ha71cf3eeg9deeg4b28ga2b9g064128be6584" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_62" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hbd49e691g2ad5g4a29gb188gdee1cd48ae5f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_63" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h92ff7413g7e10g4f3cg9f8fg8cd9b0261cf2" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_64" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h1c243de0g8fc7g458fg8bc9ga87867039308" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_65" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hc86098dfg86deg44d8g9e5ag02760b2ffa04" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_66" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="ha45cf93ag42cbg4bb3gbab7ge31ca22cfd86" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_67" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h579a429dgf328g469fg810dg0ebce07ae807" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_68" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h0983ff80g2c5dg4be6gba76gff3aec5ca180" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_69" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h3dc43f77g048eg4c6dga2cega52b1d896e28" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_70" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h14366f9dge663g40ecg94bfg77116cd88957" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_71" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h60747a31gdb54g4b63g88bcg43d5f1f61708" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_72" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hb8e2e188g5471g4475g9cd1ga033092c16b7" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_73" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h357553abg310bg471dga2eag40ffa41e6a3e" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_74" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h8659d6d3g503ag484agaeadg1f1d199029e9" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_75" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h724afd22g81bdg4f62ga982gb509de1c6c49" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_76" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hacdb8793gf2b8g470ega374g6b42a2a87395" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_77" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="haf2dbcd1g714bg416dgb17ag1bf941adabe6" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_78" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hdbdf0850g19bdg4010g9758g444e04b6377e" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_79" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h18034c7fg1367g4a9egb9f1gca53e7be2728" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_80" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="ha4b9e6f3gf450g4d7fg83afg35d895edd9e8" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_81" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h88acced9g4d30g4654g8797gfa7919c7b7c8" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_82" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h92f796aag1276g4bf5gb616g44207a002e65" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_83" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h621632a4g6d57g44aegbc26g7ac40f0f5f0d" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_84" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hab598835ga656g4e92g8498g86e8d58a0e41" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_85" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h14492bacg8d17g4254ga554g570d4b15484b" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_86" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h1435745bg9e92g47e3g805bg69fd6011ed2e" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_87" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h481743ccg5a0cg492cgb938gd7185ee983c2" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_88" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h04c9c18bgf736g446dgba58gbab4a660da24" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_89" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h9f86a312g22c1g4b06g8f3agf1eb599f068e" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_90" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hbd88634agc0eeg4ff7ga9fagb8a28d63b1eb" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_91" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hacd02d07gbc71g4f6dg98acg42f8b5a6a69f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_92" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h54ae4702g81d0g468fg9f2fgccb1f4210f2b" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_93" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h6f86b81eg876ag47b2g8b6cge738e46e956c" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_94" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h1260d2e6g037fg441egb76ag6ef409c056c2" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_95" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h9aa6c5d6gd5edg4accg976fg75235e8eb907" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_96" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="hceddc1fageb27g4a08g8ddfg4451ef32c0f6" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_97" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h16bb9541g2128g45dfgb8feg67a4ab93dae7" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_98" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h799a3eefgc70eg4d6bg8eefgd35b1e08cbd7" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_99" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Power" type="28" handle="h09de8323g5e6fg487ega9dfg95cdd4729c99" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Power_100" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hea2ffd0dg11b5g44f1g8755g0a65887aaa2a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_0" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hc113b712gfa3eg4df6ga9bbg41f49790a2b3" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_1" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hadcc6dcdgda3bg42c1gb8a9gefe298372176" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_2" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h121d6a67gcdfcg4866g961fga4d1a8cd1cc0" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_3" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h88f7bd15gaa18g422dg9683gab20394254b3" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_4" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h06cc8cfbga3beg4365g854cgd0637939238d" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_5" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h9646829eg44e6g41cag8575g6f509fc56fd8" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_6" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hdb37324ege50fg441dg9b19g9133134cb8c0" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_7" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h94ab63aege4f9g4d73gbe0fg66221d3a911c" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_8" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h490fa3f6g84ebg4608g83c8g66d6d996e203" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_9" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h1fd19df8g8881g4e19g9ab7ge4a1314fe2b3" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_10" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hdbc17b47g33bbg4b4agb8e0gf0785d8ae819" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_11" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h23d28390g339ag48bcg80a2g4fad41d61d5d" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_12" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h10b198cagc6e1g4a7bgb97cgf540dfb15db4" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_13" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h6eea73b8g5cd3g4b53g9123g8b87cdc4dc44" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_14" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hddc2f99bg80f9g438dgba3egf120198e2933" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_15" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hf9f2288fg467eg4119g8be9g764e986d4251" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_16" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="had4963aag41a2g4f31g9c48gdee234ee7cac" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_17" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h0ad5d7a3g7ff2g494dg9ee5gd4dd724c0ee2" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_18" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="haef25c61gd32ag48dfgb519gb0dab0ee4d3a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_19" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h907dbef8g528bg4eb3ga5e3geb6fadc0a56f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_20" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hde1afe01g9b11g49adga73aga3d2a6fbab6a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_21" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h8faf3ef6g5d5bg40f7g8b5egf97b2a0eeb13" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_22" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h1c660b7dg5d73g4a23gaea0g9b4241b36c95" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_23" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h7807f50bg94d2g4e6fga2dfgbd9229ffcd51" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_24" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hc0b8b39cgc813g44f9gbe6cg8a16efa0c10c" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_25" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h270e77a2g2307g4284g9deeg806cc90632b6" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_26" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h09928194g467fg4d4ag9418ga5cdcc97e976" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_27" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h49ce043ag0d95g48ecg8d3ag2e52ac700c9f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_28" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hd8e60e50ge185g4971gb195g17c8db44ca3b" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_29" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h38ed18c6g50cdg45d3g830eg9988e4fcc6a2" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_30" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hbe1da2eagfd79g4377g9943g5930718f7d80" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_31" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hf5f5f764g9cd2g45c0g8d9cg488a81edd22b" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_32" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hadda5305g0443g4ac3g8a91g6e4d7b3c1465" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_33" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h3a4def33ge147g405dgba5dg51a05fc22da2" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_34" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h38b84992g2923g4b5fg9185g480f33a090d7" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_35" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h20596d26g4c04g43ddg851bg49a68b7e7488" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_36" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h970c89dfg3490g4af7g848fg400d29218aba" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_37" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h87a3bbb1g5997g4bacgada5ga0f01bca6965" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_38" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h394ea9c3g532ag4436gac3bgd0fabf8f8df4" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_39" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h2005ce5dg37e2g4171g9667g54a8a302a208" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_40" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h029eb497ge94cg44dfg8922gbb5f2a868757" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_41" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h92b8c063gbc9bg45e3g8a43gbe2ab8fc9913" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_42" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h13f2a9ebg5000g4029gb7cdg012841e203f2" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_43" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hce478900gd4f3g4941g9162g1a9b75751791" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_44" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="he5801814gfd82g4375gb530g189f4a4131e3" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_45" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hdc09d4f7g7c75g4ffcgbfd0g82127be422c4" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_46" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h09d54a70g78acg4ae0gbb2cg49d0acfaa6ef" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_47" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="he8412b2dg420dg4a11ga05eg7f2d12baa93a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_48" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hf8d344a8g85d5g44b5gab42gdd07c81b43f1" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_49" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hb9b58c7bg8e9fg4836g8b36g859998fa48e7" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_50" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h5d6e635cg5c6cg482dg9d9fg76a6360260ec" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_51" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h3e29f16fg558ag4d9agbc03g90f072d90efb" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_52" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="haca957fcgea46g4d21ga489gc2c206f76dd2" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_53" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h3e444d0bg1885g4a20gbd9eg943dec492277" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_54" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hb5dde871gdc1fg4bd3g8c41gc38b9d0bd821" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_55" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h76a024a2gd0f2g4f79gac5eg1d6c9ed68986" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_56" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="haca2895bg6386g4440gbbdfgcb2b2dea4b6d" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_57" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h29f5c187gdeefg4becg8b96ga291fe47f264" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_58" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h9e497141gc7c2g4cd1g8176gbc0be9374ef0" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_59" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hbb1539bag6942g4f0cg8b0dgc11b466fd3bb" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_60" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h9cb708e2g55f0g4e8dg9e18g14861a51b005" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_61" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h74b81b9eg332dg4439g842cge0a62cfa78ec" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_62" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h2bdb09c9gba99g4d15g8f93g81668bceceb7" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_63" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h0ddb8819g354dg48e5g92c1ged033ea0990d" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_64" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h38ef194fg5445g413eg9206g958f097f347b" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_65" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h3fc4b0a7gf71fg49d4g8684g1a7dabe5d837" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_66" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h07874a26g0ff5g4358gb0d9gcb81bba16dda" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_67" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h592b9432g6d9cg4ea9gbb78gfd4c167d4bfe" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_68" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h7fd639b1g6744g4fa0gbfbcga0a453f9469a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_69" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h20ccfbefg611ag4012g914cg004171d00f3f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_70" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h5b31b1ecg9b9bg4966ga7cbgdbb445fd1236" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_71" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="he990bb1fg6496g4637g98dbgff50cc999d4c" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_72" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hc6688b04gb519g4de3g8a5cg32c6301bdfc6" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_73" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h87a85c22gf0afg4ca0gb38bgb33ebc27fa09" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_74" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hc4e6818ag7fbcg452fg9354ge828c452a122" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_75" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h3aa00dc5gfa8dg475dga930g97d61e1fe4b0" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_76" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h14da07e3gcdd0g4b82g9317g3a669dbaf43d" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_77" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hf55bf007gf072g4944ga60cg0776cb9f1408" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_78" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hcdc6c103ga017g4ddagaf03g85cd54ecfc3a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_79" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hac9c01a3g97bbg4819g9e76ga237179dd4b4" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_80" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hc6d21b38g5233g4d13g8985ge433473e1690" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_81" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hc929c543gc96cg4758g85d4g4c77cce9a602" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_82" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="he8d52683g7999g4694g8333g9170b3bbb293" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_83" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hec5798c3g60a5g4b74g8a10ga21b8f5fd03c" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_84" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hb3bb239ag488fg47abg9717g8eafccde6b90" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_85" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h1a62dc3bg30a3g49a4g8d60gda5b78dd0d7f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_86" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h0c78a113gd2fdg419fgadaeg37210532f714" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_87" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hbe810229g8243g40c4g91e1ge884405ba877" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_88" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h116910f0g637fg4557g8b8ag2e71fea3acc4" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_89" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h9db4d9fcgf06eg46bega184g4627ebff1fea" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_90" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h71df585bgc351g44c1gbde4g417bba97341f" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_91" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h187edc70g6e65g4c89ga73bg3c5d234a4e80" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_92" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h8653e590g1be1g4d84g8428g6e7fccde52c8" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_93" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hcc49bb3eg0d36g45acg95feg11c68dbc44af" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_94" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hee1918c9g9fdbg4013g828cg198e9d83c882" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_95" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h0b66f5efg03e4g4098ga468g1516af9220bd" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_96" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h366f5bd5g951eg49e0gbd0fg6e9a11c0d21e" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_97" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="hb4544f00gbe80g4b7dg974fge254e66b7b30" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_98" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h62f1d75bg8bd6g4198g9b5eg91d3cde2425a" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_99" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Precision" type="28" handle="h4ff231d6ge1d1g49acga9d8ga9352484cd66" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Precision_100" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_0" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_1" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_2" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_3" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_4" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_5" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_6" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_7" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_8" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_9" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_10" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_11" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_12" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_13" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_14" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_15" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_16" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_17" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_18" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_19" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Ranged" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Ranged_20" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_0" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_1" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_2" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_3" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_4" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_5" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_6" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_7" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_8" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_9" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_10" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_11" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_12" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_13" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_14" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_15" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_16" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_17" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_18" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_19" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Warfare" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Warfare_20" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_0" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_1" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_2" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_3" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_4" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_5" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_6" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_7" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_8" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_9" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_10" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_11" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_12" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_13" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_14" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_15" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_16" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_17" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_18" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_19" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Geomancer" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Geomancer_20" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="LoneWolf" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_LW_Base" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_1" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_2" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_3" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_4" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_5" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_6" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_7" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_8" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_9" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_10" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_11" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_12" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_13" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_14" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_15" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_16" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_17" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_18" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_19" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_20" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_21" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_22" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_23" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_24" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_25" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_26" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_27" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_28" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_29" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_30" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_31" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_32" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_33" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_34" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_35" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_36" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_37" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_38" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_39" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Leadership" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Leadership_Target_40" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Generous Host" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_GenerousHost" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Generous Host" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_GenerousHost_Debuff" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="What A Rush" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_WhatARush" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Sentinel" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Sentinel_Debuff" type="22" />
+				</node>
+				<node id="TranslatedStringKey">
+					<attribute id="Content" value="Adrenaline" type="28" handle="ls::TranslatedStringRepository::s_HandleUnknown" />
+					<attribute id="ExtraData" value="" type="23" />
+					<attribute id="Speaker" value="" type="22" />
+					<attribute id="Stub" value="True" type="19" />
+					<attribute id="UUID" value="Stats_WotL_Adrenaline" type="22" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

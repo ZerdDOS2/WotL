@@ -2,8 +2,6 @@ requirement "QuickStep","TALENT_QuickStep"
 
 requirement "Executioner",""
 
-requirement "ViolentMagic","TALENT_ViolentMagic"
-
 requirement "AttackOfOpportunity","TALENT_AttackOfOpportunity"
 
 requirement "LoneWolf","Tag WotL_REMOVED"

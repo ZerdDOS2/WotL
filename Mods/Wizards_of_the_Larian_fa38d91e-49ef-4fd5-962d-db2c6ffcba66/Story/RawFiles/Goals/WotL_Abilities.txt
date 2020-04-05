@@ -12,6 +12,15 @@ THEN
 	// Calls it from WotL_AbilitiesStatus.lua
 	WotL_SetAbilityStatus(_Char);
 //END_REGION
+
+//REGION Leadership
+// Removes the aura from the character when their turn starts
+// so they don't benefit from the dodge reduction
+IF
+	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+THEN
+	WotL_Leadership(_Char);
+//END_REGION
 EXITSECTION
 
 ENDEXITSECTION

@@ -1,8 +1,9 @@
 {
-    "RequiredExtensionVersion": 42,
+    "RequiredExtensionVersion": 43,
     "FeatureFlags": [
         "OsirisExtensions",
         "Lua",
         "FormulaOverrides"
-    ]
+    ],
+    "ModTable": "Zerd_WotL"
 }

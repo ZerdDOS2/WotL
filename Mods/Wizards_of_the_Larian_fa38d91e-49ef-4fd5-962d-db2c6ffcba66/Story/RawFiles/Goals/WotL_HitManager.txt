@@ -3,18 +3,6 @@ SubGoalCombiner SGC_AND
 INITSECTION
 
 KBSECTION
-//REGION OnPrepareHit
-// Groups all NRD_OnPrepareHit functions to make it easier to organize
-// the order they occur.
-IF
-	NRD_OnPrepareHit(_Target, _, _, _Handle)
-THEN
-	// This transforms all physical damage to earth damage for two reasons.
-	// One is for compatibility sake, and second is to avoid earth particle
-	// effects on weapons. (WotL_DamageManager.lua)
-	WotL_DamageConverter(_Handle);
-//END_REGION
-
 //REGION OnHit
 // Groups all NRD_OnHit functions to make it easier to organize
 // the order they occur
@@ -25,23 +13,12 @@ AND
 AND
 	ObjectIsCharacter(_Source, 1)
 THEN
-	// Reduces damage received if the target has armor, based on armor speciality
-	// (WotL_AbilitiesEffects.lua)
-	WotL_ArmorSpeciality(_Target, _Handle);
-	// Magic Armor damage dealt directly to HP is divided by half and applied
-	// as Shadow damage to HP. (WotL_DamageManager.lua)
-	WotL_ArmorDamageHandler(_Target, _Handle);
-	// Transforms the insta-crit into a normal crit random roll, while providing
-	// a damage boost instead. (WotL_Backstab.lua)
-	WotL_Backstab(_Target, _Source, _Handle);
-	// Applies a status effect that links the target and the source (WotL_AbilitiesEffects.lua)
-	WotL_Leadership(_Target, _Source, _Handle);
-	// Increases the damage from Attacks of Opportunity, and criples the target if
+	// Increases the damage from Attacks of Opportunity, and immobilizes the target if
 	// the attacker still has armor. (WotL_Talents.lua)
-	// WotL_Talent_Sentinel(_Target, _Source, _Handle);
-	// Specific skills that don't have the UseWeaponDamage property should be
-	// missable as well. Those skills are ... hardcoded. (WotL_MissingSkills.lua)
-	WotL_CheckMissingSkill(_Target, _Source, _Handle);
+	WotL_Talent_Sentinel(_Target, _Source, _Handle);
+	// Applies a status when a hit is both a backstab and a critical hit, since the game
+	// supress the Critical Hit! tooltip when it's a backstab. (WotL_Backstab.lua)
+	WotL_BackstabCritical(_Target, _Source, _Handle);
 //END_REGION
 EXITSECTION
 

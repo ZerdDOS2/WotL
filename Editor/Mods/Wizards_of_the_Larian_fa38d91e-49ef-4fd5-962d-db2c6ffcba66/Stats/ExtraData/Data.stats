@@ -88,19 +88,19 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ArmorRingPercentage" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0.08" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ArmorAmuletPercentage" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0.12" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="ArmorBeltPercentage" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0.1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -142,7 +142,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="CombatAbilityCap" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="5" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -160,13 +160,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="CombatAbilityCritMultiplierBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="CombatAbilityReflectionBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -202,7 +202,8 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="LeadershipDodgingBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="10" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="2" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="Since the range is 0, this property is only used as the localization entry" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -298,13 +299,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SkillAbilityVitalityRestoredPerPoint" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SkillAbilityHighGroundBonusPerPoint" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="5" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -316,7 +317,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SkillAbilityLifeStealPerPoint" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -328,13 +329,13 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SkillAbilityMovementSpeedPerPoint" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="30" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="SummoningAbilityBonus" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="20" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -346,7 +347,7 @@
     <stat_object is_substat="false">
       <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="IncarnateSummoningLevel" />
-        <field name="Value" type="FloatStatObjectFieldDefinition" value="5" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -384,6 +385,57 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="TalentWhatARushThreshold" />
         <field name="Value" type="FloatStatObjectFieldDefinition" value="0" />
         <field name="Comment" type="CommentStatObjectFieldDefinition" value="Everything is done in scripts" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_BaseMovementMultiplier" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0.4" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="The value for which base movement speeds will be multiplied during Module Load" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_BackstabMultiplier" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="1.5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_SentinelDamageIncrease" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="25" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_NonWeaponSkillsDamagePenalty" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="0.8" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="Penalty applied to non-weapon skills when not scaling from a staff or a wand" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_NonWeaponSkillsDamageBonus" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="1.5" />
+        <field name="Comment" type="CommentStatObjectFieldDefinition" value="Bonus applied to non-weapon skills when scaling from a staff or a wand. Those weapons have reduced base damage" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_PyrokineticExtraDamage" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="WotL_BlockMasterBonus" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="SkillAbilityDamageToMagicArmorPerPoint" />
+        <field name="Value" type="FloatStatObjectFieldDefinition" value="5" />
       </fields>
     </stat_object>
   </stat_objects>
