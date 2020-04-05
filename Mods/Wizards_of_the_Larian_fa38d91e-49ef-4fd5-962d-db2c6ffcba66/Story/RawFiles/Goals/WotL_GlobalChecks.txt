@@ -77,6 +77,11 @@ IF
     ObjectTurnStarted((CHARACTERGUID)_Char)
 THEN
 	SetStoryEvent(_Char, "WotL_SetAllVariables");
+
+IF
+    ObjectTurnEnded((CHARACTERGUID)_Char)
+THEN
+	SetStoryEvent(_Char, "WotL_SetAllVariables");
 //END_REGION
 EXITSECTION
 

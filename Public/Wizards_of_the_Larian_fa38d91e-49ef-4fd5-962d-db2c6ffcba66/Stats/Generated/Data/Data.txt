@@ -26,11 +26,11 @@ key "DodgingBoostFromAttribute","0.02"
 
 key "ArmorToVitalityRatio","0.55"
 
-key "ArmorRingPercentage","0"
+key "ArmorRingPercentage","0.08"
 
-key "ArmorAmuletPercentage","0"
+key "ArmorAmuletPercentage","0.12"
 
-key "ArmorBeltPercentage","0"
+key "ArmorBeltPercentage","0.1"
 
 key "ArmorFeetPercentage","0.15"
 
@@ -44,15 +44,15 @@ key "ArmorHeadPercentage","0.15"
 
 key "ArmorUpperBodyPercentage","0.3"
 
-key "CombatAbilityCap","5"
+key "CombatAbilityCap","10"
 
 key "CombatAbilityLevelGrowth","1"
 
 key "CombatAbilityDamageBonus","0"
 
-key "CombatAbilityCritMultiplierBonus","0"
+key "CombatAbilityCritMultiplierBonus","10"
 
-key "CombatAbilityReflectionBonus","0"
+key "CombatAbilityReflectionBonus","5"
 
 key "CombatAbilityDodgingBonus","0"
 
@@ -64,7 +64,7 @@ key "LeadershipRange","0"
 
 key "LeadershipAllResBonus","0"
 
-key "LeadershipDodgingBonus","10"
+key "LeadershipDodgingBonus","2"
 
 key "InitiativeBonusFromWits","1"
 
@@ -96,23 +96,23 @@ key "SkillAbilityAirDamageBoostPerPoint","0"
 
 key "SkillAbilityPoisonAndEarthDamageBoostPerPoint","0"
 
-key "SkillAbilityVitalityRestoredPerPoint","0"
+key "SkillAbilityVitalityRestoredPerPoint","5"
 
-key "SkillAbilityHighGroundBonusPerPoint","0"
+key "SkillAbilityHighGroundBonusPerPoint","5"
 
 key "SkillAbilityArmorRestoredPerPoint","0"
 
-key "SkillAbilityLifeStealPerPoint","0"
+key "SkillAbilityLifeStealPerPoint","10"
 
 key "SkillAbilityCritMultiplierPerPoint","0"
 
-key "SkillAbilityMovementSpeedPerPoint","0"
+key "SkillAbilityMovementSpeedPerPoint","30"
 
-key "SummoningAbilityBonus","20"
+key "SummoningAbilityBonus","10"
 
 key "AbilityPerseveranceArmorPerPoint","0"
 
-key "IncarnateSummoningLevel","5"
+key "IncarnateSummoningLevel","10"
 
 key "TalentQuickStepPartialApBonus","1.5"
 
@@ -125,4 +125,20 @@ key "TalentExecutionerActionPointBonus","4"
 key "TorturerDamageStatusTurnIncrease","0"
 
 key "TalentWhatARushThreshold","0"
+
+key "WotL_BaseMovementMultiplier","0.4"
+
+key "WotL_BackstabMultiplier","1.5"
+
+key "WotL_SentinelDamageIncrease","25"
+
+key "WotL_NonWeaponSkillsDamagePenalty","0.8"
+
+key "WotL_NonWeaponSkillsDamageBonus","1.5"
+
+key "WotL_PyrokineticExtraDamage","10"
+
+key "WotL_BlockMasterBonus","4"
+
+key "SkillAbilityDamageToMagicArmorPerPoint","5"
 

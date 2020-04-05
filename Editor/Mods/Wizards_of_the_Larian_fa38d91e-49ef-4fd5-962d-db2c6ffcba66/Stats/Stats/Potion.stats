@@ -6,9 +6,9 @@
         <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_Summoning_Ability" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="VitalityBoost" type="IntegerStatObjectFieldDefinition" value="20" />
-        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="20" />
-        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="VitalityBoost" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="DamageBoost" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="10" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -821,13 +821,6 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LW_Power_1" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Strength" type="EnumerationStatObjectFieldDefinition" value="181" enumeration_type_name="Penalty PreciseQualifier" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
         <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_0" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
@@ -1316,7 +1309,343 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LongRange_1" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_61" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="102" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_62" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="104" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_63" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="106" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_64" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="108" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_65" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="110" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_66" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="112" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_67" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="114" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_68" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="116" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_69" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="118" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_70" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="120" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_71" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="122" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_72" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="124" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_73" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="126" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_74" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="128" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_75" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="130" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_76" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="132" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_77" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="134" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_78" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="136" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_79" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="138" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_80" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="140" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_81" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="142" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_82" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="144" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_83" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="146" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_84" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="148" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_85" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="150" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_86" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="152" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_87" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="154" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_88" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="156" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_89" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="158" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_90" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="160" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_91" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="162" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_92" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="164" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_93" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="166" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_94" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="168" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_95" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="170" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_96" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="172" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_97" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="174" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_98" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="176" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_99" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="178" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Precision_100" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="180" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_0" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_1" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="50" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_2" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="100" />
@@ -1324,7 +1653,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LongRange_2" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_3" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="150" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_4" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="200" />
@@ -1332,7 +1669,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LongRange_3" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_5" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="250" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_6" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="300" />
@@ -1340,7 +1685,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LongRange_4" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_7" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="350" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_8" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="400" />
@@ -1348,7 +1701,15 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LongRange_5" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_9" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="450" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_10" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="500" />
@@ -1356,82 +1717,502 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Speed_1" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_11" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="550" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Speed_2" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_12" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="80" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="600" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Speed_3" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_13" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="120" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="650" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Speed_4" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_14" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="160" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="700" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Speed_5" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_15" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="Movement" type="IntegerStatObjectFieldDefinition" value="200" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="750" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_1" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_16" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="LifeSteal" type="IntegerStatObjectFieldDefinition" value="10" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="800" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_2" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_17" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="LifeSteal" type="IntegerStatObjectFieldDefinition" value="20" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="850" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_3" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_18" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="LifeSteal" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="900" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_4" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_19" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="LifeSteal" type="IntegerStatObjectFieldDefinition" value="40" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="950" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Lifesteal_5" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Ranged_20" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="LifeSteal" type="IntegerStatObjectFieldDefinition" value="50" />
+        <field name="RangeBoost" type="IntegerStatObjectFieldDefinition" value="1000" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_0" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_1" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="3" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="3" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_2" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="6" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="6" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_3" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="9" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_4" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="12" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_5" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="15" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="15" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_6" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="18" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="18" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_7" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="21" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="21" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="21" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="21" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="21" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_8" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="24" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="24" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="24" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="24" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_9" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="27" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="27" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="27" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="27" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="27" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_10" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="30" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="30" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_11" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="33" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="33" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="33" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="33" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="33" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_12" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="36" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="36" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="36" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="36" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_13" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="39" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="39" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="39" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="39" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="39" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_14" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="42" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="42" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="42" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="42" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="42" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_15" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="45" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="45" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="45" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="45" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="45" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_16" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="48" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="48" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="48" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="48" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="48" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_17" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="51" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="51" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="51" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="51" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="51" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_18" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="54" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="54" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="54" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="54" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="54" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_19" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="57" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="57" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="57" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="57" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="57" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Warfare_20" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="FireResistance" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="EarthResistance" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="WaterResistance" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="AirResistance" type="IntegerStatObjectFieldDefinition" value="60" />
+        <field name="PoisonResistance" type="IntegerStatObjectFieldDefinition" value="60" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_0" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="0" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_1" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="5" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_2" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="10" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_3" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="15" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_4" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="20" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_5" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="25" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_6" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="30" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_7" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="35" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_8" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="40" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_9" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="45" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_10" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="50" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_11" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="55" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_12" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="60" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_13" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="65" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_14" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="70" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_15" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="75" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_16" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="80" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_17" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="85" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_18" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="90" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_19" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="95" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Geomancer_20" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="MagicArmorBoost" type="IntegerStatObjectFieldDefinition" value="100" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -1448,87 +2229,39 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_1" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_1" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-10" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-2" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_2" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_2" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-20" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-4" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_3" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_3" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-30" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-6" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_4" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_4" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-40" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-8" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_5" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-50" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_Armor_1" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-20" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_Armor_2" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-40" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_Armor_3" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-60" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_Armor_4" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-80" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipTarget_Armor_5" />
-        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
-        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="AccuracyBoost" type="IntegerStatObjectFieldDefinition" value="-100" />
-      </fields>
-    </stat_object>
-    <stat_object is_substat="false">
-      <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_1" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_5" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-10" />
@@ -1536,7 +2269,39 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_2" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_6" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-12" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_7" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-14" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_8" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-16" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_9" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-18" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_10" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-20" />
@@ -1544,7 +2309,39 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_3" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_11" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-22" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_12" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-24" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_13" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-26" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_14" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-28" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_15" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-30" />
@@ -1552,7 +2349,39 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_4" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_16" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-32" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_17" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-34" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_18" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-36" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_19" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-38" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_20" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-40" />
@@ -1560,7 +2389,39 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_5" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_21" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-42" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_22" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-44" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_23" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-46" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_24" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-48" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_25" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-50" />
@@ -1568,23 +2429,39 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_Armor_1" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_26" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-20" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-52" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_Armor_2" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_27" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-40" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-54" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_Armor_3" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_28" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-56" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_29" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-58" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_30" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
         <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-60" />
@@ -1592,18 +2469,82 @@
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_Armor_4" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_31" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-80" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-62" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
       <fields>
-        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_LeadershipSource_Armor_5" />
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_32" />
         <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
         <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
-        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-100" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-64" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_33" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-66" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_34" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-68" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_35" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-70" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_36" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-72" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_37" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-74" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_38" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-76" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_39" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-78" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameStatObjectFieldDefinition" value="Stats_WotL_Leadership_Target_40" />
+        <field name="Act" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="Act" />
+        <field name="Act part" type="EnumerationStatObjectFieldDefinition" value="0" enumeration_type_name="ActPart" />
+        <field name="DodgeBoost" type="IntegerStatObjectFieldDefinition" value="-80" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">

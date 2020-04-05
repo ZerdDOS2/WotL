@@ -3,31 +3,31 @@ SubGoalCombiner SGC_AND
 INITSECTION
 
 KBSECTION
-IF
-	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
-AND
-	CharacterIsPlayer(_Char, 1)
-AND
-    NOT CharacterIsSummon(_Char, 1)
-AND
-    NOT CharacterHasSkill(_Char, "Shout_WotL_Sync", 1)
-THEN
-    CharacterAddSkill(_Char, "Shout_WotL_Sync");
+// IF
+// 	StoryEvent((CHARACTERGUID)_Char, "WotL_SetAllVariables")
+// AND
+// 	CharacterIsPlayer(_Char, 1)
+// AND
+//     NOT CharacterIsSummon(_Char, 1)
+// AND
+//     NOT CharacterHasSkill(_Char, "Shout_WotL_Sync", 1)
+// THEN
+//     CharacterAddSkill(_Char, "Shout_WotL_Sync");
+
+// IF
+// 	CharacterUsedSkill(_Char, "Shout_WotL_Sync", _, _)
+// AND
+// 	CharacterGetTalentPoints(_Char, _Amount)
+// AND
+// 	IntegerProduct(_Amount, -1, _Remove)
+// THEN
+// 	CharacterAddTalentPoint(_Char, _Remove);
+// 	CharacterAddAttribute(_Char, "Dummy", 0);
+// 	CharacterStatusText(_Char, "Synced");
+// 	ProcObjectTimer(_Char, "WotL_InnateTalentsTimer", 10);
 
 IF
-	CharacterUsedSkill(_Char, "Shout_WotL_Sync", _, _)
-AND
-	CharacterGetTalentPoints(_Char, _Amount)
-AND
-	IntegerProduct(_Amount, -1, _Remove)
-THEN
-	CharacterAddTalentPoint(_Char, _Remove);
-	CharacterAddAttribute(_Char, "Dummy", 0);
-	CharacterStatusText(_Char, "Synced");
-	ProcObjectTimer(_Char, "WotL_InnateTalentsTimer", 10);
-
-IF
-	TextEventSet("wotl_luareset")
+	TextEventSet("luareset")
 THEN
 	NRD_LuaReset(1);
 EXITSECTION

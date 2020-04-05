@@ -11,9 +11,18 @@ IF
 AND
     NOT DB_WotL_BlacklistVariableStatuses(_Status)
 THEN
+    // Allow some hardcoded statuses to be missable, because they come from
+    // a skill that does no damage. (WotL_MissingStatuses.lua)
+    WotL_MissableStatuses(_Target, _Status, _Handle, _Source);
+
+IF
+    NRD_OnStatusAttempt((CHARACTERGUID)_Target, _Status, _Handle, (CHARACTERGUID)_Source)
+AND
+    NOT DB_WotL_BlacklistVariableStatuses(_Status)
+THEN
     // Allow healing statuses to have their application cancelled if the target is
     // either Undead or Decaying. (WotL_MissingStatuses.lua)
-    WotL_CheckMissingStatus(_Target, _Status, _Handle, _Source);
+    WotL_MissableHealingStatus(_Target, _Status, _Handle, _Source);
 
 IF
     NRD_OnStatusAttempt((CHARACTERGUID)_Target, _Status, _Handle, (CHARACTERGUID)_Source)
