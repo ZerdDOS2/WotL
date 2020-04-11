@@ -1,4 +1,4 @@
-Wizards of the Larian for Divinity: Original Sin 2 - Definitive Edition
+Wizards of Rivellon for Divinity: Original Sin 2 - Definitive Edition
 =======
 
 # Features:
